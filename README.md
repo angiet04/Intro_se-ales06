@@ -1,4 +1,5 @@
-### Introducción a Señales Biomédicas Grupo-6  
+<div align="center">
+
 Bienvenidos al repositorio del grupo 6 del curso "Introducción a Señales Biomédicas" de la Universidad Peruana Cayetano Heredia.  
 
 ### Profesor coordinador: UMBERT LEWIS DE LA CRUZ RODRIGUEZ  
@@ -11,5 +12,8 @@ Bienvenidos al repositorio del grupo 6 del curso "Introducción a Señales Biom�
 2. [Métodos](#métodos)
 3. [Resultados](#resultados)
 4. [Conclusiones](#conclusiones)
+
+</div>
+
 
 
