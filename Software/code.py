@@ -1,1 +1,1 @@
-#aquí irá el codigo para el proyecto
+#aquí irá el código del proyecto
