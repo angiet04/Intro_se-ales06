@@ -29,5 +29,5 @@
 ### Equipo
 1. Angie Milagros Diaz Torres (@upch.pe)
 2. Romina Daniela Culque López (romina.culque@upch.pe)
-3. Cesar Alexander Aibar Córdova (@upch.pe)
+3. Cesar Alexander Aibar Córdova (cesar.aibar@upch.pe)
 4. Nicole Doris Unsihuay Vila (nicole.unsihuay@upch.pe)
