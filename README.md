@@ -20,7 +20,7 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 ### Equipo
 1. Angie Milagros Diaz Torres (angie.diaz.t@upch.pe)
 2. Romina Daniela Culque López (romina.culque@upch.pe)
-| <img src="[https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Romina.jpeg](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Romina.jpeg)" width="100px"> | 
+| <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Romina.jpeg" width="100px"> | 
 | --- |
 | Nombre del Integrante 1 |
 | Rol del Integrante 1 |
