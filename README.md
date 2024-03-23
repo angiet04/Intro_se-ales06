@@ -18,7 +18,6 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 4. [Métodos](#métodos)
 5. [Resultados](#resultados)
 6. [Conclusiones](#conclusiones)
-7. [Equipo](#Equipo)
 
 ### Equipo
 1. Romina Daniela Culque López (romina.culque@upch.pe)
