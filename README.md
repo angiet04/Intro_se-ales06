@@ -8,6 +8,7 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 
 </div>
 <span style="color:blue">Tabla de Contenidos:</span>
+
 1. [Introducción](#introducción)
 2. [Problemática](#problematica)
 3. [Objetivos](#objetivos)
