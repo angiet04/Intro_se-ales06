@@ -19,12 +19,20 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 
 ### Equipo
 1. Angie Milagros Diaz Torres (angie.diaz.t@upch.pe)
+<div align="center">
+<img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/angie.jpeg" width="200px">
+</div>
 2. Romina Daniela Culque López (romina.culque@upch.pe)
 <div align="center">
 <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Romina.jpeg" width="200px">
 </div>
-
-4. Cesar Alexander Aibar Córdova (cesar.aibar@upch.pe)
-5. Nicole Doris Unsihuay Vila (nicole.unsihuay@upch.pe)
+3. Cesar Alexander Aibar Córdova (cesar.aibar@upch.pe)
+<div align="center">
+<img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/cesar.jpeg" width="200px">
+</div>
+4. Nicole Doris Unsihuay Vila (nicole.unsihuay@upch.pe)
+<div align="center">
+<img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/nicole.jpeg" width="200px">
+</div>
 
 
