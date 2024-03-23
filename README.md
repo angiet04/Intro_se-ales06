@@ -16,16 +16,6 @@
 6. [Conclusiones](#conclusiones)
 7. [Equipo](#Equipo)
 
-### Introducción
-
-### Problemática
-
-### Métodos
-
-### Resultados
-
-### Conclusiones
-
 ### Equipo
 1. Angie Milagros Diaz Torres (angie.diaz.t@upch.pe)
 2. Romina Daniela Culque López (romina.culque@upch.pe)
