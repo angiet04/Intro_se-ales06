@@ -5,6 +5,9 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 ### Profesor coordinador: UMBERT LEWIS DE LA CRUZ RODRIGUEZ  
 ### Coordinador adjunto: MOISES STEVEND MEZA RODRIGUEZ  
 ### Proyecto relacionado al ANÁLISIS DE SEÑALES DE ELECTROCARDIOGRAMA (ECG)  
+<div align="center">
+<img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/ECG.png" width="200px">
+</div>
 
 </div>
 <span style="color:blue">Tabla de Contenidos:</span>
