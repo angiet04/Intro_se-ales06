@@ -2,8 +2,8 @@
 
 Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biomédicas" de la Universidad Peruana Cayetano Heredia
 
-### Profesor coordinador: UMBERT LEWIS DE LA CRUZ RODRIGUEZ  
-### Coordinador adjunto: MOISES STEVEND MEZA RODRIGUEZ  
+### Profesor coordinador: Umbert Lewis De La Cruz Rodriguez  
+### Coordinador adjunto: Moises Stevend Meza Rodriguez 
 ### Proyecto relacionado al ANÁLISIS DE SEÑALES DE ELECTROCARDIOGRAMA (ECG)  
 <div align="center">
 <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/ECG.png" width="300px">
