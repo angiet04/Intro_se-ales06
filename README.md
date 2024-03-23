@@ -5,8 +5,7 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 ### Profesor coordinador: UMBERT LEWIS DE LA CRUZ RODRIGUEZ  
 ### Coordinador adjunto: MOISES STEVEND MEZA RODRIGUEZ  
 ### Proyecto relacionado al ANÁLISIS DE SEÑALES DE ELECTROCARDIOGRAMA (ECG)  
-</div>
-![ECG](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcdttexmelucan.com%2Fla-importancia-de-un-electrocardiograma%2F&psig=AOvVaw0jku701-iQPZvDi1pNEhZY&ust=1711249926397000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjL1fG0iYUDFQAAAAAdAAAAABAZ)
+
 </div>
 <span style="color:blue">Tabla de Contenidos:</span>
 1. [Introducción](#introducción)
