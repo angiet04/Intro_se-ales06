@@ -12,3 +12,9 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 2. [Métodos](#métodos)
 3. [Resultados](#resultados)
 4. [Conclusiones](#conclusiones)
+
+
+
+
+### Introducción
+
