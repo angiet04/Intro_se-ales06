@@ -22,3 +22,5 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 2. Romina Daniela Culque López (romina.culque@upch.pe)
 3. Cesar Alexander Aibar Córdova (cesar.aibar@upch.pe)
 4. Nicole Doris Unsihuay Vila (nicole.unsihuay@upch.pe)
+
+![ECG](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcdttexmelucan.com%2Fla-importancia-de-un-electrocardiograma%2F&psig=AOvVaw0jku701-iQPZvDi1pNEhZY&ust=1711249926397000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjL1fG0iYUDFQAAAAAdAAAAABAZ)
