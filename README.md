@@ -7,6 +7,7 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 ### Proyecto relacionado al ANÁLISIS DE SEÑALES DE ELECTROCARDIOGRAMA (ECG)  
 <div align="center">
 <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/ECG.png" width="300px">
+
 Fuente: Wikimedia. Disponible en: https://commons.wikimedia.org/wiki/File:EKG_Complex_en.svg
 
 </div>
