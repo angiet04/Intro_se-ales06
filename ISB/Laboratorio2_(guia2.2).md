@@ -68,11 +68,11 @@ Cuando conectamos el generador de señales directamente al Arduino y lo vimos en
 
 Cuando agregamos un capacitor a un circuito, introducimos un filtro. Esto significa que, en teoría, el condensador que agregamos a este circuito podría filtrar ciertas frecuencias de la señal, haciendo que la señal parezca ruidosa o distorsionada cuando se muestra en el Plotter de Arduino, pero esto no sucede. La razón de esto puede ser que el capacitor afecta la frecuencia o amplitud de la señal que llega al Arduino, por lo que la pantalla puede parecer menos clara o ruidosa
 
-![Señal ruidosa](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal_ruidosa.jpg)
+![Señal ruidosa](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal_ruidosa2.jpg)
 
 #Pruebas
 Fuimos probando distintas opciones, variando el voltaje y frecuencia de la señal en el generador y la frecuencia de muestreo, con el objetivo de buscar la frecuencia y voltaje donde mejor se viera la señal en Arduino IDE. Cambiamos la frecuencia inicial de 1kHz por frecuencias de 100Hz, 10Hz, 1Hz. Y el voltaje pico-pico lo disminuimos a 3Vpp y luego a valores menores. 
 
-![Señal con menos ruido](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal.jpg)
+![Señal con menos ruido](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal2.jpg)
 
 ## Posibles fuentes de error
