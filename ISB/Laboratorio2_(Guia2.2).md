@@ -85,8 +85,8 @@ Ruido con condensador (Canal 1 apagado)
 ![Ruido con condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/ruido_con_condensador.jpg)
 
 Señal sin condensador
-![Señal sin condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sin_condensador.jpg)
+![Señal sin condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/señal_sin_condensador.jpg)
 Señal con condensador
-![Señal con condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_con_condensador.jpg)
+![Señal con condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/señal_con_condensador.jpg)
 ## Discusión
 ## Posibles fuentes de error
