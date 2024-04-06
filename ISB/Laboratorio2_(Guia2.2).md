@@ -98,7 +98,7 @@ Un filtro RC es un circuito simple que utiliza una Resistencia (R) y un Condensa
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/filtro_RC.jpg" alt="Filtro RC">
 </p>
-  Fuente: «Todo lo que necesitas saber sobre Filtros RC» [2]
+  <p align="center">Fuente: «Todo lo que necesitas saber sobre Filtros RC» [2].</p>
 
 En nuestro laboratorio, utilizamos un Arduino como parte del filtro RC. Aprovechamos las resistencias que el Arduino NANO 33 ioT presenta en sus puertos. Cuando el cable que transmite la señal se conecta al puerto A1 (y a su resistencia interna) y al capacitor, se genera un filtro RC que afecta a esta señal.
 
