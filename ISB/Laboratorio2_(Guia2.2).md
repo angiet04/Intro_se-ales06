@@ -77,4 +77,15 @@ La señal sinusoidal con menor ruido que obtuvimos fue a 1Hz y 2Vpp:
 
 ![Señal con menos ruido](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal2.jpg)
 
+También fuimos probando quitando y poniendo el condensador, para evaluar la acción del filtro en la señal.
+
+Ruido sin condensador (Canal 1 apagado)
+![Ruido sin condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/ruido_sin_condensador.jpg)
+Ruido con condensador (Canal 1 apagado)
+![Ruido con condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/ruido_con_condensador.jpg)
+Señal sin condensador
+![Señal sin condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sin_condensador.jpg)
+Señal con condensador
+![Señal con condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_con_condensador.jpg)
+## Discusión
 ## Posibles fuentes de error
