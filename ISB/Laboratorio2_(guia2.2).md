@@ -31,7 +31,7 @@ Al centrarla, observamos que el valor máximo se encuentra en 2.5V y el mínimo 
 Después de haber confirmado que las señales se estaban generando de forma correcta, se procedió a la conexión entre el generador de señales y el Arduino NANO 33 ioT. 
 Se conectó un extremo de la sonda al A1 y el otro a GND. La conexión se observa a continuación: 
 
-![Osciloscopio](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/osciloscopio.jpg)
+![Osciloscopio](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/conexion_con_arduino.jpg)
 ## 2. Ploteo de señales en Arduino
 
 ## Posibles fuentes de error
