@@ -20,10 +20,10 @@
 
 ## 1. Uso del generador y osciloscopio
 Se configuró el generador de señales, de forma que se produzca una señal sinusoidal de 1kHz y 5Vpp, como se muestra en la imagen.
-![Configuración inicial del generador de señales](URL_de_la_imagen)
+![Configuración inicial del generador de señales](Imágenes/generador.jpg)
 
 Luego se conectó una sonda entre el generador y el osciloscopio para poder observar mejor la onda generada. 
-![Osciloscopio](URL_de_la_imagen)
+![Osciloscopio](Imágenes/osciloscopio.jpg)
 
 ## 2. Ploteo de señales en Arduino
 
