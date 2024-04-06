@@ -31,9 +31,11 @@ Al centrarla, observamos que el valor máximo se encuentra en 2.5V y el mínimo 
 Después de haber confirmado que las señales se estaban generando de forma correcta, se procedió a la conexión entre el generador de señales y el Arduino NANO 33 ioT. 
 Se conectó un extremo de la sonda al A1 y el otro a GND. La conexión se observa a continuación: 
 
-![Osciloscopio](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/conexion_con_arduino.jpg)
+![Conexión con Arduino](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/conexion_con_arduino.jpg)
 
-El código subido al Arduino es el siguiente:
+## 2. Ploteo de señales en Arduino
+#  Código 
+El código que se subió al Arduino es el siguiente:
 ```arduino
 unsigned long lastMsg=0;
 float F=1; //colocar la frecuencia que se está utilizando (en las últimas pruebas usamos 1Hz)
@@ -53,12 +55,24 @@ void loop() {
   if(now - lastMsg  > Ts_ms){
     lastMsg=now;
    // int r1=0;
-    int r2 = analogRead(A0);
+    int r2 = analogRead(A1);
     Serial.println(r2);
   }
 }
 ```
+En el código se lee la señal del generador de señales a través de la función analogRead(). Se utiliza una frecuencia de muestreo que es 10 veces mayor a la frecuencia de la señal, lo que cumple con teorema de Nyquist, por lo que se puede considerar como un buen muestreo.  
+A través de Serial.println() se envió los valores de la señal al monitor serial y la señal fue representada en el Serial Plotter.
 
-## 2. Ploteo de señales en Arduino
+# Señales
+Cuando conectamos el generador de señales directamente al Arduino y lo vimos en Arduino IDE, vimos una señal ruidosa. Si apagábamos el canal 1 del generador de señales, seguía apareciendo una señal, esta es ruido.
+
+Cuando agregamos un capacitor a un circuito, introducimos un filtro. Esto significa que, en teoría, el condensador que agregamos a este circuito podría filtrar ciertas frecuencias de la señal, haciendo que la señal parezca ruidosa o distorsionada cuando se muestra en el Plotter de Arduino, pero esto no sucede. La razón de esto puede ser que el capacitor afecta la frecuencia o amplitud de la señal que llega al Arduino, por lo que la pantalla puede parecer menos clara o ruidosa
+
+![Señal ruidosa](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal_ruidosa.jpg)
+
+#Pruebas
+Fuimos probando distintas opciones, variando el voltaje y frecuencia de la señal en el generador y la frecuencia de muestreo, con el objetivo de buscar la frecuencia y voltaje donde mejor se viera la señal en Arduino IDE. Cambiamos la frecuencia inicial de 1kHz por frecuencias de 100Hz, 10Hz, 1Hz. Y el voltaje pico-pico lo disminuimos a 3Vpp y luego a valores menores. 
+
+![Señal con menos ruido](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal.jpg)
 
 ## Posibles fuentes de error
