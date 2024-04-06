@@ -34,7 +34,7 @@ Se conectó un extremo de la sonda al A1 y el otro a GND. La conexión se observ
 ![Osciloscopio](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/conexion_con_arduino.jpg)
 
 El código subido al Arduino es el siguiente:
-
+```arduino
 unsigned long lastMsg=0;
 float F=1; //colocar la frecuencia que se está utilizando (en las últimas pruebas usamos 1Hz)
 double Fs=10*F;
@@ -57,7 +57,7 @@ void loop() {
     Serial.println(r2);
   }
 }
-
+```
 
 ## 2. Ploteo de señales en Arduino
 
