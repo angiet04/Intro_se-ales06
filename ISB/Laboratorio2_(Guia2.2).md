@@ -102,5 +102,5 @@ En nuestro laboratorio, utilizamos un Arduino como parte del filtro RC. Aprovech
 Las posibles fuentes de error en la captura de señales con un Arduino Nano 33 IoT pueden incluir una frecuencia de muestreo inadecuada, lo que podría provocar aliasing y distorsión en la forma de onda. Además, una resolución de ADC insuficiente puede resultar en la pérdida de detalles finos de la señal. El ruido eléctrico también puede afectar la precisión de las mediciones, introduciendo errores adicionales en el proceso de captura de señales analógicas.
 
 ### Bibliografía
-[1] B. de Bakker, «Guía de la placa Arduino Nano (configuración de pines, especificaciones, comparación)», Makerguides.com. Accedido: 5 de abril de 2024. [En línea]. Disponible en: https://www.makerguides.com/es/arduino-nano/
-[2] «Todo lo que necesitas saber sobre Filtros RC». Accedido: 5 de abril de 2024. [En línea]. Disponible en: https://solectroshop.com/es/blog/todo-lo-que-necesitas-saber-sobre-filtros-rc-n52
+1. B. de Bakker, «Guía de la placa Arduino Nano (configuración de pines, especificaciones, comparación)», Makerguides.com. Accedido: 5 de abril de 2024. [En línea]. Disponible en: https://www.makerguides.com/es/arduino-nano/
+2. «Todo lo que necesitas saber sobre Filtros RC». Accedido: 5 de abril de 2024. [En línea]. Disponible en: https://solectroshop.com/es/blog/todo-lo-que-necesitas-saber-sobre-filtros-rc-n52
