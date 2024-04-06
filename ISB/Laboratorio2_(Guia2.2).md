@@ -27,13 +27,17 @@ Se configuró el generador de señales, de forma que se produzca una señal sinu
 
 Luego se conectó una sonda entre el generador y el osciloscopio para poder observar mejor la onda generada. 
 Al centrarla, observamos que el valor máximo se encuentra en 2.5V y el mínimo en -2.5V, es decir 5Vpp, como se había configurado.  
-
-![Osciloscopio](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/osciloscopio.jpg)
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/osciloscopio.jpg" alt="Osciloscopio">
+</p>
+  <p align="center">Figura 2. Señal en el Osciloscopio.</p>
 
 Después de haber confirmado que las señales se estaban generando de forma correcta, se procedió a la conexión entre el generador de señales y el Arduino NANO 33 ioT. Se configuró el generador de señales para que brinde una señal de 1KHz y 3Vpp, ya que el Arduino NANO 33 ioT soporta en sus puertos GPIO 3.3V [1]. 
 Se conectó un extremo de la sonda al A1 y el otro a GND. La conexión se observa a continuación: 
-
-![Conexión con Arduino](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/conexion_con_arduino.jpg)
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/conexion_con_arduino.jpg" alt="Conexión con Arduino">
+</p>
+  <p align="center">Figura 3. Conexión con Arduino NANO 33 ioT.</p>
 
 ## 2. Ploteo de señales en Arduino
 ###  Código 
@@ -69,27 +73,46 @@ A través de Serial.println() se envió los valores de la señal al monitor seri
 Cuando conectamos el generador de señales directamente al Arduino y lo vimos en Arduino IDE, vimos una señal ruidosa. Si apagábamos el canal 1 del generador de señales, seguía apareciendo una señal, esta es ruido.
 
 Cuando agregamos un capacitor a un circuito, introducimos un filtro. Esto significa que, en teoría, el condensador que agregamos a este circuito podría filtrar ciertas frecuencias de la señal, haciendo que la señal parezca ruidosa o distorsionada cuando se muestra en el Plotter de Arduino, pero esto no sucede. La razón de esto puede ser que el capacitor afecta la frecuencia o amplitud de la señal que llega al Arduino, por lo que la pantalla puede parecer menos clara o ruidosa
-
-![Señal ruidosa](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal_ruidosa2.jpg)
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes//senal_sinusoidal_ruidosa2.jpg" alt="Señal ruidosa">
+</p>
+  <p align="center">Figura 4. Señal sinusoidal ruidosa.</p>
 
 ### Pruebas
 Fuimos probando distintas opciones, variando el voltaje y frecuencia de la señal en el generador y la frecuencia de muestreo, con el objetivo de buscar la frecuencia y voltaje donde mejor se viera la señal en Arduino IDE. Cambiamos la frecuencia inicial de 1kHz por frecuencias de 100Hz, 10Hz, 1Hz. Y el voltaje pico-pico lo disminuimos a 3Vpp y luego a valores menores. 
 
 La señal sinusoidal con menor ruido que obtuvimos fue a 1Hz y 2Vpp: 
-
-![Señal con menos ruido](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal2.jpg)
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes//senal_sinusoidal2.jpg" alt="Señal con menos ruido">
+</p>
+  <p align="center">Figura 5. Señal sinusoidal.</p>
 
 También fuimos probando quitando y poniendo el condensador, para evaluar la acción del filtro en la señal.
 
 Ruido sin condensador (Canal 1 apagado)
-![Ruido sin condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/ruido_sin_condensador.jpg)
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes//ruido_sin_condensador.jpg" alt="Ruido sin condensador">
+</p>
+  <p align="center">Figura 6. Ruido sin condensador.</p>
+
 Ruido con condensador (Canal 1 apagado)
-![Ruido con condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/ruido_con_condensador.jpg)
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes//ruido_con_condensador.jpg" alt="Ruido con condensador">
+</p>
+  <p align="center">Figura 7. Ruido con condensador.</p>
 
 Señal sin condensador
-![Señal sin condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/señal_sin_condensador.jpg)
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes//señal_sin_condensador.jpg" alt="Señal sin condensador">
+</p>
+  <p align="center">Figura 8. Señal sin condensador.</p>
+
 Señal con condensador
-![Señal con condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/señal_con_condensador.jpg)
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes//señal_con_condensador.jpg" alt="Señal con condensador">
+</p>
+  <p align="center">Figura 8. Señal con condensador.</p>
+
 
 ## Discusión
 Se observó cierta mejora en el plot de la señal cuando se agregó el capacitor. En las últimas imágenes del inciso anterior, es difícil notar un cambio ya que la señal en ese momento presentaba mucho ruido. Pero en la imagen de la señal a 1Hz y 2Vpp que tuvo menos ruido, el capacitor sí tuvo una mayor importancia, ya que permitió filtrar el ruido que se vio anteriormente y obtener una señal mucho más parecida a la sinusoidal representada en el osciloscopio inicialmente.
@@ -100,7 +123,7 @@ Un filtro RC es un circuito simple que utiliza una Resistencia (R) y un Condensa
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/filtro_RC.jpg" alt="Filtro RC">
 </p>
-  <p align="center">Fuente: «Todo lo que necesitas saber sobre Filtros RC» [2].</p>
+  <p align="center">Figura 9. Filtro RC pasa-bajas. Fuente: «Todo lo que necesitas saber sobre Filtros RC» [2].</p>
 
 En nuestro laboratorio, utilizamos un Arduino como parte del filtro RC pasa bajas. Aprovechamos las resistencias que el Arduino NANO 33 ioT presenta en sus puertos. Cuando el cable que transmite la señal se conecta al puerto A1 (y a su resistencia interna) y al capacitor, se genera un filtro RC que afecta a esta señal.
 
