@@ -34,7 +34,7 @@ Se conectó un extremo de la sonda al A1 y el otro a GND. La conexión se observ
 ![Conexión con Arduino](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/conexion_con_arduino.jpg)
 
 ## 2. Ploteo de señales en Arduino
-#  Código 
+###  Código 
 El código que se subió al Arduino es el siguiente:
 ```arduino
 unsigned long lastMsg=0;
@@ -63,14 +63,14 @@ void loop() {
 En el código se lee la señal del generador de señales a través de la función analogRead(). Se utiliza una frecuencia de muestreo que es 10 veces mayor a la frecuencia de la señal, lo que cumple con teorema de Nyquist, por lo que se puede considerar como un buen muestreo.  
 A través de Serial.println() se envió los valores de la señal al monitor serial y la señal fue representada en el Serial Plotter.
 
-# Señales
+### Señales
 Cuando conectamos el generador de señales directamente al Arduino y lo vimos en Arduino IDE, vimos una señal ruidosa. Si apagábamos el canal 1 del generador de señales, seguía apareciendo una señal, esta es ruido.
 
 Cuando agregamos un capacitor a un circuito, introducimos un filtro. Esto significa que, en teoría, el condensador que agregamos a este circuito podría filtrar ciertas frecuencias de la señal, haciendo que la señal parezca ruidosa o distorsionada cuando se muestra en el Plotter de Arduino, pero esto no sucede. La razón de esto puede ser que el capacitor afecta la frecuencia o amplitud de la señal que llega al Arduino, por lo que la pantalla puede parecer menos clara o ruidosa
 
 ![Señal ruidosa](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal_ruidosa2.jpg)
 
-#Pruebas
+###Pruebas
 Fuimos probando distintas opciones, variando el voltaje y frecuencia de la señal en el generador y la frecuencia de muestreo, con el objetivo de buscar la frecuencia y voltaje donde mejor se viera la señal en Arduino IDE. Cambiamos la frecuencia inicial de 1kHz por frecuencias de 100Hz, 10Hz, 1Hz. Y el voltaje pico-pico lo disminuimos a 3Vpp y luego a valores menores. 
 
 ![Señal con menos ruido](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal2.jpg)
