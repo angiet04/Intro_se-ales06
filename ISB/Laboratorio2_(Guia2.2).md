@@ -111,21 +111,22 @@ Señal con condensador
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes//señal_con_condensador.jpg" alt="Señal con condensador">
 </p>
-  <p align="center">Figura 8. Señal con condensador.</p>
+  <p align="center">Figura 9. Señal con condensador.</p>
 
 
 ## Discusión
-Se observó cierta mejora en el plot de la señal cuando se agregó el capacitor. En las últimas imágenes del inciso anterior, es difícil notar un cambio ya que la señal en ese momento presentaba mucho ruido. Pero en la imagen de la señal a 1Hz y 2Vpp que tuvo menos ruido, el capacitor sí tuvo una mayor importancia, ya que permitió filtrar el ruido que se vio anteriormente y obtener una señal mucho más parecida a la sinusoidal representada en el osciloscopio inicialmente.
+Se observó cierta mejora en el plot de la señal cuando se agregó el capacitor. En las últimas imágenes del inciso anterior (*Figuras 6-9*), es difícil notar un cambio ya que la señal en ese momento presentaba mucho ruido. Pero en la *Figura 5*, que tuvo menos ruido, el capacitor sí tuvo una mayor importancia, ya que permitió filtrar el ruido que se vio anteriormente y obtener una señal mucho más parecida a la sinusoidal representada en el osciloscopio inicialmente.
 
 ### ¿Por qué la presencia de un capacitor genera un filtrado en la señal?
 #### Filtro RC
 Un filtro RC es un circuito simple que utiliza una Resistencia (R) y un Condensador (C) para filtrar señales eléctricas específicas. Se emplea para mejorar la calidad de una señal eliminando el ruido indeseado [2].
+Un filtro RC pasa bajas es un circuito que permite el paso de señales de baja frecuencia mientras atenúa o bloquea las señales de alta frecuencia. Este tipo de filtro es útil en aplicaciones donde se desea eliminar el ruido de alta frecuencia o suavizar una señal[2].
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/filtro_RC.jpg" alt="Filtro RC">
 </p>
-  <p align="center">Figura 9. Filtro RC pasa-bajas. Fuente: «Todo lo que necesitas saber sobre Filtros RC» [2].</p>
+  <p align="center">Figura 10. Filtro RC pasa-bajas. Fuente: «Todo lo que necesitas saber sobre Filtros RC» [2].</p>
 
-En nuestro laboratorio, utilizamos un Arduino como parte del filtro RC pasa bajas. Aprovechamos las resistencias que el Arduino NANO 33 ioT presenta en sus puertos. Cuando el cable que transmite la señal se conecta al puerto A1 (y a su resistencia interna) y al capacitor, se genera un filtro RC que afecta a esta señal.
+En nuestro laboratorio, utilizamos un Arduino como parte del filtro RC pasa bajas. Aprovechamos la resistencia interna que el Arduino NANO 33 ioT presenta en sus puertos de entrada/salida. Cuando conectamos el cable que transmite la señal al puerto A1 del Arduino Nano 33 IoT, junto con su resistencia interna, y al capacitor, generamos un filtro RC. El resistor y el capacitor en conjunto forman un circuito RC, como se ve en la *Figura 10*, donde la resistencia y la capacitancia determinan las características del filtro, como la frecuencia de corte.
 
 
 ## Posibles fuentes de error
