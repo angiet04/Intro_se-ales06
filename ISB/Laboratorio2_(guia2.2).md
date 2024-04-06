@@ -32,6 +32,33 @@ Después de haber confirmado que las señales se estaban generando de forma corr
 Se conectó un extremo de la sonda al A1 y el otro a GND. La conexión se observa a continuación: 
 
 ![Osciloscopio](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/conexion_con_arduino.jpg)
+
+El código subido al Arduino es el siguiente:
+
+unsigned long lastMsg=0;
+float F=1; //colocar la frecuencia que se está utilizando (en las últimas pruebas usamos 1Hz)
+double Fs=10*F;
+double Ts_ms=(1/Fs)*1000;
+
+void setup() {
+  Serial.begin(9600);
+  while(!Serial);
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  unsigned long now = millis();
+  if(now - lastMsg  > Ts_ms){
+    lastMsg=now;
+   // int r1=0;
+    int r2 = analogRead(A0);
+    Serial.println(r2);
+  }
+}
+
+
 ## 2. Ploteo de señales en Arduino
 
 ## Posibles fuentes de error
