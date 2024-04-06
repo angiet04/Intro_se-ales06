@@ -70,8 +70,10 @@ Cuando agregamos un capacitor a un circuito, introducimos un filtro. Esto signif
 
 ![Señal ruidosa](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal_ruidosa2.jpg)
 
-###Pruebas
+### Pruebas
 Fuimos probando distintas opciones, variando el voltaje y frecuencia de la señal en el generador y la frecuencia de muestreo, con el objetivo de buscar la frecuencia y voltaje donde mejor se viera la señal en Arduino IDE. Cambiamos la frecuencia inicial de 1kHz por frecuencias de 100Hz, 10Hz, 1Hz. Y el voltaje pico-pico lo disminuimos a 3Vpp y luego a valores menores. 
+
+La señal sinusoidal con menor ruido que obtuvimos fue a 1Hz y 2Vpp: 
 
 ![Señal con menos ruido](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sinusoidal2.jpg)
 
