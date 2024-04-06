@@ -20,8 +20,10 @@
 
 ## 1. Uso del generador y osciloscopio
 Se configuró el generador de señales, de forma que se produzca una señal sinusoidal de 1kHz y 5Vpp, como se muestra en la imagen:
-
-![Configuración inicial del generador de señales](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/generador.jpg)
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/generador.jpg" alt="Configuración inicial del generador de señales">
+</p>
+  <p align="center">Figura 1. Configuración inicial del generador de señales.</p>
 
 Luego se conectó una sonda entre el generador y el osciloscopio para poder observar mejor la onda generada. 
 Al centrarla, observamos que el valor máximo se encuentra en 2.5V y el mínimo en -2.5V, es decir 5Vpp, como se había configurado.  
@@ -100,7 +102,8 @@ Un filtro RC es un circuito simple que utiliza una Resistencia (R) y un Condensa
 </p>
   <p align="center">Fuente: «Todo lo que necesitas saber sobre Filtros RC» [2].</p>
 
-En nuestro laboratorio, utilizamos un Arduino como parte del filtro RC. Aprovechamos las resistencias que el Arduino NANO 33 ioT presenta en sus puertos. Cuando el cable que transmite la señal se conecta al puerto A1 (y a su resistencia interna) y al capacitor, se genera un filtro RC que afecta a esta señal.
+En nuestro laboratorio, utilizamos un Arduino como parte del filtro RC pasa bajas. Aprovechamos las resistencias que el Arduino NANO 33 ioT presenta en sus puertos. Cuando el cable que transmite la señal se conecta al puerto A1 (y a su resistencia interna) y al capacitor, se genera un filtro RC que afecta a esta señal.
+
 
 ## Posibles fuentes de error
 Las posibles fuentes de error en la captura de señales con un Arduino Nano 33 IoT pueden incluir una frecuencia de muestreo inadecuada, lo que podría provocar aliasing y distorsión en la forma de onda. Además, una resolución de ADC insuficiente puede resultar en la pérdida de detalles finos de la señal. El ruido eléctrico también puede afectar la precisión de las mediciones, introduciendo errores adicionales en el proceso de captura de señales analógicas.
