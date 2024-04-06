@@ -96,7 +96,7 @@ Se observó cierta mejora en el plot de la señal cuando se agregó el capacitor
 #### Filtro RC
 Un filtro RC es un circuito simple que utiliza una Resistencia (R) y un Condensador (C) para filtrar señales eléctricas específicas. Se emplea para mejorar la calidad de una señal eliminando el ruido indeseado [2].
 <p align="center">
-![Filtro RC](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/filtro_RC.jpg)
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/filtro_RC.jpg" alt="Filtro RC">
 </p>
   Fuente: «Todo lo que necesitas saber sobre Filtros RC» [2]
 
