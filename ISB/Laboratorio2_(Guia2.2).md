@@ -28,7 +28,7 @@ Al centrarla, observamos que el valor máximo se encuentra en 2.5V y el mínimo 
 
 ![Osciloscopio](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/osciloscopio.jpg)
 
-Después de haber confirmado que las señales se estaban generando de forma correcta, se procedió a la conexión entre el generador de señales y el Arduino NANO 33 ioT. 
+Después de haber confirmado que las señales se estaban generando de forma correcta, se procedió a la conexión entre el generador de señales y el Arduino NANO 33 ioT. Se configuró el generador de señales para que brinde una señal de 1KHz y 3Vpp, ya que el Arduino NANO 33 ioT soporta en sus puertos GPIO 3.3V [1]. 
 Se conectó un extremo de la sonda al A1 y el otro a GND. La conexión se observa a continuación: 
 
 ![Conexión con Arduino](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/conexion_con_arduino.jpg)
@@ -88,5 +88,19 @@ Señal sin condensador
 ![Señal sin condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/señal_sin_condensador.jpg)
 Señal con condensador
 ![Señal con condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/señal_con_condensador.jpg)
+
 ## Discusión
+Se observó cierta mejora en el plot de la señal cuando se agregó el capacitor. En las últimas imágenes del inciso anterior, es difícil notar un cambio ya que la señal en ese momento presentaba mucho ruido. Pero en la imagen de la señal a 1Hz y 2Vpp que tuvo menos ruido, el capacitor sí tuvo una mayor importancia, ya que permitió filtrar el ruido que se vio anteriormente y obtener una señal mucho más parecida a la sinusoidal representada en el osciloscopio inicialmente.
+
+### ¿Por qué la presencia de un capacitor genera un filtrado en la señal?
+#### Filtro RC
+Un filtro RC es un circuito simple que utiliza una Resistencia (R) y un Condensador (C) para filtrar señales eléctricas específicas. Se emplea para mejorar la calidad de una señal eliminando el ruido indeseado [2].
+
+En nuestro laboratorio, utilizamos un Arduino como parte del filtro RC. Aprovechamos las resistencias que el Arduino presenta en sus puertos (los pines tienen a nivel interno una resistencia de 20 KΩ) y el capacitor. 
+
 ## Posibles fuentes de error
+Las posibles fuentes de error en la captura de señales con un Arduino Nano 33 IoT pueden incluir una frecuencia de muestreo inadecuada, lo que podría provocar aliasing y distorsión en la forma de onda. Además, una resolución de ADC insuficiente puede resultar en la pérdida de detalles finos de la señal. El ruido eléctrico también puede afectar la precisión de las mediciones, introduciendo errores adicionales en el proceso de captura de señales analógicas.
+
+### Bibliografía
+[1] B. de Bakker, «Guía de la placa Arduino Nano (configuración de pines, especificaciones, comparación)», Makerguides.com. Accedido: 5 de abril de 2024. [En línea]. Disponible en: https://www.makerguides.com/es/arduino-nano/
+[2] «Todo lo que necesitas saber sobre Filtros RC». Accedido: 5 de abril de 2024. [En línea]. Disponible en: https://solectroshop.com/es/blog/todo-lo-que-necesitas-saber-sobre-filtros-rc-n52
