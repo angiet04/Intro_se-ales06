@@ -96,7 +96,9 @@ Se observó cierta mejora en el plot de la señal cuando se agregó el capacitor
 #### Filtro RC
 Un filtro RC es un circuito simple que utiliza una Resistencia (R) y un Condensador (C) para filtrar señales eléctricas específicas. Se emplea para mejorar la calidad de una señal eliminando el ruido indeseado [2].
 
-En nuestro laboratorio, utilizamos un Arduino como parte del filtro RC. Aprovechamos las resistencias que el Arduino presenta en sus puertos (los pines tienen a nivel interno una resistencia de 20 KΩ) y el capacitor. 
+![Filtro RC](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/filtro_RC.jpg)
+Fuente: «Todo lo que necesitas saber sobre Filtros RC» [2]
+En nuestro laboratorio, utilizamos un Arduino como parte del filtro RC. Aprovechamos las resistencias que el Arduino NANO 33 ioT presenta en sus puertos. Cuando el cable que transmite la señal se conecta al puerto A1 (y a su resistencia interna) y al capacitor, se genera un filtro RC que afecta a esta señal.
 
 ## Posibles fuentes de error
 Las posibles fuentes de error en la captura de señales con un Arduino Nano 33 IoT pueden incluir una frecuencia de muestreo inadecuada, lo que podría provocar aliasing y distorsión en la forma de onda. Además, una resolución de ADC insuficiente puede resultar en la pérdida de detalles finos de la señal. El ruido eléctrico también puede afectar la precisión de las mediciones, introduciendo errores adicionales en el proceso de captura de señales analógicas.
