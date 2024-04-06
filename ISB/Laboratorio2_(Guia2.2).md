@@ -83,6 +83,7 @@ Ruido sin condensador (Canal 1 apagado)
 ![Ruido sin condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/ruido_sin_condensador.jpg)
 Ruido con condensador (Canal 1 apagado)
 ![Ruido con condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/ruido_con_condensador.jpg)
+
 Señal sin condensador
 ![Señal sin condensador](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/senal_sin_condensador.jpg)
 Señal con condensador
