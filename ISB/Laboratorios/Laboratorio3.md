@@ -13,8 +13,11 @@
  - Hacer una correcta configuración de BiTalino.
  - Extraer la información de las señales EMG y ECG del software OpenSignals (R)evolution
 
-## Materiales:
+## Materiales
   - Kit BITalino (R)EVOLUTION
     
   - Laptop
+    
+## Resultados
 
+## Conclusiones
