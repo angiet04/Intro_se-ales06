@@ -16,7 +16,7 @@
 ## Materiales
   - Kit BITalino (R)EVOLUTION
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/bitalino.jpg" alt="Bitalino">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/bitalino.jpg" alt="Bitalino width="300" height="200"">
 </p>
 
   - Laptop
