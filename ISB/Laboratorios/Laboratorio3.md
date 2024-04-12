@@ -15,7 +15,10 @@
 
 ## Materiales
   - Kit BITalino (R)EVOLUTION
-    
+<p align="center">
+  <img src="url_de_la_imagen" alt="Descripción de la imagen">
+</p>
+
   - Laptop
     
 ## Resultados
