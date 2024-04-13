@@ -28,7 +28,7 @@ En este laboratorio práctico, emplearemos el sistema BiTalino para capturar y a
 ## Resultados
 Las señales se adquirieron utilizando la conexión en la placa BITalino junto con un sensor EMG de tres electrodos.
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/BITalino.jpeg" alt="Bitalino">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/BITalino.jpeg" alt="Bitalino width="200" height="400"">
 </p>
 La toma de señales comenzó con la captura de señales de cada miembro del equipo, siguiendo el protocolo BITalino (r)evolution Lab-Home Guide [a].  
 
@@ -54,8 +54,11 @@ Conectamos el BITalino a la laptop por medio de Bluetooth:
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/coneccion_bluetooth.jpg" alt="Conexión por bluetooth">
 </p>
 
-https://github.com/angiet04/Intro_se-ales06/assets/164528885/0dfe8820-5b2d-47e0-a2c3-05fbc31cfb94
+### Pruebas
+Para iniciar con la prueba se toma la señal en reposo o estado basal. Se debe encontrar con músculo relajado y sentado. Luego se procede con la contracción del músculo para obtener las señales en OpenSignals. Asimismo, una indicación importante es no tener objetos metálicos cerca como cadenas, relojes, aretes, etc, ya que generan interferencias.
 
+
+https://github.com/angiet04/Intro_se-ales06/assets/164528885/0dfe8820-5b2d-47e0-a2c3-05fbc31cfb94
 
 
 https://github.com/angiet04/Intro_se-ales06/assets/164528885/6eb14e4c-1f1c-4c31-8c29-c7139a11dde3
@@ -65,12 +68,12 @@ https://github.com/angiet04/Intro_se-ales06/assets/164528885/3faf6199-5abd-47e9-
 
 
 
-
 https://github.com/angiet04/Intro_se-ales06/assets/164528885/eb34f49f-038b-42e5-b404-0e59576c2ebc
 
 
 
-## Conclusiones
+### Ploteo en python
+
 
 ## Bibliografía
 [a] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf 
