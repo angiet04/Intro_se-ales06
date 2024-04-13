@@ -114,12 +114,14 @@ Buscamos mostrar la señal según mV y tiempo (s). Para ello:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true" alt="Fórmula de conversión width="800" height="500"">
 </p>
-Figura 6. Fórmula de conversión. Fuente: Bitalino Electromyography (EMG) Sensor User Manual
+<p align="center">Figura 6. Fórmula de conversión. Fuente: Bitalino Electromyography (EMG) Sensor User Manual.</p>
+
 Finalmente, obtuvimos el siguiente ploteo:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/EMG1.png?raw=true" alt="EMG1 width="800" height="500"">
 </p>
-Figura 7. Ploteo
+<p align="center">Figura 7. Ploteo.</p>
+
 
 # Bibliografía
 [1] BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: https://www.ejemplo.com](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf
