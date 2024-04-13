@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Laboratorio 3 : Uso de BiTalino para EMG y ECG1</h1>
+<h1>Laboratorio 3 : Uso de BiTalino para EMG </h1>
 </div>
 
 ## Integrantes
