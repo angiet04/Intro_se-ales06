@@ -74,7 +74,7 @@ https://github.com/angiet04/Intro_se-ales06/assets/164528885/eb34f49f-038b-42e5-
 
 ### Ploteo en python
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/EMG1.png" alt="EMG1">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/EMG1.png", alt="EMG1">
 </p>
 
 ## Bibliografía
