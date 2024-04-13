@@ -70,6 +70,37 @@ https://github.com/angiet04/Intro_se-ales06/assets/164528885/eb34f49f-038b-42e5-
 
 
 ### Ploteo en python
+Se utilizó el siguiente código en Python
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Nombre del archivo de texto
+archivo = "/content/cesa 2-04-12_10-12-11.txt"
+
+# Leer los datos del archivo y omitir las primeras 7 líneas
+datos = np.loadtxt(archivo, skiprows=7)
+
+# Extraer la columna de interés (columna 6)
+senal = datos[:, 5]
+
+# Crear un vector de tiempo (asumiendo que los datos son muestreados uniformemente)
+# Si tienes información sobre la frecuencia de muestreo o el intervalo de tiempo, úsalo aquí
+# Por ejemplo, si la frecuencia de muestreo es fs Hz, el vector de tiempo sería:
+# tiempo = np.arange(len(senal)) / fs
+num_muestra = np.arange(len(senal))
+a = 2^10
+senalV = (((senal/a)-1/2)*3.3)/1009
+senalmV = senalV*1000
+# Trazar la señal
+plt.plot(num_muestra/1000, senalmV)
+plt.xlabel('Tiempo')
+plt.ylabel('EMG (mV)')
+plt.title('EMG 1')
+plt.grid(True)
+plt.show()
+
+```
 Buscamos mostrar la señal según mV y tiempo (s). Para ello:
 - Para pasar de número de muestra a tiempo:
   Tiempo = Número de muestra (n) / Fs
@@ -79,7 +110,7 @@ Buscamos mostrar la señal según mV y tiempo (s). Para ello:
   <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/formula.png" alt="Fórmula de conversión">
 </p>
-
+Finalmente, obtuvimos el siguiente ploteo:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/EMG1.png" alt="EMG1">
 </p>
