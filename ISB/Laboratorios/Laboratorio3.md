@@ -43,18 +43,18 @@ Explicación del protocolo:
 
 Seguimos el posicionamiento de electrodos según la guía:
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/posic_electrodos.png?raw=true" alt="Posicionamiento de electrodos según la Guía width="500" height="300"">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/posic_electrodos.png?raw=true" alt="Posicionamiento de electrodos según la Guía width="800" height="500"">
 </p>
 FIgura 3. Conección de electrodos según guía Fuente: BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS.
 Nuestra conección:
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/electrodos.jpg?raw=true" alt="Conexión de electrodos width="500" height="300"">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/electrodos.jpg?raw=true" alt="Conexión de electrodos width="800" height="500"">
 </p>
 FIgura 4. Nuestra conección de electrodos 
 
 Conectamos el BITalino a la laptop por medio de Bluetooth:
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/coneccion_bluetooth.jpg?raw=true" alt="Conexión por bluetooth width="500" height="300"">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/coneccion_bluetooth.jpg?raw=true" alt="Conexión por bluetooth width="800" height="500"">
 </p>
 Figura 5. Conección Bluetooth
 
