@@ -107,13 +107,12 @@ Buscamos mostrar la señal según mV y tiempo (s). Para ello:
   En este caso, Fs = 1000Hz
 - Para pasar de Amplitud (ADC) a mV:
   Seguimos la fórmula de conversión indicada en el Datasheet de BITalino
-  <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/formula.png" alt="Fórmula de conversión">
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true" alt="Fórmula de conversión">
 </p>
 Finalmente, obtuvimos el siguiente ploteo:
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true" alt="Texto alternativo">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/EMG1.png?raw=true" alt="EMG1">
 </p>
-
 ## Bibliografía
 [a] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf 
