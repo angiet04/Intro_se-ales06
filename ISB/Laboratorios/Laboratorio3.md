@@ -8,6 +8,8 @@
 3. Nicole Doris Unsihuay Vila (nicole.unsihuay@upch.pe)
 4. Angie Milagros Diaz Torres (angie.diaz.t@upch.pe)
 
+En este laboratorio práctico, emplearemos el sistema BiTalino para capturar y analizar señales electromiográficas (EMG), que son indicativos eléctricos generados por los músculos durante su contracción. El propósito es comprender cómo se pueden medir estas señales. A través de la realización de estas pruebas, se interpretarán los datos para obtener la relación entre la función muscular y los diferentes estímulos. 
+
 ## Objetivos
  - Adquirir señales biomédicas de EMG y ECG.
  - Hacer una correcta configuración de BiTalino.
@@ -15,6 +17,7 @@
 
 ## Materiales
   - Kit BITalino (R)EVOLUTION
+    Kit biomédico que contiene una placa donde vienen conectados los bloques de sensores de manera que permitan poder trabajar   directamente, sin tener que realizar ninguna conexión. Tiene comunicación Bluetooth y conectores UC-E6.
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/bitalino.jpg" alt="Bitalino width="300" height="200"">
 </p>
