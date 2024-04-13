@@ -112,8 +112,8 @@ Buscamos mostrar la señal según mV y tiempo (s). Para ello:
 </p>
 Finalmente, obtuvimos el siguiente ploteo:
 <p align="center">
-! ["formula"](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true)
-
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true" alt="Texto alternativo">
+</p>
 
 ## Bibliografía
 [a] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf 
