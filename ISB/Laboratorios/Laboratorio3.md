@@ -26,6 +26,7 @@
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/BITalino.jpeg" alt="Bitalino width="300" height="200"">
 </p>
 <video controls>
-  <source src="https://github.com/angiet04/Intro_se-ales06/blob/3bc0cb0d9fa4f185b483ebe68c75ab64a72d7336/Im%C3%A1genes/Laboratorio_3/Prueba1.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/angiet04/Intro_se-ales06/3bc0cb0d9fa4f185b483ebe68c75ab64a72d7336/Im%C3%A1genes/Laboratorio_3/Prueba1.mp4" type="video/mp4">
 </video>
+
 ## Conclusiones
