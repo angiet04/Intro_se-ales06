@@ -42,7 +42,7 @@ Explicación del protocolo:
 
 Seguimos el posicionamiento de electrodos según la guía:
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/posic_electrodos.jpg" alt="Posicionamiento de electrodos según la Guía">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/posic_electrodos.png" alt="Posicionamiento de electrodos según la Guía">
 </p>
 Nuestra conección:
 <p align="center">
