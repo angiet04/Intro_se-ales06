@@ -73,7 +73,9 @@ https://github.com/angiet04/Intro_se-ales06/assets/164528885/eb34f49f-038b-42e5-
 
 
 ### Ploteo en python
-
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/coneccion_bluetooth.jpg" alt="Conexión por bluetooth">
+</p>
 
 ## Bibliografía
 [a] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf 
