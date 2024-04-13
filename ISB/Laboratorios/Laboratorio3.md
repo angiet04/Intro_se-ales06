@@ -68,7 +68,7 @@ Para iniciar con la prueba se toma la señal en reposo o estado basal. Se debe e
 Videos de las pruebas:
 
 <p align="center">
-  <img src="[https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/s1.png?raw=true)" alt="Fórmula de conversión width="800" height="500"">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/s1.png?raw=true" alt="Fórmula de conversión width="800" height="500"">
 </p>
 <p align="center">Figura 6.Prueba EMG - Cesar .</p>
 
@@ -76,7 +76,7 @@ https://github.com/angiet04/Intro_se-ales06/assets/164528885/0dfe8820-5b2d-47e0-
 
 https://github.com/angiet04/Intro_se-ales06/assets/164528885/3faf6199-5abd-47e9-86dd-73dd6b8cc85f
 <p align="center">
-  <img src="[https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/s2.png?raw=true)" alt="Fórmula de conversión width="800" height="500"">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/s2.png?raw=true" alt="Fórmula de conversión width="800" height="500"">
 </p>
 <p align="center">Figura 7.Prueba EMG - Nicole .</p>
 https://github.com/angiet04/Intro_se-ales06/assets/164528885/6eb14e4c-1f1c-4c31-8c29-c7139a11dde3
