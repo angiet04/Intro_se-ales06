@@ -54,7 +54,7 @@ FIgura 4. Nuestra conección de electrodos
 
 Conectamos el BITalino a la laptop por medio de Bluetooth:
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/coneccion_bluetooth.jpg?raw=true" alt="Conexión por bluetooth width="300" height="200"">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/coneccion_bluetooth.jpg?raw=true" alt="Conexión por bluetooth width="500" height="300"">
 </p>
 Figura 5. Conección Bluetooth
 
