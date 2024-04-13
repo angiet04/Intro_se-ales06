@@ -21,7 +21,7 @@ En este laboratorio práctico, emplearemos el sistema BiTalino para capturar y a
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/bitalino.jpg" alt="Bitalino width="300" height="200"">
 </p>
-
+FIgura 1. BITalino. Fuente: BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS.
   - Laptop
     Utilizamos el Software OpenSignals para obtener la señal medida por el sensor EMG.
     
@@ -30,6 +30,7 @@ Las señales se adquirieron utilizando la conexión en la placa BITalino junto c
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/BITalino.jpeg" alt="Bitalino width="200" height="400"">
 </p>
+FIgura 2. BITalino con electrodos. 
 La toma de señales comenzó con la captura de señales de cada miembro del equipo, siguiendo el protocolo BITalino (r)evolution Lab-Home Guide [1].  
 
 A continuación se siguieron los pasos del siguiente protocolo
@@ -44,15 +45,18 @@ Seguimos el posicionamiento de electrodos según la guía:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/posic_electrodos.png?raw=true" alt="Posicionamiento de electrodos según la Guía">
 </p>
+FIgura 3. Conección de electrodos según guía Fuente: BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS.
 Nuestra conección:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/electrodos.jpg?raw=true" alt="Conexión de electrodos">
 </p>
+FIgura 4. Nuestra conección de electrodos 
 
 Conectamos el BITalino a la laptop por medio de Bluetooth:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/coneccion_bluetooth.jpg?raw=true" alt="Conexión por bluetooth">
 </p>
+Figura 5. Conección Bluetooth
 
 ### Pruebas
 Para iniciar con la prueba se toma la señal en reposo o estado basal. Se debe encontrar con músculo relajado y sentado. Luego se procede con la contracción del músculo para obtener las señales en OpenSignals. Asimismo, una indicación importante es no tener objetos metálicos cerca como cadenas, relojes, aretes, etc, ya que generan interferencias.
@@ -106,15 +110,17 @@ Buscamos mostrar la señal según mV y tiempo (s). Para ello:
   Tiempo = Número de muestra (n) / Fs
   En este caso, Fs = 1000Hz
 - Para pasar de Amplitud (ADC) a mV:
-  Seguimos la fórmula de conversión indicada en el Datasheet de BITalino [2]
+  Seguimos la fórmula de conversión indicada en el Manual de usuario de BITalino [2]
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true" alt="Fórmula de conversión">
 </p>
+Figura 6. Fórmula de conversión. Fuente: Bitalino Electromyography (EMG) Sensor User Manual
 Finalmente, obtuvimos el siguiente ploteo:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/EMG1.png?raw=true" alt="EMG1">
 </p>
+Figura 7. Ploteo
 
 # Bibliografía
-[1] BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: [Link](https://www.ejemplo.com](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf )
+[1] BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: https://www.ejemplo.com](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf
 [2] Bitalino Electromyography (EMG) Sensor User Manual. Disponible en: https://www.bitalino.com/storage/uploads/media/electromyography-emg-user-manual.pdf
