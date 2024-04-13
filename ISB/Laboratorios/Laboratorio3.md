@@ -112,7 +112,7 @@ Buscamos mostrar la señal según mV y tiempo (s). Para ello:
 </p>
 Finalmente, obtuvimos el siguiente ploteo:
 <p align="center">
-!["https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/EMG1.png"](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true)
+! ["formula"](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true)
 
 
 ## Bibliografía
