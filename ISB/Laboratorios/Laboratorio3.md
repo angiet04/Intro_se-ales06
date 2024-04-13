@@ -41,11 +41,10 @@ Explicación del protocolo:
 - Ciclo de contracción: Realiza un ciclo de CONTRACCIÓN-SUELTA-DESCANSO cinco veces, manteniendo cada contracción por dos segundos y descansando otros dos segundos. Comienza con una contracción de baja intensidad e incrementa gradualmente el nivel en cada repetición hasta alcanzar tu máxima capacidad de contracción voluntaria.
 
 Seguimos el posicionamiento de electrodos según la guía:
-</p>
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/posic_electrodos.jpeg" alt="Posicionamiento de electrodos según la Guía">
 </p>
-
+Nuestra conección:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/electrodos.jpeg" alt="Conexión de electrodos">
 </p>
