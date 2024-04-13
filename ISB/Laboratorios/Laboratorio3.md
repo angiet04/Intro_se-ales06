@@ -112,12 +112,12 @@ Buscamos mostrar la señal según mV y tiempo (s). Para ello:
 - Para pasar de Amplitud (ADC) a mV:
   Seguimos la fórmula de conversión indicada en el Manual de usuario de BITalino [2]
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true" alt="Fórmula de conversión width="300" height="200"">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true" alt="Fórmula de conversión width="800" height="500"">
 </p>
 Figura 6. Fórmula de conversión. Fuente: Bitalino Electromyography (EMG) Sensor User Manual
 Finalmente, obtuvimos el siguiente ploteo:
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/EMG1.png?raw=true" alt="EMG1 width="500" height="300"">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/EMG1.png?raw=true" alt="EMG1 width="800" height="500"">
 </p>
 Figura 7. Ploteo
 
