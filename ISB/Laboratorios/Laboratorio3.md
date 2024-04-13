@@ -30,7 +30,7 @@ Las señales se adquirieron utilizando la conexión en la placa BITalino junto c
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/BITalino.jpeg" alt="Bitalino width="200" height="400"">
 </p>
-La toma de señales comenzó con la captura de señales de cada miembro del equipo, siguiendo el protocolo BITalino (r)evolution Lab-Home Guide [a].  
+La toma de señales comenzó con la captura de señales de cada miembro del equipo, siguiendo el protocolo BITalino (r)evolution Lab-Home Guide [1].  
 
 A continuación se siguieron los pasos del siguiente protocolo
 Explicación del protocolo:
@@ -106,7 +106,7 @@ Buscamos mostrar la señal según mV y tiempo (s). Para ello:
   Tiempo = Número de muestra (n) / Fs
   En este caso, Fs = 1000Hz
 - Para pasar de Amplitud (ADC) a mV:
-  Seguimos la fórmula de conversión indicada en el Datasheet de BITalino
+  Seguimos la fórmula de conversión indicada en el Datasheet de BITalino [2]
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true" alt="Fórmula de conversión">
 </p>
@@ -114,5 +114,7 @@ Finalmente, obtuvimos el siguiente ploteo:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/EMG1.png?raw=true" alt="EMG1">
 </p>
-## Bibliografía
-[a] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf 
+
+# Bibliografía
+[1] BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: [Link](https://www.ejemplo.com](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf )
+[2] Bitalino Electromyography (EMG) Sensor User Manual. Disponible en: https://www.bitalino.com/storage/uploads/media/electromyography-emg-user-manual.pdf
