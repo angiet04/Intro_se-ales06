@@ -22,5 +22,7 @@
   - Laptop
     
 ## Resultados
-
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/BITalino.jpeg" alt="Bitalino width="300" height="200"">
+</p>
 ## Conclusiones
