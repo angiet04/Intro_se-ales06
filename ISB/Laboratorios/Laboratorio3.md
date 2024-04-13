@@ -57,10 +57,9 @@ Conectamos el BITalino a la laptop por medio de Bluetooth:
 ### Pruebas
 Para iniciar con la prueba se toma la señal en reposo o estado basal. Se debe encontrar con músculo relajado y sentado. Luego se procede con la contracción del músculo para obtener las señales en OpenSignals. Asimismo, una indicación importante es no tener objetos metálicos cerca como cadenas, relojes, aretes, etc, ya que generan interferencias.
 
+Videos de las pruebas:
 
 https://github.com/angiet04/Intro_se-ales06/assets/164528885/0dfe8820-5b2d-47e0-a2c3-05fbc31cfb94
-
-
 
 https://github.com/angiet04/Intro_se-ales06/assets/164528885/3faf6199-5abd-47e9-86dd-73dd6b8cc85f
 
@@ -71,9 +70,20 @@ https://github.com/angiet04/Intro_se-ales06/assets/164528885/eb34f49f-038b-42e5-
 
 
 ### Ploteo en python
+Buscamos mostrar la señal según mV y tiempo (s). Para ello:
+- Para pasar de número de muestra a tiempo:
+  Tiempo = Número de muestra (n) / Fs
+  En este caso, Fs = 1000Hz
+- Para pasar de Amplitud (ADC) a mV:
+  Seguimos la fórmula de conversión indicada en el Datasheet de BITalino
+  <p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/formula.png" alt="Fórmula de conversión">
+</p>
+
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/EMG1.png" alt="EMG1">
 </p>
+
 
 ## Bibliografía
 [a] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf 
