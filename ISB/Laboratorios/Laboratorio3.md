@@ -42,16 +42,16 @@ Explicación del protocolo:
 
 Seguimos el posicionamiento de electrodos según la guía:
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/posic_electrodos.png" alt="Posicionamiento de electrodos según la Guía">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/posic_electrodos.png?raw=true" alt="Posicionamiento de electrodos según la Guía">
 </p>
 Nuestra conección:
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/electrodos.jpg" alt="Conexión de electrodos">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/electrodos.jpg?raw=true" alt="Conexión de electrodos">
 </p>
 
 Conectamos el BITalino a la laptop por medio de Bluetooth:
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/coneccion_bluetooth.jpg" alt="Conexión por bluetooth">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/coneccion_bluetooth.jpg?raw=true" alt="Conexión por bluetooth">
 </p>
 
 ### Pruebas
