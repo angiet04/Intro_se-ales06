@@ -119,37 +119,37 @@ Buscamos mostrar la señal según mV y tiempo (s). Para ello:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/formula.png?raw=true" alt="Fórmula de conversión width="800" height="500"">
 </p>
-<p align="center">Figura 8. Fórmula de conversión. Fuente: Bitalino Electromyography (EMG) Sensor User Manual.</p>
+<p align="center">Figura 6. Fórmula de conversión. Fuente: Bitalino Electromyography (EMG) Sensor User Manual.</p>
 
 Finalmente, obtuvimos el siguiente ploteo:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/EMG_1.png?raw=true" alt="EMG1 width="800" height="500"">
 </p>
 En esta señal EMG se muestran picos aproximados a los 0.8 mV que se encuentran entre los 20 y 50 segundos, indicando de este modo una contracción intensa.
-<p align="center">Figura 9. Ploteo EMG1.</p>
+<p align="center">Figura 7. Ploteo EMG1.</p>
 
 Ploteamos también las otras dos mediciones de EMG que hicimos:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/EMG_2.png?raw=true" alt="EMG1 width="800" height="500"">
 </p>
 En la segunda señal observamos 3 picos pronunciados que alcanzan hasta 1 mV aproximadamente, separados por intervalos de baja intensidad. Estos eventos ocurren entre 40,60 y 80 segundos.
-<p align="center">Figura 10. Ploteo EMG2.</p>
+<p align="center">Figura 8. Ploteo EMG2.</p>
 
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/EMG_3.png?raw=true" alt="EMG1 width="800" height="500"">
 </p>
 En la última señal se observan picos alrededor de 0. mV, entre los 10-20 y 30-40 segundos mostrando contracciones repetidas de actividad muscular.
-<p align="center">Figura 11. Ploteo EMG3.</p>
+<p align="center">Figura 9. Ploteo EMG3.</p>
 
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/s1.png?raw=true" alt="Fórmula de conversión width="800" height="500"">
 </p>
-<p align="center">Figura 6.Prueba EMG - Cesar .</p>
+<p align="center">Figura 10.Prueba EMG - Cesar .</p>
 
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/s2.png?raw=true" alt="Fórmula de conversión width="800" height="500"">
 </p>
-<p align="center">Figura 7.Prueba EMG - Nicole .</p>
+<p align="center">Figura 11.Prueba EMG - Nicole .</p>
 # Bibliografía
 - [1] “What is electromyography (EMG)?”, Tmsi.com, 20-jul-2022.
 - [2] BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: https://www.ejemplo.com](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf
