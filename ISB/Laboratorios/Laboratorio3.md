@@ -21,7 +21,7 @@ En este laboratorio práctico, emplearemos el sistema BiTalino para capturar y a
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/bitalino.jpg" alt="Bitalino width="300" height="200"">
 </p>
-FIgura 1. BITalino. Fuente: BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS.
+<p align="center">Figura 1. BITalino. Fuente: BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. </p>
   - Laptop
     Utilizamos el Software OpenSignals para obtener la señal medida por el sensor EMG.
     
@@ -30,7 +30,8 @@ Las señales se adquirieron utilizando la conexión en la placa BITalino junto c
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/BITalino.jpeg" alt="Bitalino width="200" height="400"">
 </p>
-FIgura 2. BITalino con electrodos. 
+<p align="center">Figura 2. BITalino con electrodos. </p>
+
 La toma de señales comenzó con la captura de señales de cada miembro del equipo, siguiendo el protocolo BITalino (r)evolution Lab-Home Guide [1].  
 
 A continuación se siguieron los pasos del siguiente protocolo
@@ -45,18 +46,18 @@ Seguimos el posicionamiento de electrodos según la guía:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/posic_electrodos.png?raw=true" alt="Posicionamiento de electrodos según la Guía width="800" height="500"">
 </p>
-FIgura 3. Conección de electrodos según guía Fuente: BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS.
+<p align="center">Figura 3. Conección de electrodos según guía Fuente: BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. </p>
+
 Nuestra conección:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/electrodos.jpg?raw=true" alt="Conexión de electrodos width="800" height="500"">
 </p>
-FIgura 4. Nuestra conección de electrodos 
-
+<p align="center">FIgura 4. Nuestra conección de electrodos. </p>
 Conectamos el BITalino a la laptop por medio de Bluetooth:
 <p align="center">
   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_3/coneccion_bluetooth.jpg?raw=true" alt="Conexión por bluetooth width="800" height="500"">
 </p>
-Figura 5. Conección Bluetooth
+<p align="center">Figura 5. Conección Bluetooth.</p>
 
 ### Pruebas
 Para iniciar con la prueba se toma la señal en reposo o estado basal. Se debe encontrar con músculo relajado y sentado. Luego se procede con la contracción del músculo para obtener las señales en OpenSignals. Asimismo, una indicación importante es no tener objetos metálicos cerca como cadenas, relojes, aretes, etc, ya que generan interferencias.
