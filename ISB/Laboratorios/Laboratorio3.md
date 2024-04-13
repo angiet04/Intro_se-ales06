@@ -10,6 +10,9 @@
 
 En este laboratorio práctico, emplearemos el sistema BiTalino para capturar y analizar señales electromiográficas (EMG), que son indicativos eléctricos generados por los músculos durante su contracción. El propósito es comprender cómo se pueden medir estas señales. A través de la realización de estas pruebas, se interpretarán los datos para obtener la relación entre la función muscular y los diferentes estímulos. 
 
+La electromiografía (EMG) es una técnica para evaluar y registrar la actividad eléctrica producida por los músculos esqueléticos. Esta actividad es el resultado de la activación de los músculos por el sistema nervioso. En el nivel más básico, una unidad motora se compone de una neurona motora y las fibras musculares que esta inerva, siendo la unidad funcional más pequeña del músculo. Las señales EMG reflejan la suma de las potenciales de acción de múltiples unidades motoras y varían en amplitud y frecuencia, dependiendo de la fuerza y la tasa de disparo de estas unidades [1]
+
+
 ## Objetivos
  - Adquirir señales biomédicas de EMG y ECG.
  - Hacer una correcta configuración de BiTalino.
@@ -138,5 +141,6 @@ En la última señal se observan picos alrededor de 0. mV, entre los 10-20 y 30-
 <p align="center">Figura 9. Ploteo EMG3.</p>
 
 # Bibliografía
-- [1] BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: https://www.ejemplo.com](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf
-- [2] Bitalino Electromyography (EMG) Sensor User Manual. Disponible en: https://www.bitalino.com/storage/uploads/media/electromyography-emg-user-manual.pdf
+- [1] “What is electromyography (EMG)?”, Tmsi.com, 20-jul-2022.
+- [2] BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: https://www.ejemplo.com](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf
+- [3] Bitalino Electromyography (EMG) Sensor User Manual. Disponible en: https://www.bitalino.com/storage/uploads/media/electromyography-emg-user-manual.pdf
