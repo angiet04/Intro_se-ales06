@@ -135,5 +135,5 @@ Ploteamos también las otras dos mediciones de EMG que hicimos:
 <p align="center">Figura 9. Ploteo EMG3.</p>
 
 # Bibliografía
-[1] BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: https://www.ejemplo.com](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf
-[2] Bitalino Electromyography (EMG) Sensor User Manual. Disponible en: https://www.bitalino.com/storage/uploads/media/electromyography-emg-user-manual.pdf
+- [1] BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: https://www.ejemplo.com](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf
+- [2] Bitalino Electromyography (EMG) Sensor User Manual. Disponible en: https://www.bitalino.com/storage/uploads/media/electromyography-emg-user-manual.pdf
