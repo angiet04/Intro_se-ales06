@@ -7,3 +7,15 @@
 2. Cesar Alexander Aibar Córdova (cesar.aibar@upch.pe)
 3. Nicole Doris Unsihuay Vila (nicole.unsihuay@upch.pe)
 4. Angie Milagros Diaz Torres (angie.diaz.t@upch.pe)
+
+## Introducción
+
+## Objetivos
+
+## Materiales
+
+## Procedimiento
+
+## Resultados
+
+## Conclusión
