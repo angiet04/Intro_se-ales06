@@ -11,6 +11,12 @@
 ## Introducción
 En este laboratorio práctico, nos enfocaremos en la exploración y comprensión detallada de las señales electrocardiográficas (ECG) utilizando el sistema BiTalino. Durante la sesión, no solo mediremos el ECG de dos personas para identificar segmentos y características específicas en sus trazados cardíacos, sino que también evaluaremos un ECG simulado de un paro cardíaco obtenido de una simulación en ProSim4. El propósito principal de esta experiencia es sumergirnos en el estudio de las señales ECG y comprender cómo pueden utilizarse para interpretar la actividad eléctrica del corazón, detectar irregularidades y diagnosticar condiciones cardíacas.
 
+## Objetivos
+1. Adquirir la señal biomédica ECG
+2. Hacer una correcta configuración de BiTalino.
+3. Extraer la información de la señal ECG del software OpenSignals (R)evolution.
+
+## Marco teórico
 ### Electrocardiograma (ECG)
 El electrocardiograma (ECG) es una representación visual de la actividad cardíaca, que se origina en el corazón y se extiende por todo el cuerpo, detectable mediante electrodos colocados externamente en el cuerpo. Consiste en varias señales eléctricas producidas por los nodos sinoauricular (SA) y auriculoventricular (AV). Estas señales dan como resultado ondas distintas conocidas como ondas P, Q, R, S y T, que forman colectivamente el complejo PQRST. La onda P significa despolarización auricular, el complejo QRS representa la despolarización ventricular que precede a la contracción y la onda T indica repolarización ventricular. Factores como el tamaño del corazón, la posición del pecho y la conductividad del torso contribuyen a las variaciones individuales en las formas de onda del ECG.[1]
 
@@ -69,32 +75,27 @@ La interpretación del electrocardiograma (ECG) es fundamental para la detecció
 <p align="center">Figura 3. Ondas, segmentos e intervalos del ECG [5].</p>
 
 #### ECG en una persona sana [6]
-| Característica      | Valor                                        | Descripción                                                                                   |
-|---------------------|----------------------------------------------|-----------------------------------------------------------------------------------------------|
-| Ritmo               | Sinusal                                      |                                                                                               |
-| Frecuencia Cardíaca | 60-100 lpm                                   |                                                                                               |
-| Onda P              |                                              |                                                                                               |
-|   - Duración        | Menos de 100 ms                              |                                                                                               |
-|   - Amplitud        | Menor de 0.25 mV                             |                                                                                               |
-| Intervalo PR        |                                              |                                                                                               |
-|   - Duración        | 120-210 ms                                   |                                                                                               |
-| Complejo QRS        |                                              |                                                                                               |
-|   - Duración        | Menos de 100 ms                              |                                                                                               |
-|   - Eje             | -15° a +105°                                 |                                                                                               |
-| Segmento ST         | Isoeléctrico                                  |                                                                                               |
-| Onda T              | Generalmente positiva excepto en aVR y V1    |                                                                                               |
-| Intervalo QT        |                                              |                                                                                               |
-|   - Duración        | Menos de 440 ms                              |                                                                                               |
-| QT corregido (QTc)  | Ajustado según la frecuencia cardíaca       |                                                                                               |
+| Característica      | Valor                                        |
+|---------------------|----------------------------------------------|
+| Ritmo               | Sinusal                                      |
+| Frecuencia Cardíaca | 60-100 lpm                                   |
+| Onda P              |                                              |
+|   - Duración        | Menos de 100 ms                              |
+|   - Amplitud        | Menor de 0.25 mV                             |
+| Intervalo PR        |                                              |
+|   - Duración        | 120-210 ms                                   |
+| Complejo QRS        |                                              |
+|   - Duración        | Menos de 100 ms                              |
+|   - Eje             | -15° a +105°                                 |
+| Segmento ST         | Isoeléctrico                                  |
+| Onda T              | Generalmente positiva excepto en aVR y V1    |
+| Intervalo QT        |                                              |
+|   - Duración        | Menos de 440 ms                              |
+| QT corregido (QTc)  | Ajustado según la frecuencia cardíaca       |
+
 
 
 ### ECG en un BiTalino
-
-
-## Objetivos
-1. Adquirir la señal biomédica ECG
-2. Hacer una correcta configuración de BiTalino.
-3. Extraer la información de la señal ECG del software OpenSignals (R)evolution.
 
 ## Materiales y equipos
 | Material | Descripción | Imagen |
@@ -104,6 +105,38 @@ La interpretación del electrocardiograma (ECG) es fundamental para la detecció
 | Electrodos   | Celda 8   | Celda 9   |
 | OpenSignals Software  | Celda 11  | Celda 12  |
 | Fluke ProSim 4 Vital Signs Patient Simulator  | Celda 14  | Celda 15  |
+<p align="center">
+  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 4. Electrocardiograma (ECG) normal. [6].</p>
+
+### Patologías detectables con ECG [6]
+
+#### Bradiarritmias y trastornos de la conducción cardíaca [6]
+
+- **Enfermedad del seno:** Disfunción del nodo sinusal que puede manifestarse como bradicardia sinusal (frecuencia cardíaca baja) o como síndrome bradicardia-taquicardia, donde se alternan periodos de ritmo cardíaco lento y rápido.
+
+- **Bloqueos auriculoventriculares (AV):**
+  - *Primer grado:* Retraso en la conducción entre las aurículas y los ventrículos, evidenciado por un intervalo PR prolongado (> 210 ms).
+  - *Segundo grado:* Fallo intermitente en la conducción de las ondas P a los ventrículos, que puede ser progresivo (Mobitz I) o súbito (Mobitz II).
+  - *Tercer grado (completo):* Ausencia total de conducción de las ondas P a los ventrículos, lo que resulta en ritmos completamente independientes en aurículas y ventrículos.
+
+#### Taquiarritmias [6]
+
+- **Extrasístoles:** Contracciones prematuras o extras que pueden originarse en las aurículas o ventrículos, interrumpiendo el ritmo cardíaco normal.
+- **Taquicardia supraventricular:** Un ritmo cardíaco rápido originado por encima de los ventrículos, que incluye diversas formas como la taquicardia auricular, el flúter auricular, y la taquicardia intranodal.
+- **Taquicardia ventricular:** Un ritmo cardíaco rápido que se origina en los ventrículos, caracterizado por un QRS ancho y un ritmo que no sigue el patrón normal de conducción del corazón.
+
+#### Isquemia miocárdica e infarto de miocardio
+
+- **Isquemia miocárdica:** Deficiencia del flujo sanguíneo al miocardio que se refleja en depresiones o elevaciones del segmento ST y alteraciones de la onda T.
+- **Infarto de miocardio:** Muerte de tejido cardíaco debido a la falta prolongada de suministro sanguíneo, típicamente muestra elevación del segmento ST y la formación de nuevas ondas Q.
+
+#### Alteraciones estructurales cardíacas
+
+- **Hipertrofia y dilatación ventricular:** Cambios en el tamaño y forma de las cámaras del corazón que pueden alterar la amplitud y duración de las ondas en el ECG, particularmente en las ondas P, QRS y T.
+
 
 ## Metodología
 ## Procedimiento
