@@ -276,6 +276,26 @@ Observaciones para el Sujeto1 (femenino): Se observa que la posición de los ele
 3. Las diferencias observadas en las señales de ECG después del ejercicio reflejan las respuestas fisiológicas normales al estrés cardiovascular. El incremento en la frecuencia cardíaca y los cambios en la señal de ECG indican una adaptación del corazón al aumento en la demanda de oxígeno y flujo sanguíneo. La variabilidad en el retorno a la línea de base entre los sujetos puede proporcionar información sobre la recuperación cardiovascular y la condición física.
 4. Las señales de ECG de los sujetos presentan más ruido y variabilidad en comparación con las señales generadas por el simulador ProSim 4. Esto se espera debido a la falta de variables fisiológicas y ambientales en los simuladores.
 
+## Bibliografía
+
+1. M. Ingale, R. Cordeiro, S. Thentu, Y. Park, y N. Karimian, “ECG Biometric Authentication: A Comparative Analysis”, IEEE Access, vol. 8, pp. 117853–117866, 2020, doi: 10.1109/ACCESS.2020.3004464.
+2.	P. Kligfield et al., “Recommendations for the Standardization and Interpretation of the Electrocardiogram: Part I: The Electrocardiogram and Its Technology: A Scientific Statement From the American Heart Association Electrocardiography and Arrhythmias Committee, Council on Clinical Cardiology; the American College of Cardiology Foundation; and the Heart Rhythm Society Endorsed by the International Society for Computerized Electrocardiology”, Circulation, vol. 115, núm. 10, pp. 1306–1324, mar. 2007, doi: 10.1161/CIRCULATIONAHA.106.180200.
+3. S. E. Soria-Medina, G. R. Peñaloza-Mendoza, y A. Campos-Hernández, “Construcción de un monitor cardiaco de 3 derivaciones con fines didácticos”, Pädi Bol. Científico Cienc. Básicas E Ing. ICBI, vol. 11, núm. Especial4, pp. 104–109, nov. 2023, doi: 10.29057/icbi.v11iEspecial4.11397.
+4. “Electrocardiogram - StatPearls - NCBI Bookshelf”. Consultado: el 20 de abril de 2024. [En línea]. Disponible en: https://www.ncbi.nlm.nih.gov/books/NBK549803/
+5. “Electrocardiograma estándar”. Consultado: el 20 de abril de 2024. [En línea]. Disponible en: https://empendium.com/manualmibe/compendio/social/chapter/B34.V.25.1.1.
+6.	“M1T1-Texto.pdf”. Consultado: el 20 de abril de 2024. [En línea]. Disponible en: https://aula.campuspanamericana.com/_Cursos/Curso01417/Temario/Experto_U_Diagnostico_Tratamiento_Insuficiencia_Cardiaca/M1T1-Texto.pdf
+7. “BITalino (r)evolution Plugged Kit BLE/BT”, Ultra-lab. Consultado: el 19 de abril de 2024. [En línea]. Disponible en: https://ultra-lab.net/producto/bitalino-revolution-plugged-kit-ble-bt/
+8.	“bitalino-revolution-plugged-belt-kit.jpg (1200×1200)”. Consultado: el 20 de abril de 2024. [En línea]. Disponible en: https://www.mindtecstore.com/media/image/product/915/lg/bitalino-revolution-plugged-blebt-kit.jpg
+9.	“Set de derivaciones ECG, 3 derivaciones, a presión, AHA, 74 cm/29 pulg, Monitoreo de Paciente | GE HealthCare Service Shop Colombia”. Consultado: el 20 de abril de 2024. [En línea]. Disponible en: https://co.services.gehealthcare.com/gehcstorefront/p/2106385-001
+10.	“https://co.services.gehealthcare.com/medias/2106385-001-ECG-Leadwire-Set-3-Lead-Snap-AHA-74-cm.jpg?context=bWFzdGVyfGltYWdlc3wxMDk0NTh8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGtOQzlvT0dJdk9Ea3pOalk0TURRNE9EazVNQzVxY0djfGQ3MDk2ZjdmZjFmODdlZWNkN2FiYWYzOWE5ODhlMDk0ZmI4OWZjMWFhMTNiODM0M2JkMzQ0ZDc4Y2YxMzQwNzY”. Consultado: el 20 de abril de 2024. [En línea]. Disponible en: https://co.services.gehealthcare.com/medias/2106385-001-ECG-Leadwire-Set-3-Lead-Snap-AHA-74-cm.jpg?context=bWFzdGVyfGltYWdlc3wxMDk0NTh8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGtOQzlvT0dJdk9Ea3pOalk0TURRNE9EazVNQzVxY0djfGQ3MDk2ZjdmZjFmODdlZWNkN2FiYWYzOWE5ODhlMDk0ZmI4OWZjMWFhMTNiODM0M2JkMzQ0ZDc4Y2YxMzQwNzY
+11.	“Electrodos del Electrocardiograma, Ubicación”. Consultado: el 20 de abril de 2024. [En línea]. Disponible en: https://www.my-ekg.com/generalidades-ekg/electrodos-ekg.html
+12.	“OpenSignals Mobile - Descargar APK para Android”. Consultado: el 20 de abril de 2024. [En línea]. Disponible en: https://opensignals.es.aptoide.com/app
+13.	“opensignals_logo.png (532×384)”. Consultado: el 20 de abril de 2024. [En línea]. Disponible en: https://www.opensignals.net/opensignals_logo.png
+14.	“prosim4_gsspa0300.pdf”. Consultado: el 20 de abril de 2024. [En línea]. Disponible en: https://www.flukebiomedical.com/sites/default/files/resources/prosim4_gsspa0300.pdf
+15.	A. Němcová, L. Maršánová, R. Smisek, M. Vitek, y J. Kolářová, RECOMMENDATIONS FOR ECG ACQUISITION USING BITALINO. 2016.
+16. BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS.https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
+17.	G. Goldich, “Características del ECG de 12 derivaciones (parte II)”, Nursing (Lond.), vol. 25, núm. 10, pp. 8–13, 2007.
+
 
 
 
