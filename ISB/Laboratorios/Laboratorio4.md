@@ -39,8 +39,8 @@ Los electrodos se colocan en los puntos mencionados anteriormente, lo que permit
 #### Interpretación del ECG
 La interpretación del electrocardiograma (ECG) es fundamental para la detección de patologías cardiacas y la evaluación de la salud del corazón. Un ECG saludable se caracteriza por la presencia de ondas y segmentos específicos que representan la actividad eléctrica del corazón durante un ciclo cardíaco. Un ECG normal incluye una onda P seguida de un complejo QRS y finaliza con una onda T, cada uno representando diferentes fases de la actividad eléctrica del corazón.
 
-#### Segmentos
-Ondas [4]
+#### Ondas [4]
+
 | Onda               | Tiempo                  | Amplitud                 | ¿Qué representa?                                                                                              |
 |--------------------|-------------------------|--------------------------|---------------------------------------------------------------------------------------------------------------|
 | Onda P             | 80-120 ms               | 0.1-0.3 mV               | Despolarización auricular desde el nodo sinoauricular.                                                        |
@@ -51,6 +51,44 @@ Ondas [4]
 | Onda U             | Variable                | Variable                 | Asociada con la repolarización tardía de las fibras de Purkinje o músculos papilares.                        |
 | Onda J (Onda de Osborn) | Variable          | Variable                 | Deflexión adicional en el segmento ST, generalmente en hipotermia o hipercalcemia.                             |
 | Onda Epsilon       | Variable                | Pequeña deflexión        | Asociada con la displasia arritmogénica del ventrículo derecho, usualmente al final del complejo QRS.         |
+
+#### Segmentos [4]
+| Segmento     | Tiempo          | Descripción                                                                                                              |
+|--------------|-----------------|--------------------------------------------------------------------------------------------------------------------------|
+| Segmento PR  | 120-200 ms      | Desde el final de la onda P hasta el inicio del complejo QRS, refleja la conducción a través del nodo AV.               |
+| Segmento ST  | 80-120 ms       | Isoeléctrico en condiciones normales. Desde el final del complejo QRS hasta el inicio de la onda T, su elevación o depresión es crucial para diagnosticar isquemia o infarto. |
+
+#### Intervalos [4]
+| Intervalo    | Tiempo                            | Descripción                                                                                                            |
+|--------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| Intervalo PR | 120-200 ms                        | Desde el inicio de la onda P hasta el inicio del complejo QRS, incluye la onda P y el segmento PR.                     |
+| Intervalo QT | Varía según la frecuencia cardíaca, generalmente 400-440 ms en adultos | Desde el inicio del complejo QRS hasta el final de la onda T, representa la totalidad de la actividad eléctrica ventricular durante un latido. |
+
+(FIGURA 3)
+<p align="center">
+  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 3. Ondas, segmentos e intervalos del ECG [5].</p>
+
+#### ECG en una persona sana [6]
+| Característica      | Valor                                        | Descripción                                                                                   |
+|---------------------|----------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Ritmo               | Sinusal                                      |                                                                                               |
+| Frecuencia Cardíaca | 60-100 lpm                                   |                                                                                               |
+| Onda P              |                                              |                                                                                               |
+|   - Duración        | Menos de 100 ms                              |                                                                                               |
+|   - Amplitud        | Menor de 0.25 mV                             |                                                                                               |
+| Intervalo PR        |                                              |                                                                                               |
+|   - Duración        | 120-210 ms                                   |                                                                                               |
+| Complejo QRS        |                                              |                                                                                               |
+|   - Duración        | Menos de 100 ms                              |                                                                                               |
+|   - Eje             | -15° a +105°                                 |                                                                                               |
+| Segmento ST         | Isoeléctrico                                  |                                                                                               |
+| Onda T              | Generalmente positiva excepto en aVR y V1    |                                                                                               |
+| Intervalo QT        |                                              |                                                                                               |
+|   - Duración        | Menos de 440 ms                              |                                                                                               |
+| QT corregido (QTc)  | Ajustado según la frecuencia cardíaca       |                                                                                               |
 
 
 ### ECG en un BiTalino
