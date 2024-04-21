@@ -21,7 +21,7 @@ En este laboratorio práctico, nos enfocaremos en la exploración y comprensión
 El electrocardiograma (ECG) es una representación visual de la actividad cardíaca, que se origina en el corazón y se extiende por todo el cuerpo, detectable mediante electrodos colocados externamente en el cuerpo. Consiste en varias señales eléctricas producidas por los nodos sinoauricular (SA) y auriculoventricular (AV). Estas señales dan como resultado ondas distintas conocidas como ondas P, Q, R, S y T, que forman colectivamente el complejo PQRST. La onda P significa despolarización auricular, el complejo QRS representa la despolarización ventricular que precede a la contracción y la onda T indica repolarización ventricular. Factores como el tamaño del corazón, la posición del pecho y la conductividad del torso contribuyen a las variaciones individuales en las formas de onda del ECG.[1]
 
 <p align="center">
-  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+  <img src="Imágenes/Laboratorio_4/FIG1.png" alt="Figura 1" width="200" height="100">
 </p>
 
 <p align="center">Figura 1. Representación gráfica del electrocardiograma (ECG). Los marcadores señalan las tres deflexiones (ondas) usualmente identificables y los intervalos clave [1].</p>
@@ -33,8 +33,7 @@ Derivación II: Registrada entre la pierna izquierda (LL) como positivo (+) y el
 Derivación III: Registrada entre la pierna izquierda (LL) como positivo (+) y el brazo izquierdo (LA) como negativo (-)[3]
 
 <p align="center">
-  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
-</p>
+  <img src="Imágenes/Laboratorio_4/FIG2.png" alt="Figura 2" width="200" height="100">
 
 <p align="center">Figura 2.  Derivaciones I, II y III usando el triángulo de Einthoven [3].</p>
 
@@ -69,8 +68,7 @@ La interpretación del electrocardiograma (ECG) es fundamental para la detecció
 | Intervalo QT | Varía según la frecuencia cardíaca, generalmente 400-440 ms en adultos | Desde el inicio del complejo QRS hasta el final de la onda T, representa la totalidad de la actividad eléctrica ventricular durante un latido. |
 
 <p align="center">
-  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
-</p>
+  <img src="Imágenes/Laboratorio_4/FIG3.png" alt="Figura 3" width="200" height="100">
 
 <p align="center">Figura 3. Ondas, segmentos e intervalos del ECG [5].</p>
 
