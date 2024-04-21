@@ -9,7 +9,9 @@
 4. Angie Milagros Diaz Torres (angie.diaz.t@upch.pe)
 
 ## Introducción
+<div style="text-align: justify">
 En este laboratorio práctico, nos enfocaremos en la exploración y comprensión detallada de las señales electrocardiográficas (ECG) utilizando el sistema BiTalino. Durante la sesión, no solo mediremos el ECG de dos personas para identificar segmentos y características específicas en sus trazados cardíacos, sino que también evaluaremos un ECG simulado de un paro cardíaco obtenido de una simulación en ProSim4. El propósito principal de esta experiencia es sumergirnos en el estudio de las señales ECG y comprender cómo pueden utilizarse para interpretar la actividad eléctrica del corazón, detectar irregularidades y diagnosticar condiciones cardíacas.
+</div>
 
 ### ECG
 El electrocardiograma (ECG) es una representación visual de la actividad cardíaca, que se origina en el corazón y se extiende por todo el cuerpo, detectable mediante electrodos colocados externamente en el cuerpo. Consiste en varias señales eléctricas producidas por los nodos sinoauricular (SA) y auriculoventricular (AV). Estas señales dan como resultado ondas distintas conocidas como ondas P, Q, R, S y T, que forman colectivamente el complejo PQRST. La onda P significa despolarización auricular, el complejo QRS representa la despolarización ventricular que precede a la contracción y la onda T indica repolarización ventricular. Factores como el tamaño del corazón, la posición del pecho y la conductividad del torso contribuyen a las variaciones individuales en las formas de onda del ECG.[1]
