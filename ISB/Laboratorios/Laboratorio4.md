@@ -134,11 +134,11 @@ La ubicación de los electrodos en el cuerpo tiene un impacto en la calidad de l
 
 | Descripción                                           | Imagen                                                   |
 |-------------------------------------------------------|----------------------------------------------------------|
-| **Kit BItalino**                                      | ![Imagen del kit BITalino](enlace_a_la_imagen_bitlino) [8] |
-| **Cable de ECG de 3 derivaciones**                    | ![Imagen del cable de ECG](enlace_a_la_imagen_cable_ecg) [10]|
-| **Electrodos**                                        | ![Electrodos](enlace_a_la_imagen_bitlino) [11]                                                         |
-| **OpenSignals Software**                              | ![OpenSignals](enlace_a_la_imagen_bitlino) [13]                                                         |
-| **Fluke ProSim 4 Vital Signs Patient Simulator**      |  ![ProSim4](enlace_a_la_imagen_bitlino) [14]                                                        |
+| **Kit BItalino**                                      | ![Imagen del kit BITalino](enlace_a_la_imagen_bitlino) Figura 5. [8] |
+| **Cable de ECG de 3 derivaciones**                    | ![Imagen del cable de ECG](enlace_a_la_imagen_cable_ecg) Figura 6. [10]|
+| **Electrodos**                                        | ![Electrodos](enlace_a_la_imagen_bitlino) Figura 7. [11]                                                         |
+| **OpenSignals Software**                              | ![OpenSignals](enlace_a_la_imagen_bitlino) Figura 8. [13]                                                         |
+| **Fluke ProSim 4 Vital Signs Patient Simulator**      |  ![ProSim4](enlace_a_la_imagen_bitlino) Figura 9. [14]                                                        |
 
 ### Descripción
 
@@ -153,8 +153,126 @@ La ubicación de los electrodos en el cuerpo tiene un impacto en la calidad de l
 - **Fluke ProSim 4 Vital Signs Patient Simulator:** Dispositivo [14] de simulación médica utilizado para probar y verificar la precisión de los equipos de monitoreo de signos vitales en entornos clínicos. Genera lecturas precisas de diversas métricas vitales tales como ECG (electrocardiografía), respiración, temperatura y presión arterial no invasiva [14].
 
 ## Metodología
-## Procedimiento
+**Configuración del ECG BItalino :** La configuración del ECG BItalino comienza conectando el dispositivo a la fuente de alimentación. Una vez conectado, se enciende el dispositivo y se establece la conexión a la laptop mediante Bluetooth. Posteriormente, se abre el software OpenSignals en la laptop y se verifica la conexión con el dispositivo. Una vez confirmada la conexión, se colocan los electrodos en la persona a evaluar en las ubicaciones adecuadas. Luego, se inicia la medición en OpenSignals para comenzar a capturar los datos del electrocardiograma. Una vez finalizada la grabación, los datos se exportan a un archivo de texto (TXT) para su posterior análisis.
+
+**Posicionamiento de electrodos:** Según la guía de laboratorio BITalino (r)evolution [], para obtener un ECG con 3 derivaciones, se pueden colocar los electrodos de dos formas diferentes: colocando dos electrodos (IN+, rojo) y (IN-,negro) en las clavículas o colocando los dos electrodos en las muñecas. En ambos casos, la referencia (REF, blanco) se coloca en la cresta ilíaca.
+
+<p align="center">
+  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 10. Posicionamiento opción 1. [16].</p>
+
+<p align="center">
+  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 11. Posicionamiento opción 2. [16].</p>
+
+### Pruebas
+Sujeto 1: Femenino
+- En reposo 
+<p align="center">
+  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 12. Sujeto 1 en reposo.</p>
+
+
+- En movimiento 
+<p align="center">
+  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 13. Sujeto 1 en movimiento</p>
+Sujeto 2: Masculino
+- En reposo  
+
+<p align="center">
+  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 14. Sujeto 2 en reposo.</p>
+- En movimiento 
+<p align="center">
+  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 15. Sujeto 2 en movimiento. </p>
 
 ## Resultados
 
-## Conclusión
+### Sujeto 1: Femenino
+#### En reposo:
+En la señal de ECG se pueden observar los complejos QRS con una frecuencia regular, lo que indica un ritmo cardiaco estable. 
+  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 16. ECG sujeto 1 en reposo. </p>
+
+#### En movimiento (luego de actividad física):
+La frecuencia cardiaca se ha incrementado, ya que podemos observar mayor cantidad de complejos QRS por el mismo intervalo de tiempo de 12 segundos. Tambien notamos mayor presencia de ruido que podría deberse a los movimientos y respiraciones del sujeto 1 luego de correr. 
+
+  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 17. ECG sujeto 1 luego de actividad física </p>
+
+### Sujeto 2: Masculino
+#### En reposo:
+La señal también presenta complejos QRS con una frecuencia regular y una amplitud uniforme, se puede observar que no hay mucha interferencia de ruido que podría provenir de una correcta colocación de electrodos.
+<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 18. ECG sujeto 2 en reposo </p>
+#### En movimiento (luego de actividad física):  Se observa un aumento en la frecuencia cardiaca y una variación en los picos QR, ya que son menos uniformes a diferencia del reposo. Esto se podría deber a la variabilidad fisiológica inducida por el ejercicio.
+<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 19. ECG sujeto 2 luego de actividad física </p>
+
+### Paro cardiaco (simulado)
+#### Fase 1: ECG 80lpm (normal). 
+<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 20. ECG Fase 1 </p>
+
+#### Fase 2: CVP (VI). Secuencia de compresiones torácicas y ventilaciones (CVP).
+<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 21. ECG Fase 2 </p>
+
+Las contracciones ventriculares prematuras (CVP), conocidas también como extrasístoles, se distinguen por la aparición de complejos QRS amplios y atípicos. Esto se debe a que la conducción eléctrica se produce a través del tejido ventricular en lugar del sistema His-Purkinje. En un electrocardiograma (ECG), se pueden identificar complejos QRS con una duración mayor a 0,12 segundos, de gran tamaño, con una configuración anormal y que se manifiestan de manera prematura [17].
+
+#### Fase 3: Taquicardia ventricular 160lpm.
+
+La taquicardia ventricular (TV) es una serie rápida de despolarizaciones ventriculares con complejos anchos (100 a 250 lpm). En esta arritmia, el tejido ventricular anómalo muestra una despolarización rápida y toma el control del ritmo en lugar del nódulo SA. Junto con la frecuencia cardíaca elevada, la TV se caracteriza por la presencia de complejos QRS anchos y con forma anómala, seguidos generalmente por grandes ondas T en dirección opuesta al complejo QRS principal [17].
+<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 22. ECG Fase 3 </p>
+#### Fase 4: Fibrilación ventricular severa.
+La fibrilación auricular (FA) es una condición cardíaca caracterizada por contracciones descoordinadas y rápidas de los ventrículos debido a impulsos eléctricos caóticos. Se caracteriza por un ritmo cardíaco irregular y la ausencia de ondas P discernibles en el electrocardiograma. En la FA, las aurículas muestran un movimiento similar a un temblor debido a la despolarización aleatoria de las células miocárdicas, lo que resulta en la pérdida de la "patada" auricular. Esto conduce a una frecuencia ventricular irregular, que puede variar entre 40 y 80 latidos por minuto.[17]
+<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 23. ECG Fase 4 </p>
+#### Fase 5: Asistolia
+<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+</p>
+
+<p align="center">Figura 24. ECG Fase 5 </p>
+
+### Archivos:
+
+## Discusión
+Observaciones para el Sujeto1 (femenino): Se observa que la posición de los electrodos positivos y negativos fueron las correctas, ya que el segmento R se encuentra cóncava hacia abajo.
+
+## Conclusiones
+1. La variabilidad en las señales de ECG entre los sujetos 1 (femenino) y 2 (masculino) podría estar influenciada por la calidad de adherencia de los electrodos. La reutilización de electrodos con adhesivo desgastado puede comprometer la señal, resultando en diferencias en la amplitud y forma de los complejos QRS.
+2. El ruido y las interferencias en las señales de ECG no solo provienen de factores externos, como los dispositivos electrónicos cercanos, sino también de fuentes internas, como la tensión muscular, los movimientos y la propia variabilidad fisiológica del sujeto. Esto sugiere que, además de las mejoras técnicas, los procedimientos de toma de ECG deben minimizar estos factores, por ejemplo, asegurando que el sujeto esté relajado y en un entorno controlado.
+3. Las diferencias observadas en las señales de ECG después del ejercicio reflejan las respuestas fisiológicas normales al estrés cardiovascular. El incremento en la frecuencia cardíaca y los cambios en la señal de ECG indican una adaptación del corazón al aumento en la demanda de oxígeno y flujo sanguíneo. La variabilidad en el retorno a la línea de base entre los sujetos puede proporcionar información sobre la recuperación cardiovascular y la condición física.
+4. Las señales de ECG de los sujetos presentan más ruido y variabilidad en comparación con las señales generadas por el simulador ProSim 4. Esto se espera debido a la falta de variables fisiológicas y ambientales en los simuladores.
+
