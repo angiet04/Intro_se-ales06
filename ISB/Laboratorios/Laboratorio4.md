@@ -92,7 +92,7 @@ La interpretación del electrocardiograma (ECG) es fundamental para la detecció
 | QT corregido (QTc)  | Ajustado según la frecuencia cardíaca       |
 
 <p align="center">
-  <img src="https://github.com/angiet04/Intro_se-ales06" alt="Figura 4">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/NORMAL.png" alt="Figura 4">
 </p>
 
 <p align="center">Figura 4. Electrocardiograma (ECG) normal. [6].</p>
@@ -156,13 +156,13 @@ La ubicación de los electrodos en el cuerpo tiene un impacto en la calidad de l
 **Posicionamiento de electrodos:** Según la guía de laboratorio BITalino (r)evolution [], para obtener un ECG con 3 derivaciones, se pueden colocar los electrodos de dos formas diferentes: colocando dos electrodos (IN+, rojo) y (IN-,negro) en las clavículas o colocando los dos electrodos en las muñecas. En ambos casos, la referencia (REF, blanco) se coloca en la cresta ilíaca.
 
 <p align="center">
-  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/posicion1.png" alt="Figura 10">
 </p>
 
 <p align="center">Figura 10. Posicionamiento opción 1. [16].</p>
 
 <p align="center">
-  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/posicion2.png" alt="Figura 11">
 </p>
 
 <p align="center">Figura 11. Posicionamiento opción 2. [16].</p>
@@ -201,12 +201,12 @@ Se utilizó la fórmula presente en el Manual de usuario de BiTalino:
 </p>
 
 <p align="center">Figura 16. Función. </p>
-## Resultados
+## Resultados y Discusión
 
 ### Sujeto 1: Femenino
 #### En reposo:
 En la señal de ECG se pueden observar los complejos QRS con una frecuencia regular, lo que indica un ritmo cardiaco estable. 
-  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/Reposo%20-%20persona%201%20(Romina)%202.0.png" alt="Descripción de la imagen">
 </p>
 
 <p align="center">Figura 17. ECG sujeto 1 en reposo. </p>
@@ -214,33 +214,34 @@ En la señal de ECG se pueden observar los complejos QRS con una frecuencia regu
 #### En movimiento (luego de actividad física):
 La frecuencia cardiaca se ha incrementado, ya que podemos observar mayor cantidad de complejos QRS por el mismo intervalo de tiempo de 12 segundos. Tambien notamos mayor presencia de ruido que podría deberse a los movimientos y respiraciones del sujeto 1 luego de correr. 
 
-  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/Luego%20de%20actividad%20-%20persona%201%20(Romina)%202.0.png" alt="Descripción de la imagen">
 </p>
 
 <p align="center">Figura 18. ECG sujeto 1 luego de actividad física </p>
+Observaciones para el Sujeto1 (femenino): Se observa que la posición de los electrodos positivos y negativos fueron las correctas, ya que el segmento R se encuentra cóncava hacia abajo.
 
 ### Sujeto 2: Masculino
 #### En reposo:
 La señal también presenta complejos QRS con una frecuencia regular y una amplitud uniforme, se puede observar que no hay mucha interferencia de ruido que podría provenir de una correcta colocación de electrodos.
-<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+<img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/Reposo%20-%20persona%202%20(C%C3%A9sar).png" alt="Descripción de la imagen">
 </p>
 
 <p align="center">Figura 19. ECG sujeto 2 en reposo </p>
 #### En movimiento (luego de actividad física):  Se observa un aumento en la frecuencia cardiaca y una variación en los picos QR, ya que son menos uniformes a diferencia del reposo. Esto se podría deber a la variabilidad fisiológica inducida por el ejercicio.
-<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+<img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/Luego%20de%20actividad%20-%20persona%202%20(C%C3%A9sar).png" alt="Descripción de la imagen">
 </p>
 
 <p align="center">Figura 20. ECG sujeto 2 luego de actividad física </p>
 
 ### Paro cardiaco (simulado)
 #### Fase 1: ECG 80lpm (normal). 
-<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+<img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/1.%20ECG%2080lpm.png" alt="Descripción de la imagen">
 </p>
 
 <p align="center">Figura 21. ECG Fase 1 </p>
 
 #### Fase 2: CVP (VI). Secuencia de compresiones torácicas y ventilaciones (CVP).
-<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+<img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/2.%20CVP(VI).png" alt="Descripción de la imagen">
 </p>
 
 <p align="center">Figura 22. ECG Fase 2 </p>
@@ -248,7 +249,7 @@ La señal también presenta complejos QRS con una frecuencia regular y una ampli
 Las contracciones ventriculares prematuras (CVP), conocidas también como extrasístoles, se distinguen por la aparición de complejos QRS amplios y atípicos. Esto se debe a que la conducción eléctrica se produce a través del tejido ventricular en lugar del sistema His-Purkinje. En un electrocardiograma (ECG), se pueden identificar complejos QRS con una duración mayor a 0,12 segundos, de gran tamaño, con una configuración anormal y que se manifiestan de manera prematura [17].
 
 #### Fase 3: Taquicardia ventricular 160lpm.
-<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+<img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/3.%20TV%20160lpm.png" alt="Descripción de la imagen">
 </p>
 
 <p align="center">Figura 23. ECG Fase 3 </p>
@@ -256,22 +257,19 @@ La taquicardia ventricular (TV) es una serie rápida de despolarizaciones ventri
 
 
 #### Fase 4: Fibrilación ventricular severa.
-<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+<img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/4.%20Fib%20vent%20severa.png" alt="Descripción de la imagen">
 </p>
 
 <p align="center">Figura 24. ECG Fase 4 </p>
 La fibrilación auricular (FA) es una condición cardíaca caracterizada por contracciones descoordinadas y rápidas de los ventrículos debido a impulsos eléctricos caóticos. Se caracteriza por un ritmo cardíaco irregular y la ausencia de ondas P discernibles en el electrocardiograma. En la FA, las aurículas muestran un movimiento similar a un temblor debido a la despolarización aleatoria de las células miocárdicas, lo que resulta en la pérdida de la "patada" auricular. Esto conduce a una frecuencia ventricular irregular, que puede variar entre 40 y 80 latidos por minuto.[17]
 
 #### Fase 5: Asistolia
-<img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+<img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/5.%20Asistolia.png" alt="Descripción de la imagen">
 </p>
 
 <p align="center">Figura 25. ECG Fase 5 </p>
 
 ### Archivos:
-
-## Discusión
-Observaciones para el Sujeto1 (femenino): Se observa que la posición de los electrodos positivos y negativos fueron las correctas, ya que el segmento R se encuentra cóncava hacia abajo.
 
 ## Conclusiones
 1. La variabilidad en las señales de ECG entre los sujetos 1 (femenino) y 2 (masculino) podría estar influenciada por la calidad de adherencia de los electrodos. La reutilización de electrodos con adhesivo desgastado puede comprometer la señal, resultando en diferencias en la amplitud y forma de los complejos QRS.
