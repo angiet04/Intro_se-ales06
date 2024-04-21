@@ -9,7 +9,7 @@
 4. Angie Milagros Diaz Torres (angie.diaz.t@upch.pe)
 
 ## Introducción
-En este laboratorio práctico, nos enfocaremos en la exploración y comprensión detallada de las señales electrocardiográficas (ECG) utilizando el sistema BiTalino. Durante la sesión, no solo mediremos el ECG de dos personas para identificar segmentos y características específicas en sus trazados cardíacos, sino que también evaluaremos un ECG simulado de un paro cardíaco obtenido de una simulación en ProSim4. El propósito principal de esta experiencia es sumergirnos en el estudio de las señales ECG y comprender cómo pueden utilizarse para interpretar la actividad eléctrica del corazón, detectar irregularidades y diagnosticar condiciones cardíacas.
+En este laboratorio práctico, nos enfocaremos en la exploración y comprensión detallada de las señales electrocardiográficas (ECG) utilizando el sistema BiTalino. Durante la sesión, no solo mediremos el ECG de dos personas para identificar segmentos y características específicas en sus trazados cardíacos, sino que también evaluaremos un ECG simulado de un paro cardíaco obtenido de una simulación en el Fluke ProSim4 Vital Signs Patient Simulator. El propósito principal de esta experiencia es sumergirnos en el estudio de las señales ECG y comprender cómo pueden utilizarse para interpretar la actividad eléctrica del corazón, detectar irregularidades y diagnosticar condiciones cardíacas.
 
 ## Objetivos
 1. Adquirir la señal biomédica ECG
@@ -125,16 +125,20 @@ La interpretación del electrocardiograma (ECG) es fundamental para la detecció
 
 - **Hipertrofia y dilatación ventricular:** Cambios en el tamaño y forma de las cámaras del corazón que pueden alterar la amplitud y duración de las ondas en el ECG, particularmente en las ondas P, QRS y T.
 
+### ECG en BiTalino
+El ECG en un BITalino funciona de manera no invasiva mediante tres electrodos Ag-AgCl. Estos electrodos se colocan en el cuerpo, generalmente en el pecho y en las muñecas, para capturar las señales eléctricas del corazón. El sistema BITalino tiene la capacidad de adquirir señales de ECG con una frecuencia de muestreo de hasta 1,000 Hz, lo que permite obtener datos de alta calidad tanto en reposo como durante el ejercicio  [15]. Una vez adquiridas las señales, pueden ser visualizadas en tiempo real o almacenadas en formato de archivo estándar para su posterior análisis. 
+La ubicación de los electrodos en el cuerpo tiene un impacto en la calidad de la señal del ECG adquirida. Se han realizado pruebas con diferentes ubicaciones de electrodos, y se ha determinado que las mejores señales se obtienen con los electrodos colocados en el pecho y en las muñecas [15]. Estas ubicaciones específicas permiten capturar señales de ECG con componentes significativos y niveles de ruido bajos. Por lo tanto, la colocación adecuada de los electrodos es crucial para obtener datos de ECG de calidad en un BITalino.
+
 ## Materiales y equipos
 ## Material
 
 | Descripción                                           | Imagen                                                   |
 |-------------------------------------------------------|----------------------------------------------------------|
-| **Kit BItalino**                                      | ![Imagen del kit BITalino](enlace_a_la_imagen_bitlino)  |
-| **Cable de ECG de 3 derivaciones**                    | ![Imagen del cable de ECG](enlace_a_la_imagen_cable_ecg) |
-| **Electrodos**                                        |                                                          |
-| **OpenSignals Software**                              |                                                          |
-| **Fluke ProSim 4 Vital Signs Patient Simulator**      |                                                          |
+| **Kit BItalino**                                      | ![Imagen del kit BITalino](enlace_a_la_imagen_bitlino) [8] |
+| **Cable de ECG de 3 derivaciones**                    | ![Imagen del cable de ECG](enlace_a_la_imagen_cable_ecg) [10]|
+| **Electrodos**                                        | ![Electrodos](enlace_a_la_imagen_bitlino) [11]                                                         |
+| **OpenSignals Software**                              | ![OpenSignals](enlace_a_la_imagen_bitlino) [13]                                                         |
+| **Fluke ProSim 4 Vital Signs Patient Simulator**      |  ![ProSim4](enlace_a_la_imagen_bitlino) [14]                                                        |
 
 ### Descripción
 
