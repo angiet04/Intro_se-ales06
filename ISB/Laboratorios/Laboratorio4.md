@@ -178,7 +178,8 @@ Sujeto 1: Femenino
 
 
 - En movimiento 
-https://github.com/angiet04/Intro_se-ales06/assets/164528885/06ca555a-affc-4500-b82a-55959c445b74
+
+![https://github.com/angiet04/Intro_se-ales06/assets/164528885/06ca555a-affc-4500-b82a-55959c445b74]
 
 <p align="center">Figura 13. Sujeto 1 en movimiento</p>
 Sujeto 2: Masculino
@@ -190,7 +191,7 @@ Sujeto 2: Masculino
 
 <p align="center">Figura 14. Sujeto 2 en reposo.</p>
 - En movimiento 
-https://github.com/angiet04/Intro_se-ales06/assets/164528885/2c2249bc-05a4-452e-aa34-5c5b2ed1f063
+![https://github.com/angiet04/Intro_se-ales06/assets/164528885/2c2249bc-05a4-452e-aa34-5c5b2ed1f063]
 
 <p align="center">Figura 15. Sujeto 2 en movimiento. </p>
 
@@ -201,6 +202,33 @@ Se utilizó la fórmula presente en el Manual de usuario de BiTalino:
 </p>
 
 <p align="center">Figura 16. Función. </p>
+
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Nombre del archivo de texto
+archivo = "/content/cesar-agitado-correcto.txt"
+
+# Leer los datos del archivo y omitir las primeras 7 líneas
+datos = np.loadtxt(archivo, skiprows=7)
+
+# Extraer la columna de interés (columna 6)
+senal = datos[:, 5]
+
+num_muestra = np.arange(len(senal))
+senalV = (((senal/1024)-1/2)*3.3)/1100
+senalmV = senalV*1000
+# Trazar la señal
+plt.plot(num_muestra/1000, senalmV)
+plt.xlabel('Tiempo')
+plt.xlim([3,5])
+plt.ylim([-0.4,0.4])
+plt.ylabel('ECG (mV)')
+plt.title('Fibrilación ventricular severa')
+plt.grid(True)
+plt.show()
+```
 ## Resultados y Discusión
 
 ### Sujeto 1: Femenino
@@ -269,7 +297,6 @@ La fibrilación auricular (FA) es una condición cardíaca caracterizada por con
 
 <p align="center">Figura 25. ECG Fase 5 </p>
 
-### Archivos:
 
 ## Conclusiones
 1. La variabilidad en las señales de ECG entre los sujetos 1 (femenino) y 2 (masculino) podría estar influenciada por la calidad de adherencia de los electrodos. La reutilización de electrodos con adhesivo desgastado puede comprometer la señal, resultando en diferencias en la amplitud y forma de los complejos QRS.
