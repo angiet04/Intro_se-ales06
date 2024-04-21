@@ -14,7 +14,6 @@ En este laboratorio práctico, nos enfocaremos en la exploración y comprensión
 ### Electrocardiograma (ECG)
 El electrocardiograma (ECG) es una representación visual de la actividad cardíaca, que se origina en el corazón y se extiende por todo el cuerpo, detectable mediante electrodos colocados externamente en el cuerpo. Consiste en varias señales eléctricas producidas por los nodos sinoauricular (SA) y auriculoventricular (AV). Estas señales dan como resultado ondas distintas conocidas como ondas P, Q, R, S y T, que forman colectivamente el complejo PQRST. La onda P significa despolarización auricular, el complejo QRS representa la despolarización ventricular que precede a la contracción y la onda T indica repolarización ventricular. Factores como el tamaño del corazón, la posición del pecho y la conductividad del torso contribuyen a las variaciones individuales en las formas de onda del ECG.[1]
 
-(FIGURA 1)
 <p align="center">
   <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
@@ -27,7 +26,6 @@ Derivación I: Registrada entre el brazo izquierdo (LA) como positivo (+) y el b
 Derivación II: Registrada entre la pierna izquierda (LL) como positivo (+) y el brazo derecho (RA) como negativo (-)[3].
 Derivación III: Registrada entre la pierna izquierda (LL) como positivo (+) y el brazo izquierdo (LA) como negativo (-)[3]
 
-(FIGURA 2)
 <p align="center">
   <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
@@ -64,7 +62,6 @@ La interpretación del electrocardiograma (ECG) es fundamental para la detecció
 | Intervalo PR | 120-200 ms                        | Desde el inicio de la onda P hasta el inicio del complejo QRS, incluye la onda P y el segmento PR.                     |
 | Intervalo QT | Varía según la frecuencia cardíaca, generalmente 400-440 ms en adultos | Desde el inicio del complejo QRS hasta el final de la onda T, representa la totalidad de la actividad eléctrica ventricular durante un latido. |
 
-(FIGURA 3)
 <p align="center">
   <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
