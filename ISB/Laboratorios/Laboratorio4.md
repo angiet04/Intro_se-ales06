@@ -92,7 +92,7 @@ La interpretación del electrocardiograma (ECG) es fundamental para la detecció
 | QT corregido (QTc)  | Ajustado según la frecuencia cardíaca       |
 
 <p align="center">
-  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
+  <img src="https://github.com/angiet04/Intro_se-ales06" alt="Figura 4">
 </p>
 
 <p align="center">Figura 4. Electrocardiograma (ECG) normal. [6].</p>
@@ -132,11 +132,11 @@ La ubicación de los electrodos en el cuerpo tiene un impacto en la calidad de l
 
 | Descripción                                           | Imagen                                                   |
 |-------------------------------------------------------|----------------------------------------------------------|
-| **Kit BItalino**                                      | ![Imagen del kit BITalino](enlace_a_la_imagen_bitlino) Figura 5. [8] |
-| **Cable de ECG de 3 derivaciones**                    | ![Imagen del cable de ECG](enlace_a_la_imagen_cable_ecg) Figura 6. [10]|
-| **Electrodos**                                        | ![Electrodos](enlace_a_la_imagen_bitlino) Figura 7. [11]                                                         |
-| **OpenSignals Software**                              | ![OpenSignals](enlace_a_la_imagen_bitlino) Figura 8. [13]                                                         |
-| **Fluke ProSim 4 Vital Signs Patient Simulator**      |  ![ProSim4](enlace_a_la_imagen_bitlino) Figura 9. [14]                                                        |
+| **Kit BItalino**                                      | ![Imagen del kit BITalino](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/kitbitalino.jpeg) Figura 5. [8] |
+| **Cable de ECG de 3 derivaciones**                    | ![Imagen del cable de ECG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/ecgcable.jpg) Figura 6. [10]|
+| **Electrodos**                                        | ![Electrodos](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/electrodos.jpeg) Figura 7. [11]                                                         |
+| **OpenSignals Software**                              | ![OpenSignals](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/opensignals_logo.png) Figura 8. [13]                                                         |
+| **Fluke ProSim 4 Vital Signs Patient Simulator**      |  ![ProSim4](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/fluke.png) Figura 9. [14]                                                        |
 
 ### Descripción
 
@@ -178,9 +178,7 @@ Sujeto 1: Femenino
 
 
 - En movimiento 
-<p align="center">
-  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
-</p>
+https://github.com/angiet04/Intro_se-ales06/assets/164528885/06ca555a-affc-4500-b82a-55959c445b74
 
 <p align="center">Figura 13. Sujeto 1 en movimiento</p>
 Sujeto 2: Masculino
@@ -192,12 +190,17 @@ Sujeto 2: Masculino
 
 <p align="center">Figura 14. Sujeto 2 en reposo.</p>
 - En movimiento 
-<p align="center">
-  <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
-</p>
+https://github.com/angiet04/Intro_se-ales06/assets/164528885/2c2249bc-05a4-452e-aa34-5c5b2ed1f063
 
 <p align="center">Figura 15. Sujeto 2 en movimiento. </p>
 
+### Código en Python para ploteo
+Se utilizó la fórmula presente en el Manual de usuario de BiTalino:
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/funci%C3%B3n%20ECG.png" alt="Función">
+</p>
+
+<p align="center">Figura 16. Función. </p>
 ## Resultados
 
 ### Sujeto 1: Femenino
@@ -206,7 +209,7 @@ En la señal de ECG se pueden observar los complejos QRS con una frecuencia regu
   <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
 
-<p align="center">Figura 16. ECG sujeto 1 en reposo. </p>
+<p align="center">Figura 17. ECG sujeto 1 en reposo. </p>
 
 #### En movimiento (luego de actividad física):
 La frecuencia cardiaca se ha incrementado, ya que podemos observar mayor cantidad de complejos QRS por el mismo intervalo de tiempo de 12 segundos. Tambien notamos mayor presencia de ruido que podría deberse a los movimientos y respiraciones del sujeto 1 luego de correr. 
@@ -214,7 +217,7 @@ La frecuencia cardiaca se ha incrementado, ya que podemos observar mayor cantida
   <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
 
-<p align="center">Figura 17. ECG sujeto 1 luego de actividad física </p>
+<p align="center">Figura 18. ECG sujeto 1 luego de actividad física </p>
 
 ### Sujeto 2: Masculino
 #### En reposo:
@@ -222,25 +225,25 @@ La señal también presenta complejos QRS con una frecuencia regular y una ampli
 <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
 
-<p align="center">Figura 18. ECG sujeto 2 en reposo </p>
+<p align="center">Figura 19. ECG sujeto 2 en reposo </p>
 #### En movimiento (luego de actividad física):  Se observa un aumento en la frecuencia cardiaca y una variación en los picos QR, ya que son menos uniformes a diferencia del reposo. Esto se podría deber a la variabilidad fisiológica inducida por el ejercicio.
 <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
 
-<p align="center">Figura 19. ECG sujeto 2 luego de actividad física </p>
+<p align="center">Figura 20. ECG sujeto 2 luego de actividad física </p>
 
 ### Paro cardiaco (simulado)
 #### Fase 1: ECG 80lpm (normal). 
 <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
 
-<p align="center">Figura 20. ECG Fase 1 </p>
+<p align="center">Figura 21. ECG Fase 1 </p>
 
 #### Fase 2: CVP (VI). Secuencia de compresiones torácicas y ventilaciones (CVP).
 <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
 
-<p align="center">Figura 21. ECG Fase 2 </p>
+<p align="center">Figura 22. ECG Fase 2 </p>
 
 Las contracciones ventriculares prematuras (CVP), conocidas también como extrasístoles, se distinguen por la aparición de complejos QRS amplios y atípicos. Esto se debe a que la conducción eléctrica se produce a través del tejido ventricular en lugar del sistema His-Purkinje. En un electrocardiograma (ECG), se pueden identificar complejos QRS con una duración mayor a 0,12 segundos, de gran tamaño, con una configuración anormal y que se manifiestan de manera prematura [17].
 
@@ -248,7 +251,7 @@ Las contracciones ventriculares prematuras (CVP), conocidas también como extras
 <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
 
-<p align="center">Figura 22. ECG Fase 3 </p>
+<p align="center">Figura 23. ECG Fase 3 </p>
 La taquicardia ventricular (TV) es una serie rápida de despolarizaciones ventriculares con complejos anchos (100 a 250 lpm). En esta arritmia, el tejido ventricular anómalo muestra una despolarización rápida y toma el control del ritmo en lugar del nódulo SA. Junto con la frecuencia cardíaca elevada, la TV se caracteriza por la presencia de complejos QRS anchos y con forma anómala, seguidos generalmente por grandes ondas T en dirección opuesta al complejo QRS principal [17].
 
 
@@ -256,14 +259,14 @@ La taquicardia ventricular (TV) es una serie rápida de despolarizaciones ventri
 <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
 
-<p align="center">Figura 23. ECG Fase 4 </p>
+<p align="center">Figura 24. ECG Fase 4 </p>
 La fibrilación auricular (FA) es una condición cardíaca caracterizada por contracciones descoordinadas y rápidas de los ventrículos debido a impulsos eléctricos caóticos. Se caracteriza por un ritmo cardíaco irregular y la ausencia de ondas P discernibles en el electrocardiograma. En la FA, las aurículas muestran un movimiento similar a un temblor debido a la despolarización aleatoria de las células miocárdicas, lo que resulta en la pérdida de la "patada" auricular. Esto conduce a una frecuencia ventricular irregular, que puede variar entre 40 y 80 latidos por minuto.[17]
 
 #### Fase 5: Asistolia
 <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
 
-<p align="center">Figura 24. ECG Fase 5 </p>
+<p align="center">Figura 25. ECG Fase 5 </p>
 
 ### Archivos:
 
