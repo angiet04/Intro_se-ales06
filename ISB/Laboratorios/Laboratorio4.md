@@ -93,27 +93,15 @@ La interpretación del electrocardiograma (ECG) es fundamental para la detecció
 |   - Duración        | Menos de 440 ms                              |
 | QT corregido (QTc)  | Ajustado según la frecuencia cardíaca       |
 
-
-
-### ECG en un BiTalino
-
-## Materiales y equipos
-| Material | Descripción | Imagen |
-|-----------|-----------|-----------|
-| Kit BItalino   | El hardware de BITalino [4]consiste en un sistema modular  que integra múltiples sensores de medición bioeléctrica y biomecánica.Los sensores incluidos en el kit son EMG, ECG, EDA, EEG, ACC y LUX   | imagen   |
-| Cable de ECG de 3 derivaciones   | Celda 5   | Celda 6   |
-| Electrodos   | Celda 8   | Celda 9   |
-| OpenSignals Software  | Celda 11  | Celda 12  |
-| Fluke ProSim 4 Vital Signs Patient Simulator  | Celda 14  | Celda 15  |
 <p align="center">
   <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
 
 <p align="center">Figura 4. Electrocardiograma (ECG) normal. [6].</p>
 
-### Patologías detectables con ECG [6]
+#### Patologías detectables con ECG [6]
 
-#### Bradiarritmias y trastornos de la conducción cardíaca [6]
+##### Bradiarritmias y trastornos de la conducción cardíaca [6]
 
 - **Enfermedad del seno:** Disfunción del nodo sinusal que puede manifestarse como bradicardia sinusal (frecuencia cardíaca baja) o como síndrome bradicardia-taquicardia, donde se alternan periodos de ritmo cardíaco lento y rápido.
 
@@ -122,21 +110,43 @@ La interpretación del electrocardiograma (ECG) es fundamental para la detecció
   - *Segundo grado:* Fallo intermitente en la conducción de las ondas P a los ventrículos, que puede ser progresivo (Mobitz I) o súbito (Mobitz II).
   - *Tercer grado (completo):* Ausencia total de conducción de las ondas P a los ventrículos, lo que resulta en ritmos completamente independientes en aurículas y ventrículos.
 
-#### Taquiarritmias [6]
+##### Taquiarritmias [6]
 
 - **Extrasístoles:** Contracciones prematuras o extras que pueden originarse en las aurículas o ventrículos, interrumpiendo el ritmo cardíaco normal.
 - **Taquicardia supraventricular:** Un ritmo cardíaco rápido originado por encima de los ventrículos, que incluye diversas formas como la taquicardia auricular, el flúter auricular, y la taquicardia intranodal.
 - **Taquicardia ventricular:** Un ritmo cardíaco rápido que se origina en los ventrículos, caracterizado por un QRS ancho y un ritmo que no sigue el patrón normal de conducción del corazón.
 
-#### Isquemia miocárdica e infarto de miocardio
+##### Isquemia miocárdica e infarto de miocardio
 
 - **Isquemia miocárdica:** Deficiencia del flujo sanguíneo al miocardio que se refleja en depresiones o elevaciones del segmento ST y alteraciones de la onda T.
 - **Infarto de miocardio:** Muerte de tejido cardíaco debido a la falta prolongada de suministro sanguíneo, típicamente muestra elevación del segmento ST y la formación de nuevas ondas Q.
 
-#### Alteraciones estructurales cardíacas
+##### Alteraciones estructurales cardíacas
 
 - **Hipertrofia y dilatación ventricular:** Cambios en el tamaño y forma de las cámaras del corazón que pueden alterar la amplitud y duración de las ondas en el ECG, particularmente en las ondas P, QRS y T.
 
+## Materiales y equipos
+## Material
+
+| Descripción                                           | Imagen                                                   |
+|-------------------------------------------------------|----------------------------------------------------------|
+| **Kit BItalino**                                      | ![Imagen del kit BITalino](enlace_a_la_imagen_bitlino)  |
+| **Cable de ECG de 3 derivaciones**                    | ![Imagen del cable de ECG](enlace_a_la_imagen_cable_ecg) |
+| **Electrodos**                                        |                                                          |
+| **OpenSignals Software**                              |                                                          |
+| **Fluke ProSim 4 Vital Signs Patient Simulator**      |                                                          |
+
+### Descripción
+
+- **Kit BItalino:** El hardware de BITalino [7] consiste en un sistema modular que integra múltiples sensores de medición bioeléctrica y biomecánica. Los sensores incluidos en el kit son EMG, ECG, EDA, EEG, ACC y LUX [8].
+
+- **Cable de ECG de 3 derivaciones:** Cable que cuenta [9] con tres electrodos que se utilizan para registrar la actividad eléctrica del corazón desde diferentes lugares del cuerpo. [10]
+
+- **Electrodos:** Dispositivos [11] utilizados en un electrocardiograma (ECG) que se colocan en contacto con el paciente para registrar la actividad eléctrica del corazón. [11]
+
+- **OpenSignals Software:** Software [12] que permite adquirir datos de sensores de múltiples canales. Se conecta a la placa BITalino mediante Bluetooth [13].
+
+- **Fluke ProSim 4 Vital Signs Patient Simulator:** Dispositivo [14] de simulación médica utilizado para probar y verificar la precisión de los equipos de monitoreo de signos vitales en entornos clínicos. Genera lecturas precisas de diversas métricas vitales tales como ECG (electrocardiografía), respiración, temperatura y presión arterial no invasiva [14].
 
 ## Metodología
 ## Procedimiento
