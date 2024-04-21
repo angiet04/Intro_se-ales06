@@ -33,7 +33,7 @@ Derivación II: Registrada entre la pierna izquierda (LL) como positivo (+) y el
 Derivación III: Registrada entre la pierna izquierda (LL) como positivo (+) y el brazo izquierdo (LA) como negativo (-)[3]
 
 <p align="center">
-  <img src="Imágenes/Laboratorio_4/FIG2.png" alt="Figura 2" width="200" height="100">
+   <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/FIG2.png" alt="Figura 2" width="400" height="200">
 
 <p align="center">Figura 2.  Derivaciones I, II y III usando el triángulo de Einthoven [3].</p>
 
@@ -68,7 +68,7 @@ La interpretación del electrocardiograma (ECG) es fundamental para la detecció
 | Intervalo QT | Varía según la frecuencia cardíaca, generalmente 400-440 ms en adultos | Desde el inicio del complejo QRS hasta el final de la onda T, representa la totalidad de la actividad eléctrica ventricular durante un latido. |
 
 <p align="center">
-  <img src="Imágenes/Laboratorio_4/FIG3.png" alt="Figura 3" width="200" height="100">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/FIG3.png" alt="Figura 3" width="400" height="200">
 
 <p align="center">Figura 3. Ondas, segmentos e intervalos del ECG [5].</p>
 
