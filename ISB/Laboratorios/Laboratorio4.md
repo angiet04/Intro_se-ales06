@@ -247,18 +247,20 @@ La señal también presenta complejos QRS con una frecuencia regular y una ampli
 Las contracciones ventriculares prematuras (CVP), conocidas también como extrasístoles, se distinguen por la aparición de complejos QRS amplios y atípicos. Esto se debe a que la conducción eléctrica se produce a través del tejido ventricular en lugar del sistema His-Purkinje. En un electrocardiograma (ECG), se pueden identificar complejos QRS con una duración mayor a 0,12 segundos, de gran tamaño, con una configuración anormal y que se manifiestan de manera prematura [17].
 
 #### Fase 3: Taquicardia ventricular 160lpm.
-
-La taquicardia ventricular (TV) es una serie rápida de despolarizaciones ventriculares con complejos anchos (100 a 250 lpm). En esta arritmia, el tejido ventricular anómalo muestra una despolarización rápida y toma el control del ritmo en lugar del nódulo SA. Junto con la frecuencia cardíaca elevada, la TV se caracteriza por la presencia de complejos QRS anchos y con forma anómala, seguidos generalmente por grandes ondas T en dirección opuesta al complejo QRS principal [17].
 <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
 
 <p align="center">Figura 22. ECG Fase 3 </p>
+La taquicardia ventricular (TV) es una serie rápida de despolarizaciones ventriculares con complejos anchos (100 a 250 lpm). En esta arritmia, el tejido ventricular anómalo muestra una despolarización rápida y toma el control del ritmo en lugar del nódulo SA. Junto con la frecuencia cardíaca elevada, la TV se caracteriza por la presencia de complejos QRS anchos y con forma anómala, seguidos generalmente por grandes ondas T en dirección opuesta al complejo QRS principal [17].
+
+
 #### Fase 4: Fibrilación ventricular severa.
-La fibrilación auricular (FA) es una condición cardíaca caracterizada por contracciones descoordinadas y rápidas de los ventrículos debido a impulsos eléctricos caóticos. Se caracteriza por un ritmo cardíaco irregular y la ausencia de ondas P discernibles en el electrocardiograma. En la FA, las aurículas muestran un movimiento similar a un temblor debido a la despolarización aleatoria de las células miocárdicas, lo que resulta en la pérdida de la "patada" auricular. Esto conduce a una frecuencia ventricular irregular, que puede variar entre 40 y 80 latidos por minuto.[17]
 <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
 
 <p align="center">Figura 23. ECG Fase 4 </p>
+La fibrilación auricular (FA) es una condición cardíaca caracterizada por contracciones descoordinadas y rápidas de los ventrículos debido a impulsos eléctricos caóticos. Se caracteriza por un ritmo cardíaco irregular y la ausencia de ondas P discernibles en el electrocardiograma. En la FA, las aurículas muestran un movimiento similar a un temblor debido a la despolarización aleatoria de las células miocárdicas, lo que resulta en la pérdida de la "patada" auricular. Esto conduce a una frecuencia ventricular irregular, que puede variar entre 40 y 80 latidos por minuto.[17]
+
 #### Fase 5: Asistolia
 <img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen">
 </p>
