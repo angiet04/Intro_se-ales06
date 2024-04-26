@@ -37,6 +37,9 @@
 
 ## Resultados
 ### Procedimiento para el ploteo de señales
+Se utilizó Python para realizar el ploteo de la señal obtenida al usar el sensor EEG con BITalino. Para obtener la señal en uV se utilizó la función de transferencia mostrada en la Figura _. A continuación se muestra la fórmula usada y el código en Python:
+
+
 ### Señales obtenidas en el laboratorio
 
 ## Discusión
