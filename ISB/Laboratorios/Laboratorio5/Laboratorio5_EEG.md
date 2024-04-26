@@ -23,6 +23,8 @@
 - [Bibliografía](#bibliografía)
 
 ## Introducción
+En este laboratorio, nos centramos en la comprensión y captura de señales de encefalograma (EEG) utilizando el sensor de EEG de BiTalino y el Ultracortex Mark IV. Además, buscamos establecer conexiones entre las señales medidas y los conceptos teóricos, con el fin de realizar interpretaciones significativas sobre la actividad cerebral.
+
 
 ## Objetivos
 1. Obtención de señales biomédicas de electroencefalograma (EEG).
