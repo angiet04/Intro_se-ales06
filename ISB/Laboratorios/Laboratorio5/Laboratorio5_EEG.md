@@ -8,6 +8,23 @@
 3. Nicole Doris Unsihuay Vila (nicole.unsihuay@upch.pe)
 4. Angie Milagros Diaz Torres (angie.diaz.t@upch.pe)
 
+## Tabla de Contenidos
+
+- [Introducción](#introducción)
+- [Objetivos](#objetivos)
+- [Obtención de señales biomédicas de electroencefalograma (EEG)](#obtención-de-señales-biomédicas-de-electroencefalograma-eeg)
+- [Configurar adecuadamente el BiTalino y el Ultracortex Mark IV](#configurar-adecuadamente-el-bitalino-y-el-ultracortex-mark-iv)
+- [Recuperar datos de las señales EEG utilizando el software OpenBCI GUI y OpenSignal](#recuperar-datos-de-las-señales-eeg-utilizando-el-software-openbci-gui-y-opensignal)
+- [Marco Teórico](#marco-teórico)
+- [Materiales](#materiales)
+- [Metodología](#metodología)
+- [Resultados](#resultados)
+- [Procedimiento para el ploteo de señales](#procedimiento-para-el-ploteo-de-señales)
+- [Señales obtenidas en el laboratorio](#señales-obtenidas-en-el-laboratorio)
+- [Discusión](#discusión)
+- [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
+
 ## Introducción
 
 ## Objetivos
