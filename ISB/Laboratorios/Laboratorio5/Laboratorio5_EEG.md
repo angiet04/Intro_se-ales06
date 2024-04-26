@@ -22,8 +22,8 @@
 ## Metodología
 
 ## Resultados
-# Procedimiento para el ploteo de señales
-# Señales obtenidas en el laboratorio
+### Procedimiento para el ploteo de señales
+### Señales obtenidas en el laboratorio
 
 ## Discusión
 
