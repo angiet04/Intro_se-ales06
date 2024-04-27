@@ -40,7 +40,7 @@ El método EEG es una infraestructura no invasiva para monitorear la actividad e
 El EEG captura las fluctuaciones de los potenciales postsinápticos, que son cambios eléctricos que ocurren cuando las neuronas reciben señales químicas de otras neuronas. Estos potenciales se originan principalmente en un tipo de neuronas llamadas neuronas piramidales, las cuales son células cerebrales importantes para el procesamiento de información y están ubicadas en la corteza cerebral. Cuando numerosas neuronas piramidales actúan simultáneamente, generan corrientes eléctricas que se desplazan a través de los tejidos conductores del cerebro y el cráneo hasta el cuero cabelludo. Allí, los electrodos del EEG detectan las diferencias de voltaje generadas por estas corrientes. Este mecanismo permite visualizar en la superficie del cuero cabelludo la actividad eléctrica subyacente del cerebro, ofreciendo una herramienta valiosa para estudiar cómo funciona el cerebro en diferentes condiciones, tanto en reposo como durante actividades específicas.
 
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/Obtencion%20EEG.png?raw=true" alt="Función" width="500" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/Obtencion%20EEG.png?raw=true" alt="Función" width="500" height="300"/>
 </p>
 <p align="center">
 Figura 1. Obtención de la señal en EEG. Fuente: [2].
