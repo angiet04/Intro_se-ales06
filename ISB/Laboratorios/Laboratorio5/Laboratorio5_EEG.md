@@ -101,20 +101,20 @@ Figura 3. Medición Unipolar y Bipolar de EEG. Fuente: [7].
 Para medir la actividad cerebral se puede utilizar una técnica unipolar o una bipolar. En el caso del electrodo que se utiliza con BITalino, se realiza la medición de forma bipolar. Esto quiere decir que se cuenta con un electrodo positivo (IN+), negativo (IN-) y referencia. La referencia debe colocarse en un hueso. En este caso, se utilizó el posicionamiento indicado en la Figura _, donde se colocan los electrodos IN+/- encima de los ojos y el electrodo de referencia REF en el hueso detrás de la oreja [].
 
 Como es una medición bipolar, la señal mostrada es la diferencia entre las mediciones de ambos electrodos IN+/-. Esta señal es filtrada por un filtro pasabandas entre 0.8-4.8Hz para eliminar el ruido.
-Es importante realizar la medición en un ambiente adecuado, ya que la señal es muy sensible a la luz, movimientos y otros dispositivos (ruido en 50-60Hz). Durante la adquisición de la señal el sujeto no debe moverse, especialmente no mover los ojos ni parpadear, tampoco mover el cuello ni la mandíbula (no masticar). Para las mediciones donde no se esté evaluando el efecto del movimiento ocular,  la guía recomienda colocar una cruz delante del sujeto analizado, para que pueda enfocar su mirada en la cruz. En nuestro caso, le indicaremos al sujeto que mantenga la mirada fija en la mano de una persona que se colocará delante de él con la mano extendida, sin cambiar su posición a lo largo de la medición [16].
+Es importante realizar la medición en un ambiente adecuado, ya que la señal es muy sensible a la luz, movimientos y otros dispositivos (ruido en 50-60Hz). Durante la adquisición de la señal el sujeto no debe moverse, especialmente no mover los ojos ni parpadear, tampoco mover el cuello ni la mandíbula (no masticar). Para las mediciones donde no se esté evaluando el efecto del movimiento ocular,  la guía recomienda colocar una cruz delante del sujeto analizado, para que pueda enfocar su mirada en la cruz. En nuestro caso, le indicaremos al sujeto que mantenga la mirada fija en la mano de una persona que se colocará delante de él con la mano extendida, sin cambiar su posición a lo largo de la medición [15].
 
-Antes de colocar los electrodos se debe limpiar la piel en la superficie donde se colocarán [16].
+Antes de colocar los electrodos se debe limpiar la piel en la superficie donde se colocarán [15].
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/posicionamiento%20electrodos%20con%20bitalino.png?raw=true" alt="Función" width="450" height="240"/>
 </p>
 <p align="center">
-Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: [17]
+Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: [15]
 </p>
 ### Procedimiento
 1. Se midió la señal EEG en reposo, el sujeto con los ojos cerrados y relajado
 2. Se midió la señal EEG mientras que el sujeto pestañeaba, dejando aproximadamente 5 segundos entre cada pestañeo
-3. Se midió la señal EEG mientras que el sujeto respondía a 7 preguntas de habilidad lógico-matemática, donde tenía 12 segundos para responder cada una. Las preguntas realizadas fueron obtenidas de [18] y se detallan a continuación:
+3. Se midió la señal EEG mientras que el sujeto respondía a 7 preguntas de habilidad lógico-matemática, donde tenía 12 segundos para responder cada una. Las preguntas realizadas fueron obtenidas de [16] y se detallan a continuación:
 
 | Categoría| Pregunta                       |
 |----------|--------------------------------------------|
@@ -133,7 +133,7 @@ Se utilizó Python para realizar el ploteo de la señal obtenida al usar el sens
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
 </p>
 <p align="center">
-Figura 12. Función de transferencia usada para la conversión de ADC a uV. Fuente: [19]
+Figura 12. Función de transferencia usada para la conversión de ADC a uV. Fuente: [17]
 </p>
 
 ```
