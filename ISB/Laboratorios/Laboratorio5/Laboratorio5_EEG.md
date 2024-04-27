@@ -39,10 +39,10 @@ En este laboratorio, nos centramos en la comprensión y captura de señales de e
 
 | Categoría| Pregunta                       |
 |----------|--------------------------------------------|
-|   | Hay 3 pájaros en un árbol; llegan 7 más. ¿Cuántos pájaros hay ahora?          |
+| Simple | Hay 3 pájaros en un árbol; llegan 7 más. ¿Cuántos pájaros hay ahora?          |
 |   | Jonas tiene 5 manzanas y Mary tiene 4. ¿Cuántas manzanas tienen en total?     |
 |   | Hanna tiene 9 dólares pero gastó 4. ¿Cuántos dólares le quedan?                |
-| Complex  | John anotó 45 puntos para su equipo; 10 más que Joseph. Marie anotó 13 puntos más que John y Joseph juntos. ¿Cuántos puntos anotaron en total? |
+| Complejo  | John anotó 45 puntos para su equipo; 10 más que Joseph. Marie anotó 13 puntos más que John y Joseph juntos. ¿Cuántos puntos anotaron en total? |
 |  | El grupo A tiene 24 estudiantes; 13 menos que el grupo B. El grupo C tiene 12 estudiantes más que los grupos A y B juntos. ¿Cuál es el número total de estudiantes? |
 |  | Una tienda vendió 21 sodas por la mañana, y 13 más que por la tarde. Por la noche vendió 10 más que por la mañana y la tarde juntas. ¿Cuántas sodas se vendieron en total? |
 
