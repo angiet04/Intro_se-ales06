@@ -88,33 +88,33 @@ Figura 3. Medición Unipolar y Bipolar de EEG. Fuente: [7].
 ## Materiales
 | Modelo       | Descripción                                                                                                                                                | Imagen |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| (R)EVOLUTION           | Kit BITalino: Plataforma de adquisición de bioseñales que viene con diferentes sensores, como los de electromiografía (EMG), electrocardiografía (ECG) o electroencefalografía (EEG). |  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/kitbitalino.jpeg?raw=true" alt="kitBitalino" width="200" height="100"/> Figura 4. KitBITalino [ ] |
-|            | Laptop                                                                                                                                                      | <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/laptop.jpeg?raw=true" alt="kitBitalino" width="200" height="200"/> Figura 5. Laptop [ ] |
-|            | Ultracortex Mark IV EEG Headset: Casco EEG de código abierto y fabricable mediante impresión 3D, diseñado para ser utilizado con cualquier placa OpenBCI. Está capacitado para tomar muestras de hasta 16 canales de EEG de 35 ubicaciones distintas, conforme al sistema internacional 10-20 de colocación de electrodos | <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/ultracortex.jpeg?raw=true" alt="ultracortex" width="200" height="200"/> Figura 6. Ultracortex [ ] |
-|            | Cable de 3 derivaciones                                                                                                                                     | <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/cableecg.jpg?raw=true" alt="cable 3 derivaciones" width="200" height="100"/> Figura 7. Cable de 3 derivaciones [ ]  |
-|            | Software OpenSignals: Software diseñado específicamente para la adquisición, el procesamiento y el análisis de datos biomédicos. Esto incluye señales fisiológicas y de movimiento.                                                           |  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/opensignals_logo.png?raw=true" alt="kitBitalino" width="200" height="100"/> Figura 8. OpenSignals [ ]  |
-|            | Software OpenBCI GUI: Permite la visualización, la grabación y la transmisión de datos obtenidos a través de las placas OpenBCI. Ofrece la posibilidad de mostrar los datos en tiempo real, así como de reproducirlos y almacenarlos en la computadora en formato de texto (.txt). |  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/bci.jpg?raw=true" alt="kitBitalino" width="200" height="100"/> Figura 9. OpenBCI GUI [ ]  |
-|            | Electrodos con gel                                                                                                                                         |  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/EEG_sensor_bitalino.png?raw=true" alt="electrodos" width="300" height="100"/> Figura 10. Electrodos con gel [ ]  |
+| (R)EVOLUTION           | Kit BITalino: Plataforma de adquisición de bioseñales que viene con diferentes sensores, como los de electromiografía (EMG), electrocardiografía (ECG) o electroencefalografía (EEG). |  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/kitbitalino.jpeg?raw=true" alt="kitBitalino" width="200" height="100"/> Figura 4. KitBITalino [9] |
+|            | Laptop                                                                                                                                                      | <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/laptop.jpeg?raw=true" alt="kitBitalino" width="200" height="200"/> Figura 5. Laptop [10] |
+|            | Ultracortex Mark IV EEG Headset: Casco EEG de código abierto y fabricable mediante impresión 3D, diseñado para ser utilizado con cualquier placa OpenBCI. Está capacitado para tomar muestras de hasta 16 canales de EEG de 35 ubicaciones distintas, conforme al sistema internacional 10-20 de colocación de electrodos | <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/ultracortex.jpeg?raw=true" alt="ultracortex" width="200" height="200"/> Figura 6. Ultracortex [11] |
+|            | Cable de 3 derivaciones                                                                                                                                     | <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/cableecg.jpg?raw=true" alt="cable 3 derivaciones" width="200" height="100"/> Figura 7. Cable de 3 derivaciones [12]  |
+|            | Software OpenSignals: Software diseñado específicamente para la adquisición, el procesamiento y el análisis de datos biomédicos. Esto incluye señales fisiológicas y de movimiento.                                                           |  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/opensignals_logo.png?raw=true" alt="kitBitalino" width="200" height="100"/> Figura 8. OpenSignals [13]  |
+|            | Software OpenBCI GUI: Permite la visualización, la grabación y la transmisión de datos obtenidos a través de las placas OpenBCI. Ofrece la posibilidad de mostrar los datos en tiempo real, así como de reproducirlos y almacenarlos en la computadora en formato de texto (.txt). |  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/bci.jpg?raw=true" alt="kitBitalino" width="200" height="100"/> Figura 9. OpenBCI GUI [14]  |
+|            | Electrodos con gel                                                                                                                                         |  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/EEG_sensor_bitalino.png?raw=true" alt="electrodos" width="300" height="100"/> Figura 10. Electrodos con gel [15]  |
 ## Metodología
 ### Protocolo de adquisición de señal con BiTalino
 
 Para medir la actividad cerebral se puede utilizar una técnica unipolar o una bipolar. En el caso del electrodo que se utiliza con BITalino, se realiza la medición de forma bipolar. Esto quiere decir que se cuenta con un electrodo positivo (IN+), negativo (IN-) y referencia. La referencia debe colocarse en un hueso. En este caso, se utilizó el posicionamiento indicado en la Figura _, donde se colocan los electrodos IN+/- encima de los ojos y el electrodo de referencia REF en el hueso detrás de la oreja [].
 
 Como es una medición bipolar, la señal mostrada es la diferencia entre las mediciones de ambos electrodos IN+/-. Esta señal es filtrada por un filtro pasabandas entre 0.8-4.8Hz para eliminar el ruido.
-Es importante realizar la medición en un ambiente adecuado, ya que la señal es muy sensible a la luz, movimientos y otros dispositivos (ruido en 50-60Hz). Durante la adquisición de la señal el sujeto no debe moverse, especialmente no mover los ojos ni parpadear, tampoco mover el cuello ni la mandíbula (no masticar). Para las mediciones donde no se esté evaluando el efecto del movimiento ocular,  la guía recomienda colocar una cruz delante del sujeto analizado, para que pueda enfocar su mirada en la cruz. En nuestro caso, le indicaremos al sujeto que mantenga la mirada fija en la mano de una persona que se colocará delante de él con la mano extendida, sin cambiar su posición a lo largo de la medición [].
+Es importante realizar la medición en un ambiente adecuado, ya que la señal es muy sensible a la luz, movimientos y otros dispositivos (ruido en 50-60Hz). Durante la adquisición de la señal el sujeto no debe moverse, especialmente no mover los ojos ni parpadear, tampoco mover el cuello ni la mandíbula (no masticar). Para las mediciones donde no se esté evaluando el efecto del movimiento ocular,  la guía recomienda colocar una cruz delante del sujeto analizado, para que pueda enfocar su mirada en la cruz. En nuestro caso, le indicaremos al sujeto que mantenga la mirada fija en la mano de una persona que se colocará delante de él con la mano extendida, sin cambiar su posición a lo largo de la medición [16].
 
-Antes de colocar los electrodos se debe limpiar la piel en la superficie donde se colocarán [].
+Antes de colocar los electrodos se debe limpiar la piel en la superficie donde se colocarán [16].
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/posicionamiento%20electrodos%20con%20bitalino.png?raw=true" alt="Función" width="450" height="240"/>
 </p>
 <p align="center">
-Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: []
+Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: [17]
 </p>
 ### Procedimiento
 1. Se midió la señal EEG en reposo, el sujeto con los ojos cerrados y relajado
 2. Se midió la señal EEG mientras que el sujeto pestañeaba, dejando aproximadamente 5 segundos entre cada pestañeo
-3. Se midió la señal EEG mientras que el sujeto respondía a 7 preguntas de habilidad lógico-matemática, donde tenía 12 segundos para responder cada una. Las preguntas realizadas fueron obtenidas de [ ] y se detallan a continuación:
+3. Se midió la señal EEG mientras que el sujeto respondía a 7 preguntas de habilidad lógico-matemática, donde tenía 12 segundos para responder cada una. Las preguntas realizadas fueron obtenidas de [18] y se detallan a continuación:
 
 | Categoría| Pregunta                       |
 |----------|--------------------------------------------|
@@ -133,7 +133,7 @@ Se utilizó Python para realizar el ploteo de la señal obtenida al usar el sens
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
 </p>
 <p align="center">
-Figura 12. Función de transferencia usada para la conversión de ADC a uV. Fuente: []
+Figura 12. Función de transferencia usada para la conversión de ADC a uV. Fuente: [19]
 </p>
 
 ```
