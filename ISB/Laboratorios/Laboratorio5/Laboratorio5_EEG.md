@@ -56,7 +56,7 @@ Figura 1. Obtención de la señal en EEG. Fuente: [2].
 - Oscilaciones de alta frecuencia (HFOs) (más de 30 Hz): Se clasifican en gamma (30 a 80 Hz), ondas ripples (80 a 200 Hz) y fast ripples (200 a 500 Hz). Los ritmos gamma están asociados con la percepción sensorial y la integración de diferentes áreas cerebrales. Las HFOs, especialmente en relación con la epilepsia, son estudiadas como posibles biomarcadores de tejido cerebral epileptogénico, con registros intracraneales que muestran ráfagas ultra rápidas en tejidos epileptogénicos. 
 
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/Ondas%20EEG.png?raw=true" alt="Función" width="500" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/Ondas%20EEG.png?raw=true" alt="Ondas EEG" width="500" height="400"/>
 </p>
 <p align="center">
 Figura 2. Ondas EEG. Fuente: [4].
@@ -72,7 +72,7 @@ El EEG es esencial para diagnosticar y monitorear trastornos neurológicos, incl
 - Montajes Longitudinales y Transversales: Técnicas de montaje de electrodos que captan la actividad eléctrica a lo largo (longitudinal) o a través (transversal) del eje del cerebro, proporcionando una vista detallada de la actividad regional del cerebro. 
 
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/Mediciones%20EEG.png?raw=true" alt="Función" width="500" height="200"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/Mediciones%20EEG.png?raw=true" alt="Medición unipolar y bipolar" width="500" height="200"/>
 </p>
 <p align="center">
 Figura 3. Medición Unipolar y Bipolar de EEG. Fuente: [7].
@@ -88,7 +88,7 @@ Figura 3. Medición Unipolar y Bipolar de EEG. Fuente: [7].
 ## Materiales
 | Modelo       | Descripción                                                                                                                                                | Imagen |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| (R)EVOLUTION           | Kit BITalino: Plataforma de adquisición de bioseñales que viene con diferentes sensores, como los de electromiografía (EMG), electrocardiografía (ECG) o electroencefalografía (EEG). | ![kitbitalino](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/kitbitalino.jpeg?raw=true) |
+| (R)EVOLUTION           | Kit BITalino: Plataforma de adquisición de bioseñales que viene con diferentes sensores, como los de electromiografía (EMG), electrocardiografía (ECG) o electroencefalografía (EEG). |  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/kitbitalino.jpeg?raw=true" alt="kitBitalino" width="200" height="100"/> Figura 4. KitBiTalino [ ] |
 |            | Laptop                                                                                                                                                      | ![Imagen](imagen2.jpg) |
 |            | Ultracortex Mark IV EEG Headset: Casco EEG de código abierto y fabricable mediante impresión 3D, diseñado para ser utilizado con cualquier placa OpenBCI. Está capacitado para tomar muestras de hasta 16 canales de EEG de 35 ubicaciones distintas, conforme al sistema internacional 10-20 de colocación de electrodos | ![Imagen](imagen3.jpg) |
 |            | Cable de 3 derivaciones                                                                                                                                     | ![Imagen](imagen4.jpg) |
