@@ -88,7 +88,7 @@ Figura 3. Medición Unipolar y Bipolar de EEG. Fuente: [7].
 ## Materiales
 | Modelo       | Descripción                                                                                                                                                | Imagen |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| (R)EVOLUTION           | Kit BITalino: Plataforma de adquisición de bioseñales que viene con diferentes sensores, como los de electromiografía (EMG), electrocardiografía (ECG) o electroencefalografía (EEG). | ![Imagen](imagen1.jpg) |
+| (R)EVOLUTION           | Kit BITalino: Plataforma de adquisición de bioseñales que viene con diferentes sensores, como los de electromiografía (EMG), electrocardiografía (ECG) o electroencefalografía (EEG). | ![kitbitalino](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_4/kitbitalino.jpeg?raw=true) |
 |            | Laptop                                                                                                                                                      | ![Imagen](imagen2.jpg) |
 |            | Ultracortex Mark IV EEG Headset: Casco EEG de código abierto y fabricable mediante impresión 3D, diseñado para ser utilizado con cualquier placa OpenBCI. Está capacitado para tomar muestras de hasta 16 canales de EEG de 35 ubicaciones distintas, conforme al sistema internacional 10-20 de colocación de electrodos | ![Imagen](imagen3.jpg) |
 |            | Cable de 3 derivaciones                                                                                                                                     | ![Imagen](imagen4.jpg) |
