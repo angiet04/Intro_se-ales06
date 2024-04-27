@@ -22,9 +22,10 @@
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 
-## Introducción
-En este laboratorio, nos centramos en la comprensión y captura de señales de encefalograma (EEG) utilizando el sensor de EEG de BiTalino y el Ultracortex Mark IV. Además, buscamos establecer conexiones entre las señales medidas y los conceptos teóricos, con el fin de realizar interpretaciones significativas sobre la actividad cerebral.
+### En este laboratorio, nos centramos en la comprensión y captura de señales de encefalograma (EEG) utilizando el sensor de EEG de BiTalino y el Ultracortex Mark IV. Además, buscamos establecer conexiones entre las señales medidas y los conceptos teóricos, con el fin de realizar interpretaciones significativas sobre la actividad cerebral.
 
+## Introducción
+El método EEG es una infraestructura no invasiva para monitorear la actividad eléctrica del cerebro mediante la colocación de electrodos en el cuero cabelludo. De hecho, el análisis mediante señales EEG se ha convertido en una herramienta esencial para el diagnóstico y seguimiento de trastornos neurológicos y fisiológicos en humanos. Uno de los métodos más comunes de análisis de señales EEG es el análisis espectral mediante bancos de filtros, que implica dividir la señal adquirida en bandas de frecuencia y calcular la potencia de cada banda. [1]
 
 ## Objetivos
 1. Obtención de señales biomédicas de electroencefalograma (EEG).
@@ -32,10 +33,35 @@ En este laboratorio, nos centramos en la comprensión y captura de señales de e
 3. Recuperar datos de las señales EEG utilizando el software OpenBCI GUI y OpenSignal.
 
 ## Marco Teórico
+### ¿Cómo se recibe la señal?
+El EEG captura las fluctuaciones de los potenciales postsinápticos, que son cambios eléctricos que ocurren cuando las neuronas reciben señales químicas de otras neuronas. Estos potenciales se originan principalmente en un tipo de neuronas llamadas neuronas piramidales, las cuales son células cerebrales importantes para el procesamiento de información y están ubicadas en la corteza cerebral. Cuando numerosas neuronas piramidales actúan simultáneamente, generan corrientes eléctricas que se desplazan a través de los tejidos conductores del cerebro y el cráneo hasta el cuero cabelludo. Allí, los electrodos del EEG detectan las diferencias de voltaje generadas por estas corrientes. Este mecanismo permite visualizar en la superficie del cuero cabelludo la actividad eléctrica subyacente del cerebro, ofreciendo una herramienta valiosa para estudiar cómo funciona el cerebro en diferentes condiciones, tanto en reposo como durante actividades específicas.[2]
+
+### Clasificación de las Ondas EEG
+- Oscilaciones infra-lentas (ISO) (menos de 0.5 Hz): Predominantes en neonatos prematuros con frecuencias tan bajas como 0.01 a 0.1 Hz, conocidas como transitorios de actividad espontánea (SAT), que son cruciales para la formación de conexiones neuronales en etapas tempranas. Durante el sueño no-REM, las ISO aparecen en un rango de 0.02 a 0.2 Hz, sincronizadas con actividades EEG de mayor frecuencia.
+- Delta (0.5 a 4 Hz): Común en el sueño profundo y en regiones frontocentrales del cerebro. En estados de vigilia, puede indicar encefalopatía generalizada o disfunción cerebral focal. Variedades como la actividad delta rítmica frontal intermitente (FIRDA) en adultos, y occipital (OIRDA) en niños, son notables.
+- Theta (4 a 7 Hz): Aparece con la somnolencia y en las primeras etapas del sueño (fases N1 y N2), especialmente en regiones fronto-centrales, y se intensifica con estados emocionales elevados. La actividad theta focal durante la vigilia sugiere disfunción cerebral focal.
+- Alpha (8 a 12 Hz): Predominante en el estado de vigilia en la región occipital, es característico del ritmo de fondo normal del EEG adulto. Se ve influenciado por la apertura de ojos y el esfuerzo mental. En estados patológicos como el coma alfa, la actividad alpha se generaliza y no reacciona a estímulos internos o externos.
+- Ondas Sigma: Visibles en la fase N2 del sueño, conocidas como husos del sueño, pueden ser lentas (12 a 14 Hz) o rápidas (14 a 16 Hz), y son prominentes en regiones fronto-centrales. El ritmo patológico de huso puede aparecer en encefalopatía generalizada, conocido como "coma de huso".
+- Beta (13 a 30 Hz): Rítmica común en adultos y niños, se ve principalmente en las regiones frontal y central del cerebro, disminuyendo hacia la parte posterior. Su amplitud aumenta con la somnolencia y disminuye en las fases más profundas del sueño. Medicamentos sedantes pueden incrementar la amplitud y cantidad de actividad beta.
+- Oscilaciones de alta frecuencia (HFOs) (más de 30 Hz): Se clasifican en gamma (30 a 80 Hz), ondas ripples (80 a 200 Hz) y fast ripples (200 a 500 Hz). Los ritmos gamma están asociados con la percepción sensorial y la integración de diferentes áreas cerebrales. Las HFOs, especialmente en relación con la epilepsia, son estudiadas como posibles biomarcadores de tejido cerebral epileptogénico, con registros intracraneales que muestran ráfagas ultra rápidas en tejidos epileptogénicos. [3]
+
+### Aplicaciones clínicas:
+El EEG es esencial para diagnosticar y monitorear trastornos neurológicos, incluyendo episodios paroxísticos y alteraciones en la conciencia. Su uso se extiende más allá de la epilepsia, siendo útil en coma, muerte cerebral, migrañas, accidentes cerebrovasculares, encefalopatías diversas, traumatismos craneoencefálicos, infecciones del sistema nervioso central y tumores intracraneales. También es crucial para evaluar la maduración cerebral en neonatos y prematuros. [5]
+
+### Tipos de medición: 
+- Actividad Unipolar: Se mide la señal de un solo electrodo en relación con un electrodo de referencia, que idealmente tiene un potencial de 0 V. Este tipo de registro permite capturar la actividad eléctrica en un punto específico del cuero cabelludo comparándola con un punto de referencia neutro.
+- Actividad Bipolar o Diferencial: Implica medir la diferencia de potencial entre dos electrodos activos. Esta técnica ayuda a identificar la actividad eléctrica local al restar cualquier interferencia que afecte a ambos electrodos de la misma manera.
+- Sistema Wilson: Una mejora del registro unipolar donde todos los electrodos están interconectados a través de resistencias de bajo valor, permitiendo obtener múltiples mediciones activo-referenciales simultáneas.
+- Montajes Longitudinales y Transversales: Técnicas de montaje de electrodos que captan la actividad eléctrica a lo largo (longitudinal) o a través (transversal) del eje del cerebro, proporcionando una vista detallada de la actividad regional del cerebro. [6]
+
+### Causas de la interferencia:
+Artifacts Fisiológicos: Actividades como el parpadeo, movimiento de los ojos (artifacts oculares), movimientos musculares (especialmente en la mandíbula y el cuero cabelludo), y la actividad cardíaca pueden generar señales que se superponen con las señales cerebrales, distorsionando los resultados del EEG.
+Interferencia Ambiental: El ruido eléctrico de dispositivos electrónicos cercanos, sistemas de iluminación y otros equipos médicos puede inducir señales no deseadas en la grabación de EEG. La interferencia de la línea eléctrica (típicamente 50 o 60 Hz) es un ejemplo común.
+Movimiento del Paciente: Cualquier movimiento del paciente, incluyendo ajustes menores de la posición de la cabeza o del cuerpo, puede alterar la colocación de los electrodos y generar artefactos en la señal de EEG.
+Mal contacto de los electrodos: Un mal contacto entre los electrodos y el cuero cabelludo puede no solo reducir la calidad de la señal sino también introducir ruido adicional. La impedancia de los electrodos debe ser consistentemente baja para minimizar este tipo de interferencia.
+Configuración de los Equipos: Un ajuste inadecuado de los parámetros del amplificador de EEG, como la ganancia o los filtros de frecuencia, puede resultar en la amplificación de señales no deseadas o en la pérdida de información importante. [8]
 
 ## Materiales
-Claro, aquí tienes la tabla con la columna adicional añadida a la izquierda:
-
 | Modelo       | Descripción                                                                                                                                                | Imagen |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | (R)EVOLUTION           | Kit BITalino: Plataforma de adquisición de bioseñales que viene con diferentes sensores, como los de electromiografía (EMG), electrocardiografía (ECG) o electroencefalografía (EEG). | ![Imagen](imagen1.jpg) |
@@ -46,6 +72,14 @@ Claro, aquí tienes la tabla con la columna adicional añadida a la izquierda:
 |            | Software OpenBCI GUI: Permite la visualización, la grabación y la transmisión de datos obtenidos a través de las placas OpenBCI. Ofrece la posibilidad de mostrar los datos en tiempo real, así como de reproducirlos y almacenarlos en la computadora en formato de texto (.txt). | ![Imagen](imagen6.jpg) |
 |            | Electrodos con gel                                                                                                                                         | ![Imagen](imagen7.jpg) |
 ## Metodología
+### Protocolo de adquisición de señal con BiTalino
+
+Para medir la actividad cerebral se puede utilizar una técnica unipolar o una bipolar. En el caso del electrodo que se utiliza con BITalino, se realiza la medición de forma bipolar. Esto quiere decir que se cuenta con un electrodo positivo (IN+), negativo (IN-) y referencia. La referencia debe colocarse en un hueso. En este caso, se utilizó el posicionamiento indicado en la Figura _, donde se colocan los electrodos IN+/- encima de los ojos y el electrodo de referencia REF en el hueso detrás de la oreja [].
+
+Como es una medición bipolar, la señal mostrada es la diferencia entre las mediciones de ambos electrodos IN+/-. Esta señal es filtrada por un filtro pasabandas entre 0.8-4.8Hz para eliminar el ruido.
+Es importante realizar la medición en un ambiente adecuado, ya que la señal es muy sensible a la luz, movimientos y otros dispositivos (ruido en 50-60Hz). Durante la adquisición de la señal el sujeto no debe moverse, especialmente no mover los ojos ni parpadear, tampoco mover el cuello ni la mandíbula (no masticar). Para las mediciones donde no se esté evaluando el efecto del movimiento ocular,  la guía recomienda colocar una cruz delante del sujeto analizado, para que pueda enfocar su mirada en la cruz. En nuestro caso, le indicaremos al sujeto que mantenga la mirada fija en la mano de una persona que se colocará delante de él con la mano extendida, sin cambiar su posición a lo largo de la medición [].
+
+Antes de colocar los electrodos se debe limpiar la piel en la superficie donde se colocarán [].
 
 ### Procedimiento
 Primero se midió la señal EEG en reposo, el sujeto con los ojos cerrados y relajado
