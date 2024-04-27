@@ -82,9 +82,9 @@ Es importante realizar la medición en un ambiente adecuado, ya que la señal es
 Antes de colocar los electrodos se debe limpiar la piel en la superficie donde se colocarán [].
 
 ### Procedimiento
-Primero se midió la señal EEG en reposo, el sujeto con los ojos cerrados y relajado
-Luego, se midió la señal EEG mientras que el sujeto pestañeaba, dejando aproximadamente 5 segundos entre cada pestañeo
-Después se midió la señal EEG mientras que el sujeto respondía a 7 preguntas de habilidad lógico-matemática, donde tenía 12 segundos para responder cada una. Las preguntas realizadas fueron obtenidas de [ ] y se detallan a continuación:
+1. Se midió la señal EEG en reposo, el sujeto con los ojos cerrados y relajado
+2. Se midió la señal EEG mientras que el sujeto pestañeaba, dejando aproximadamente 5 segundos entre cada pestañeo
+3. Se midió la señal EEG mientras que el sujeto respondía a 7 preguntas de habilidad lógico-matemática, donde tenía 12 segundos para responder cada una. Las preguntas realizadas fueron obtenidas de [ ] y se detallan a continuación:
 
 | Categoría| Pregunta                       |
 |----------|--------------------------------------------|
@@ -98,8 +98,32 @@ Después se midió la señal EEG mientras que el sujeto respondía a 7 preguntas
 ## Resultados
 ### Procedimiento para el ploteo de señales
 Se utilizó Python para realizar el ploteo de la señal obtenida al usar el sensor EEG con BITalino. Para obtener la señal en uV se utilizó la función de transferencia mostrada en la Figura _. A continuación se muestra la fórmula usada y el código en Python:
+```
+import matplotlib.pyplot as plt
+import numpy as np
 
+# Nombre del archivo de texto
+archivo = "/content/cesar_pesta.txt"
 
+# Leer los datos del archivo y omitir las primeras 7 líneas
+datos = np.loadtxt(archivo, skiprows=7)
+
+# Extraer la columna de interés (columna 6)
+senal = datos[:, 5]
+
+num_muestra = np.arange(len(senal))
+# Ganancia = 41782
+senalV = (((senal/1024)-1/2)*3.3)/41782
+senaluV = senalV*1000000
+# Trazar la señal
+plt.plot(num_muestra/1000, senaluV)
+plt.xlabel('Tiempo')
+plt.ylabel('EEG (uV)')
+#plt.xlim([6,10])
+plt.title('Señal cuando pestañea') #título
+plt.grid(True)
+plt.show()
+```
 ### Señales obtenidas en el laboratorio
 
 ## Discusión
