@@ -39,6 +39,13 @@ El método EEG es una infraestructura no invasiva para monitorear la actividad e
 ### ¿Cómo se recibe la señal? [2]
 El EEG captura las fluctuaciones de los potenciales postsinápticos, que son cambios eléctricos que ocurren cuando las neuronas reciben señales químicas de otras neuronas. Estos potenciales se originan principalmente en un tipo de neuronas llamadas neuronas piramidales, las cuales son células cerebrales importantes para el procesamiento de información y están ubicadas en la corteza cerebral. Cuando numerosas neuronas piramidales actúan simultáneamente, generan corrientes eléctricas que se desplazan a través de los tejidos conductores del cerebro y el cráneo hasta el cuero cabelludo. Allí, los electrodos del EEG detectan las diferencias de voltaje generadas por estas corrientes. Este mecanismo permite visualizar en la superficie del cuero cabelludo la actividad eléctrica subyacente del cerebro, ofreciendo una herramienta valiosa para estudiar cómo funciona el cerebro en diferentes condiciones, tanto en reposo como durante actividades específicas.
 
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/Obtencion%20EEG.png?raw=true" alt="Función" width="300" height="200"/>
+</p>
+<p align="center">
+Figura 1. Obtención de la señal en EEG. Fuente: [2].
+</p>
+
 ### Clasificación de las Ondas EEG [3]
 - Oscilaciones infra-lentas (ISO) (menos de 0.5 Hz): Predominantes en neonatos prematuros con frecuencias tan bajas como 0.01 a 0.1 Hz, conocidas como transitorios de actividad espontánea (SAT), que son cruciales para la formación de conexiones neuronales en etapas tempranas. Durante el sueño no-REM, las ISO aparecen en un rango de 0.02 a 0.2 Hz, sincronizadas con actividades EEG de mayor frecuencia.
 - Delta (0.5 a 4 Hz): Común en el sueño profundo y en regiones frontocentrales del cerebro. En estados de vigilia, puede indicar encefalopatía generalizada o disfunción cerebral focal. Variedades como la actividad delta rítmica frontal intermitente (FIRDA) en adultos, y occipital (OIRDA) en niños, son notables.
@@ -100,7 +107,7 @@ Antes de colocar los electrodos se debe limpiar la piel en la superficie donde s
 
 ## Resultados
 ### Procedimiento para el ploteo de señales
-Se utilizó Python para realizar el ploteo de la señal obtenida al usar el sensor EEG con BITalino. Para obtener la señal en uV se utilizó la función de transferencia mostrada en la Figura _. A continuación se muestra la fórmula usada y el código en Python:
+Se utilizó Python para realizar el ploteo de la señal obtenida al usar el sensor EEG con BITalino. Para obtener la señal en uV se utilizó la función de transferencia mostrada en la Figura _, esta se obtuvo del Datasheet del sensor. A continuación se muestra la fórmula usada y el código en Python:
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
