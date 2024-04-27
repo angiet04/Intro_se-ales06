@@ -9,7 +9,7 @@
 4. Angie Milagros Diaz Torres (angie.diaz.t@upch.pe)
 
 ## Tabla de Contenidos
-
+- [Resumen](#resumen)
 - [Introducción](#introducción)
 - [Objetivos](#objetivos)
 - [Marco Teórico](#marco-teórico)
@@ -23,6 +23,9 @@
 - [Bibliografía](#bibliografía)
 
 ### En este laboratorio, nos centramos en la comprensión y captura de señales de encefalograma (EEG) utilizando el sensor de EEG de BiTalino y el Ultracortex Mark IV. Además, buscamos establecer conexiones entre las señales medidas y los conceptos teóricos, con el fin de realizar interpretaciones significativas sobre la actividad cerebral.
+
+## Resumen
+El informe detalla cómo se captura la actividad eléctrica del cerebro utilizando un electroencefalograma (EEG). Se describen los pasos desde la preparación inicial hasta la adquisición de datos durante diferentes estados mentales, como ojos abiertos y cerrados, junto con ejercicios matemáticos. Se discuten las aplicaciones clínicas del EEG y se proporciona una explicación básica de las ondas cerebrales. Se incluyen detalles sobre los materiales utilizados y se presentan los resultados a través de imágenes y ploteos de señales. Finalmente, se concluye sobre la importancia del EEG en la investigación biomédica.
 
 ## Introducción
 El método EEG es una infraestructura no invasiva para monitorear la actividad eléctrica del cerebro mediante la colocación de electrodos en el cuero cabelludo. De hecho, el análisis mediante señales EEG se ha convertido en una herramienta esencial para el diagnóstico y seguimiento de trastornos neurológicos y fisiológicos en humanos. Uno de los métodos más comunes de análisis de señales EEG es el análisis espectral mediante bancos de filtros, que implica dividir la señal adquirida en bandas de frecuencia y calcular la potencia de cada banda [1].
