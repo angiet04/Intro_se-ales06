@@ -102,9 +102,12 @@ Antes de colocar los electrodos se debe limpiar la piel en la superficie donde s
 ### Procedimiento para el ploteo de señales
 Se utilizó Python para realizar el ploteo de la señal obtenida al usar el sensor EEG con BITalino. Para obtener la señal en uV se utilizó la función de transferencia mostrada en la Figura _. A continuación se muestra la fórmula usada y el código en Python:
 
-<center>
+<p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
-</center>
+</p>
+<p align="center">
+Figura _. Función de transferencia usada para la conversión de ADC a uV. Fuente: []
+</p>
 
 ```
 import matplotlib.pyplot as plt
