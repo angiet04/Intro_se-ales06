@@ -34,8 +34,23 @@ En este laboratorio, nos centramos en la comprensión y captura de señales de e
 ## Marco Teórico
 
 ## Materiales
+Claro, aquí tienes la tabla con la columna adicional añadida a la izquierda:
 
+| Modelo       | Descripción                                                                                                                                                | Imagen |
+|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| (R)EVOLUTION           | Kit BITalino: Plataforma de adquisición de bioseñales que viene con diferentes sensores, como los de electromiografía (EMG), electrocardiografía (ECG) o electroencefalografía (EEG). | ![Imagen](imagen1.jpg) |
+|            | Laptop                                                                                                                                                      | ![Imagen](imagen2.jpg) |
+|            | Ultracortex Mark IV EEG Headset: Casco EEG de código abierto y fabricable mediante impresión 3D, diseñado para ser utilizado con cualquier placa OpenBCI. Está capacitado para tomar muestras de hasta 16 canales de EEG de 35 ubicaciones distintas, conforme al sistema internacional 10-20 de colocación de electrodos | ![Imagen](imagen3.jpg) |
+|            | Cable de 3 derivaciones                                                                                                                                     | ![Imagen](imagen4.jpg) |
+|            | Software OpenSignals: Software diseñado específicamente para la adquisición, el procesamiento y el análisis de datos biomédicos. Esto incluye señales fisiológicas y de movimiento.                                                           | ![Imagen](imagen5.jpg) |
+|            | Software OpenBCI GUI: Permite la visualización, la grabación y la transmisión de datos obtenidos a través de las placas OpenBCI. Ofrece la posibilidad de mostrar los datos en tiempo real, así como de reproducirlos y almacenarlos en la computadora en formato de texto (.txt). | ![Imagen](imagen6.jpg) |
+|            | Electrodos con gel                                                                                                                                         | ![Imagen](imagen7.jpg) |
 ## Metodología
+
+### Procedimiento
+Primero se midió la señal EEG en reposo, el sujeto con los ojos cerrados y relajado
+Luego, se midió la señal EEG mientras que el sujeto pestañeaba, dejando aproximadamente 5 segundos entre cada pestañeo
+Después se midió la señal EEG mientras que el sujeto respondía a 7 preguntas de habilidad lógico-matemática, donde tenía 12 segundos para responder cada una. Las preguntas realizadas fueron obtenidas de [ ] y se detallan a continuación:
 
 | Categoría| Pregunta                       |
 |----------|--------------------------------------------|
