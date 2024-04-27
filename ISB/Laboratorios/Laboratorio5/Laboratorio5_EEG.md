@@ -106,7 +106,7 @@ Es importante realizar la medición en un ambiente adecuado, ya que la señal es
 Antes de colocar los electrodos se debe limpiar la piel en la superficie donde se colocarán [].
 
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/posicionamiento%20electrodos%20con%20bitalino.png?raw=true" alt="Función" width="400" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/posicionamiento%20electrodos%20con%20bitalino.png?raw=true" alt="Función" width="400" height="300"/>
 </p>
 <p align="center">
 Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: []
