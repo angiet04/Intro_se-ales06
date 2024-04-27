@@ -55,6 +55,13 @@ Figura 1. Obtención de la señal en EEG. Fuente: [2].
 - Beta (13 a 30 Hz): Rítmica común en adultos y niños, se ve principalmente en las regiones frontal y central del cerebro, disminuyendo hacia la parte posterior. Su amplitud aumenta con la somnolencia y disminuye en las fases más profundas del sueño. Medicamentos sedantes pueden incrementar la amplitud y cantidad de actividad beta.
 - Oscilaciones de alta frecuencia (HFOs) (más de 30 Hz): Se clasifican en gamma (30 a 80 Hz), ondas ripples (80 a 200 Hz) y fast ripples (200 a 500 Hz). Los ritmos gamma están asociados con la percepción sensorial y la integración de diferentes áreas cerebrales. Las HFOs, especialmente en relación con la epilepsia, son estudiadas como posibles biomarcadores de tejido cerebral epileptogénico, con registros intracraneales que muestran ráfagas ultra rápidas en tejidos epileptogénicos. 
 
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/Ondas%20EEG.png?raw=true" alt="Función" width="300" height="200"/>
+</p>
+<p align="center">
+Figura 2. Ondas EEG. Fuente: [4].
+</p>
+
 ### Aplicaciones clínicas [5]:
 El EEG es esencial para diagnosticar y monitorear trastornos neurológicos, incluyendo episodios paroxísticos y alteraciones en la conciencia. Su uso se extiende más allá de la epilepsia, siendo útil en coma, muerte cerebral, migrañas, accidentes cerebrovasculares, encefalopatías diversas, traumatismos craneoencefálicos, infecciones del sistema nervioso central y tumores intracraneales. También es crucial para evaluar la maduración cerebral en neonatos y prematuros. 
 
@@ -63,6 +70,13 @@ El EEG es esencial para diagnosticar y monitorear trastornos neurológicos, incl
 - Actividad Bipolar o Diferencial: Implica medir la diferencia de potencial entre dos electrodos activos. Esta técnica ayuda a identificar la actividad eléctrica local al restar cualquier interferencia que afecte a ambos electrodos de la misma manera.
 - Sistema Wilson: Una mejora del registro unipolar donde todos los electrodos están interconectados a través de resistencias de bajo valor, permitiendo obtener múltiples mediciones activo-referenciales simultáneas.
 - Montajes Longitudinales y Transversales: Técnicas de montaje de electrodos que captan la actividad eléctrica a lo largo (longitudinal) o a través (transversal) del eje del cerebro, proporcionando una vista detallada de la actividad regional del cerebro. 
+
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/Mediciones%20EEG.png?raw=true" alt="Función" width="300" height="100"/>
+</p>
+<p align="center">
+Figura 3. Medición Unipolar y Bipolar de EEG. Fuente: [7].
+</p>
 
 ### Causas de la interferencia [8]:
 - Artefactos Fisiológicos: Actividades como el parpadeo, movimiento de los ojos (artifacts oculares), movimientos musculares (especialmente en la mandíbula y el cuero cabelludo), y la actividad cardíaca pueden generar señales que se superponen con las señales cerebrales, distorsionando los resultados del EEG.
