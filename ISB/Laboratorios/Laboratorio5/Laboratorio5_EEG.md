@@ -101,7 +101,7 @@ Figura 3. Medición Unipolar y Bipolar de EEG. Fuente: [7].
 El UltraCortex Mark III es un dispositivo avanzado de EEG diseñado para integrarse con el sistema OpenBCI, permitiendo la captura de actividad cerebral de manera detallada y eficaz. Antes de usarlo, el usuario debe colocar el casco correctamente en su cabeza, asegurándose de que los nodos centrales estén alineados con el puente de la nariz y el inion. Los electrodos deben ajustarse con precisión usando el OCTATOOL para garantizar un contacto óptimo y cómodo con el cuero cabelludo. Es esencial preparar la piel adecuadamente antes de colocar los electrodos, lo que mejora la calidad de la señal y evita interferencias. La calibración del sistema es otro paso crucial para asegurar que los datos recogidos sean precisos y fiables. Una vez en funcionamiento, la GUI de OpenBCI ofrece una plataforma robusta para visualizar, grabar y analizar los datos en tiempo real. La GUI permite personalizar hasta seis ventanas en diferentes configuraciones, adaptándose a las necesidades del usuario y a la resolución del monitor. Es importante entender cómo interpretar los resultados, especialmente patrones como los picos alfa, que son indicativos de estados de relajación.
 
 <p align="center">
-    <img src="![cesar_2](https://github.com/angiet04/Intro_se-ales06/assets/164528295/f533e7c4-7de7-4c56-9512-02da25908eff)" alt="Función" width="450" height="240"/>
+    <img src="[cesar_2](https://github.com/angiet04/Intro_se-ales06/assets/164528295/f533e7c4-7de7-4c56-9512-02da25908eff)" alt="Función" width="450" height="240"/>
 </p>
 <p align="center">
 Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: [15]
