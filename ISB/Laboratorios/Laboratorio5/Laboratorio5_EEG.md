@@ -254,7 +254,7 @@ Figura 18. Parte de señal EEG respondiendo preguntas.
 
 En la segunda imagen, que muestra un intervalo más corto, las variaciones de la señal son evidentes. Esta gráfica podría representar respuestas cerebrales a momentos específicos de resolución de problemas, donde la actividad mental es más intensa.
 
-2. ULTRACORTEX
+
 <!-- Image Section -->
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/24b124e7-a2b6-4dd5-b0fe-64462c769e1a" alt="Función" width="500" height="300"/>
