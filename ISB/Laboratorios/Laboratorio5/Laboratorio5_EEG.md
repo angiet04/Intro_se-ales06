@@ -181,7 +181,7 @@ plt.show()
 <!-- Video Section -->
 <p align="center">
     <video width="500" height="300" controls>
-        <source src="https://github.com/angiet04/Intro_se-ales06/assets/164534811/your_video_file.mp4" type="video/mp4">
+        <source src="https://raw.githubusercontent.com/angiet04/Intro_se-ales06/main/assets/164534811/your_video_file.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </p>
