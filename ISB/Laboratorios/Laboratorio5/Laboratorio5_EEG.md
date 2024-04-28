@@ -177,8 +177,9 @@ https://github.com/angiet04/Intro_se-ales06/assets/164534811/ff20dcc7-d43a-4729-
 
 
 
+Señal:
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_basal.png?raw=true" alt="Basal" width="400" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_basal.png?raw=true" alt="Basal" width="800" height="700"/>
 </p>
 <p align="center">
 Figura 13. Señal EEG en reposo (basal). 
