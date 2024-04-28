@@ -126,9 +126,9 @@ Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: [15]
 |  | Una tienda vendió 21 sodas por la mañana, y 13 más que por la tarde. Por la noche vendió 10 más que por la mañana y la tarde juntas. ¿Cuántas sodas se vendieron en total? |
 
 4. Se fueron mostrando las señales generadas en el Software OpenSignals y se guardaron las mediciones en archivos .txt:
-[Señal basal](ISB/Laboratorios/Laboratorio5/CesarBase.txt)
-[Señal pestañeo](ISB/Laboratorios/Laboratorio5/cesar_pesta.txt)
-[Señal respondiendo a preguntas](ISB/Laboratorios/Laboratorio5/cesar_preguntas.txt)
+- [Señal basal](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio5/cesar_preguntas.txt)
+- [Señal pestañeo]([ISB/Laboratorios/Laboratorio5/CesarBase.txt](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio5/cesar_pesta.txt))
+- [Señal respondiendo a preguntas]([ISB/Laboratorios/Laboratorio5/cesar_preguntas.txt](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio5/cesar_preguntas.txt))
 
 ### Protocolo de adquisición de señal usando Ultracortex Mark IV EEG Headset
 ## Resultados
