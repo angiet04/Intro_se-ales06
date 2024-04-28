@@ -278,6 +278,8 @@ En las figuras 18  y 19 se observan varios picos, los cuales se presentaron cada
 1. Las actividades cotidianas, como el parpadear, los movimientos oculares y la respuesta a preguntas, impactan la medición del EEG, lo cual demuestra que esta señal tiene un potencial significativo para ser aplicada en estudios que requieran la detección y análisis de tales actividades.
 
 2. La sensibilidad del EEG al ruido, influenciada por diversos factores ambientales, resalta la importancia de tomar medidas precisas para mitigar interferencias externas y garantizar la calidad de los datos adquiridos.
+
+3. El EEG demostró ser una herramienta eficaz para monitorear los cambios en la actividad cerebral en respuesta a diferentes estímulos y condiciones.
 ## Bibliografía
 
 1.	T. Dabbabi, L. Bouafif, y A. Cherif, “A Review of Non Invasive Methods of Brain Activity Measurements via EEG Signals Analysis”, en 2023 IEEE International Conference on Advanced Systems and Emergent Technologies (IC_ASET), Hammamet, Tunisia: IEEE, abr. 2023, pp. 01–06. doi: 10.1109/IC_ASET58101.2023.10150607.
