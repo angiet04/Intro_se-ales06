@@ -104,7 +104,7 @@ El UltraCortex Mark III es un dispositivo avanzado de EEG diseñado para integra
     <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/f533e7c4-7de7-4c56-9512-02da25908eff" alt="Función" width="450" height="440"/>
 </p>
 <p align="center">
-Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: [15]
+Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: Elaboración propia
 </p>
 
 ### Protocolo de adquisición de señal con BiTalino
