@@ -143,7 +143,7 @@ Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: [15]
 
 ## Resultados
 ### Procedimiento para el ploteo de señales
-Se utilizó Python para realizar el ploteo de la señal obtenida al usar el sensor EEG con BITalino. Para obtener la señal en uV se utilizó la función de transferencia mostrada en la Figura _, esta se obtuvo del Datasheet del sensor. A continuación se muestra la fórmula usada y el código en Python:
+Se utilizó Python para realizar el ploteo de la señal obtenida al usar el sensor EEG con BITalino. Para obtener la señal en uV se utilizó la función de transferencia mostrada en la Figura 12, esta se obtuvo del Datasheet del sensor. A continuación se muestra la fórmula usada y el código en Python:
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
@@ -179,19 +179,11 @@ plt.grid(True)
 plt.show()
 ```
 ### Señales obtenidas en el laboratorio
+1. BITALINO
 #### En reposo
 Video de la señal:
 
 https://github.com/angiet04/Intro_se-ales06/assets/164534811/ff20dcc7-d43a-4729-a0ba-77dff924c04a
-
-<!-- Image Section -->
-<p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/24b124e7-a2b6-4dd5-b0fe-64462c769e1a" alt="Función" width="500" height="300"/>
-</p>
-<p align="center">
-    Figura -. Voluntario realizando la evaluación. Fuente: Elaboración propia.
-</p>
-
 
 Señal:
 <p align="center">
@@ -220,7 +212,7 @@ https://github.com/angiet04/Intro_se-ales06/assets/164534811/a16435de-a1a2-408f-
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_pestaneo.png?raw=true" alt="Pestaneo" width="700" height="500"/>
 </p>
 <p align="center">
-Figura 15. Señal EEG pestañeando.. 
+Figura 15. Señal EEG pestañeando.
 </p>
 Mostrando solo una parte de la señal (para observar mejor la forma): 
 <p align="center">
@@ -234,10 +226,6 @@ Video de la señal:
 
 
 https://github.com/angiet04/Intro_se-ales06/assets/164534811/39ec2a71-01ff-49ee-a9de-a218ae739172
-
-Video de la prueba:
-
-https://github.com/angiet04/Intro_se-ales06/assets/164528295/a16407f5-6cd5-46b0-9bd7-0818f8e96134
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_preguntas.png?raw=true" alt="Preguntas" width="700" height="500"/>
@@ -253,8 +241,23 @@ Mostrando solo una parte de la señal (para observar mejor la forma):
 Figura 18. Parte de señal EEG respondiendo preguntas.
 </p>
 
-## Discusión
+2. ULTRACORTEX
+<!-- Image Section -->
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/24b124e7-a2b6-4dd5-b0fe-64462c769e1a" alt="Función" width="500" height="300"/>
+</p>
+<p align="center">
+    Figura 19. Voluntario realizando la evaluación. Fuente: Elaboración propia.
+</p>
+#### Respondiendo preguntas:
+Video de la prueba:
 
+https://github.com/angiet04/Intro_se-ales06/assets/164528295/a16407f5-6cd5-46b0-9bd7-0818f8e96134
+## Discusión
+Las figuras 13 y 14 muestran un electroencefalograma (EEG) registrado con electrodos situados en FP1 y FP2, de acuerdo a lo indicado en el protocolo. La señal obtenida con el equipo Bitalino refleja la actividad eléctrica cerebral en estado de reposo, con una amplitud que varía entre -20 µV y +30 µV. Los picos agudos que interrumpen la señal basal son artefactos resultantes de pestañeos. Dichos artefactos son comunes en registros EEG frontales y son identificables por su forma distintiva y su mayor amplitud en comparación con las oscilaciones basales, ofreciendo una representación visual de la actividad muscular ocular que se superpone a la actividad eléctrica del cerebro en reposo.
+La figura 15 es parecida a la figura 13, no se aprecia mucho la diferencia. Pero si comparamos las figuras 14 y 16 se observa más un cambio significativo: cada 5 segundos se presenta un pestañeo, claramente discernible en la gráfica. Los pestañeos se identifican como picos agudos que interrumpen la señal basal del electroencefalograma (EEG). Estos artefactos son comunes en registros EEG frontales y se distinguen por su forma distintiva y su mayor amplitud en comparación con las oscilaciones basales. Ofrecen una representación visual de la actividad muscular ocular que se superpone a la actividad eléctrica del cerebro en reposo.
+
+En las figuras 17  y 18 se observan varios picos, los cuales se presentaron cada vez que se le hacía una pregunta. Estos fueron más significativos conforme aumentaba la dificultad de la pregunta. 
 ## Conclusiones
 
 ## Bibliografía
