@@ -239,3 +239,22 @@ Figura 18. Parte de señal EEG respondiendo preguntas.
 ## Conclusiones
 
 ## Bibliografía
+
+1.	T. Dabbabi, L. Bouafif, y A. Cherif, “A Review of Non Invasive Methods of Brain Activity Measurements via EEG Signals Analysis”, en 2023 IEEE International Conference on Advanced Systems and Emergent Technologies (IC_ASET), Hammamet, Tunisia: IEEE, abr. 2023, pp. 01–06. doi: 10.1109/IC_ASET58101.2023.10150607.
+2.	S. Beniczky y D. L. Schomer, “Electroencephalography: basic biophysical and technological aspects important for clinical applications”, Epileptic. Disord., vol. 22, núm. 6, pp. 697–715, dic. 2020, doi: 10.1684/epd.2020.1217.
+3.	C. S. Nayak y A. C. Anilkumar, “EEG Normal Waveforms”, en StatPearls, Treasure Island (FL): StatPearls Publishing, 2024. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: http://www.ncbi.nlm.nih.gov/books/NBK539805/
+4.	D. Mota-Rojas et al., “CHAPTER 25. Calidad del aturdimiento en búfalos: Reflejos y signos de retorno a la sensibilidad durante la muerte/ Quality of stunning in buffaloes: Reflexes and signs of return to sensitisation during death. 3rd. Edition. Fabio Napolitano et al. (2020).”, 2020.
+5.	“Técnicas básicas de electroencefalografía: principios y aplicaciones clínicas”. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1137-66272009000600006&lng=es&tlng=es
+6.	J. P. Ortiz González y M. J. Reinoso Avecillas, “Diseño y construcción de un prototipo de electroencefalógrafo para adquisición de señales cerebrales”, bachelorThesis, 2010. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: http://dspace.ups.edu.ec/handle/123456789/417
+7.	J. Ahmed, “Brain Machine Interface using EEG Sci-fi to Reality Neural Interface Engineering Brain Machine Interface using EEG 1 BRAIN MACHINE INTERFACE USING EEG”, dic. 2016.
+8.	Y. Zheng, “EEG Signal Filtering Method and Comparison Between Modern to Classical Filter”, Highlights Sci. Eng. Technol., vol. 74, pp. 405–414, dic. 2023, doi: 10.54097/n2n8pc12.
+9.	“PLUX Biosignals | BITalino (r)evolution Board Kit”. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt
+10.	“19769341_1 (800×800)”. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: https://falabella.scene7.com/is/image/FalabellaPE/19769341_1?wid=800&hei=800&qlt=70
+11.	“Ultracortex Mark IV | OpenBCI Documentation”. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: https://docs.openbci.com/AddOns/Headwear/MarkIV/
+12.	“ac-mo-c018-cable-ecg-3-puntas-03.jpg (1000×1000)”. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: https://yoemed.com/wp-content/uploads/2023/12/ac-mo-c018-cable-ecg-3-puntas-03.jpg
+13.	“opensignals_logo.png (532×384)”. Consultado: el 20 de abril de 2024. [En línea]. Disponible en: https://www.opensignals.net/opensignals_logo.png
+14.	“OpenBCI GUI v3.0 Out Now!”, OpenBCI Community. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: https://openbci.com/community/openbci-gui-v3-out-now/
+15.	“BITalino (r)evolution Plugged Kit BLE/BT”, Ultra-lab. Consultado: el 19 de abril de 2024. [En línea]. Disponible en: https://ultra-lab.net/producto/bitalino-revolution-plugged-kit-ble-bt/
+16.	“Table 1 | EEG correlation during the solving of simple and complex logical–mathematical problems | Cognitive, Affective, & Behavioral Neuroscience”. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: https://link.springer.com/article/10.3758/s13415-019-00703-5/tables/1
+17.	“revolution-eeg-sensor-datasheet-revb.pdf”. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/revolution-eeg-sensor-datasheet-revb.pdf
+
