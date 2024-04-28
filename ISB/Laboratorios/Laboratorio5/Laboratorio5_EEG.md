@@ -165,14 +165,14 @@ plt.show()
 ### Señales obtenidas en el laboratorio
 #### En reposo
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_basal.png?raw=true" alt="Basal" width="400" height="300"/>
 </p>
 <p align="center">
 Figura 13. Señal EEG en reposo (basal). 
 </p>
 Mostrando solo una parte de la señal (para observar mejor la forma): 
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_parte_basal.png?raw=true" alt="Parte basal" width="400" height="300"/>
 </p>
 <p align="center">
 Figura 14. Parte de señal EEG en reposo (basal). 
@@ -181,28 +181,28 @@ Figura 14. Parte de señal EEG en reposo (basal).
 #### En movimiento
 ##### Parpadeo
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_pestaneo.png?raw=true" alt="Pestaneo" width="400" height="300"/>
 </p>
 <p align="center">
 Figura 15. Señal EEG pestañeando.. 
 </p>
 Mostrando solo una parte de la señal (para observar mejor la forma): 
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_parte_pestaneo.png?raw=true" alt="Parte pestaneo" width="400" height="300"/>
 </p>
 <p align="center">
 Figura 16. Parte de señal EEG pestañeando. 
 </p>
 ##### Respondiendo preguntas
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_preguntas.png?raw=true" alt="Preguntas" width="400" height="300"/>
 </p>
 <p align="center">
 Figura 17. Señal EEG respondiendo preguntas. 
 </p>
 Mostrando solo una parte de la señal (para observar mejor la forma): 
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_parte_preguntas.png?raw=true" alt="Preguntas" width="400" height="300"/>
 </p>
 <p align="center">
 Figura 18. Parte de señal EEG respondiendo preguntas.
