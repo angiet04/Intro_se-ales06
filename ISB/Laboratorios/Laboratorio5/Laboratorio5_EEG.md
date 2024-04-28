@@ -178,11 +178,7 @@ Toma de la señal:
 Figura -. Voluntario realizando la evaluación. Fuente: Elaboración propia.
 </p>
 Video de la señal:
-<p align="center">
-    <video width="500" height="300" controls>
-        <source src="https://github.com/angiet04/Intro_se-ales06/assets/164534811/your_video_file.mp4" type="video/mp4">
-    </video>
-</p>
+https://github.com/angiet04/Intro_se-ales06/assets/164534811/your_video_file.mp4" type="video/mp4"
 
 Señal:
 <p align="center">
