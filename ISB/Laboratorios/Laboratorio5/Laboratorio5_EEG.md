@@ -170,13 +170,10 @@ plt.show()
 ```
 ### Señales obtenidas en el laboratorio
 #### En reposo
+Toma de la señal:
+![EDICION DE IMAGENES LAB4 (2)](https://github.com/angiet04/Intro_se-ales06/assets/164528295/24b124e7-a2b6-4dd5-b0fe-64462c769e1a)
 Video de la señal:
-
-
 https://github.com/angiet04/Intro_se-ales06/assets/164534811/ff20dcc7-d43a-4729-a0ba-77dff924c04a
-
-
-
 Señal:
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_basal.png?raw=true" alt="Basal" width="700" height="500"/>
