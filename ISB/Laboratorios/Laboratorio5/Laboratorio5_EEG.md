@@ -217,6 +217,8 @@ https://github.com/angiet04/Intro_se-ales06/assets/164534811/a16435de-a1a2-408f-
 <p align="center">
 Figura 15. Señal EEG pestañeando.
 </p>
+Se observa una variabilidad significativa con numerosos picos, tanto positivos como negativos, que se extienden más allá de la actividad EEG en reposo, posiblemente indicando los momentos en los que el voluntario parpadeó. Estos artefactos por parpadeo son comúnmente más grandes que la actividad eléctrica cerebral típica y pueden identificarse por sus formas características de gran amplitud.
+
 Mostrando solo una parte de la señal (para observar mejor la forma): 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_parte_pestaneo.png?raw=true" alt="Parte pestaneo" width="700" height="500"/>
@@ -224,6 +226,9 @@ Mostrando solo una parte de la señal (para observar mejor la forma):
 <p align="center">
 Figura 16. Parte de señal EEG pestañeando. 
 </p>
+
+Se puede ver un patrón más claro donde las señales presentan caídas y subidas pronunciadas, coincidiendo con los parpadeos. Estas son típicamente señales abruptas y de corta duración que pueden distorsionar la interpretación de la actividad cerebral subyacente si no se filtran o se toman en cuenta durante el análisis.
+
 ##### Respondiendo preguntas
 Video de la señal:
 
@@ -236,6 +241,9 @@ https://github.com/angiet04/Intro_se-ales06/assets/164534811/39ec2a71-01ff-49ee-
 <p align="center">
 Figura 17. Señal EEG respondiendo preguntas. 
 </p>
+
+En la primera gráfica, la señal EEG muestra variaciones de amplitud considerables, con valores que oscilan entre aproximadamente -30 y +40 µV. Estas fluctuaciones sugieren una actividad cerebral dinámica, posiblemente debido a la carga cognitiva de responder a preguntas matemáticas.
+
 Mostrando solo una parte de la señal (para observar mejor la forma): 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_parte_preguntas.png?raw=true" alt="Preguntas" width="700" height="500"/>
@@ -243,6 +251,8 @@ Mostrando solo una parte de la señal (para observar mejor la forma):
 <p align="center">
 Figura 18. Parte de señal EEG respondiendo preguntas.
 </p>
+
+En la segunda imagen, que muestra un intervalo más corto, las variaciones de la señal son evidentes. Esta gráfica podría representar respuestas cerebrales a momentos específicos de resolución de problemas, donde la actividad mental es más intensa.
 
 2. ULTRACORTEX
 <!-- Image Section -->
