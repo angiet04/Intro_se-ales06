@@ -249,8 +249,10 @@ Figura 18. Parte de señal EEG respondiendo preguntas.
 <p align="center">
     Figura 19. Voluntario realizando la evaluación. Fuente: Elaboración propia.
 </p>
-#### Respondiendo preguntas:
-Video de la prueba:
+
+  #### Respondiendo preguntas:
+  
+  Video de la prueba:
 
 https://github.com/angiet04/Intro_se-ales06/assets/164528295/a16407f5-6cd5-46b0-9bd7-0818f8e96134
 ## Discusión
