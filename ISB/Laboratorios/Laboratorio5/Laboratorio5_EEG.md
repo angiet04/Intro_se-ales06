@@ -96,12 +96,12 @@ Figura 3. Medición Unipolar y Bipolar de EEG. Fuente: [7].
 |            | Software OpenBCI GUI: Permite la visualización, la grabación y la transmisión de datos obtenidos a través de las placas OpenBCI. Ofrece la posibilidad de mostrar los datos en tiempo real, así como de reproducirlos y almacenarlos en la computadora en formato de texto (.txt). |  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/bci.jpg?raw=true" alt="kitBitalino" width="200" height="100"/> Figura 9. OpenBCI GUI [14]  |
 |            | Electrodos con gel                                                                                                                                         |  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/EEG_sensor_bitalino.png?raw=true" alt="electrodos" width="300" height="100"/> Figura 10. Electrodos con gel [15]  |
 ## Metodología
-### Protocolo de adquisición de señal con Ultra Cortex
+### Protocolo de adquisición de señal usando Ultracortex Mark IV EEG Headset
 
 El UltraCortex Mark III es un dispositivo avanzado de EEG diseñado para integrarse con el sistema OpenBCI, permitiendo la captura de actividad cerebral de manera detallada y eficaz. Antes de usarlo, el usuario debe colocar el casco correctamente en su cabeza, asegurándose de que los nodos centrales estén alineados con el puente de la nariz y el inion. Los electrodos deben ajustarse con precisión usando el OCTATOOL para garantizar un contacto óptimo y cómodo con el cuero cabelludo. Es esencial preparar la piel adecuadamente antes de colocar los electrodos, lo que mejora la calidad de la señal y evita interferencias. La calibración del sistema es otro paso crucial para asegurar que los datos recogidos sean precisos y fiables. Una vez en funcionamiento, la GUI de OpenBCI ofrece una plataforma robusta para visualizar, grabar y analizar los datos en tiempo real. La GUI permite personalizar hasta seis ventanas en diferentes configuraciones, adaptándose a las necesidades del usuario y a la resolución del monitor. Es importante entender cómo interpretar los resultados, especialmente patrones como los picos alfa, que son indicativos de estados de relajación.
 
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/f533e7c4-7de7-4c56-9512-02da25908eff" alt="Función" width="450" height="240"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/f533e7c4-7de7-4c56-9512-02da25908eff" alt="Función" width="450" height="440"/>
 </p>
 <p align="center">
 Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: [15]
@@ -141,7 +141,6 @@ Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: [15]
 - [Señal pestañeo]([ISB/Laboratorios/Laboratorio5/CesarBase.txt](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio5/cesar_pesta.txt))
 - [Señal respondiendo a preguntas]([ISB/Laboratorios/Laboratorio5/cesar_preguntas.txt](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio5/cesar_preguntas.txt))
 
-### Protocolo de adquisición de señal usando Ultracortex Mark IV EEG Headset
 ## Resultados
 ### Procedimiento para el ploteo de señales
 Se utilizó Python para realizar el ploteo de la señal obtenida al usar el sensor EEG con BITalino. Para obtener la señal en uV se utilizó la función de transferencia mostrada en la Figura _, esta se obtuvo del Datasheet del sensor. A continuación se muestra la fórmula usada y el código en Python:
