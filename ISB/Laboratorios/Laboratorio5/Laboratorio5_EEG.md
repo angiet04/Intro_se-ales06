@@ -170,17 +170,25 @@ plt.show()
 ```
 ### Señales obtenidas en el laboratorio
 #### En reposo
-Toma de la señal:
+<!-- Image Section -->
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/24b124e7-a2b6-4dd5-b0fe-64462c769e1a" alt="Función" width="500" height="300"/>
 </p>
 <p align="center">
-Figura -. Voluntario realizando la evaluación. Fuente: Elaboración propia.
+    Figura -. Voluntario realizando la evaluación. Fuente: Elaboración propia.
 </p>
-Video de la señal:
-https://github.com/angiet04/Intro_se-ales06/assets/164534811/your_video_file.mp4" type="video/mp4"
+
+<!-- Video Section -->
+<p align="center">
+    <video width="500" height="300" controls>
+        <source src="https://github.com/angiet04/Intro_se-ales06/assets/164534811/your_video_file.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 </p>
 <p align="center">
+    Video de la señal
+</p>
+
 Señal:
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_basal.png?raw=true" alt="Basal" width="700" height="500"/>
