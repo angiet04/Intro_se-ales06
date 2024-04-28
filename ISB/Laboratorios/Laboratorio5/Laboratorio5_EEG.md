@@ -125,6 +125,12 @@ Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: [15]
 |  | El grupo A tiene 24 estudiantes; 13 menos que el grupo B. El grupo C tiene 12 estudiantes más que los grupos A y B juntos. ¿Cuál es el número total de estudiantes? |
 |  | Una tienda vendió 21 sodas por la mañana, y 13 más que por la tarde. Por la noche vendió 10 más que por la mañana y la tarde juntas. ¿Cuántas sodas se vendieron en total? |
 
+4. Se fueron mostrando las señales generadas en el Software OpenSignals y se guardaron las mediciones en archivos .txt:
+[Señal basal](ISB/Laboratorios/Laboratorio5/CesarBase.txt)
+[Señal pestañeo](ISB/Laboratorios/Laboratorio5/cesar_pesta.txt)
+[Señal respondiendo a preguntas](ISB/Laboratorios/Laboratorio5/cesar_preguntas.txt)
+
+### Protocolo de adquisición de señal usando Ultracortex Mark IV EEG Headset
 ## Resultados
 ### Procedimiento para el ploteo de señales
 Se utilizó Python para realizar el ploteo de la señal obtenida al usar el sensor EEG con BITalino. Para obtener la señal en uV se utilizó la función de transferencia mostrada en la Figura _, esta se obtuvo del Datasheet del sensor. A continuación se muestra la fórmula usada y el código en Python:
