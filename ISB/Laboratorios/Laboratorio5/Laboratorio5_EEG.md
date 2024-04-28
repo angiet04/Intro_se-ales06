@@ -262,6 +262,9 @@ La figura 15 es parecida a la figura 13, no se aprecia mucho la diferencia. Pero
 En las figuras 17  y 18 se observan varios picos, los cuales se presentaron cada vez que se le hacía una pregunta. Estos fueron más significativos conforme aumentaba la dificultad de la pregunta. 
 ## Conclusiones
 
+1. Las actividades cotidianas, como el parpadear, los movimientos oculares y la respuesta a preguntas, impactan la medición del EEG, lo cual demuestra que esta señal tiene un potencial significativo para ser aplicada en estudios que requieran la detección y análisis de tales actividades.
+
+2. La sensibilidad del EEG al ruido, influenciada por diversos factores ambientales, resalta la importancia de tomar medidas precisas para mitigar interferencias externas y garantizar la calidad de los datos adquiridos.
 ## Bibliografía
 
 1.	T. Dabbabi, L. Bouafif, y A. Cherif, “A Review of Non Invasive Methods of Brain Activity Measurements via EEG Signals Analysis”, en 2023 IEEE International Conference on Advanced Systems and Emergent Technologies (IC_ASET), Hammamet, Tunisia: IEEE, abr. 2023, pp. 01–06. doi: 10.1109/IC_ASET58101.2023.10150607.
