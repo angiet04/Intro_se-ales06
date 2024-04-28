@@ -163,6 +163,50 @@ plt.grid(True)
 plt.show()
 ```
 ### Señales obtenidas en el laboratorio
+#### En reposo
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
+</p>
+<p align="center">
+Figura 13. Señal EEG en reposo (basal). 
+</p>
+Mostrando solo una parte de la señal (para observar mejor la forma): 
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
+</p>
+<p align="center">
+Figura 14. Parte de señal EEG en reposo (basal). 
+</p>
+
+#### En movimiento
+##### Parpadeo
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
+</p>
+<p align="center">
+Figura 15. Señal EEG pestañeando.. 
+</p>
+Mostrando solo una parte de la señal (para observar mejor la forma): 
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
+</p>
+<p align="center">
+Figura 16. Parte de señal EEG pestañeando. 
+</p>
+##### Respondiendo preguntas
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
+</p>
+<p align="center">
+Figura 17. Señal EEG respondiendo preguntas. 
+</p>
+Mostrando solo una parte de la señal (para observar mejor la forma): 
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
+</p>
+<p align="center">
+Figura 18. Parte de señal EEG respondiendo preguntas.
+</p>
 
 ## Discusión
 
