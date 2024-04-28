@@ -178,7 +178,10 @@ Toma de la señal:
 Figura -. Voluntario realizando la evaluación. Fuente: Elaboración propia.
 </p>
 Video de la señal:
-https://github.com/angiet04/Intro_se-ales06/assets/164534811/ff20dcc7-d43a-4729-a0ba-77dff924c04a
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/assets/164534811/ff20dcc7-d43a-4729-a0ba-77dff924c04a" alt="Función" width="500" height="300"/>
+</p>
+<p align="center">
 Señal:
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_basal.png?raw=true" alt="Basal" width="700" height="500"/>
