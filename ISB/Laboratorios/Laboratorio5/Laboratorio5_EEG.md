@@ -193,6 +193,12 @@ Figura 14. Parte de señal EEG en reposo (basal).
 
 #### En movimiento
 ##### Parpadeo
+Video de la señal:
+
+
+https://github.com/angiet04/Intro_se-ales06/assets/164534811/a16435de-a1a2-408f-984d-1c3121bdea77
+
+
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_pestaneo.png?raw=true" alt="Pestaneo" width="400" height="300"/>
 </p>
@@ -207,6 +213,12 @@ Mostrando solo una parte de la señal (para observar mejor la forma):
 Figura 16. Parte de señal EEG pestañeando. 
 </p>
 ##### Respondiendo preguntas
+Video de la señal:
+
+
+https://github.com/angiet04/Intro_se-ales06/assets/164534811/39ec2a71-01ff-49ee-a9de-a218ae739172
+
+
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_preguntas.png?raw=true" alt="Preguntas" width="400" height="300"/>
 </p>
