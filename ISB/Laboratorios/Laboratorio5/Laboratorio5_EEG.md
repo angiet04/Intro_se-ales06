@@ -170,6 +170,10 @@ plt.show()
 ```
 ### Señales obtenidas en el laboratorio
 #### En reposo
+Videos de las pruebas:
+
+https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/Cesar_base%20(1).mp4
+
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_basal.png?raw=true" alt="Basal" width="400" height="300"/>
 </p>
