@@ -192,7 +192,7 @@ Señal:
 <p align="center">
 Figura 13. Señal EEG en reposo (basal). 
 </p>
-En esta gráfica una representación de la señal EEG basal que cubre un intervalo de tiempo de 30 segundos. Muestra una variabilidad considerable, con picos que se extienden a lo largo de un rango de amplitudes que van desde aproximadamente -30 µV a +40 µV. Estos picos sugieren que pueden estar relacionado con movimientos musculares durante la evaluación.
+En esta gráfica, se observa una representación de la señal EEG basal que cubre un intervalo de tiempo de 30 segundos. Muestra una variabilidad considerable, con picos que se extienden a lo largo de un rango de amplitudes que van desde aproximadamente -30 µV a +40 µV. Estos picos sugieren que pueden estar relacionado con movimientos musculares durante la evaluación.
 
 Mostrando solo una parte de la señal (para observar mejor la forma): 
 <p align="center">
@@ -201,7 +201,7 @@ Mostrando solo una parte de la señal (para observar mejor la forma):
 <p align="center">
 Figura 14. Parte de señal EEG en reposo (basal). 
 </p>
-En esta segunda gráfica se puede mostrar un acercamiento de la señal EEG, que muestra 4 s de registro. Los picos son más frecuentes y se alcanzan amplitudes significativas. Se podría identificar actividad cerebral por la forma de los picos. 
+La segunda gráfica es un acercamiento de la señal EEG, que muestra 4 s de registro. Los picos son más frecuentes y se alcanzan amplitudes significativas. Se podría identificar actividad cerebral por la forma de los picos. 
 
 #### En movimiento
 ##### Parpadeo
