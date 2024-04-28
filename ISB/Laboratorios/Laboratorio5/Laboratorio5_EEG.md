@@ -120,7 +120,7 @@ Antes de colocar los electrodos se debe limpiar la piel en la superficie donde s
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/posicionamiento%20electrodos%20con%20bitalino.png?raw=true" alt="Función" width="450" height="240"/>
 </p>
 <p align="center">
-Figura 11. Posicionamiento de electrodos para medir EEG. Fuente: [15]
+Figura 12. Posicionamiento de electrodos para medir EEG. Fuente: [15]
 </p>
 ### Procedimiento
 1. Se midió la señal EEG en reposo, el sujeto con los ojos cerrados y relajado
@@ -149,7 +149,7 @@ Se utilizó Python para realizar el ploteo de la señal obtenida al usar el sens
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/funcion_eeg.png?raw=true" alt="Función" width="400" height="400"/>
 </p>
 <p align="center">
-Figura 12. Función de transferencia usada para la conversión de ADC a uV. Fuente: [17]
+Figura 13. Función de transferencia usada para la conversión de ADC a uV. Fuente: [17]
 </p>
 
 ```
@@ -190,7 +190,7 @@ Señal:
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_basal.png?raw=true" alt="Basal" width="700" height="500"/>
 </p>
 <p align="center">
-Figura 13. Señal EEG en reposo (basal). 
+Figura 14. Señal EEG en reposo (basal). 
 </p>
 En esta gráfica, se observa una representación de la señal EEG basal que cubre un intervalo de tiempo de 30 segundos. Muestra una variabilidad considerable, con picos que se extienden a lo largo de un rango de amplitudes que van desde aproximadamente -30 µV a +40 µV. Estos picos sugieren que pueden estar relacionado con movimientos musculares durante la evaluación.
 
@@ -199,7 +199,7 @@ Mostrando solo una parte de la señal (para observar mejor la forma):
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_parte_basal.png?raw=true" alt="Parte basal" width="700" height="500"/>
 </p>
 <p align="center">
-Figura 14. Parte de señal EEG en reposo (basal). 
+Figura 15. Parte de señal EEG en reposo (basal). 
 </p>
 La segunda gráfica es un acercamiento de la señal EEG, que muestra 4 s de registro. Los picos son más frecuentes y se alcanzan amplitudes significativas. Se podría identificar actividad cerebral por la forma de los picos. 
 
@@ -215,7 +215,7 @@ https://github.com/angiet04/Intro_se-ales06/assets/164534811/a16435de-a1a2-408f-
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_pestaneo.png?raw=true" alt="Pestaneo" width="700" height="500"/>
 </p>
 <p align="center">
-Figura 15. Señal EEG pestañeando.
+Figura 16. Señal EEG pestañeando.
 </p>
 Se observa una variabilidad significativa con numerosos picos, tanto positivos como negativos, que se extienden más allá de la actividad EEG en reposo, posiblemente indicando los momentos en los que el voluntario parpadeó. Estos artefactos por parpadeo son comúnmente más grandes que la actividad eléctrica cerebral típica y pueden identificarse por sus formas características de gran amplitud.
 
@@ -224,7 +224,7 @@ Mostrando solo una parte de la señal (para observar mejor la forma):
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_parte_pestaneo.png?raw=true" alt="Parte pestaneo" width="700" height="500"/>
 </p>
 <p align="center">
-Figura 16. Parte de señal EEG pestañeando. 
+Figura 17. Parte de señal EEG pestañeando. 
 </p>
 
 Se puede ver un patrón más claro donde las señales presentan caídas y subidas pronunciadas, coincidiendo con los parpadeos. Estas son típicamente señales abruptas y de corta duración que pueden distorsionar la interpretación de la actividad cerebral subyacente si no se filtran o se toman en cuenta durante el análisis.
@@ -239,7 +239,7 @@ https://github.com/angiet04/Intro_se-ales06/assets/164534811/39ec2a71-01ff-49ee-
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_preguntas.png?raw=true" alt="Preguntas" width="700" height="500"/>
 </p>
 <p align="center">
-Figura 17. Señal EEG respondiendo preguntas. 
+Figura 18. Señal EEG respondiendo preguntas. 
 </p>
 
 En la primera gráfica, la señal EEG muestra variaciones de amplitud considerables, con valores que oscilan entre aproximadamente -30 y +40 µV. Estas fluctuaciones sugieren una actividad cerebral dinámica, posiblemente debido a la carga cognitiva de responder a preguntas matemáticas.
@@ -249,7 +249,7 @@ Mostrando solo una parte de la señal (para observar mejor la forma):
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_parte_preguntas.png?raw=true" alt="Preguntas" width="700" height="500"/>
 </p>
 <p align="center">
-Figura 18. Parte de señal EEG respondiendo preguntas.
+Figura 19. Parte de señal EEG respondiendo preguntas.
 </p>
 
 En la segunda imagen, que muestra un intervalo más corto, las variaciones de la señal son evidentes. Esta gráfica podría representar respuestas cerebrales a momentos específicos de resolución de problemas, donde la actividad mental es más intensa.
@@ -260,7 +260,7 @@ En la segunda imagen, que muestra un intervalo más corto, las variaciones de la
     <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/24b124e7-a2b6-4dd5-b0fe-64462c769e1a" alt="Función" width="500" height="300"/>
 </p>
 <p align="center">
-    Figura 19. Voluntario realizando la evaluación. Fuente: Elaboración propia.
+    Figura 20. Voluntario realizando la evaluación. Fuente: Elaboración propia.
 </p>
 
   #### Respondiendo preguntas:
@@ -269,10 +269,10 @@ En la segunda imagen, que muestra un intervalo más corto, las variaciones de la
 
 https://github.com/angiet04/Intro_se-ales06/assets/164528295/a16407f5-6cd5-46b0-9bd7-0818f8e96134
 ## Discusión
-Las figuras 13 y 14 muestran un electroencefalograma (EEG) registrado con electrodos situados en FP1 y FP2, de acuerdo a lo indicado en el protocolo. La señal obtenida con el equipo Bitalino refleja la actividad eléctrica cerebral en estado de reposo, con una amplitud que varía entre -20 µV y +30 µV. Los picos agudos que interrumpen la señal basal son artefactos resultantes de pestañeos. Dichos artefactos son comunes en registros EEG frontales y son identificables por su forma distintiva y su mayor amplitud en comparación con las oscilaciones basales, ofreciendo una representación visual de la actividad muscular ocular que se superpone a la actividad eléctrica del cerebro en reposo.
-La figura 15 es parecida a la figura 13, no se aprecia mucho la diferencia. Pero si comparamos las figuras 14 y 16 se observa más un cambio significativo: cada 5 segundos se presenta un pestañeo, claramente discernible en la gráfica. Los pestañeos se identifican como picos agudos que interrumpen la señal basal del electroencefalograma (EEG). Estos artefactos son comunes en registros EEG frontales y se distinguen por su forma distintiva y su mayor amplitud en comparación con las oscilaciones basales. Ofrecen una representación visual de la actividad muscular ocular que se superpone a la actividad eléctrica del cerebro en reposo.
+Las figuras 14 y 15 muestran un electroencefalograma (EEG) registrado con electrodos situados en FP1 y FP2, de acuerdo a lo indicado en el protocolo. La señal obtenida con el equipo Bitalino refleja la actividad eléctrica cerebral en estado de reposo, con una amplitud que varía entre -20 µV y +30 µV. Los picos agudos que interrumpen la señal basal son artefactos resultantes de pestañeos. Dichos artefactos son comunes en registros EEG frontales y son identificables por su forma distintiva y su mayor amplitud en comparación con las oscilaciones basales, ofreciendo una representación visual de la actividad muscular ocular que se superpone a la actividad eléctrica del cerebro en reposo.
+La figura 16 es parecida a la figura 14, no se aprecia mucho la diferencia. Pero si comparamos las figuras 15 y 17 se observa más un cambio significativo: cada 5 segundos se presenta un pestañeo, claramente discernible en la gráfica. Los pestañeos se identifican como picos agudos que interrumpen la señal basal del electroencefalograma (EEG). Estos artefactos son comunes en registros EEG frontales y se distinguen por su forma distintiva y su mayor amplitud en comparación con las oscilaciones basales. Ofrecen una representación visual de la actividad muscular ocular que se superpone a la actividad eléctrica del cerebro en reposo.
 
-En las figuras 17  y 18 se observan varios picos, los cuales se presentaron cada vez que se le hacía una pregunta. Estos fueron más significativos conforme aumentaba la dificultad de la pregunta. 
+En las figuras 18  y 19 se observan varios picos, los cuales se presentaron cada vez que se le hacía una pregunta. Estos fueron más significativos conforme aumentaba la dificultad de la pregunta. 
 ## Conclusiones
 
 1. Las actividades cotidianas, como el parpadear, los movimientos oculares y la respuesta a preguntas, impactan la medición del EEG, lo cual demuestra que esta señal tiene un potencial significativo para ser aplicada en estudios que requieran la detección y análisis de tales actividades.
