@@ -170,6 +170,10 @@ plt.show()
 ```
 ### Señales obtenidas en el laboratorio
 #### En reposo
+
+Video de la señal
+https://github.com/angiet04/Intro_se-ales06/assets/164534811/your_video_file.mp4
+
 <!-- Image Section -->
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/24b124e7-a2b6-4dd5-b0fe-64462c769e1a" alt="Función" width="500" height="300"/>
@@ -178,16 +182,6 @@ plt.show()
     Figura -. Voluntario realizando la evaluación. Fuente: Elaboración propia.
 </p>
 
-<!-- Video Section -->
-<p align="center">
-    <video width="500" height="300" controls>
-        <source src="https://raw.githubusercontent.com/angiet04/Intro_se-ales06/main/assets/164534811/your_video_file.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</p>
-<p align="center">
-    Video de la señal
-</p>
 
 Señal:
 <p align="center">
