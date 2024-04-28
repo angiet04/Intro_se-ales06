@@ -225,6 +225,9 @@ Video de la señal:
 
 https://github.com/angiet04/Intro_se-ales06/assets/164534811/39ec2a71-01ff-49ee-a9de-a218ae739172
 
+Video de la prueba:
+
+https://github.com/angiet04/Intro_se-ales06/assets/164528295/a16407f5-6cd5-46b0-9bd7-0818f8e96134
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_general_preguntas.png?raw=true" alt="Preguntas" width="700" height="500"/>
