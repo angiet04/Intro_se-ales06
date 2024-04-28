@@ -228,7 +228,7 @@ Figura 17. Señal EEG respondiendo preguntas.
 </p>
 Mostrando solo una parte de la señal (para observar mejor la forma): 
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_parte_preguntas.png?raw=true" alt="Preguntas" width="800" height="600"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_5/senal_parte_preguntas.png?raw=true" alt="Preguntas" width="700" height="500"/>
 </p>
 <p align="center">
 Figura 18. Parte de señal EEG respondiendo preguntas.
