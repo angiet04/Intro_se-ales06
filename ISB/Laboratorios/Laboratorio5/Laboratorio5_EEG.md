@@ -170,9 +170,9 @@ plt.show()
 ```
 ### Señales obtenidas en el laboratorio
 #### En reposo
+Video de la señal:
 
-Video de la señal
-https://github.com/angiet04/Intro_se-ales06/assets/164534811/your_video_file.mp4
+https://github.com/angiet04/Intro_se-ales06/assets/164534811/ff20dcc7-d43a-4729-a0ba-77dff924c04a
 
 <!-- Image Section -->
 <p align="center">
