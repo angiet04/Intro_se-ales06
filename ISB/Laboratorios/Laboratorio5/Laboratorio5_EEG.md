@@ -296,7 +296,7 @@ En las figuras 18  y 19 se observan varios picos, los cuales se presentaron cada
 12.	“ac-mo-c018-cable-ecg-3-puntas-03.jpg (1000×1000)”. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: https://yoemed.com/wp-content/uploads/2023/12/ac-mo-c018-cable-ecg-3-puntas-03.jpg
 13.	“opensignals_logo.png (532×384)”. Consultado: el 20 de abril de 2024. [En línea]. Disponible en: https://www.opensignals.net/opensignals_logo.png
 14.	“OpenBCI GUI v3.0 Out Now!”, OpenBCI Community. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: https://openbci.com/community/openbci-gui-v3-out-now/
-15.	“BITalino (r)evolution Plugged Kit BLE/BT”, Ultra-lab. Consultado: el 19 de abril de 2024. [En línea]. Disponible en: https://ultra-lab.net/producto/bitalino-revolution-plugged-kit-ble-bt/
+15.	PLUX, «BITalino (r)evolution Lab Guide», 2020. Disponible en: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf
 16.	“Table 1 | EEG correlation during the solving of simple and complex logical–mathematical problems | Cognitive, Affective, & Behavioral Neuroscience”. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: https://link.springer.com/article/10.3758/s13415-019-00703-5/tables/1
 17.	“revolution-eeg-sensor-datasheet-revb.pdf”. Consultado: el 27 de abril de 2024. [En línea]. Disponible en: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/revolution-eeg-sensor-datasheet-revb.pdf
 
