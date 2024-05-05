@@ -223,30 +223,60 @@ Las señales EMG, o electromiográficas, son registros de la actividad eléctric
 
 ###### ¿Por qué es importante filtrar una señal EMG?
 Filtrar una señal en EMG es esencial debido a las interferencias y ruidos presentes, como la interferencia de frecuencia industrial y la deriva de la línea base, que pueden distorsionar la señal original y complicar su interpretación. El uso de filtros digitales, como el filtro Butterworth IIR, permite eliminar estas interferencias y mejorar la calidad de la señal EMG, facilitando una interpretación más precisa. Además, el filtrado digital permite la miniaturización y portabilidad de los dispositivos de registro de EMG, optimizando su rendimiento. 
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/Original_EMG_SIGNAL.png?raw=true" alt="Filtro notch" width="400" height="300"/>
+</p>
+<p align="center">
+Figura 8. Señal Original EMG
 
 #### Diseñar un filtro IIR: 
 
-La señal de electromiografía (EMG) a menudo está plagada de interferencias no deseadas, como la frecuencia de línea de alimentación de 60 Hz, así como otras interferencias de frecuencias más altas. Según la literatura revisada [16], se escogió esta frecuencia para abordar este desafío. Además se emplean dos tipos de filtros: el filtro Notch y el filtro Butterworth. 
+La señal de electromiografía (EMG) a menudo está plagada de interferencias no deseadas, como la frecuencia de línea de alimentación de 60 Hz, así como otras interferencias de frecuencias más altas. Según la literatura revisada [17], se escogió esta frecuencia para abordar este desafío. Además se emplean dos tipos de filtros: el filtro Notch y el filtro Butterworth. 
 El filtro Notch es especialmente efectivo para atenuar picos específicos en la respuesta de frecuencia, como el pico de 60 Hz causado por la interferencia de la línea de alimentación. Por otro lado, el filtro Butterworth es conocido por su respuesta plana en la banda de paso y su rolloff suave fuera de ella, lo que lo hace ideal para atenuar otras frecuencias no deseadas y enfocarse en la actividad muscular en la banda de interés.
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/Notch_filter.png?raw=true" alt="Filtro notch" width="400" height="300"/>
+</p>
+<p align="center">
+Figura 9. Filtro notch
 
 El filtro resultante se aplicó a la señal de EMG utilizando la función signal.lfilter(). Este enfoque de filtrado permite una respuesta de frecuencia más selectiva en comparación con los filtros FIR, asegurando que se preserven las características relevantes de la señal muscular mientras se atenúa el ruido no deseado, mejorando así la calidad de la señal EMG para su análisis y diagnóstico.
 
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/IIR_filter_EMG.png?raw=true" alt="Filtro notch" width="400" height="300"/>
+</p>
+<p align="center">
+Figura 10. Filtro IIR a la señal Original
+
+ 
 #### Diseñar un Filtro FIR
+
 Se emplea la técnica de ventana Hanning para diseñar un filtro FIR de paso bajo. Este filtro se utiliza para atenuar componentes de frecuencia más alta que pueden introducir ruido en la señal EMG, mientras se preservan las frecuencias de interés asociadas con la actividad muscular.
 Se selecciona el orden del filtro y la frecuencia de paso para adaptarse a las características específicas de la señal EMG y al objetivo de filtrar el ruido no deseado. La frecuencia de muestreo se establece en 1000 Hz, lo que significa que se toman 1000 muestras de la señal en un segundo. Esta frecuencia de muestreo determina la resolución en frecuencia del sistema de adquisición de datos.
-Por otro lado, la frecuencia de paso, según la literatura [17], se define como 500 Hz, lo que implica que el filtro permitirá el paso de señales con frecuencias de hasta 500 Hz sin atenuación significativa. Las frecuencias por debajo de 500 Hz se considerarán componentes de señal deseada y se mantendrán, mientras que las frecuencias por encima de este umbral serán atenuadas.
+Por otro lado, la frecuencia de paso, según la literatura [18], se define como 500 Hz, lo que implica que el filtro permitirá el paso de señales con frecuencias de hasta 500 Hz sin atenuación significativa. Las frecuencias por debajo de 500 Hz se considerarán componentes de señal deseada y se mantendrán, mientras que las frecuencias por encima de este umbral serán atenuadas.
 El orden del filtro se establece en 5, lo que indica el número de coeficientes del filtro FIR. Este parámetro determina la capacidad del filtro para atenuar las frecuencias no deseadas fuera de la banda de paso y su selectividad en la banda de transición entre la banda de paso y la banda de rechazo. Un filtro de orden más alto generalmente proporciona una mayor atenuación en la banda de rechazo y una transición más nítida entre las bandas de paso y rechazo.
 Luego, se aplica el filtro a la señal de EMG utilizando la función signal.lfilter(). Es importante destacar que al aplicar el filtro FIR, se realiza un proceso de centrado de ambas señales (original y filtrada) alrededor de cero, restando la media de cada señal. Esto garantiza una representación visual adecuada de las señales en los gráficos, facilitando la comparación y la interpretación de los resultados.
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_Filter_EMG.png?raw=true" alt="Filtro notch" width="400" height="300"/>
+</p>
+<p align="center">
+Figura 11. Filtro FIR a la señal Original
+  
+Se obtuvieron las siguientes señales:
 
+| Momento         | Señal Cruda                                                                                                         | IIR                                                                                                             | FIR                                                                                                           |
+|----------------|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Descanso        |![Captura de pantalla 2024-05-05 000228](https://github.com/NicoleUnsi/w/assets/164534811/11e03f7f-f4b7-404a-b019-69eff6ac7a6a)|![Captura de pantalla 2024-05-05 000238](https://github.com/NicoleUnsi/w/assets/164534811/fffa2f8c-d846-4532-a8a5-82c6dbbdc980)|![Captura de pantalla 2024-05-05 000245](https://github.com/NicoleUnsi/w/assets/164534811/70f3e0af-470c-4ea4-add6-79ed0d0f601b)|
+| Contracción Leve     |![Captura de pantalla 2024-05-05 000315](https://github.com/NicoleUnsi/w/assets/164534811/63b3871e-ff80-4f83-aec1-968a0bb21265)|![Captura de pantalla 2024-05-05 000323](https://github.com/NicoleUnsi/w/assets/164534811/ab1a9565-730a-4db6-9d97-1d12aa692527)|![Captura de pantalla 2024-05-05 000328](https://github.com/NicoleUnsi/w/assets/164534811/e88dbced-e48c-4740-8d64-dfd9bc8d8314)|
+| Contracción Fuerte|![Captura de pantalla 2024-05-05 000334](https://github.com/NicoleUnsi/w/assets/164534811/b2d45330-192d-40a8-ac96-31c46a2f6021)|![Captura de pantalla 2024-05-05 000340](https://github.com/NicoleUnsi/w/assets/164534811/c9e336b1-78f5-45c5-a6ba-3691283e2cf9)|![Captura de pantalla 2024-05-05 000345](https://github.com/NicoleUnsi/w/assets/164534811/a4b0ef3a-0b17-403a-8bd3-a2e66b2a7c16)|
 
 
 ### Señales EEG
-Las señales EEG, o electroencefalograma, registran los potenciales eléctricos del cuero cabelludo humano resultantes de las corrientes iónicas en las neuronas cerebrales. Al insertar electrodos no invasivos en el cuero cabelludo, es posible registrar, caracterizar, clasificar y traducir las señales cerebrales relacionadas con las intenciones del usuario en comandos de máquina para la comunicación con dispositivos y servicios en Internet. El procesamiento de estas señales, así como su reconocimiento y clasificación de patrones, es posible mediante la combinación de inteligencia artificial y interfaces cerebro-computadora[18].
+Las señales EEG, o electroencefalograma, registran los potenciales eléctricos del cuero cabelludo humano resultantes de las corrientes iónicas en las neuronas cerebrales. Al insertar electrodos no invasivos en el cuero cabelludo, es posible registrar, caracterizar, clasificar y traducir las señales cerebrales relacionadas con las intenciones del usuario en comandos de máquina para la comunicación con dispositivos y servicios en Internet. El procesamiento de estas señales, así como su reconocimiento y clasificación de patrones, es posible mediante la combinación de inteligencia artificial y interfaces cerebro-computadora[19].
 
-Filtrar una señal EEG es crucial para mejorar su calidad al reducir el ruido y permitir la extracción de información útil. Esto ayuda a obtener una representación más precisa de la actividad cerebral, lo que es fundamental para entender los procesos cognitivos y neurológicos. Sin el filtrado adecuado, la señal EEG puede estar contaminada por diversos tipos de ruido, como artefactos fisiológicos, interferencia ambiental y ruido de electrodo, lo que dificulta la interpretación precisa de los datos y puede llevar a conclusiones erróneas en el análisis. Por lo tanto, aplicar técnicas de filtrado adecuadas es esencial para garantizar la fiabilidad y la validez de los resultados obtenidos a partir de la señal EEG [19].
+Filtrar una señal EEG es crucial para mejorar su calidad al reducir el ruido y permitir la extracción de información útil. Esto ayuda a obtener una representación más precisa de la actividad cerebral, lo que es fundamental para entender los procesos cognitivos y neurológicos. Sin el filtrado adecuado, la señal EEG puede estar contaminada por diversos tipos de ruido, como artefactos fisiológicos, interferencia ambiental y ruido de electrodo, lo que dificulta la interpretación precisa de los datos y puede llevar a conclusiones erróneas en el análisis. Por lo tanto, aplicar técnicas de filtrado adecuadas es esencial para garantizar la fiabilidad y la validez de los resultados obtenidos a partir de la señal EEG [20].
 
 ##### IIR
-En el review mostrado en [20] se ofrece una visión general de diferentes tipos de filtros electrónicos y sus aplicaciones, con especial énfasis en las técnicas de filtrado en el procesamiento de señales EEG. De entre todos los filtros IIR comunes, se ha encontrado que el filtro Butterworth es el más utilizado.
+En el review mostrado en [21] se ofrece una visión general de diferentes tipos de filtros electrónicos y sus aplicaciones, con especial énfasis en las técnicas de filtrado en el procesamiento de señales EEG. De entre todos los filtros IIR comunes, se ha encontrado que el filtro Butterworth es el más utilizado.
 
 
 A partir de lo revisado en la literatura, se diseñó un filtro Butterworth para suprimir la interferencia de frecuencias altas y artefactos. Como se quiere reducir las frecuencias altas, se utilizó un filtro pasabajas. Como se conoce, el ruido generado por dispositivos electrónicos cercanos al sensor es a 60Hz aproximadamente, por lo que se eligió una frecuencia de corte menor a este valor. 
@@ -260,7 +290,7 @@ Las señales filtradas con este filtro IIR Butterworth de orden 8 con fc=30Hz se
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/IIR_basal.png?raw=true " alt="IIR basal" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 8. Señal basal filtrada con filtro IIR.
+Figura 12. Señal basal filtrada con filtro IIR.
 </p>
 
 -	Señal cuando pestañea filtrada con el filtro diseñado:
@@ -269,7 +299,7 @@ Figura 8. Señal basal filtrada con filtro IIR.
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/IIR_pestanea.png" alt="IIR cuando pestañea" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 9. Señal cuando pestañea filtrada con filtro IIR.
+Figura 13. Señal cuando pestañea filtrada con filtro IIR.
 </p>
 
 -	Señal cuando responde a preguntas filtrada con el filtro diseñado:
@@ -278,14 +308,14 @@ Figura 9. Señal cuando pestañea filtrada con filtro IIR.
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/IIR_preguntas.png?raw=true" alt="IIR cuando responde a preguntas" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 10. Señal cuando responde a preguntas filtrada con filtro IIR.
+Figura 14. Señal cuando responde a preguntas filtrada con filtro IIR.
 </p>
 
 ##### FIR
 El electroencefalograma (EEG) registra la actividad eléctrica del cerebro, generalmente descrita en cinco oscilaciones de frecuencia conocidas como ondas cerebrales: delta (0.5–4 Hz), theta (4–8 Hz), alfa (8–13 Hz), beta (13–30 Hz), y gamma (30–128 Hz).
 
 
-En [21] se utilizó un modelo de filtro FIR pasa-banda con ventana de Hamming para el filtrado de señales EEG, limitando la frecuencia a tres bandas: theta, alfa y beta.
+En [22] se utilizó un modelo de filtro FIR pasa-banda con ventana de Hamming para el filtrado de señales EEG, limitando la frecuencia a tres bandas: theta, alfa y beta.
 Aplicamos este tipo de filtro en nuestras señales, buscando también separar las ondas theta, alfa y beta, ya que son las que están presentes en ellas al haber medido a un sujeto despierto.
 
 
@@ -298,21 +328,21 @@ Las señales filtradas con la ventana de Hamming como filtro pasa-bandas entre c
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_theta_en_se%C3%B1al_basal.png?raw=true" alt="FIR señal theta en señal basal" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 11. Señal theta en señal basal 
+Figura 15. Señal theta en señal basal 
 </p>
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_theta_en_se%C3%B1al_pestanea.png?raw=true" alt="FIR señal theta en señal basal" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 12. Señal theta en señal cuando pestañea 
+Figura 16. Señal theta en señal cuando pestañea 
 </p>
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_theta_en_se%C3%B1al_preguntas.png?raw=true" alt="FIR señal theta en señal cuando responde a preguntas" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 13. Señal theta en señal cuando responde a preguntas 
+Figura 17. Señal theta en señal cuando responde a preguntas 
 </p>
 
 -	Señal alfa (8-13Hz)
@@ -321,21 +351,21 @@ Figura 13. Señal theta en señal cuando responde a preguntas
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_alfa_en_se%C3%B1al_basal.png?raw=true" alt="FIR señal alfa en señal basal" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 14. Señal alfa en señal basal 
+Figura 18. Señal alfa en señal basal 
 </p>
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_alfa_en_se%C3%B1al_pestanea.png?raw=true" alt="FIR señal alfa en señal basal" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 15. Señal alfa en señal cuando pestañea 
+Figura 19. Señal alfa en señal cuando pestañea 
 </p>
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_alfa_en_se%C3%B1al_preguntas.png?raw=true" alt="FIR señal alfa en señal cuando responde a preguntas" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 16. Señal alfa en señal cuando responde a preguntas 
+Figura 20. Señal alfa en señal cuando responde a preguntas 
 </p>
 
 -	Señal beta (13-30Hz)
@@ -344,21 +374,21 @@ Figura 16. Señal alfa en señal cuando responde a preguntas
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_beta_en_se%C3%B1al_basal.png?raw=true" alt="FIR señal beta en señal basal" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 17. Señal beta en señal basal 
+Figura 21. Señal beta en señal basal 
 </p>
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_beta_en_se%C3%B1al_pestanea.png?raw=true" alt="FIR señal beta en señal basal" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 18. Señal beta en señal cuando pestañea 
+Figura 22. Señal beta en señal cuando pestañea 
 </p>
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_beta_en_se%C3%B1al_preguntas.png?raw=true" alt="FIR señal beta en señal cuando responde a preguntas" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 19. Señal beta en señal cuando responde a preguntas 
+Figura 23. Señal beta en señal cuando responde a preguntas 
 </p>
 
 ### CONCLUSIONES
@@ -384,9 +414,10 @@ Figura 19. Señal beta en señal cuando responde a preguntas
 14. N. Das y M. Chakraborty, «Performance analysis of FIR and IIR filters for ECG signal denoising based on SNR», en 2017 Third International Conference on Research in Computational Intelligence and Communication Networks (ICRCICN), nov. 2017, pp. 90-97. doi: 10.1109/ICRCICN.2017.8234487.
 15. K. S. Kumar, B. Yazdanpanah, y P. R. Kumar, «Removal of noise from electrocardiogram using digital FIR and IIR filters with various methods», en 2015 International Conference on Communications and Signal Processing (ICCSP), abr. 2015, pp. 0157-0162. doi: 10.1109/ICCSP.2015.7322780.
 16. S. Behera, M. Samal, y R. Layak, «The Use of FIR Filter for Filtering of ECG Signal and Comparison of Some Parameters». Disponible en: http://www.ijesi.org/papers/Vol(6)4/L06047179.pdf
-17. «(PDF) Comparative Study of FIR Digital Filter for Noise Elimination in EMG Signal». Accedido: 5 de mayo de 2024. [En línea]. Disponible en: https://www.researchgate.net/publication/330703731_Comparative_Study_of_FIR_Digital_Filter_for_Noise_Elimination_in_EMG_Signal
-18. A. G. Kremenska, A. K. Lekova and G. P. Dimitrov, "EEG Brain-Computer Interfaces for Internet of Everything (IoE)," 2022 International Conference on Information Technologies (InfoTech), Varna, Bulgaria, 2022, pp. 1-6, doi: 10.1109/InfoTech55606.2022.9897097.
-19. Y. Zheng, “EEG Signal Filtering Method and Comparison Between Modern to Classical Filter”, HSET, vol. 74, pp. 405–414, Dec. 2023, doi: 10.54097/n2n8pc12.
-20. D. Sen, B. B. Mishra, y P. K. Pattnaik, «A Review of the Filtering Techniques used in EEG Signal Processing», en 2023 7th International Conference on Trends in Electronics and Informatics (ICOEI), Tirunelveli, India: IEEE, abr. 2023, pp. 270-277. doi: 10.1109/ICOEI56765.2023.10125857. Disponible en: https://ieeexplore.ieee.org/document/10125857
-21. Y. F. Alharbi and Y. A. Alotaibi, "The Correlate of Emotion and Gender Classification Using EEG Signals," 2021 IEEE 6th International Conference on Signal and Image Processing (ICSIP), Nanjing, China, 2021, pp. 790-794, doi: 10.1109/ICSIP52628.2021.9688884.
+17. W.-S. Lin, C.-T. Chu, and C. C. Ho, “Wearable EMG Gesture Signal Acquisition device based on Single-Chip Microcontroller,” in Advances in intelligent systems and computing, 2019, pp. 517–525. doi: 10.1007/978-3-030-29029-0_50.
+18. «(PDF) Comparative Study of FIR Digital Filter for Noise Elimination in EMG Signal». Accedido: 5 de mayo de 2024. [En línea]. Disponible en: https://www.researchgate.net/publication/330703731_Comparative_Study_of_FIR_Digital_Filter_for_Noise_Elimination_in_EMG_Signal
+19. A. G. Kremenska, A. K. Lekova and G. P. Dimitrov, "EEG Brain-Computer Interfaces for Internet of Everything (IoE)," 2022 International Conference on Information Technologies (InfoTech), Varna, Bulgaria, 2022, pp. 1-6, doi: 10.1109/InfoTech55606.2022.9897097.
+20. Y. Zheng, “EEG Signal Filtering Method and Comparison Between Modern to Classical Filter”, HSET, vol. 74, pp. 405–414, Dec. 2023, doi: 10.54097/n2n8pc12.
+21. D. Sen, B. B. Mishra, y P. K. Pattnaik, «A Review of the Filtering Techniques used in EEG Signal Processing», en 2023 7th International Conference on Trends in Electronics and Informatics (ICOEI), Tirunelveli, India: IEEE, abr. 2023, pp. 270-277. doi: 10.1109/ICOEI56765.2023.10125857. Disponible en: https://ieeexplore.ieee.org/document/10125857
+22. Y. F. Alharbi and Y. A. Alotaibi, "The Correlate of Emotion and Gender Classification Using EEG Signals," 2021 IEEE 6th International Conference on Signal and Image Processing (ICSIP), Nanjing, China, 2021, pp. 790-794, doi: 10.1109/ICSIP52628.2021.9688884.
 
