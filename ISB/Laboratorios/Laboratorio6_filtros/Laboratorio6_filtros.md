@@ -244,7 +244,7 @@ Figura _. Señal basal filtrada con filtro IIR.
 -	Señal cuando pestañea filtrada con el filtro diseñado:
 
 <p align="center">
-    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/IIR_pestanea.png?raw=true " alt="IIR cuando pestañea" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/IIR_pestanea.png" alt="IIR cuando pestañea" width="500" height="300"/>
 </p>
 <p align="center">
 Figura _. Señal cuando pestañea filtrada con filtro IIR.
@@ -253,7 +253,7 @@ Figura _. Señal cuando pestañea filtrada con filtro IIR.
 -	Señal cuando responde a preguntas filtrada con el filtro diseñado:
 
 <p align="center">
-    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/IIR_preguntas.png?raw=true " alt="IIR cuando responde a preguntas" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/IIR_preguntas.png?raw=true" alt="IIR cuando responde a preguntas" width="500" height="300"/>
 </p>
 <p align="center">
 Figura _. Señal cuando responde a preguntas filtrada con filtro IIR.
