@@ -223,6 +223,122 @@ Las señales EMG, o electromiográficas, son registros de la actividad eléctric
 
 
 ### Señales EEG
+##### IIR
+En el review mostrado en [ ] se ofrece una visión general de diferentes tipos de filtros electrónicos y sus aplicaciones, con especial énfasis en las técnicas de filtrado en el procesamiento de señales EEG. De entre todos los filtros IIR comunes, se ha encontrado que el filtro Butterworth es el más utilizado.
+
+
+A partir de lo revisado en la literatura, se diseñó un filtro Butterworth para suprimir la interferencia de frecuencias altas y artefactos. Como se quiere reducir las frecuencias altas, se utilizó un filtro pasabajas. Como se conoce, el ruido generado por dispositivos electrónicos cercanos al sensor es a 60Hz aproximadamente, por lo que se eligió una frecuencia de corte menor a este valor. 
+
+El código desarrollado en Python se encuentra en: https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio6_filtros/IIR_EEG%20(1).ipynb 
+
+Las señales filtradas con este filtro IIR Butterworth de orden 8 con fc=30Hz se muestran a continuación:
+-	Señal basal filtrada con el filtro diseñado:
+
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/IIR_basal.png?raw=true " alt="IIR basal" width="500" height="300"/>
+</p>
+<p align="center">
+Figura _. Señal basal filtrada con filtro IIR.
+</p>
+
+-	Señal cuando pestañea filtrada con el filtro diseñado:
+
+<p align="center">
+    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/IIR_pestanea.png?raw=true " alt="IIR cuando pestañea" width="500" height="300"/>
+</p>
+<p align="center">
+Figura _. Señal cuando pestañea filtrada con filtro IIR.
+</p>
+
+-	Señal cuando responde a preguntas filtrada con el filtro diseñado:
+
+<p align="center">
+    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/IIR_preguntas.png?raw=true " alt="IIR cuando responde a preguntas" width="500" height="300"/>
+</p>
+<p align="center">
+Figura _. Señal cuando responde a preguntas filtrada con filtro IIR.
+</p>
+
+##### FIR
+El electroencefalograma (EEG) registra la actividad eléctrica del cerebro, generalmente descrita en cinco oscilaciones de frecuencia conocidas como ondas cerebrales: delta (0.5–4 Hz), theta (4–8 Hz), alfa (8–13 Hz), beta (13–30 Hz), y gamma (30–128 Hz).
+
+
+En [] se utilizó un modelo de filtro FIR pasa-banda con ventana de Hamming para el filtrado de señales EEG, limitando la frecuencia a tres bandas: theta, alfa y beta.
+Aplicamos este tipo de filtro en nuestras señales, buscando también separar las ondas theta, alfa y beta, ya que son las que están presentes en ellas al haber medido a un sujeto despierto.
+
+
+El código desarrollado en Python se encuentra en: https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio6_filtros/FIR_EEG%20(1).ipynb 
+
+Las señales filtradas con la ventana de Hamming como filtro pasa-bandas entre ciertas frecuencias dependiendo de la señal se muestran a continuación, las frecuencias de corte se indican entre paréntesis al lado del nombre de cada señal: 
+-	Señal theta (4-8Hz)
+
+<p align="center">
+    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_theta_en_se%C3%B1al_basal.png?raw=true" alt="FIR señal theta en señal basal" width="500" height="300"/>
+</p>
+<p align="center">
+Figura _. Señal theta en señal basal 
+</p>
+
+<p align="center">
+    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_theta_en_se%C3%B1al_pestanea.png?raw=true" alt="FIR señal theta en señal basal" width="500" height="300"/>
+</p>
+<p align="center">
+Figura _. Señal theta en señal cuando pestañea 
+</p>
+
+<p align="center">
+    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_theta_en_se%C3%B1al_preguntas.png?raw=true" alt="FIR señal theta en señal cuando responde a preguntas" width="500" height="300"/>
+</p>
+<p align="center">
+Figura _. Señal theta en señal cuando responde a preguntas 
+</p>
+
+-	Señal alfa (8-13Hz)
+
+<p align="center">
+    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_alfa_en_se%C3%B1al_basal.png?raw=true" alt="FIR señal alfa en señal basal" width="500" height="300"/>
+</p>
+<p align="center">
+Figura _. Señal alfa en señal basal 
+</p>
+
+<p align="center">
+    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_alfa_en_se%C3%B1al_pestanea.png?raw=true" alt="FIR señal alfa en señal basal" width="500" height="300"/>
+</p>
+<p align="center">
+Figura _. Señal alfa en señal cuando pestañea 
+</p>
+
+<p align="center">
+    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_alfa_en_se%C3%B1al_preguntas.png?raw=true" alt="FIR señal alfa en señal cuando responde a preguntas" width="500" height="300"/>
+</p>
+<p align="center">
+Figura _. Señal alfa en señal cuando responde a preguntas 
+</p>
+
+-	Señal beta (13-30Hz)
+
+<p align="center">
+    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_beta_en_se%C3%B1al_basal.png?raw=true" alt="FIR señal beta en señal basal" width="500" height="300"/>
+</p>
+<p align="center">
+Figura _. Señal beta en señal basal 
+</p>
+
+<p align="center">
+    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_beta_en_se%C3%B1al_pestanea.png?raw=true" alt="FIR señal beta en señal basal" width="500" height="300"/>
+</p>
+<p align="center">
+Figura _. Señal beta en señal cuando pestañea 
+</p>
+
+<p align="center">
+    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_beta_en_se%C3%B1al_preguntas.png?raw=true" alt="FIR señal beta en señal cuando responde a preguntas" width="500" height="300"/>
+</p>
+<p align="center">
+Figura _. Señal beta en señal cuando responde a preguntas 
+</p>
+
 
 ## Discusión
 
