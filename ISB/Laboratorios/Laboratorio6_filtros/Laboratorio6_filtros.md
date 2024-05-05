@@ -23,6 +23,7 @@
 ### En este laboratorio, filtraremos las bioseñales medidas en los laboratorios pasados, utilizando filtros FIR e IIR. 
 
 ## Resumen
+En este laboratorio, se aplicaron filtros FIR e IIR a bioseñales previamente medidas en laboratorios anteriores. Los filtros digitales son esenciales en el procesamiento de señales biomédicas para eliminar el ruido y resaltar las frecuencias importantes. Se exploraron dos tipos principales: los filtros IIR, con respuesta impulsiva infinita, y los filtros FIR, con respuesta impulsiva finita, además del filtro wavelet para señales no estacionarias. El objetivo fue evaluar la efectividad de estos filtros en el procesamiento de señales EEG, ECG y EMG para mejorar la calidad de las mediciones biomédicas.
 
 ## Introducción
 El procesamiento de señales biomédicas se ha beneficiado enormemente del uso de filtros digitales, que permiten eliminar el ruido y mejorar las frecuencias importantes en las señales digitales. Nos centramos en dos tipos principales: los filtros IIR, con respuesta impulsiva infinita, y los filtros FIR, con respuesta impulsiva finita. Además, exploramos el filtro wavelet, útil para señales no estacionarias. Nuestro estudio se enfoca en evaluar la efectividad de estos filtros en el procesamiento de señales EEG, ECG y EMG, con el objetivo de mejorar la calidad de las mediciones biomédicas para diagnóstico y monitoreo clínico.
