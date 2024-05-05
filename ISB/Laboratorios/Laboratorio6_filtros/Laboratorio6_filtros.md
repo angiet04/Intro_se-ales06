@@ -218,10 +218,10 @@ Ripple en la banda de paso (rp): 0.1 dB
 # Galería de Imágenes
 
 |       |       |       |
-| :---: | :---: | :---: |
-| ![Imagen 1](ruta/a/imagen1.png,'Basal 1' | ![Imagen 2](ruta/a/imagen2.png) | ![Imagen 3](ruta/a/imagen3.png) |
-| ![Imagen 4](ruta/a/imagen4.png) | ![Imagen 5](ruta/a/imagen5.png) | ![Imagen 6](ruta/a/imagen6.png) |
-| ![Imagen 7](ruta/a/imagen7.png) | ![Imagen 8](ruta/a/imagen8.png) | ![Imagen 9](ruta/a/imagen9.png) |
+| 'Campo' | 'Señal Cruda' | 'IIR' | 'FIR' |
+| 'Basal 1' | ![Imagen 2](ruta/a/imagen2.png) | ![Imagen 3](ruta/a/imagen3.png) || ![Imagen 3](ruta/a/imagen3.png) |
+| 'Post ejercicio'  | ![Imagen 5](ruta/a/imagen5.png) | ![Imagen 6](ruta/a/imagen6.png) || ![Imagen 3](ruta/a/imagen3.png) |
+
 
 
 ### Señales EMG
