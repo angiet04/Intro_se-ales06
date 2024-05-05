@@ -273,21 +273,21 @@ Las señales filtradas con la ventana de Hamming como filtro pasa-bandas entre c
 -	Señal theta (4-8Hz)
 
 <p align="center">
-    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_theta_en_se%C3%B1al_basal.png?raw=true" alt="FIR señal theta en señal basal" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_theta_en_se%C3%B1al_basal.png?raw=true" alt="FIR señal theta en señal basal" width="500" height="300"/>
 </p>
 <p align="center">
 Figura _. Señal theta en señal basal 
 </p>
 
 <p align="center">
-    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_theta_en_se%C3%B1al_pestanea.png?raw=true" alt="FIR señal theta en señal basal" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_theta_en_se%C3%B1al_pestanea.png?raw=true" alt="FIR señal theta en señal basal" width="500" height="300"/>
 </p>
 <p align="center">
 Figura _. Señal theta en señal cuando pestañea 
 </p>
 
 <p align="center">
-    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_theta_en_se%C3%B1al_preguntas.png?raw=true" alt="FIR señal theta en señal cuando responde a preguntas" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_theta_en_se%C3%B1al_preguntas.png?raw=true" alt="FIR señal theta en señal cuando responde a preguntas" width="500" height="300"/>
 </p>
 <p align="center">
 Figura _. Señal theta en señal cuando responde a preguntas 
@@ -296,21 +296,21 @@ Figura _. Señal theta en señal cuando responde a preguntas
 -	Señal alfa (8-13Hz)
 
 <p align="center">
-    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_alfa_en_se%C3%B1al_basal.png?raw=true" alt="FIR señal alfa en señal basal" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_alfa_en_se%C3%B1al_basal.png?raw=true" alt="FIR señal alfa en señal basal" width="500" height="300"/>
 </p>
 <p align="center">
 Figura _. Señal alfa en señal basal 
 </p>
 
 <p align="center">
-    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_alfa_en_se%C3%B1al_pestanea.png?raw=true" alt="FIR señal alfa en señal basal" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_alfa_en_se%C3%B1al_pestanea.png?raw=true" alt="FIR señal alfa en señal basal" width="500" height="300"/>
 </p>
 <p align="center">
 Figura _. Señal alfa en señal cuando pestañea 
 </p>
 
 <p align="center">
-    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_alfa_en_se%C3%B1al_preguntas.png?raw=true" alt="FIR señal alfa en señal cuando responde a preguntas" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_alfa_en_se%C3%B1al_preguntas.png?raw=true" alt="FIR señal alfa en señal cuando responde a preguntas" width="500" height="300"/>
 </p>
 <p align="center">
 Figura _. Señal alfa en señal cuando responde a preguntas 
@@ -319,21 +319,21 @@ Figura _. Señal alfa en señal cuando responde a preguntas
 -	Señal beta (13-30Hz)
 
 <p align="center">
-    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_beta_en_se%C3%B1al_basal.png?raw=true" alt="FIR señal beta en señal basal" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_beta_en_se%C3%B1al_basal.png?raw=true" alt="FIR señal beta en señal basal" width="500" height="300"/>
 </p>
 <p align="center">
 Figura _. Señal beta en señal basal 
 </p>
 
 <p align="center">
-    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_beta_en_se%C3%B1al_pestanea.png?raw=true" alt="FIR señal beta en señal basal" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_beta_en_se%C3%B1al_pestanea.png?raw=true" alt="FIR señal beta en señal basal" width="500" height="300"/>
 </p>
 <p align="center">
 Figura _. Señal beta en señal cuando pestañea 
 </p>
 
 <p align="center">
-    <img src=" https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_beta_en_se%C3%B1al_preguntas.png?raw=true" alt="FIR señal beta en señal cuando responde a preguntas" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/EEG_filtradas/FIR_ondas_beta_en_se%C3%B1al_preguntas.png?raw=true" alt="FIR señal beta en señal cuando responde a preguntas" width="500" height="300"/>
 </p>
 <p align="center">
 Figura _. Señal beta en señal cuando responde a preguntas 
