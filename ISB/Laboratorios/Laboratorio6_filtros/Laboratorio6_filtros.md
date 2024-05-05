@@ -199,7 +199,29 @@ Se identificaron las frecuencias relevantes de la señal ECG y ruido. Esto sirve
 - Onda T: 1 a 7 Hz
 
 ##### Fuentes de ruido y sus frecuencias afectadas
-- Ruidos fisiológicos: Este tipo de ruidos son producidos principalmente por otros órganos del cuerpo o causados ​​por retracciones musculares relevantes para la respiración. El artefacto del movimiento de los electrodos comúnmente se considera el más difícil, ya que puede imitar la figura de latidos anormales y no puede eliminarse simplemente mediante filtros normales [].
+- Ruidos fisiológicos: Este tipo de ruidos son producidos principalmente por otros órganos del cuerpo o causados ​​por retracciones musculares relevantes para la respiración. El artefacto del movimiento de los electrodos comúnmente se considera el más difícil, ya que puede imitar la figura de latidos anormales y no puede eliminarse simplemente mediante filtros normales [15].
+Ruido muscular: 5 a 50 Hz
+Ruido debido a la respiración: 0.12 a 0.5 Hz
+
+Los ruidos causados por interferencias ambientales son aquellas efectuadas por líneas de suministro de energía de 50 o 60 Hz, radiación de luces, movimiento de electrodos y emisiones de radiofrecuencia. 
+Ruido eléctrico externo : 50 a 60 Hz
+
+Para nuestro análisis elegimos el filtro Chebyshev tipo I que tiene los siguientes parámetros: 
+Frecuencia de muestreo (fs): 1000 Hz
+Frecuencia de corte (fc): 40 Hz
+Orden del filtro (order): 10
+Ripple en la banda de paso (rp): 0.1 dB
+
+##CÓDIGO
+
+
+# Galería de Imágenes
+
+|       |       |       |
+| :---: | :---: | :---: |
+| ![Imagen 1](ruta/a/imagen1.png,'Basal 1' | ![Imagen 2](ruta/a/imagen2.png) | ![Imagen 3](ruta/a/imagen3.png) |
+| ![Imagen 4](ruta/a/imagen4.png) | ![Imagen 5](ruta/a/imagen5.png) | ![Imagen 6](ruta/a/imagen6.png) |
+| ![Imagen 7](ruta/a/imagen7.png) | ![Imagen 8](ruta/a/imagen8.png) | ![Imagen 9](ruta/a/imagen9.png) |
 
 
 ### Señales EMG
