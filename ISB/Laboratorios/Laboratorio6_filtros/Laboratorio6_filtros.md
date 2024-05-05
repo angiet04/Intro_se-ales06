@@ -202,13 +202,17 @@ Los filtros se diseñaron en Python con órdenes incrementales hasta 100 para ev
 
 Se identificaron las frecuencias relevantes de la señal ECG y ruido. Esto sirve para aislar la parte útil de la señal, eliminando interferencias y ruidos no deseados.
 
-Rango de frecuencia de la señal de ECG: 0.05 Hz a 150 Hz, siendo el rango más relevante entre 0.5 Hz y 45 Hz
+- Rango de frecuencia de la señal de ECG: 0.05 Hz a 150 Hz, siendo el rango más relevante entre 0.5 Hz y 45 Hz
 
-Onda P: 0.67 a 5 Hz
+- Onda P: 0.67 a 5 Hz
 
-Complejo QRS: 10 a 50 Hz
+- Complejo QRS: 10 a 50 Hz
 
-Onda T: 1 a 7 Hz
+- Onda T: 1 a 7 Hz
+
+##### Fuentes de ruido y sus frecuencias afectadas
+- Ruidos fisiológicos: Este tipo de ruidos son producidos principalmente por otros órganos del cuerpo o causados ​​por retracciones musculares relevantes para la respiración. El artefacto del movimiento de los electrodos comúnmente se considera el más difícil, ya que puede imitar la figura de latidos anormales y no puede eliminarse simplemente mediante filtros normales [].
+
 
 ### Señales EMG
 
