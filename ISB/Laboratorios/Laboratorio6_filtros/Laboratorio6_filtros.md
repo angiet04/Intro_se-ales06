@@ -178,6 +178,42 @@ Se realizó un filtrado de las señales utilizando filtros FIR e IIR.
    
 ## Resultados
 
+### Señales ECG
+
+El electrocardiograma (ECG) es una representación visual de la actividad cardíaca, que se origina en el corazón y se extiende por todo el cuerpo, detectable mediante electrodos colocados externamente en el cuerpo. Consiste en varias señales eléctricas producidas por los nodos sino auricular (SA) y auriculoventricular (AV). Estas señales dan como resultado ondas distintas conocidas como ondas P, Q, R, S y T, que forman colectivamente el complejo PQRST. La onda P significa despolarización auricular, el complejo QRS representa la despolarización ventricular que precede a la contracción y la onda T indica repolarización ventricular. Factores como el tamaño del corazón, la posición del pecho y la conductividad del torso contribuyen a las variaciones individuales en las formas de onda del ECG [12].
+
+Es crucial filtrar la señal de ECG debido a la presencia de diversas fuentes de interferencia y ruido que pueden distorsionar la forma de onda y dificultar la interpretación precisa de los complejos de ondas característicos del ciclo cardíaco. La eliminación de interferencias, artefactos y ruido mejora la calidad general de la señal, lo que facilita una interpretación más precisa por parte de los profesionales médicos y contribuye a un diagnóstico correcto de trastornos cardíacos, como arritmias e isquemia. Además, el filtrado de la señal optimiza el rendimiento de los dispositivos de registro de ECG, garantizando su capacidad para capturar y procesar la señal de manera efectiva, lo que es fundamental en entornos clínicos y de monitoreo continuo [13].
+
+#### Filtro IIR para señales ECG
+
+En [14], un estudio de filtro de señales ECG, se observó que los tipos Chebyshev tipo I y los elípticos destacaron debido a su relación señal- ruido (SNR) obteniendo un promedio de 5.0909 dB a un orden 1. Estos filtros son conocidos por su capacidad para lograr una respuesta en frecuencia más selectiva en comparación con otros tipos de filtros, lo que les permite suprimir eficazmente el ruido no deseado en ciertas bandas de frecuencia mientras preservan las características importantes de la señal ECG.
+
+##### Metodología 
+
+1. Carga de datos de ECG:
+   
+Se cargaron los datos recopilados del laboratorio ECG a la plataforma de Python.
+
+2. Selección y diseño del filtro Pasa Bajo con orden mínimo:
+   
+Los filtros se diseñaron en Python con órdenes incrementales hasta 100 para evaluar su rendimiento
+
+3. Filtrado de la señal de ECG:
+
+Se identificaron las frecuencias relevantes de la señal ECG y ruido. Esto sirve para aislar la parte útil de la señal, eliminando interferencias y ruidos no deseados.
+
+Rango de frecuencia de la señal de ECG: 0.05 Hz a 150 Hz, siendo el rango más relevante entre 0.5 Hz y 45 Hz
+
+Onda P: 0.67 a 5 Hz
+
+Complejo QRS: 10 a 50 Hz
+
+Onda T: 1 a 7 Hz
+
+### Señales EMG
+
+### Señales EEG
+
 ## Discusión
 
 ## Conclusiones
@@ -194,4 +230,6 @@ Se realizó un filtrado de las señales utilizando filtros FIR e IIR.
 9. NumPy Developers. "numpy.hanning." NumPy Documentation, [En línea]. Disponible en: https://numpy.org/doc/stable/reference/generated/numpy.hanning.html. [Consultado: 04-may-2024].
 10. MathWorks. "rectwin." MATLAB Documentation, [En línea]. Disponible en: https://la.mathworks.com/help/signal/ref/rectwin.html. [Consultado: 04-may-2024].
 11. SciPy Developers. "scipy.signal.windows.blackman." SciPy Reference Guide, [En línea]. Disponible en: https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.windows.blackman.html. [Consultado: 04-may-2024].
-
+12. M. Ingale, R. Cordeiro, S. Thentu, Y. Park, y N. Karimian, “ECG Biometric Authentication: A Comparative Analysis”, IEEE Access, vol. 8, pp. 117853–117866, 2020, doi: 10.1109/ACCESS.2020.3004464.
+13. Z. Liu, “Design of ECG Signals Filter Circuit Based on OTA Filtering”, HSET, vol. 32, pp. 135–142, Feb. 2023, doi: 10.54097/hset.v32i.4983.
+14. N. Das y M. Chakraborty, «Performance analysis of FIR and IIR filters for ECG signal denoising based on SNR», en 2017 Third International Conference on Research in Computational Intelligence and Communication Networks (ICRCICN), nov. 2017, pp. 90-97. doi: 10.1109/ICRCICN.2017.8234487.
