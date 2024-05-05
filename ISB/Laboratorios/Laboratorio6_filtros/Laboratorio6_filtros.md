@@ -156,9 +156,18 @@ La ventana de Blackman es una forma de atenuación formada mediante los primeros
 - Una laptop con el softeware de Python (utilizamos VScode y Google collab)
 
 ## Metodología
-1. Medición de señales ECG, EMG, EEG: Esta se realizó en los laboratorios anteriores, donde se siguió el protocolo determinado por la guía de usuario del BiTalino para cada sensor.
-2. Captura de señales usando el software OpenSignals: En este pudimos observar la señal medida en tiempo real y luego guardarla en un archivo .txt.
-3. Procesar las señales desde los archivos .txt: Se realizó un filtrado de las señales utilizando filtros FIR e IIR.
+### 1. Medición de señales ECG, EMG, EEG: 
+
+Esta se realizó en los laboratorios anteriores, donde se siguió el protocolo determinado por la guía de usuario del BiTalino para cada sensor.
+
+### 2. Captura de señales usando el software OpenSignals: 
+
+En este pudimos observar la señal medida en tiempo real y luego guardarla en un archivo .txt.
+
+### 3. Procesar las señales desde los archivos .txt: 
+
+Se realizó un filtrado de las señales utilizando filtros FIR e IIR.
+
    3.1 Para determinar el filtro a usar para cada señal se revisó la literatura existente en busca del tipo de filtro más utilizado para cada señal, en algunos casos se encontró la frecuencia de corte recomendada.
    3.2 Se diseñaron los filtros.
    3.3 Se filtraron las señales y se realizaron ajustes hasta comprobar la efectividad de los filtros.
