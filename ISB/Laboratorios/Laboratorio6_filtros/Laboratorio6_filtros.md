@@ -212,11 +212,23 @@ Frecuencia de corte (fc): 40 Hz
 Orden del filtro (order): 10
 Ripple en la banda de paso (rp): 0.1 dB
 
+#### Filtro FIR para señales ECG
+El artículo "The Use of FIR Filter for Filtering of ECG Signal and Comparison of Some Parameters" se centra en el diseño y evaluación de filtros FIR de paso bajo utilizando diferentes funciones de ventana para eliminar el ruido de las señales ECG. Las señales ECG son propensas a varias formas de ruido como la interferencia de la línea de energía, artefactos de movimiento, deriva de línea base y ruido instrumental. Se utilizaron 3 tipos de ventanas para los filtros: Hanning, Hamming y Blackman. Con los siguientes parámetros:
+
+Frecuencia de paso normalizada (fp): 0.180
+Frecuencia de corte normalizada (fs): 0.205
+Orden del filtro (M):
+Ventana de Blackman: M = 223
+Ventana de Hamming: M = 133
+Ventana de Hanning: M = 125
+La selección del orden del filtro (M) y las frecuencias de paso y corte normalizadas influyen directamente en la efectividad del filtro par
+
+En consideración a los  artículos se obtuvieron las sigueintes señales:
+
 | Campo          | Señal Cruda                                                                                                         | IIR                                                                                                             | FIR                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Basal 1        | ![ROMI 1](https://github.com/angiet04/Intro_se-ales06/assets/164528295/058eea41-e3c2-4e49-9fd8-fdf0928f5953)  | ![ROMI 1-A](https://github.com/angiet04/Intro_se-ales06/assets/164528295/0d943617-770b-4440-b692-ada2363578fb) | ![ROMI 3](https://github.com/angiet04/Intro_se-ales06/assets/164528295/f7fefe9a-c992-406a-9bbc-08dd429b1e43) |
 | Post ejercicio | ![romi32](https://github.com/angiet04/Intro_se-ales06/assets/164528295/a7928dc5-048c-45e1-99ab-62b4bb31a20c)    | ![ROMI 2](https://github.com/angiet04/Intro_se-ales06/assets/164528295/ac2b6c1a-3736-4b5a-8dba-ec12f878c16b)     | ![ROMI 4](https://github.com/angiet04/Intro_se-ales06/assets/164528295/fbf4cfa9-d2cc-4449-85c5-79128752aca3) |                                                                                          |
-
 ### Señales EMG
 Las señales EMG, o electromiográficas, son registros de la actividad eléctrica generada por los músculos durante su contracción. Pueden ser obtenidas mediante electrodos colocados sobre la piel o de manera invasiva dentro del músculo mismo. Estas señales proporcionan información valiosa sobre la función muscular y son utilizadas en campos como la medicina para diagnosticar trastornos neuromusculares, en la rehabilitación para evaluar la actividad muscular, y en la ingeniería biomédica para el control de prótesis y otras aplicaciones de dispositivos médicos.
 
