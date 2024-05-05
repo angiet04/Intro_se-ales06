@@ -168,10 +168,13 @@ En este pudimos observar la señal medida en tiempo real y luego guardarla en un
 
 Se realizó un filtrado de las señales utilizando filtros FIR e IIR.
 
-   3.1 Para determinar el filtro a usar para cada señal se revisó la literatura existente en busca del tipo de filtro más utilizado para cada señal, en algunos casos se encontró la frecuencia de corte recomendada.
-   3.2 Se diseñaron los filtros.
-   3.3 Se filtraron las señales y se realizaron ajustes hasta comprobar la efectividad de los filtros.
-   3.4 Se estableció un filtro IIR y un filtro FIR para cada tipo de bioseñal (2 para ECG, 2 para EMG, 2 para EEG) y se realizó el filtrado de las señales en reposo, en movimiento, etc que se tenían para cada una.
+#### 3.1 Para determinar el filtro a usar para cada señal se revisó la literatura existente en busca del tipo de filtro más utilizado para cada señal, en algunos casos se encontró la frecuencia de corte recomendada.
+
+#### 3.2 Se diseñaron los filtros.
+
+#### 3.3 Se filtraron las señales y se realizaron ajustes hasta comprobar la efectividad de los filtros.
+
+#### 3.4 Se estableció un filtro IIR y un filtro FIR para cada tipo de bioseñal (2 para ECG, 2 para EMG, 2 para EEG) y se realizó el filtrado de las señales en reposo, en movimiento, etc que se tenían para cada una.
    
 ## Resultados
 
