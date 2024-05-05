@@ -215,13 +215,11 @@ Ripple en la banda de paso (rp): 0.1 dB
 ##CÓDIGO
 
 
-# Galería de Imágenes
-
 | Campo | Señal Cruda | IIR | FIR |
 |-------|-------------|-----|-----|
-| Basal 1 | ![Imagen 2](ruta/a/imagen2.png) | ![Imagen 3](ruta/a/imagen3.png) | ![Imagen 3](ruta/a/imagen3.png) |
-| Post ejercicio | ![Imagen 5](ruta/a/imagen5.png) | ![Imagen 6](ruta/a/imagen6.png) | ![Imagen 3](ruta/a/imagen3.png) |
-
+| Basal 1 |![ROMI 1](https://github.com/angiet04/Intro_se-ales06/assets/164528295/058eea41-e3c2-4e49-9fd8-fdf0928f5953) | ![ROMI 1-A](https://github.com/angiet04/Intro_se-ales06/assets/164528295/0d943617-770b-4440-b692-ada2363578fb)
+() |![ROMI 7](https://github.com/angiet04/Intro_se-ales06/assets/164528295/d4ded326-cc22-425f-870d-8c22404177fd)|
+| Post ejercicio | ![Imagen 5](ruta/a/imagen5.png) |  | ![Imagen 3](ruta/a/imagen3.png) | |
 
 
 
