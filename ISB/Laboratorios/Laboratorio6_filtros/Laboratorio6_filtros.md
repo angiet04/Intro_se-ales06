@@ -68,13 +68,35 @@ Figura 1. Filtro Butterwoth. Fuente: [4].
 
 - Filtro Chebyshev Tipo I:
   
-Introduce una ondulación especificada en la banda de paso para obtener una atenuación más rápida. Esto permite una mayor selectividad comparado con el filtro Butterworth.
+Introduce una ondulación especificada en la banda de paso para obtener una atenuación más rápida. Esto permite una mayor selectividad comparado con el filtro Butterworth [4].
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/chebyshev1_marcoteorico.png?raw=true" alt="Chebyshev Tipo I" width="400" height="300"/>
 </p>
 <p align="center">
 Figura 2. Filtro Chebyshev Tipo I. Fuente: [4].
+</p>
+
+- Filtro Chebyshev Tipo II:
+  
+Ofrece una banda de paso extremadamente plana a costa de ondulaciones en la banda de parada, proporcionando una buena separación de las señales deseadas frente a las no deseadas sin alterar la forma de la señal en la banda de paso [4].
+
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/chebyshev2_marcoteorico.png?raw=true" alt="Chebyshev Tipo II" width="400" height="300"/>
+</p>
+<p align="center">
+Figura 3. Filtro Chebyshev Tipo II. Fuente: [4].
+</p>
+
+- Filtro Elíptico:
+  
+Combina las características de los filtros Chebyshev Tipo I y II, ofreciendo ondulaciones en ambas bandas pero con una eficiencia de diseño superior, lo que permite alcanzar una especificación dada con un orden de filtro más bajo.
+
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/eliptico_marcoteorico.png?raw=true" alt="Filtro Elíptico" width="400" height="300"/>
+</p>
+<p align="center">
+Figura 4. Filtro Elíptico. Fuente: [4].
 </p>
 
 ## Materiales
