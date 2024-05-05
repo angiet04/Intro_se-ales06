@@ -217,8 +217,12 @@ Ripple en la banda de paso (rp): 0.1 dB
 
 | Campo | Señal Cruda | IIR | FIR |
 |-------|-------------|-----|-----|
-| Basal 1 |![ROMI 1](https://github.com/angiet04/Intro_se-ales06/assets/164528295/058eea41-e3c2-4e49-9fd8-fdf0928f5953) | ![ROMI 1-A](https://github.com/angiet04/Intro_se-ales06/assets/164528295/0d943617-770b-4440-b692-ada2363578fb) |![ROMI 7](https://github.com/angiet04/Intro_se-ales06/assets/164528295/d4ded326-cc22-425f-870d-8c22404177fd)|
-| Post ejercicio | ![Imagen 5](ruta/a/imagen5.png) |  | ![Imagen 3](ruta/a/imagen3.png) | |
+| Basal 1 |![ROMI 1](https://github.com/angiet04/Intro_se-ales06/assets/164528295/058eea41-e3c2-4e49-9fd8-fdf0928f5953) | ![ROMI 1-A](https://github.com/angiet04/Intro_se-ales06/assets/164528295/0d943617-770b-4440-b692-ada2363578fb) |![ROMI 3](https://github.com/angiet04/Intro_se-ales06/assets/164528295/f7fefe9a-c992-406a-9bbc-08dd429b1e43)
+|
+| Post ejercicio | ![romi32](https://github.com/angiet04/Intro_se-ales06/assets/164528295/a7928dc5-048c-45e1-99ab-62b4bb31a20c)| ![ROMI 2](https://github.com/angiet04/Intro_se-ales06/assets/164528295/ac2b6c1a-3736-4b5a-8dba-ec12f878c16b)
+ |![ROMI 4](https://github.com/angiet04/Intro_se-ales06/assets/164528295/fbf4cfa9-d2cc-4449-85c5-79128752aca3)
+|
+ 
 
 
 
