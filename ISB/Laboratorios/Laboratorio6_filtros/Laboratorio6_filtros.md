@@ -217,10 +217,11 @@ Ripple en la banda de paso (rp): 0.1 dB
 
 # Galería de Imágenes
 
-|       |       |       |
-| 'Campo' | 'Señal Cruda' | 'IIR' | 'FIR' |
-| 'Basal 1' | ![Imagen 2](ruta/a/imagen2.png) | ![Imagen 3](ruta/a/imagen3.png) || ![Imagen 3](ruta/a/imagen3.png) |
-| 'Post ejercicio'  | ![Imagen 5](ruta/a/imagen5.png) | ![Imagen 6](ruta/a/imagen6.png) || ![Imagen 3](ruta/a/imagen3.png) |
+| Campo | Señal Cruda | IIR | FIR |
+|-------|-------------|-----|-----|
+| Basal 1 | ![Imagen 2](ruta/a/imagen2.png) | ![Imagen 3](ruta/a/imagen3.png) | ![Imagen 3](ruta/a/imagen3.png) |
+| Post ejercicio | ![Imagen 5](ruta/a/imagen5.png) | ![Imagen 6](ruta/a/imagen6.png) | ![Imagen 3](ruta/a/imagen3.png) |
+
 
 
 
