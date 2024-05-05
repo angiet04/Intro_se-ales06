@@ -373,6 +373,12 @@ Figura 18. Señal beta en señal cuando pestañea
 Figura 19. Señal beta en señal cuando responde a preguntas 
 </p>
 
+### CONCLUSIONES
+ - Los filtros digitales, como FIR e IIR, son esenciales en el procesamiento de señales biomédicas, permitiendo la eliminación de ruido y la mejora de las frecuencias relevantes en señales como EEG, ECG y EMG.
+ - En el análisis de señales de electroencefalografía (EEG), los filtros notch son esenciales para eliminar artefactos de frecuencia específica, como los producidos por la red eléctrica (50Hz/60Hz), mejorando así la calidad de los registros y facilitando la detección de patrones neuronales.
+- En el procesamiento de señales de electromiografía (EMG), los filtros adaptativos, como los basados en algoritmos de cancelación de interferencias, son fundamentales para eliminar el ruido causado por la actividad muscular cercana, permitiendo una evaluación precisa de la actividad eléctrica de los músculos específicos.
+- Para la detección de eventos en señales biomédicas, como picos de actividad cardíaca en electrocardiografía (ECG), se utilizan filtros de derivación específicos, como el filtro de derivada de primera o segunda orden, que resaltan cambios rápidos en la señal, facilitando la identificación de eventos cardíacos relevantes
+
 ## Bibliografía
 1. T. Singh, A. Jain, and B. Chourasia, "Survey on IIR and FIR Digital Filter," in International Journal for Research in Applied Science & Engineering Technology (IJRASET), vol. 5, no. IV, pp. 854, April 2017. DOI: http://doi.org/10.22214/ijraset.2017.4156
 2. W. Wei, L. Ji-chong, L. Hong, N. Shu, H. Fan and L. Guo-dong, "The Application of Wavelet Filtering in the Dynamic Loading Identification System of Rock Roadheaders," 2019 6th International Conference on Information Science and Control Engineering (ICISCE), Shanghai, China, 2019, pp. 935-938, doi: 10.1109/ICISCE48695.2019.00188
