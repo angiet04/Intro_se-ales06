@@ -36,7 +36,7 @@ El procesamiento de señales biomédicas se ha beneficiado enormemente del uso d
 
 ## Marco teórico
 ### ¿Qué son filtros digitales?
-Los filtros digitales son herramientas fundamentales en el procesamiento de señales biomédicas, donde manipulan señales digitales mediante la eliminación de ruido y la mejora de componentes de frecuencia útiles. Estos sistemas operan con señales en tiempo discreto y utilizan algoritmos que realizan operaciones de retardo, multiplicación y suma para modificar la señal de entrada según los requisitos específicos de la aplicación. [1]
+Los filtros digitales son herramientas fundamentales en el procesamiento de señales biomédicas, donde manipulan señales digitales mediante la eliminación de ruido y la mejora de componentes de frecuencia útiles. Estos sistemas operan con señales en tiempo discreto y utilizan algoritmos que realizan operaciones de retardo, multiplicación y suma para modificar la señal de entrada según los requisitos específicos de la aplicación [1].
 
 ### Clasificación
 | Características                | Filtros IIR [1]                                                                                     | Filtros FIR [1]                                                                                     |
@@ -90,7 +90,7 @@ Figura 3. Filtro Chebyshev Tipo II. Fuente: [4].
 
 - Filtro Elíptico:
   
-Combina las características de los filtros Chebyshev Tipo I y II, ofreciendo ondulaciones en ambas bandas pero con una eficiencia de diseño superior, lo que permite alcanzar una especificación dada con un orden de filtro más bajo.
+Combina las características de los filtros Chebyshev Tipo I y II, ofreciendo ondulaciones en ambas bandas pero con una eficiencia de diseño superior, lo que permite alcanzar una especificación dada con un orden de filtro más bajo [4].
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/eliptico_marcoteorico.png?raw=true" alt="Filtro Elíptico" width="400" height="300"/>
@@ -101,7 +101,7 @@ Figura 4. Filtro Elíptico. Fuente: [4].
 
 - Filtro de Bessel:
   
-Prioriza el retardo de grupo constante, lo que es fundamental para mantener la forma de las señales temporales, crucial en aplicaciones donde la fidelidad de la señal es más importante que la atenuación perfecta.
+Prioriza el retardo de grupo constante, lo que es fundamental para mantener la forma de las señales temporales, crucial en aplicaciones donde la fidelidad de la señal es más importante que la atenuación perfecta [4].
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/bessel_marcoteorico.png?raw=true" alt="Filtro de Bessel" width="400" height="300"/>
@@ -125,6 +125,27 @@ Figura 6. Ejemplos de formas de ventana. Fuente: [5].
 <p align="center">
 Figura 7. Ventanas comunes usadas para windowing. Fuente: [6].
 </p>
+
+- Ventana de Bartlett
+  
+La ventana de Bartlett guarda mucha similitud con una ventana triangular, salvo que los puntos finales son cero. Se utiliza frecuentemente en el procesamiento de señales para suavizar una señal, sin generar demasiada oscilación en el dominio de frecuencia [7].
+
+- Ventana Hamming
+  
+La ventana de Hamming es una forma de atenuación formada mediante el uso de un coseno elevado con puntos finales no nulos, optimizado para minimizar el lóbulo lateral más cercano [8].
+
+- Ventana Hanning
+  
+La ventana de Hanning es una forma de atenuación formada mediante el uso de un coseno ponderado. Se utiliza principalmente en el procesamiento de señales para suavizar valores y se conoce también como "Campana Coseno". Esta función de ventana se emplea para suavizar discontinuidades al principio y al final de una señal muestreada [9].
+
+- Ventana rectangular
+  
+La ventana rectangular es una ventana básica que se utiliza comúnmente en el procesamiento de señales. Esta ventana se caracteriza por tener valores constantes dentro de su longitud y cero fuera de ella [10].
+
+- Ventana Blackman
+  
+La ventana de Blackman es una forma de atenuación formada mediante los primeros tres términos de una suma de cosenos. Fue diseñada para tener un mínimo de fuga posible. Es casi óptima, sólo ligeramente peor que una ventana de Kaiser [11].
+
 ## Materiales
 
 ## Metodología
