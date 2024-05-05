@@ -157,4 +157,15 @@ La ventana de Blackman es una forma de atenuación formada mediante los primeros
 ## Conclusiones
 
 ## Bibliografía
+1. T. Singh, A. Jain, and B. Chourasia, "Survey on IIR and FIR Digital Filter," in International Journal for Research in Applied Science & Engineering Technology (IJRASET), vol. 5, no. IV, pp. 854, April 2017. DOI: http://doi.org/10.22214/ijraset.2017.4156
+2. W. Wei, L. Ji-chong, L. Hong, N. Shu, H. Fan and L. Guo-dong, "The Application of Wavelet Filtering in the Dynamic Loading Identification System of Rock Roadheaders," 2019 6th International Conference on Information Science and Control Engineering (ICISCE), Shanghai, China, 2019, pp. 935-938, doi: 10.1109/ICISCE48695.2019.00188
+3. Z. A. A. Alyasseri, A. T. Khader, M. A. Al-Betar, A. K. Abasi and S. N. Makhadmeh, "EEG Signals Denoising Using Optimal Wavelet Transform Hybridized With Efficient Metaheuristic Methods," in IEEE Access, vol. 8, pp. 10584-10605, 2020, doi: 10.1109/ACCESS.2019.2962658
+4. MathWorks. "Diseño de filtros IIR." MATLAB Signal Processing Toolbox, [En línea]. Disponible en: https://la.mathworks.com/help/signal/ug/iir-filter-design.html. [Consultado: 04-may-2024].
+5. "REDUCIR EL FILTRADO PEINE EN DIFERENTES INSTRUMENTOS MUSICALES USANDO LA ESTIMACIÓN DEL TIEMPO DE DELAY." Audiomidilab [En línea]. Disponible en: https://audiomidilab.com/reducir-filtrado-peine-diferentes-instrumentos-musicales-usando-la-estimacion-del-tiempo-delay/. [Consultado: 03-may-2024].
+6. Sandoval Huenchual, Y. (2020). "Detección de daño en puente mediante algoritmos de Novelty Detection." Disponible en: https://repositorio.uchile.cl/handle/2250/177547
+7. SciPy Developers. "scipy.signal.windows.blackman." SciPy Reference Guide, [En línea]. Disponible en: https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.windows.blackman.html. [Consultado: 04-may-2024].
+8. SciPy Developers. "scipy.signal.windows.hamming." SciPy Reference Guide, [En línea]. Disponible en: https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.windows.hamming.html. [Consultado: 04-may-2024].
+9. NumPy Developers. "numpy.hanning." NumPy Documentation, [En línea]. Disponible en: https://numpy.org/doc/stable/reference/generated/numpy.hanning.html. [Consultado: 04-may-2024].
+10. MathWorks. "rectwin." MATLAB Documentation, [En línea]. Disponible en: https://la.mathworks.com/help/signal/ref/rectwin.html. [Consultado: 04-may-2024].
+11. SciPy Developers. "scipy.signal.windows.blackman." SciPy Reference Guide, [En línea]. Disponible en: https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.windows.blackman.html. [Consultado: 04-may-2024].
 
