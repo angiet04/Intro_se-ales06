@@ -213,7 +213,7 @@ Orden del filtro (order): 10
 Ripple en la banda de paso (rp): 0.1 dB
 
 #### Filtro FIR para señales ECG
-El artículo "The Use of FIR Filter for Filtering of ECG Signal and Comparison of Some Parameters" se centra en el diseño y evaluación de filtros FIR de paso bajo utilizando diferentes funciones de ventana para eliminar el ruido de las señales ECG. Las señales ECG son propensas a varias formas de ruido como la interferencia de la línea de energía, artefactos de movimiento, deriva de línea base y ruido instrumental. Se utilizaron 3 tipos de ventanas para los filtros: Hanning, Hamming y Blackman. Con los siguientes parámetros:
+El artículo "The Use of FIR Filter for Filtering of ECG Signal and Comparison of Some Parameters"[16] se centra en el diseño y evaluación de filtros FIR de paso bajo utilizando diferentes funciones de ventana para eliminar el ruido de las señales ECG. Las señales ECG son propensas a varias formas de ruido como la interferencia de la línea de energía, artefactos de movimiento, deriva de línea base y ruido instrumental. Se utilizaron 3 tipos de ventanas para los filtros: Hanning, Hamming y Blackman. Con los siguientes parámetros:
 
 Frecuencia de paso normalizada (fp): 0.180
 Frecuencia de corte normalizada (fs): 0.205
@@ -369,3 +369,5 @@ Figura _. Señal beta en señal cuando responde a preguntas
 12. M. Ingale, R. Cordeiro, S. Thentu, Y. Park, y N. Karimian, “ECG Biometric Authentication: A Comparative Analysis”, IEEE Access, vol. 8, pp. 117853–117866, 2020, doi: 10.1109/ACCESS.2020.3004464.
 13. Z. Liu, “Design of ECG Signals Filter Circuit Based on OTA Filtering”, HSET, vol. 32, pp. 135–142, Feb. 2023, doi: 10.54097/hset.v32i.4983.
 14. N. Das y M. Chakraborty, «Performance analysis of FIR and IIR filters for ECG signal denoising based on SNR», en 2017 Third International Conference on Research in Computational Intelligence and Communication Networks (ICRCICN), nov. 2017, pp. 90-97. doi: 10.1109/ICRCICN.2017.8234487.
+15. K. S. Kumar, B. Yazdanpanah, y P. R. Kumar, «Removal of noise from electrocardiogram using digital FIR and IIR filters with various methods», en 2015 International Conference on Communications and Signal Processing (ICCSP), abr. 2015, pp. 0157-0162. doi: 10.1109/ICCSP.2015.7322780.
+16. S. Behera, M. Samal, y R. Layak, «The Use of FIR Filter for Filtering of ECG Signal and Comparison of Some Parameters». Disponible en: http://www.ijesi.org/papers/Vol(6)4/L06047179.pdf
