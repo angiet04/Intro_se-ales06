@@ -99,6 +99,17 @@ Combina las características de los filtros Chebyshev Tipo I y II, ofreciendo on
 Figura 4. Filtro Elíptico. Fuente: [4].
 </p>
 
+- Filtro de Bessel:
+  
+Prioriza el retardo de grupo constante, lo que es fundamental para mantener la forma de las señales temporales, crucial en aplicaciones donde la fidelidad de la señal es más importante que la atenuación perfecta.
+
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/bessel_marcoteorico.png?raw=true" alt="Filtro de Bessel" width="400" height="300"/>
+</p>
+<p align="center">
+Figura 5. Filtro de Bessel. Fuente: [4].
+</p>
+
 ## Materiales
 
 ## Metodología
