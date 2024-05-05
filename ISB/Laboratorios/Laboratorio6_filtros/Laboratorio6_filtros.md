@@ -226,6 +226,9 @@ Ripple en la banda de paso (rp): 0.1 dB
 
 
 ### Señales EMG
+¿Qué son señales EMG? 
+Las señales EMG, o electromiográficas, son registros de la actividad eléctrica generada por los músculos durante su contracción. Pueden ser obtenidas mediante electrodos colocados sobre la piel o de manera invasiva dentro del músculo mismo. Estas señales proporcionan información valiosa sobre la función muscular y son utilizadas en campos como la medicina para diagnosticar trastornos neuromusculares, en la rehabilitación para evaluar la actividad muscular, y en la ingeniería biomédica para el control de prótesis y otras aplicaciones de dispositivos médicos.
+
 
 ### Señales EEG
 
