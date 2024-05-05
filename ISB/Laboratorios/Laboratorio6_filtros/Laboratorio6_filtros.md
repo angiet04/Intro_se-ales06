@@ -54,7 +54,7 @@ El filtro wavelet ofrece una eficaz solución para el procesamiento de señales 
 
 Por otro lado, la transformada wavelet (WT) se destaca como una herramienta poderosa y ampliamente empleada para analizar señales en el dominio tiempo-frecuencia. Su aplicación exitosa se ha extendido a señales no estacionarias como el ECG y el EEG, donde se utiliza para una variedad de propósitos como la compresión de señales, la selección de características y la eliminación de ruido. Específicamente en el EEG, la WT ha demostrado ser invaluable para contrarrestar diversos ruidos de artefactos que pueden afectar la señal original, tales como el parpadeo de ojos, los movimientos oculares, la actividad muscular, las señales de electromiografía (EMG) y las interferencias electrónicas [3].
 
-Para los tipos de filtros en IIR tenemos:
+### Tipos de filtros en IIR 
 - Filtro Butterworth:
   
 Este filtro es conocido por su respuesta de frecuencia extremadamente plana en la banda de paso. No presenta ondulaciones en la banda de paso, lo que lo hace ideal para aplicaciones que requieren una señal de salida suave sin distorsiones de amplitud [4].
@@ -110,6 +110,21 @@ Prioriza el retardo de grupo constante, lo que es fundamental para mantener la f
 Figura 5. Filtro de Bessel. Fuente: [4].
 </p>
 
+### Métodos de ventana (windowing)
+
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/ventanas_marcoteorico.png?raw=true" alt="Ejemplos de ventanas" width="400" height="300"/>
+</p>
+<p align="center">
+Figura 6. Ejemplos de formas de ventana. Fuente: [5].
+</p>
+
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio_6/ventanas2_marcoteorico.png?raw=true" alt="Ventanas comunes" width="400" height="300"/>
+</p>
+<p align="center">
+Figura 7. Ventanas comunes usadas para windowing. Fuente: [6].
+</p>
 ## Materiales
 
 ## Metodología
