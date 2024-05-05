@@ -188,18 +188,6 @@ Es crucial filtrar la señal de ECG debido a la presencia de diversas fuentes de
 
 En [14], un estudio de filtro de señales ECG, se observó que los tipos Chebyshev tipo I y los elípticos destacaron debido a su relación señal- ruido (SNR) obteniendo un promedio de 5.0909 dB a un orden 1. Estos filtros son conocidos por su capacidad para lograr una respuesta en frecuencia más selectiva en comparación con otros tipos de filtros, lo que les permite suprimir eficazmente el ruido no deseado en ciertas bandas de frecuencia mientras preservan las características importantes de la señal ECG.
 
-##### Metodología 
-
-1. Carga de datos de ECG:
-   
-Se cargaron los datos recopilados del laboratorio ECG a la plataforma de Python.
-
-2. Selección y diseño del filtro Pasa Bajo con orden mínimo:
-   
-Los filtros se diseñaron en Python con órdenes incrementales hasta 100 para evaluar su rendimiento
-
-3. Filtrado de la señal de ECG:
-
 Se identificaron las frecuencias relevantes de la señal ECG y ruido. Esto sirve para aislar la parte útil de la señal, eliminando interferencias y ruidos no deseados.
 
 - Rango de frecuencia de la señal de ECG: 0.05 Hz a 150 Hz, siendo el rango más relevante entre 0.5 Hz y 45 Hz
