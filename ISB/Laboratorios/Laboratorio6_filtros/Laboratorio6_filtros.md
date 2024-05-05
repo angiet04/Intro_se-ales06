@@ -218,11 +218,14 @@ Ripple en la banda de paso (rp): 0.1 dB
 | Post ejercicio | ![romi32](https://github.com/angiet04/Intro_se-ales06/assets/164528295/a7928dc5-048c-45e1-99ab-62b4bb31a20c)    | ![ROMI 2](https://github.com/angiet04/Intro_se-ales06/assets/164528295/ac2b6c1a-3736-4b5a-8dba-ec12f878c16b)     | ![ROMI 4](https://github.com/angiet04/Intro_se-ales06/assets/164528295/fbf4cfa9-d2cc-4449-85c5-79128752aca3) |                                                                                          |
 
 ### Señales EMG
-¿Qué son señales EMG? 
 Las señales EMG, o electromiográficas, son registros de la actividad eléctrica generada por los músculos durante su contracción. Pueden ser obtenidas mediante electrodos colocados sobre la piel o de manera invasiva dentro del músculo mismo. Estas señales proporcionan información valiosa sobre la función muscular y son utilizadas en campos como la medicina para diagnosticar trastornos neuromusculares, en la rehabilitación para evaluar la actividad muscular, y en la ingeniería biomédica para el control de prótesis y otras aplicaciones de dispositivos médicos.
 
 
 ### Señales EEG
+Las señales EEG, o electroencefalograma, registran los potenciales eléctricos del cuero cabelludo humano resultantes de las corrientes iónicas en las neuronas cerebrales. Al insertar electrodos no invasivos en el cuero cabelludo, es posible registrar, caracterizar, clasificar y traducir las señales cerebrales relacionadas con las intenciones del usuario en comandos de máquina para la comunicación con dispositivos y servicios en Internet. El procesamiento de estas señales, así como su reconocimiento y clasificación de patrones, es posible mediante la combinación de inteligencia artificial y interfaces cerebro-computadora.
+
+Las señales EEG, o electroencefalograma, registran los potenciales eléctricos del cuero cabelludo humano resultantes de las corrientes iónicas en las neuronas cerebrales. Al insertar electrodos no invasivos en el cuero cabelludo, es posible registrar, caracterizar, clasificar y traducir las señales cerebrales relacionadas con las intenciones del usuario en comandos de máquina para la comunicación con dispositivos y servicios en Internet. El procesamiento de estas señales, así como su reconocimiento y clasificación de patrones, es posible mediante la combinación de inteligencia artificial y interfaces cerebro-computadora.
+
 ##### IIR
 En el review mostrado en [ ] se ofrece una visión general de diferentes tipos de filtros electrónicos y sus aplicaciones, con especial énfasis en las técnicas de filtrado en el procesamiento de señales EEG. De entre todos los filtros IIR comunes, se ha encontrado que el filtro Butterworth es el más utilizado.
 
@@ -338,11 +341,6 @@ Figura _. Señal beta en señal cuando pestañea
 <p align="center">
 Figura _. Señal beta en señal cuando responde a preguntas 
 </p>
-
-
-## Discusión
-
-## Conclusiones
 
 ## Bibliografía
 1. T. Singh, A. Jain, and B. Chourasia, "Survey on IIR and FIR Digital Filter," in International Journal for Research in Applied Science & Engineering Technology (IJRASET), vol. 5, no. IV, pp. 854, April 2017. DOI: http://doi.org/10.22214/ijraset.2017.4156
