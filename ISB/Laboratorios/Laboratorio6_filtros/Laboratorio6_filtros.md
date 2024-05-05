@@ -8,18 +8,6 @@
 3. Nicole Doris Unsihuay Vila (nicole.unsihuay@upch.pe)
 4. Angie Milagros Diaz Torres (angie.diaz.t@upch.pe)
 
-## Tabla de Contenidos
-- [Resumen](#resumen)
-- [Introducción](#introducción)
-- [Objetivos](#objetivos)
-- [Marco Teórico](#marco-teórico)
-- [Materiales](#materiales)
-- [Metodología](#metodología)
-- [Resultados](#resultados)
-- [Discusión](#discusión)
-- [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografía)
-
 ### En este laboratorio, filtraremos las bioseñales medidas en los laboratorios pasados, utilizando filtros FIR e IIR. 
 
 ## Resumen
@@ -177,7 +165,7 @@ Se realizó un filtrado de las señales utilizando filtros FIR e IIR.
 
 #### 3.4 Se estableció un filtro IIR y un filtro FIR para cada tipo de bioseñal (2 para ECG, 2 para EMG, 2 para EEG) y se realizó el filtrado de las señales en reposo, en movimiento, etc que se tenían para cada una.
    
-## Resultados
+## Resultados y discusión
 
 ### Señales ECG
 
