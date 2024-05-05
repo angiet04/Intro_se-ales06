@@ -170,7 +170,7 @@ Se realizó un filtrado de las señales utilizando filtros FIR e IIR.
 
 #### 3.1 Para determinar el filtro a usar para cada señal se revisó la literatura existente en busca del tipo de filtro más utilizado para cada señal, en algunos casos se encontró la frecuencia de corte recomendada.
 
-#### 3.2 Se diseñaron los filtros.
+#### 3.2 Se diseñó los filtros FIR e IIR.
 
 #### 3.3 Se filtraron las señales y se realizaron ajustes hasta comprobar la efectividad de los filtros.
 
