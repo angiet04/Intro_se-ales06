@@ -34,6 +34,17 @@ Figura . Señal original vs Señal Filtrada EMG.
 | Contracción Leve |![Original_25](https://github.com/angiet04/Intro_se-ales06/assets/164534811/b89be5a3-0aa7-4346-9863-1b9370de5b31)|![Denoise_25](https://github.com/angiet04/Intro_se-ales06/assets/164534811/508e4bde-e202-4ba4-b7fd-efe78348be84)|
 |Contracción Fuerte|![Original_35](https://github.com/angiet04/Intro_se-ales06/assets/164534811/ea8c9eae-5f25-4b4b-af25-e7a83c7a282a)|![Original_Denoising](https://github.com/angiet04/Intro_se-ales06/assets/164534811/9c506ff5-d2cf-4e7a-86bc-a47c5e851998)| |
 
+### Señales EEG
+Se realizó una revisión bibliográfica, buscando las aplicaciones de filtros wavelet para el filtrado de señales EEG.
+
+| Título del artículo                                                                                  | Wavelet con mejor performance                                                                                                                                       | Referencia                             |
+|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| Comparative Study of Wavelet-Based Unsupervised Ocular Artifact Removal Techniques for Single-Channel EEG Data | DWT+ST+coif3 DWT+ST+bior4.4 Si el tiempo computacional no es crítico también se puede usar: SWT+ST+haar.                                                            | DOI: [10.1109/JTEHM.2016.2544298](https://doi.org/10.1109/JTEHM.2016.2544298) |
+| Performance Analysis of Mother Wavelet Functions and Thresholding Methods for Denoising EEG Signals during Cognitive Tasks | Discrete Meyer (dmey) para filtrar el ruido de señales EEG                                                                                                          | DOI: [10.1109/PICC51425.2020.9362377](https://doi.org/10.1109/PICC51425.2020.9362377) |
+| Comparative Analysis of Various Filtering Techniques for Denoising EEG Signals                       | Biorthogonal 2.6, ya que proporciona la máxima mejora en PSNR, alcanzando hasta 46.68 y 42.44 para la eliminación de ruido en la Señal de EEG Epiléptico y la Señal de EEG de Sueño, respectivamente. | DOI: [10.1109/I2CT51068.2021.9417984](https://doi.org/10.1109/I2CT51068.2021.9417984) |
+| Data Science Modeling for EEG Signal Filtering Using Wavelet Transforms                              | "db4" como wavelet madre y el umbral de Hart.                                                                                                                       | DOI: [10.1109/IS48319.2020.9199843](https://doi.org/10.1109/IS48319.2020.9199843) |
+| Denoising Semi-simulated EEG Signal Contaminated Ocular Noise using Various Wavelet Filters          | haar, db1, bior1.1 y rbior1.1 son óptimos para eliminar el ruido EOG.                                                                                               | DOI: [10.1109/ICICS55353.2022.9811226](https://doi.org/10.1109/ICICS55353.2022.9811226) |
+
 ## Bibliografía
 [1]	“A Review of Wavelet Analysis and Its Applications: Challenges and Opportunities | IEEE Journals & Magazine | IEEE Xplore”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://ieeexplore.ieee.org/document/9785993
 
