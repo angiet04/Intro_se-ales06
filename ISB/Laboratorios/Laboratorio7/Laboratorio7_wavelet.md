@@ -13,7 +13,6 @@ El análisis preciso de señales fisiológicas es fundamental en la ingeniería 
 ## Marco Teórico
 ### ¿Qué es la transformada de Wavelet? [1]
 La transformada Wavelet es una técnica de análisis de señales que proyecta una señal en un conjunto de funciones base que ofrecen localización en el dominio de la frecuencia. A diferencia de la transformada de Fourier, que proporciona una localización tiempo-frecuencia constante, la transformada Wavelet ofrece una alta resolución frecuencial en bajas frecuencias y una alta resolución temporal en altas frecuencias. Esto se logra mediante el uso de una serie de bases ortogonales con diferentes resoluciones para representar o aproximar una señal a través de la expansión y traslación de la función base de la wavelet.
-
 ## ¿Cúales son sus características? [1]
 1. Multiresolución:
     - Permite la descomposición de señales en múltiples niveles de resolución, capturando tanto detalles finos como características generales.
@@ -34,13 +33,11 @@ La transformada Wavelet es una técnica de análisis de señales que proyecta un
 5. Aplicaciones Diversas:
     - Aplicaciones en procesamiento de señales, compresión de imágenes, reconocimiento de patrones y análisis de datos biomédicos como ECG y EEG.
     - En procesamiento de imágenes, mejora la tasa de compresión y el efecto de eliminación de ruido, mejorando métricas como la PSNR.
-
 ## ¿Cúales es su clasificación? [1]
 |  Clasificación | Descripción | Características|
 | :------------: | :------------: | :------------: |
 | Transformada Wavelet Continua (CWT) | Proyección de la señal en una familia de wavelets generada por expansión y traslación. | - Representación redundante de la señal.    - Alta resolución en escala tiempo-frecuencia.    - Útil para análisis detallado de señales.    - Alta precisión en la detección de características locales. |
 | Transformada Wavelet Discreta (DWT) | Discretiza la escala y traslación de la wavelet madre usando potencias de 2 (diádica). | - Forma más básica y ampliamente usada.    - Implementada mediante un banco de filtros de dos canales.    - Descompone señales en componentes de baja y alta frecuencia.    - Computacionalmente eficiente.    - Adecuada para compresión de datos y eliminación de ruido. |
-
 ## ¿Cúales son las variantes de la Transformada Wavelet Discreta? [1]
 |  Variante | Descripción | Características|
 | :------------: | :------------: | :------------: |
