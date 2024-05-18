@@ -80,6 +80,14 @@ Por otro lado, según el análisis del artículo “Optimum choice of wavelet fu
 </p>
 Se utilizaron 13 funciones de wavelets y 4 reglas de umbral, se eligieron 15 registros de ECG con una duración de 1 minuto cada una y una frecuencia de muestreo de 250 Hz. En general, la función wavelet 'coif2' y 'rigrsure' ofrecen el mejor rendimiento en comparación con otras funciones wavelet y reglas de umbral.
 
+En base a los parámetros presentes se obtuvieron las siguientes señales:
+
+Sujeto en reposo:
+
+![Captura de pantalla 2024-05-18 063306](https://github.com/angiet04/Intro_se-ales06/assets/164528295/fbe4777e-6a24-408a-bc09-bc47f9d15a26)
+
+Sujeto en movimiento: 
+![Captura de pantalla 2024-05-18 052454](https://github.com/angiet04/Intro_se-ales06/assets/164528295/b6158f12-ae40-40a5-ac66-0f362baf7805)
 
 
 
