@@ -137,7 +137,8 @@ Los resultados obtenidos al filtrar las señales EEG fueron favorables, se cumpl
 
 [5]	“Discrete wavelet transform based processing of embroidered textile-electrode electromyography signal acquired with load and pressure effect - Bulcha Belay Etana, Ahmed Ali Dawud, Benny Malengier, Wojciech Sitek, Wendimu Fanta Gemechu, Janarthanan Krishnamoorthy, Lieva Van Langenhove, 2024”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://journals.sagepub.com/doi/10.1177/15280837241232449
 
-[6] S. Khatun, R. Mahajan and B. I. Morshed, "Comparative Study of Wavelet-Based Unsupervised Ocular Artifact Removal Techniques for Single-Channel EEG Data," in IEEE Journal of Translational Engineering in Health and Medicine, vol. 4, pp. 1-8, 2016, Art no. 2000108, doi: 10.1109/JTEHM.2016.2544298.
+[6] S. Khatun, R. Mahajan, y B. I. Morshed, «Comparative Study of Wavelet-Based Unsupervised Ocular Artifact Removal Techniques for Single-Channel EEG Data», IEEE Journal of Translational Engineering in Health and Medicine, vol. 4, pp. 1-8, 2016, doi: 10.1109/JTEHM.2016.2544298.
+
 
 [7] 
 
