@@ -38,10 +38,7 @@ La transformada Wavelet es una técnica de análisis de señales que proyecta un
 ## ¿Cúales es su clasificación?
 |  Clasificación | Descripción | Características|
 | :------------: | :------------: | :------------: |
-| Transformada Wavelet Continua (CWT) | Proyección de la señal en una familia de wavelets generada por expansión y traslación. | - Representación redundante de la señal.
-- Alta resolución en escala tiempo-frecuencia.
-- Útil para análisis detallado de señales.
-- Alta precisión en la detección de características locales. |
+| Transformada Wavelet Continua (CWT) | Proyección de la señal en una familia de wavelets generada por expansión y traslación. | - Representación redundante de la señal.    - Alta resolución en escala tiempo-frecuencia.    - Útil para análisis detallado de señales.    - Alta precisión en la detección de características locales. |
 
 
 ### Señales EMG
