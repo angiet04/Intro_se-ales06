@@ -139,13 +139,12 @@ Los resultados obtenidos al filtrar las señales EEG fueron favorables, se cumpl
 
 [6] S. Khatun, R. Mahajan, y B. I. Morshed, «Comparative Study of Wavelet-Based Unsupervised Ocular Artifact Removal Techniques for Single-Channel EEG Data», IEEE Journal of Translational Engineering in Health and Medicine, vol. 4, pp. 1-8, 2016, doi: 10.1109/JTEHM.2016.2544298.
 
+[7] T. A. Suhail, K. P. Indiradevi, E. M. Suhara, S. A. Poovathinal, y A. Anitha, «Performance Analysis of Mother Wavelet Functions and Thresholding Methods for Denoising EEG Signals during Cognitive Tasks», en 2020 International Conference on Power, Instrumentation, Control and Computing (PICC), dic. 2020, pp. 1-6. doi: 10.1109/PICC51425.2020.9362377.
 
-[7] 
+[8] A. W. Pise y P. P. Rege, «Comparative Analysis of Various Filtering Techniques for Denoising EEG Signals», en 2021 6th International Conference for Convergence in Technology (I2CT), abr. 2021, pp. 1-4. doi: 10.1109/I2CT51068.2021.9417984.
 
-[8]
+[9] I. Garvanov, V. Jotsov, y M. Garvanova, «Data Science Modeling for EEG Signal Filtering Using Wavelet Transforms», en 2020 IEEE 10th International Conference on Intelligent Systems (IS), ago. 2020, pp. 352-357. doi: 10.1109/IS48319.2020.9199843.
 
-[9]
+[10] S. N. S. S. Daud, R. Sudirman, N. H. Mahmood, y C. Omar, «Denoising Semi-simulated EEG Signal Contaminated Ocular Noise using Various Wavelet Filters», en 2022 13th International Conference on Information and Communication Systems (ICICS), jun. 2022, pp. 452-457. doi: 10.1109/ICICS55353.2022.9811226.
 
-[10]
-
-[11]
+[11] V. Krishnaveni, S. Jayaraman, N. Malmurugan, A. Kandaswamy, and D. Ramadoss, ‘‘Non adaptive thresholding methods for correcting ocular artifacts in EEG,’’ Acad. Open Internet J., vol. 13, 2004.
