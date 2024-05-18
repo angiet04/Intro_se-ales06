@@ -84,8 +84,10 @@ Figura . Señal original vs Señal Filtrada EMG.
 | Contracción Leve |![Original_25](https://github.com/angiet04/Intro_se-ales06/assets/164534811/b89be5a3-0aa7-4346-9863-1b9370de5b31)|![Denoise_25](https://github.com/angiet04/Intro_se-ales06/assets/164534811/508e4bde-e202-4ba4-b7fd-efe78348be84)|
 |Contracción Fuerte|![Original_35](https://github.com/angiet04/Intro_se-ales06/assets/164534811/ea8c9eae-5f25-4b4b-af25-e7a83c7a282a)|![Original_Denoising](https://github.com/angiet04/Intro_se-ales06/assets/164534811/9c506ff5-d2cf-4e7a-86bc-a47c5e851998)| |
 
+Tabla 1. Filtrado de señales EMG.
+
 ### Señales EEG
-Se realizó una revisión bibliográfica, buscando las aplicaciones de filtros wavelet para el filtrado de señales EEG.
+Se realizó una revisión bibliográfica, buscando las aplicaciones de Wavelets para el filtrado de señales EEG, esto se muestra en la Tabla 2:
 
 | Título del artículo                                                                                  | Wavelet con mejor performance                                                                                                                                       | Referencia                             |
 |------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
@@ -94,6 +96,8 @@ Se realizó una revisión bibliográfica, buscando las aplicaciones de filtros w
 | Comparative Analysis of Various Filtering Techniques for Denoising EEG Signals                       | Biorthogonal 2.6, ya que proporciona la máxima mejora en PSNR, alcanzando hasta 46.68 y 42.44 para la eliminación de ruido en la Señal de EEG Epiléptico y la Señal de EEG de Sueño, respectivamente. | DOI: [10.1109/I2CT51068.2021.9417984](https://doi.org/10.1109/I2CT51068.2021.9417984) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER3.pdf) [8]|
 | Data Science Modeling for EEG Signal Filtering Using Wavelet Transforms                              | "db4" como wavelet madre y el umbral de Hart.                                                                                                                       | DOI: [10.1109/IS48319.2020.9199843](https://doi.org/10.1109/IS48319.2020.9199843) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER4.pdf) [9]|
 | Denoising Semi-simulated EEG Signal Contaminated Ocular Noise using Various Wavelet Filters          | haar, db1, bior1.1 y rbior1.1 son óptimos para eliminar el ruido EOG.                                                                                               | DOI: [10.1109/ICICS55353.2022.9811226](https://doi.org/10.1109/ICICS55353.2022.9811226) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER5.pdf) [10]|
+
+Tabla 2. Aplicaciones de Wavelets para filtrado de señales.
 
 Se eligió realizar el filtrado basándonos en el primer artículo "Comparative Study of Wavelet-Based Unsupervised Ocular Artifact Removal Techniques for Single-Channel EEG Data", donde se propone usar una transformada wavelet discreta junto a coif3 y con Statistical Threshold(ST). 
 
@@ -112,6 +116,8 @@ Las señales EEG se encuentran [aquí](https://github.com/angiet04/Intro_se-ales
 | Descanso            | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_base_original.png)         | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_base_filtrada.png)     |
 | Pestañeando    | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_pestaneando_original.png)   |  ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_pestaneando_filtrada.png)     |
 | Respondiendo a preguntas  | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_preguntas_original.png)   | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_preguntas_filtrada.png) |
+
+Tabla 3. Filtrado de señales EEG.
 
 ## Discusión
 ### ECG
