@@ -83,14 +83,14 @@ Se utilizaron 13 funciones de wavelets y 4 reglas de umbral, se eligieron 15 reg
 
 
 
-### Señales EMG
+### Señales EMG[5]
 La capacidad de las wavelets para descomponer la señal en diferentes componentes de frecuencia permite una reducción específica del ruido y al mismo tiempo preserva características importantes de la señal. Esto es particularmente importante para las señales EMG[5], que pueden estar contaminadas por varios tipos de ruido, incluidas interferencias de líneas eléctricas y artefactos de movimiento.
 En el artículo titulado "Discrete Wavelet Transform-Based Processing of Embroidered Textile Electrode Electromyography Signal" explora el uso de la Transformada Wavelet Discreta (DWT) para el procesamiento y denoising de señales EMG obtenidas mediante electrodos textiles bordados.[5]
 El estudio utiliza la wavelet 'sym5' para la descomposición de la señal EMG, seleccionada por su capacidad para capturar las características de las señales EMG con una buena relación de compresión. Se emplea un nivel de descomposición de 4, ya que proporciona un equilibrio adecuado entre la resolución temporal y la frecuencia.
 Para la eliminación de ruido, se utiliza la técnica de thresholding suave (soft thresholding) con el método Rigrsure, que calcula los umbrales adaptativos basados en la distribución de los coeficientes wavelet en cada nivel de detalle. Los parámetros precisos utilizados en el proceso de denoising [5]incluyen:
-Wavelet: 'sym5'
-Nivel de descomposición: 4
-Método de umbral: Soft thresholding (Rigrsure)
+- Wavelet: 'sym5'
+- Nivel de descomposición: 4
+- Método de umbral: Soft thresholding (Rigrsure)
 El procedimiento de denoising incluye los siguientes pasos:
 1. Descomposición Wavelet: La señal EMG se descompone utilizando la wavelet 'sym5' en 4 niveles.
 2. Cálculo del Umbral: Para cada nivel de coeficientes de detalle, se calcula el umbral utilizando el método Rigrsure, el cual es adaptativo y depende de la distribución de los coeficientes en ese nivel.
@@ -170,7 +170,7 @@ Tabla 3. Filtrado de señales EEG.
 ### ECG
 
 ### EMG
-
+En todos los casos, la técnica de denoising basada en la DWT con 'sym5'[5] y el método de thresholding suave Rigrsure demostró ser efectiva para reducir el ruido sin perder las características importantes de la señal EMG. Esto es especialmente evidente en los estados de contracción, donde la señal filtrada permite observar los picos de actividad muscular de manera más clara y precisa. Los resultados indican que el método de denoising es aplicable y beneficioso en diferentes estados de actividad muscular, desde el descanso hasta la contracción fuerte, demostrando su versatilidad y robustez.En resumen, el uso de la Transformada Wavelet Discreta con la wavelet 'sym5' y el método de thresholding suave Rigrsure ha mostrado ser una técnica eficaz para mejorar la calidad de las señales EMG, facilitando una interpretación más precisa y confiable de la actividad muscular registrada. Esta metodología es especialmente valiosa para aplicaciones clínicas y de investigación donde la precisión y la fiabilidad de las señales EMG son cruciales.
 ### EEG
 En las señales EEG, uno de los principales artefactos proviene del movimiento ocular. En [6], se realizó una búsqueda exhaustiva para identificar la wavelet más adecuada para reducir este tipo de interferencia. Dado que gran parte de los artefactos presentes en nuestras señales EEG están asociados al movimiento ocular, se optó por implementar la wavelet coif3 para su filtrado, debido a su destacada eficacia según lo demostrado en dicho estudio [6]. La coif3 es una wavelet ortogonal simétrica [12], ampliamente utilizada en el procesamiento de señales.
 
