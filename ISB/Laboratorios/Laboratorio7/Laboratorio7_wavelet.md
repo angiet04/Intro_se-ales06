@@ -60,7 +60,7 @@ En el siguiente artículo titulado “ECG denoising using wavelet transform and 
   <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/4cfb31a8-0d97-42d9-bbc4-cb94075694b6" alt="Umbral de suavizado">
 </p>
 <p align="center">
-  Figura: Fórmula umbral de suavizado
+  Figura 1: Fórmula umbral de suavizado
 </p>
 
 La SNR obtenida demuestra que también se eliminan otros ruidos.Se considera que la SNR de la transformada wavelet `sym8' es mayor que la del filtro digital que utiliza la `ventana blackman'.
@@ -68,7 +68,7 @@ La SNR obtenida demuestra que también se eliminan otros ruidos.Se considera que
   <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/fb0c0bb1-32ad-4a0c-ab0e-888b5f3c37bf" alt="Valores SNR">
 </p>
 <p align="center">
-  Figura: Valores SNR (en dB) para ventanas de Blackman y wavelets sym8
+  Figura 2: Valores SNR (en dB) para ventanas de Blackman y wavelets sym8
 </p>
 
 Por otro lado, según el análisis del artículo “Optimum choice of wavelet function and thresholding rule for ECG signal denoising“ [4] . La transformada Wavelet es un análisis de resolución múltiple que descompone el latido del ECG en componentes de onda elementales que se localizan tanto en el tiempo como en la frecuencia. La transformada Wavelet discreta se calcula pasando la señal de ECG secuencialmente a través de un filtro de paso alto y de paso bajo. Se elige que el número de niveles de descomposición sea 4.
@@ -76,7 +76,7 @@ Por otro lado, según el análisis del artículo “Optimum choice of wavelet fu
   <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/6824d49a-aacc-486a-b75d-51d9c071ab4e" alt="Descomposición de las ondas">
 </p>
 <p align="center">
-  Figura: Descomposición de las ondas
+  Figura 3: Descomposición de las ondas
 </p>
 Se utilizaron 13 funciones de wavelets y 4 reglas de umbral, se eligieron 15 registros de ECG con una duración de 1 minuto cada una y una frecuencia de muestreo de 250 Hz. En general, la función wavelet 'coif2' y 'rigrsure' ofrecen el mejor rendimiento en comparación con otras funciones wavelet y reglas de umbral.
 
@@ -104,14 +104,14 @@ Nuestra señal EMG original:
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/1d91dc2da3a2d940476d91df9f7e1bf2ade6b31d/Im%C3%A1genes/Laboratorio7/Se%C3%B1al_origin.png?raw=true" alt="Señal original EMG" width="400" height="300"/>
 </p>
 <p align="center">
-Figura . Señal original EMG.
+Figura 4. Señal original EMG.
   
 Luego de aplicar los parámetros por sugeridos por el artículo tenenmos el siguiente resultado
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/c9d2ac34e11911fe5148ba39b9d422743a29624a/Im%C3%A1genes/Laboratorio7/Se%C3%B1al_filtrada_original.png?raw=true" alt="Señal original EMG" width="400" height="300"/>
 </p>
 <p align="center">
-Figura . Señal original vs Señal Filtrada EMG.
+Figura 5. Señal original vs Señal Filtrada EMG.
 
 |  Momento | Señal Cruda  | Filtro Wavelet  |
 | :------------: | :------------: | :------------: |
