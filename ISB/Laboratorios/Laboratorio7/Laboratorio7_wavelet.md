@@ -137,7 +137,7 @@ Tabla 3. Filtrado de señales EEG.
 ### EMG
 
 ### EEG
-En las señales EEG, uno de los principales artefactos proviene del movimiento ocular. En [6], se realizó una búsqueda exhaustiva para identificar la wavelet más adecuada para reducir este tipo de interferencia. Dado que gran parte de los artefactos presentes en nuestras señales EEG están asociados al movimiento ocular, se optó por implementar la wavelet coif3 para su filtrado, debido a su destacada eficacia según lo demostrado en dicho estudio [6]. La coif3 es una wavelet ortogonal simétrica ampliamente utilizada en el procesamiento de señales.
+En las señales EEG, uno de los principales artefactos proviene del movimiento ocular. En [6], se realizó una búsqueda exhaustiva para identificar la wavelet más adecuada para reducir este tipo de interferencia. Dado que gran parte de los artefactos presentes en nuestras señales EEG están asociados al movimiento ocular, se optó por implementar la wavelet coif3 para su filtrado, debido a su destacada eficacia según lo demostrado en dicho estudio [6]. La coif3 es una wavelet ortogonal simétrica [12], ampliamente utilizada en el procesamiento de señales.
 
 Los resultados obtenidos al aplicar el filtrado con la wavelet coif3 se alinearon con nuestras expectativas. Se observó una reducción significativa de los artefactos en las señales EEG, mientras se logró preservar de manera efectiva la información relevante. Por ello, podemos concluir que la coif3 es una wavelet eficiente para el filtrado de señales EEG, confirmando lo presentado por Khatun et. al. [6].
 
@@ -163,3 +163,6 @@ Los resultados obtenidos al aplicar el filtrado con la wavelet coif3 se alinearo
 [10] S. N. S. S. Daud, R. Sudirman, N. H. Mahmood, y C. Omar, «Denoising Semi-simulated EEG Signal Contaminated Ocular Noise using Various Wavelet Filters», en 2022 13th International Conference on Information and Communication Systems (ICICS), jun. 2022, pp. 452-457. doi: 10.1109/ICICS55353.2022.9811226.
 
 [11] V. Krishnaveni, S. Jayaraman, N. Malmurugan, A. Kandaswamy, and D. Ramadoss, ‘‘Non adaptive thresholding methods for correcting ocular artifacts in EEG,’’ Acad. Open Internet J., vol. 13, 2004.
+
+[12] «Coiflets 3 wavelet (coif3) properties, filters and functions - Wavelet Properties Browser». Accedido: 17 de mayo de 2024. [En línea]. Disponible en: https://wavelets.pybytes.com/wavelet/coif3/
+
