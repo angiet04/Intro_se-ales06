@@ -105,7 +105,7 @@ Se realizó una revisión bibliográfica, buscando las aplicaciones de Wavelets 
 Tabla 2. Aplicaciones de Wavelets para filtrado de señales.
 </p>
 
-Se eligió realizar el filtrado basándonos en el primer artículo "Comparative Study of Wavelet-Based Unsupervised Ocular Artifact Removal Techniques for Single-Channel EEG Data", por lo que se implementó una transformada wavelet discreta de tipo coif3 y con Statistical Threshold(ST). 
+Se eligió realizar el filtrado basándonos en el primer artículo "Comparative Study of Wavelet-Based Unsupervised Ocular Artifact Removal Techniques for Single-Channel EEG Data", por lo que se implementó una transformada wavelet discreta, Wavelet Coiflets 3 (coif3) y con Statistical Threshold(ST). 
 
 El Statistical Threshold fue propuesto por Krishnaveni et al. [11] y aplicado en el artículo revisado. La fórmula es:
 
@@ -138,6 +138,7 @@ Tabla 3. Filtrado de señales EEG.
 
 ### EEG
 Los resultados obtenidos al filtrar las señales EEG fueron favorables, se cumplió con lo esperado.
+
 ## Bibliografía
 [1]	“A Review of Wavelet Analysis and Its Applications: Challenges and Opportunities | IEEE Journals & Magazine | IEEE Xplore”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://ieeexplore.ieee.org/document/9785993
 
