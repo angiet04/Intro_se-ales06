@@ -54,6 +54,7 @@ T = 1.5∗std(Hk)
 donde std(Hk) emplea la desviación estándar de los coeficientes wavelet en el nivel k.
 Se aplica un hard thresholding, donde el coeficiente wavelet se elimina si el valor absoluto del coeficiente wavelet es mayor que el umbral [6].
 
+Las señales EEG filtradas se encuentran [aquí](https://github.com/angiet04/Intro_se-ales06/tree/main/ISB/Laboratorios/Laboratorio6_filtros/data/EEG)
 
 ## Bibliografía
 [1]	“A Review of Wavelet Analysis and Its Applications: Challenges and Opportunities | IEEE Journals & Magazine | IEEE Xplore”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://ieeexplore.ieee.org/document/9785993
