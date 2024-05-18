@@ -137,7 +137,9 @@ Tabla 3. Filtrado de señales EEG.
 ### EMG
 
 ### EEG
-Los resultados obtenidos al filtrar las señales EEG fueron favorables, se cumplió con lo esperado. Esta estrategia resultó efectiva para reducir los artefactos sin comprometer la información relevante en las señales EEG.
+En las señales EEG, uno de los principales artefactos proviene del movimiento ocular. En [6], se realizó una búsqueda exhaustiva para identificar la wavelet más adecuada para reducir este tipo de interferencia. Dado que gran parte de los artefactos presentes en nuestras señales EEG están asociados al movimiento ocular, se optó por implementar la wavelet coif3 para su filtrado, debido a su destacada eficacia según lo demostrado en dicho estudio [6]. La coif3 es una wavelet ortogonal simétrica ampliamente utilizada en el procesamiento de señales.
+
+Los resultados obtenidos al aplicar el filtrado con la wavelet coif3 se alinearon con nuestras expectativas. Se observó una reducción significativa de los artefactos en las señales EEG, mientras se logró preservar de manera efectiva la información relevante. Por ello, podemos concluir que la coif3 es una wavelet eficiente para el filtrado de señales EEG, confirmando lo presentado por Khatun et. al. [6].
 
 ## Bibliografía
 [1]	“A Review of Wavelet Analysis and Its Applications: Challenges and Opportunities | IEEE Journals & Magazine | IEEE Xplore”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://ieeexplore.ieee.org/document/9785993
