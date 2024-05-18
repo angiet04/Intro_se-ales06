@@ -99,14 +99,17 @@ Se realizó una revisión bibliográfica, buscando las aplicaciones de Wavelets 
 
 Tabla 2. Aplicaciones de Wavelets para filtrado de señales.
 
-Se eligió realizar el filtrado basándonos en el primer artículo "Comparative Study of Wavelet-Based Unsupervised Ocular Artifact Removal Techniques for Single-Channel EEG Data", donde se propone usar una transformada wavelet discreta junto a coif3 y con Statistical Threshold(ST). 
+Se eligió realizar el filtrado basándonos en el primer artículo "Comparative Study of Wavelet-Based Unsupervised Ocular Artifact Removal Techniques for Single-Channel EEG Data", por lo que se implementó una transformada wavelet discreta de tipo coif3 y con Statistical Threshold(ST). 
 
 El Statistical Threshold fue propuesto por Krishnaveni et al. [11] y aplicado en el artículo revisado. La fórmula es:
 
 T = 1.5∗std(Hk)
 
-donde std(Hk) emplea la desviación estándar de los coeficientes wavelet en el nivel k.
-Se aplica un hard thresholding, donde el coeficiente wavelet se elimina si el valor absoluto del coeficiente wavelet es mayor que el umbral [6].
+donde:
+- T es la estimación de la magnitud de la señal neuronal de banda ancha utilizando ST
+- std(Hk) emplea la desviación estándar de los coeficientes wavelet en el nivel k.
+  
+Al utilizar el ST, el umbral propuesto produce mejores resultados de denoising que los otros umbrales convencionales. Se aplica un hard thresholding, donde el coeficiente wavelet se elimina si el valor absoluto del coeficiente wavelet es mayor que el umbral [6].
 
 Las señales EEG se encuentran [aquí](https://github.com/angiet04/Intro_se-ales06/tree/main/ISB/Laboratorios/Laboratorio6_filtros/data/EEG)
 . Estas señales fueron filtradas a continuación, utilizando [este código en python](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/Wavelet_EEG.ipynb):
