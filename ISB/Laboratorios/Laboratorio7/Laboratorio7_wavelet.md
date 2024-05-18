@@ -53,10 +53,11 @@ Para aplicar esta transformada se consta de los siguientes pasos: Descomposició
 
 En el siguiente artículo titulado “ECG denoising using wavelet transform and filters” se aplico una comparación entre los filtros Wavelet y los filtros digitales, para ello se empleó la siguiente metodología: Se aplicaron diferentes transformadas Waveler como db6, db3, haar, bior1.3 y sym8, a los datos de ECG sin procesar. La señal de ECG se descompone en 7 niveles utilizando el simlet wavelet 'sym8'. Se obtienen ocho coeficientes de diferente longitud (CA7, CD7, CD6, CD5, CD4, CD3, CD2 y CD1). Los coeficientes CA7 y CD7 se convierten en ceros y el resto se somete a un umbral suave. Luego, la señal se reconstruye utilizando los nuevos coeficientes. El umbral de suavizado se calcula siguiendo las siguientes fórmulas:
 <p align="center">
-![imagen1](https://github.com/angiet04/Intro_se-ales06/assets/164528295/4cfb31a8-0d97-42d9-bbc4-cb94075694b6)
+  <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/4cfb31a8-0d97-42d9-bbc4-cb94075694b6" alt="Umbral de suavizado">
 </p>
 <p align="center">
-Figura .Formula umbral de suavizado
+  Figura: Fórmula umbral de suavizado
+</p>
 
 La SNR obtenida demuestra que también se eliminan otros ruidos.Se considera que la SNR de la transformada wavelet `sym8' es mayor que la del filtro digital que utiliza la `ventana blackman'.
 <p align="center">
