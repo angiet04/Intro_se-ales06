@@ -105,7 +105,7 @@ donde std(Hk) emplea la desviación estándar de los coeficientes wavelet en el 
 Se aplica un hard thresholding, donde el coeficiente wavelet se elimina si el valor absoluto del coeficiente wavelet es mayor que el umbral [6].
 
 Las señales EEG se encuentran [aquí](https://github.com/angiet04/Intro_se-ales06/tree/main/ISB/Laboratorios/Laboratorio6_filtros/data/EEG)
-. Estas señales fueron filtradas a continuación, utilizando [este código en python]:
+. Estas señales fueron filtradas a continuación, utilizando [este código en python] (https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/Wavelet_EEG.ipynb):
 
 | Momento             | Señal Cruda   | Filtro Wavelet  |
 |---------------------|---------------|-----------------|
