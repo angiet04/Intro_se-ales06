@@ -16,24 +16,24 @@ La transformada Wavelet es una técnica de análisis de señales que proyecta un
 
 ## ¿Cúales son sus características?
 1. Multiresolución:
-- Permite la descomposición de señales en múltiples niveles de resolución, capturando tanto detalles finos como características generales.
-- Cada nivel de descomposición corresponde a una resolución diferente, facilitando el análisis a distintas escalas.
+    - Permite la descomposición de señales en múltiples niveles de resolución, capturando tanto detalles finos como características generales.
+    - Cada nivel de descomposición corresponde a una resolución diferente, facilitando el análisis a distintas escalas.
 
 2. Localización Tiempo-Frecuencia:
-- Proporciona alta resolución temporal para frecuencias altas y alta resolución frecuencial para frecuencias bajas.
-- Es eficaz para analizar señales no estacionarias, cuyas propiedades cambian con el tiempo.
+    - Proporciona alta resolución temporal para frecuencias altas y alta resolución frecuencial para frecuencias bajas.
+    - Es eficaz para analizar señales no estacionarias, cuyas propiedades cambian con el tiempo.
 
 3. Bases Ortogonales y Biortogonales:
-- Utiliza funciones base ortogonales o biortogonales, permitiendo una reconstrucción perfecta de la señal original.
-- Las funciones base pueden ser seleccionadas según las necesidades específicas del análisis, variando en propiedades como compacidad del soporte, regularidad y simetría.
+    - Utiliza funciones base ortogonales o biortogonales, permitiendo una reconstrucción perfecta de la señal original.
+    - Las funciones base pueden ser seleccionadas según las necesidades específicas del análisis, variando en propiedades como compacidad del soporte, regularidad y simetría.
 
-5. Propiedades Esenciales:
-- Momento Desaparecido: Mayor número de momentos desaparecidos implica mejor capacidad para representar funciones suaves y eliminar ruido.
-- Longitud del Soporte: La longitud del soporte afecta la precisión y el costo computacional. Hay un equilibrio entre la longitud del soporte y los momentos desaparecidos.
+4. Propiedades Esenciales:
+    - Momento Desaparecido: Mayor número de momentos desaparecidos implica mejor capacidad para representar funciones suaves y eliminar ruido.
+    - Longitud del Soporte: La longitud del soporte afecta la precisión y el costo computacional. Hay un equilibrio entre la longitud del soporte y los momentos desaparecidos.
 
-7. Aplicaciones Diversas:
-- Aplicaciones en procesamiento de señales, compresión de imágenes, reconocimiento de patrones y análisis de datos biomédicos como ECG y EEG.
-- En procesamiento de imágenes, mejora la tasa de compresión y el efecto de eliminación de ruido, mejorando métricas como la PSNR.
+5. Aplicaciones Diversas:
+    - Aplicaciones en procesamiento de señales, compresión de imágenes, reconocimiento de patrones y análisis de datos biomédicos como ECG y EEG.
+    - En procesamiento de imágenes, mejora la tasa de compresión y el efecto de eliminación de ruido, mejorando métricas como la PSNR.
 
 ## ¿Cúales es su clasificación?
 |  Clasificación | Descripción | Características|
