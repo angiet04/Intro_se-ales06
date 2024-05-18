@@ -1,3 +1,15 @@
+## Resumen
+Este informe aborda el estudio y la implementación del filtro wavelet en el procesamiento de señales biomédicas, enfocándose específicamente en señales de EMG (electromiografía), ECG (electrocardiografía) y EEG (electroencefalografía). Se examinan los principios fundamentales de los filtros wavelet, su aplicación práctica y se analizan los resultados obtenidos. Además, se destaca la comparación entre distintos tipos de filtros wavelet y su efectividad en la mejora de la calidad de las señales biomédicas.
+
+## Introducción
+El análisis preciso de señales fisiológicas es fundamental en la ingeniería biomédica para el diagnóstico y monitoreo de diversas afecciones médicas. Las señales biomédicas como EMG, ECG y EEG son esenciales para obtener información sobre la actividad muscular, cardíaca y cerebral, respectivamente. Sin embargo, estas señales a menudo están contaminadas por ruido y artefactos, lo que dificulta su interpretación. Los filtros wavelet han emergido como una herramienta eficaz para el procesamiento y análisis de estas señales, permitiendo una mejor eliminación del ruido y una identificación más precisa de características relevantes. Este informe explora los fundamentos de los filtros wavelet, su aplicación en señales biomédicas y la evaluación de los resultados obtenidos, proporcionando una base sólida para su uso en aplicaciones clínicas y de investigación.
+
+## Objetivos
+1. Comprender los principios fundamentales del filtro wavelet.
+2. Aplicar el filtro wavelet a señales de EMG, ECG y EEG.
+3. Analizar y evaluar las señales biomédicas tras aplicar los filtros wavelet.
+4. Analizar y evaluar las señales tras aplicar los filtros wavelet.
+
 ### Señales EMG
 La capacidad de las wavelets para descomponer la señal en diferentes componentes de frecuencia permite una reducción específica del ruido y al mismo tiempo preserva características importantes de la señal. Esto es particularmente importante para las señales EMG[5], que pueden estar contaminadas por varios tipos de ruido, incluidas interferencias de líneas eléctricas y artefactos de movimiento.
 En el artículo titulado "Discrete Wavelet Transform-Based Processing of Embroidered Textile Electrode Electromyography Signal" explora el uso de la Transformada Wavelet Discreta (DWT) para el procesamiento y denoising de señales EMG obtenidas mediante electrodos textiles bordados.[5]
