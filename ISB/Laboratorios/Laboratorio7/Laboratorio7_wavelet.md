@@ -14,6 +14,9 @@ El análisis preciso de señales fisiológicas es fundamental en la ingeniería 
 ### ¿Qué es la transformada de Wavelet? [1]
 La transformada Wavelet es una técnica de análisis de señales que proyecta una señal en un conjunto de funciones base que ofrecen localización en el dominio de la frecuencia. A diferencia de la transformada de Fourier, que proporciona una localización tiempo-frecuencia constante, la transformada Wavelet ofrece una alta resolución frecuencial en bajas frecuencias y una alta resolución temporal en altas frecuencias. Esto se logra mediante el uso de una serie de bases ortogonales con diferentes resoluciones para representar o aproximar una señal a través de la expansión y traslación de la función base de la wavelet.
 
+https://github.com/angiet04/Intro_se-ales06/assets/164528885/bb1add1b-14d0-428f-bef5-ac43e6ed9b98
+"Wavelet Transforms in MATLAB," [2]
+
 ### ¿Cúales son sus características? [1]
 1. Multiresolución:
     - Permite la descomposición de señales en múltiples niveles de resolución, capturando tanto detalles finos como características generales.
