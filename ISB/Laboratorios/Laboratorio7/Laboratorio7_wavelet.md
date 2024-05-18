@@ -46,6 +46,26 @@ La transformada Wavelet es una técnica de análisis de señales que proyecta un
 | Wavelet Packet (WP) | Extiende DWT dividiendo la señal más finamente en el dominio tiempo-frecuencia. |- Mejor resolución en alta frecuencia.    - Útil para aplicaciones que requieren una segmentación detallada de la señal.|
 | Wavelet Compleja (Complex WT) | Introduce información de fase en la representación. | - Representación de fase.    - Supera problemas de sensibilidad a la traslación.    - Mejora la precisión en análisis de señales complejas. |
 |No Decimada (UWT) | Similar a DWT pero sin submuestreo, mantiene longitud de señal original. | - Conserva la información temporal.    - Útil para análisis donde la preservación de detalles temporales es crítica.    - Mejora la estabilidad de la representación de la señal. |
+### Señales ECG
+La transformada Wavelet es un método eficaz para eliminar los ruidos en el ECG. Hay diferentes tipos de los cuales tenemos: Daubechies, Haar, Symlet y BiorSplines[3].
+
+Para aplicar esta transformada se consta de los siguientes pasos: Descomposición de la señal eligiendo wavelet  'sym 8' y nivel '7', después de obtener valores después de la descomposición se transforman los valores más altos a cero y finalmente, se reconstruye la wavelet utilizando coeficientes modificados. 
+
+En el siguiente artículo titulado “ECG denoising using wavelet transform and filters” se aplico una comparación entre los filtros Wavelet y los filtros digitales, para ello se empleó la siguiente metodología: Se aplicaron diferentes transformadas Waveler como db6, db3, haar, bior1.3 y sym8, a los datos de ECG sin procesar. La señal de ECG se descompone en 7 niveles utilizando el simlet wavelet 'sym8'. Se obtienen ocho coeficientes de diferente longitud (CA7, CD7, CD6, CD5, CD4, CD3, CD2 y CD1). Los coeficientes CA7 y CD7 se convierten en ceros y el resto se somete a un umbral suave. Luego, la señal se reconstruye utilizando los nuevos coeficientes. El umbral de suavizado se calcula siguiendo las siguientes fórmulas:
+
+![imagen1](https://github.com/angiet04/Intro_se-ales06/assets/164528295/4cfb31a8-0d97-42d9-bbc4-cb94075694b6)
+Figura .Formula umbral de suavizado
+
+La SNR obtenida demuestra que también se eliminan otros ruidos.Se considera que la SNR de la transformada wavelet `sym8' es mayor que la del filtro digital que utiliza la `ventana blackman'.
+![imagen2](https://github.com/angiet04/Intro_se-ales06/assets/164528295/fb0c0bb1-32ad-4a0c-ab0e-888b5f3c37bf)
+Figura .Valores SNR (en dB) para ventanas de Blackman y wavelets sym8
+
+Por otro lado, según el análisis del artículo “Optimum choice of wavelet function and thresholding rule for ECG signal denoising“ [4] . La transformada Wavelet es un análisis de resolución múltiple que descompone el latido del ECG en componentes de onda elementales que se localizan tanto en el tiempo como en la frecuencia. La transformada Wavelet discreta se calcula pasando la señal de ECG secuencialmente a través de un filtro de paso alto y de paso bajo. Se elige que el número de niveles de descomposición sea 4.
+![señal3](https://github.com/angiet04/Intro_se-ales06/assets/164528295/6824d49a-aacc-486a-b75d-51d9c071ab4e)
+Figura . Descomposición de las ondas
+Se utilizaron 13 funciones de wavelets y 4 reglas de umbral, se eligieron 15 registros de ECG con una duración de 1 minuto cada una y una frecuencia de muestreo de 250 Hz. En general, la función wavelet 'coif2' y 'rigrsure' ofrecen el mejor rendimiento en comparación con otras funciones wavelet y reglas de umbral.
+
+
 
 
 ### Señales EMG
