@@ -41,7 +41,12 @@ La transformada Wavelet es una técnica de análisis de señales que proyecta un
 | Transformada Wavelet Continua (CWT) | Proyección de la señal en una familia de wavelets generada por expansión y traslación. | - Representación redundante de la señal.    - Alta resolución en escala tiempo-frecuencia.    - Útil para análisis detallado de señales.    - Alta precisión en la detección de características locales. |
 | Transformada Wavelet Discreta (DWT) | Discretiza la escala y traslación de la wavelet madre usando potencias de 2 (diádica). | - Forma más básica y ampliamente usada.    - Implementada mediante un banco de filtros de dos canales.    - Descompone señales en componentes de baja y alta frecuencia.    - Computacionalmente eficiente.    - Adecuada para compresión de datos y eliminación de ruido. |
 
-
+## ¿Cúales son las variantes de la Transformada Wavelet Discreta?
+|  Variante | Descripción | Características|
+| :------------: | :------------: | :------------: |
+| Wavelet Packet (WP) | Extiende DWT dividiendo la señal más finamente en el dominio tiempo-frecuencia. |- Mejor resolución en alta frecuencia.    - Útil para aplicaciones que requieren una segmentación detallada de la señal.|
+| Wavelet Compleja (Complex WT) | Introduce información de fase en la representación. | - Representación de fase.    - Supera problemas de sensibilidad a la traslación.    - Mejora la precisión en análisis de señales complejas. |
+|No Decimada (UWT) | Similar a DWT pero sin submuestreo, mantiene longitud de señal original. | - Conserva la información temporal.    - Útil para análisis donde la preservación de detalles temporales es crítica.    - Mejora la estabilidad de la representación de la señal. |
 
 
 ### Señales EMG
