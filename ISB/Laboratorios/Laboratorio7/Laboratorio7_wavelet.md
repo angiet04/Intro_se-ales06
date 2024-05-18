@@ -39,11 +39,21 @@ Se realizó una revisión bibliográfica, buscando las aplicaciones de filtros w
 
 | Título del artículo                                                                                  | Wavelet con mejor performance                                                                                                                                       | Referencia                             |
 |------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| Comparative Study of Wavelet-Based Unsupervised Ocular Artifact Removal Techniques for Single-Channel EEG Data | DWT+ST+coif3 DWT+ST+bior4.4 Si el tiempo computacional no es crítico también se puede usar: SWT+ST+haar.  ST: Statistical Threshold                                                          | DOI: [10.1109/JTEHM.2016.2544298](https://doi.org/10.1109/JTEHM.2016.2544298) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER1.pdf) |
-| Performance Analysis of Mother Wavelet Functions and Thresholding Methods for Denoising EEG Signals during Cognitive Tasks | Discrete Meyer (dmey) para filtrar el ruido de señales EEG                                                                                                          | DOI: [10.1109/PICC51425.2020.9362377](https://doi.org/10.1109/PICC51425.2020.9362377) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER2.pdf) |
-| Comparative Analysis of Various Filtering Techniques for Denoising EEG Signals                       | Biorthogonal 2.6, ya que proporciona la máxima mejora en PSNR, alcanzando hasta 46.68 y 42.44 para la eliminación de ruido en la Señal de EEG Epiléptico y la Señal de EEG de Sueño, respectivamente. | DOI: [10.1109/I2CT51068.2021.9417984](https://doi.org/10.1109/I2CT51068.2021.9417984) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER3.pdf)|
-| Data Science Modeling for EEG Signal Filtering Using Wavelet Transforms                              | "db4" como wavelet madre y el umbral de Hart.                                                                                                                       | DOI: [10.1109/IS48319.2020.9199843](https://doi.org/10.1109/IS48319.2020.9199843) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER4.pdf) |
-| Denoising Semi-simulated EEG Signal Contaminated Ocular Noise using Various Wavelet Filters          | haar, db1, bior1.1 y rbior1.1 son óptimos para eliminar el ruido EOG.                                                                                               | DOI: [10.1109/ICICS55353.2022.9811226](https://doi.org/10.1109/ICICS55353.2022.9811226) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER5.pdf)|
+| Comparative Study of Wavelet-Based Unsupervised Ocular Artifact Removal Techniques for Single-Channel EEG Data | DWT+ST+coif3 DWT+ST+bior4.4 Si el tiempo computacional no es crítico también se puede usar: SWT+ST+haar.  ST: Statistical Threshold, DWT: transformada wavelet discreta                                                         | DOI: [10.1109/JTEHM.2016.2544298](https://doi.org/10.1109/JTEHM.2016.2544298) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER1.pdf) [6]|
+| Performance Analysis of Mother Wavelet Functions and Thresholding Methods for Denoising EEG Signals during Cognitive Tasks | Discrete Meyer (dmey) para filtrar el ruido de señales EEG                                                                                                          | DOI: [10.1109/PICC51425.2020.9362377](https://doi.org/10.1109/PICC51425.2020.9362377) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER2.pdf) [7]|
+| Comparative Analysis of Various Filtering Techniques for Denoising EEG Signals                       | Biorthogonal 2.6, ya que proporciona la máxima mejora en PSNR, alcanzando hasta 46.68 y 42.44 para la eliminación de ruido en la Señal de EEG Epiléptico y la Señal de EEG de Sueño, respectivamente. | DOI: [10.1109/I2CT51068.2021.9417984](https://doi.org/10.1109/I2CT51068.2021.9417984) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER3.pdf) [8]|
+| Data Science Modeling for EEG Signal Filtering Using Wavelet Transforms                              | "db4" como wavelet madre y el umbral de Hart.                                                                                                                       | DOI: [10.1109/IS48319.2020.9199843](https://doi.org/10.1109/IS48319.2020.9199843) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER4.pdf) [9]|
+| Denoising Semi-simulated EEG Signal Contaminated Ocular Noise using Various Wavelet Filters          | haar, db1, bior1.1 y rbior1.1 son óptimos para eliminar el ruido EOG.                                                                                               | DOI: [10.1109/ICICS55353.2022.9811226](https://doi.org/10.1109/ICICS55353.2022.9811226) [FULL TEXT PDF](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/EEG-PAPER5.pdf) [10]|
+
+Se eligió realizar el filtrado basándonos en el primer artículo "Comparative Study of Wavelet-Based Unsupervised Ocular Artifact Removal Techniques for Single-Channel EEG Data", donde se propone usar una transformada wavelet discreta junto a coif3 y con Statistical Threshold(ST). 
+
+El Statistical Threshold fue propuesto por Krishnaveni et al. [11] y aplicado en el artículo revisado. La fórmula es:
+
+T = 1.5∗std(Hk)
+
+donde std(Hk) emplea la desviación estándar de los coeficientes wavelet en el nivel k.
+Se aplica un hard thresholding, donde el coeficiente wavelet se elimina si el valor absoluto del coeficiente wavelet es mayor que el umbral [6].
+
 
 ## Bibliografía
 [1]	“A Review of Wavelet Analysis and Its Applications: Challenges and Opportunities | IEEE Journals & Magazine | IEEE Xplore”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://ieeexplore.ieee.org/document/9785993
@@ -55,3 +65,15 @@ Se realizó una revisión bibliográfica, buscando las aplicaciones de filtros w
 [4]	H. S. N. Murthy y M. Meenakshi, “Optimum choice of wavelet function and thresholding rule for ECG signal denoising”, en 2015 International Conference on Smart Sensors and Systems (IC-SSS), dic. 2015, pp. 1–5. doi: 10.1109/SMARTSENS.2015.7873587.
 
 [5]	“Discrete wavelet transform based processing of embroidered textile-electrode electromyography signal acquired with load and pressure effect - Bulcha Belay Etana, Ahmed Ali Dawud, Benny Malengier, Wojciech Sitek, Wendimu Fanta Gemechu, Janarthanan Krishnamoorthy, Lieva Van Langenhove, 2024”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://journals.sagepub.com/doi/10.1177/15280837241232449
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+[11]
