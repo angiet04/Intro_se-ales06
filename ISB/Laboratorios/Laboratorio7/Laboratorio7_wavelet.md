@@ -87,7 +87,8 @@ Sujeto en reposo:
 ![Captura de pantalla 2024-05-18 063306](https://github.com/angiet04/Intro_se-ales06/assets/164528295/fbe4777e-6a24-408a-bc09-bc47f9d15a26)
 
 Sujeto en movimiento: 
-![Captura de pantalla 2024-05-18 052454](https://github.com/angiet04/Intro_se-ales06/assets/164528295/b6158f12-ae40-40a5-ac66-0f362baf7805)
+
+![Captura de pantalla 2024-05-18 063543](https://github.com/angiet04/Intro_se-ales06/assets/164528295/04fafe5d-db72-4d6f-b765-587c09f75c55)
 
 
 
