@@ -105,7 +105,7 @@ donde std(Hk) emplea la desviación estándar de los coeficientes wavelet en el 
 Se aplica un hard thresholding, donde el coeficiente wavelet se elimina si el valor absoluto del coeficiente wavelet es mayor que el umbral [6].
 
 Las señales EEG se encuentran [aquí](https://github.com/angiet04/Intro_se-ales06/tree/main/ISB/Laboratorios/Laboratorio6_filtros/data/EEG)
-. Estas señales fueron filtradas a continuación, utilizando [este código en python] (https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/Wavelet_EEG.ipynb):
+. Estas señales fueron filtradas a continuación, utilizando [este código en python](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/Wavelet_EEG.ipynb):
 
 | Momento             | Señal Cruda   | Filtro Wavelet  |
 |---------------------|---------------|-----------------|
@@ -113,6 +113,13 @@ Las señales EEG se encuentran [aquí](https://github.com/angiet04/Intro_se-ales
 | Pestañeando    | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_pestaneando_original.png)   |  ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_pestaneando_filtrada.png)     |
 | Respondiendo a preguntas  | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_preguntas_original.png)   | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_preguntas_filtrada.png) |
 
+## Discusión
+### ECG
+
+### EMG
+
+### EEG
+Los resultados obtenidos al filtrar las señales EEG fueron favorables, se cumplió con lo esperado.
 ## Bibliografía
 [1]	“A Review of Wavelet Analysis and Its Applications: Challenges and Opportunities | IEEE Journals & Magazine | IEEE Xplore”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://ieeexplore.ieee.org/document/9785993
 
