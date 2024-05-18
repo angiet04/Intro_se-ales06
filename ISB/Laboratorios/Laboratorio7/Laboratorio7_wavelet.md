@@ -137,7 +137,7 @@ Tabla 3. Filtrado de señales EEG.
 ### EMG
 
 ### EEG
-Los resultados obtenidos al filtrar las señales EEG fueron favorables, se cumplió con lo esperado.
+Los resultados obtenidos al filtrar las señales EEG fueron favorables, se cumplió con lo esperado. Esta estrategia resultó efectiva para reducir los artefactos sin comprometer la información relevante en las señales EEG.
 
 ## Bibliografía
 [1]	“A Review of Wavelet Analysis and Its Applications: Challenges and Opportunities | IEEE Journals & Magazine | IEEE Xplore”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://ieeexplore.ieee.org/document/9785993
