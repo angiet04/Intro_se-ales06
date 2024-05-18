@@ -10,6 +10,39 @@ El análisis preciso de señales fisiológicas es fundamental en la ingeniería 
 3. Analizar y evaluar las señales biomédicas tras aplicar los filtros wavelet.
 4. Analizar y evaluar las señales tras aplicar los filtros wavelet.
 
+## Marco Teórico
+### ¿Qué es la transformada de Wavelet? [1]
+La transformada Wavelet es una técnica de análisis de señales que proyecta una señal en un conjunto de funciones base que ofrecen localización en el dominio de la frecuencia. A diferencia de la transformada de Fourier, que proporciona una localización tiempo-frecuencia constante, la transformada Wavelet ofrece una alta resolución frecuencial en bajas frecuencias y una alta resolución temporal en altas frecuencias. Esto se logra mediante el uso de una serie de bases ortogonales con diferentes resoluciones para representar o aproximar una señal a través de la expansión y traslación de la función base de la wavelet.
+
+## ¿Cúales son sus características?
+1. Multiresolución:
+- Permite la descomposición de señales en múltiples niveles de resolución, capturando tanto detalles finos como características generales.
+- Cada nivel de descomposición corresponde a una resolución diferente, facilitando el análisis a distintas escalas.
+
+2. Localización Tiempo-Frecuencia:
+- Proporciona alta resolución temporal para frecuencias altas y alta resolución frecuencial para frecuencias bajas.
+- Es eficaz para analizar señales no estacionarias, cuyas propiedades cambian con el tiempo.
+
+3. Bases Ortogonales y Biortogonales:
+- Utiliza funciones base ortogonales o biortogonales, permitiendo una reconstrucción perfecta de la señal original.
+- Las funciones base pueden ser seleccionadas según las necesidades específicas del análisis, variando en propiedades como compacidad del soporte, regularidad y simetría.
+
+5. Propiedades Esenciales:
+- Momento Desaparecido: Mayor número de momentos desaparecidos implica mejor capacidad para representar funciones suaves y eliminar ruido.
+- Longitud del Soporte: La longitud del soporte afecta la precisión y el costo computacional. Hay un equilibrio entre la longitud del soporte y los momentos desaparecidos.
+
+7. Aplicaciones Diversas:
+- Aplicaciones en procesamiento de señales, compresión de imágenes, reconocimiento de patrones y análisis de datos biomédicos como ECG y EEG.
+- En procesamiento de imágenes, mejora la tasa de compresión y el efecto de eliminación de ruido, mejorando métricas como la PSNR.
+
+## ¿Cúales es su clasificación?
+|  Clasificación | Descripción | Características|
+| Transformada Wavelet Continua (CWT): | Proyección de la señal en una familia de wavelets generada por expansión y traslación. | - Representación redundante de la señal.
+- Alta resolución en escala tiempo-frecuencia.
+- Útil para análisis detallado de señales.
+- Alta precisión en la detección de características locales. |
+
+
 ### Señales EMG
 La capacidad de las wavelets para descomponer la señal en diferentes componentes de frecuencia permite una reducción específica del ruido y al mismo tiempo preserva características importantes de la señal. Esto es particularmente importante para las señales EMG[5], que pueden estar contaminadas por varios tipos de ruido, incluidas interferencias de líneas eléctricas y artefactos de movimiento.
 En el artículo titulado "Discrete Wavelet Transform-Based Processing of Embroidered Textile Electrode Electromyography Signal" explora el uso de la Transformada Wavelet Discreta (DWT) para el procesamiento y denoising de señales EMG obtenidas mediante electrodos textiles bordados.[5]
