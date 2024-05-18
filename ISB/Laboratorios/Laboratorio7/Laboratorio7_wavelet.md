@@ -60,17 +60,19 @@ Figura .Formula umbral de suavizado
 
 La SNR obtenida demuestra que también se eliminan otros ruidos.Se considera que la SNR de la transformada wavelet `sym8' es mayor que la del filtro digital que utiliza la `ventana blackman'.
 <p align="center">
-![imagen2](https://github.com/angiet04/Intro_se-ales06/assets/164528295/fb0c0bb1-32ad-4a0c-ab0e-888b5f3c37bf)
+  <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/fb0c0bb1-32ad-4a0c-ab0e-888b5f3c37bf" alt="Valores SNR">
 </p>
 <p align="center">
-Figura .Valores SNR (en dB) para ventanas de Blackman y wavelets sym8
+  Figura: Valores SNR (en dB) para ventanas de Blackman y wavelets sym8
+</p>
 
 Por otro lado, según el análisis del artículo “Optimum choice of wavelet function and thresholding rule for ECG signal denoising“ [4] . La transformada Wavelet es un análisis de resolución múltiple que descompone el latido del ECG en componentes de onda elementales que se localizan tanto en el tiempo como en la frecuencia. La transformada Wavelet discreta se calcula pasando la señal de ECG secuencialmente a través de un filtro de paso alto y de paso bajo. Se elige que el número de niveles de descomposición sea 4.
 <p align="center">
-![señal3](https://github.com/angiet04/Intro_se-ales06/assets/164528295/6824d49a-aacc-486a-b75d-51d9c071ab4e)
+  <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528295/6824d49a-aacc-486a-b75d-51d9c071ab4e" alt="Descomposición de las ondas">
 </p>
 <p align="center">
-Figura . Descomposición de las ondas
+  Figura: Descomposición de las ondas
+</p>
 Se utilizaron 13 funciones de wavelets y 4 reglas de umbral, se eligieron 15 registros de ECG con una duración de 1 minuto cada una y una frecuencia de muestreo de 250 Hz. En general, la función wavelet 'coif2' y 'rigrsure' ofrecen el mejor rendimiento en comparación con otras funciones wavelet y reglas de umbral.
 
 
