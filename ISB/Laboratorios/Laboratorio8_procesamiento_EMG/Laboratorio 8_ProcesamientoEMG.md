@@ -26,6 +26,9 @@
 ## Introducción
 ## Objetivos
 ## Métodos
+- Filtrado
+- Segmentación
+- Extracción de características
 ## Resultados
 ## Discusión
 ## Conclusiones
