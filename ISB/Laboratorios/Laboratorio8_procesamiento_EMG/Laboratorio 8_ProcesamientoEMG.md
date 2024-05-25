@@ -24,9 +24,11 @@
 
 ## Resumen
 ## Introducción
-Las señales electromiográficas (EMG) son registros de la actividad eléctrica en el tejido muscular durante la contracción y relajación. Estas señales varían de 0 a 100 mV y tienen frecuencias de 20 a 500 Hz, con componentes de mayor amplitud en el rango de 50-150 Hz. [1]
+Las señales electromiográficas (EMG) son registros de la actividad eléctrica generada en el tejido muscular durante los procesos de contracción y relajación. Estas señales, generadas por las neuronas motoras al activar los músculos, exhiben un carácter estocástico y típicamente varían de 0 a 100 mV, con frecuencias que oscilan entre 20 y 500 Hz. Los componentes de mayor amplitud de estas señales suelen encontrarse en el rango de 50-150 Hz [1]
 
-La extracción de características es esencial para la clasificación de señales EMG en ingeniería biomédica. Las características se dividen en dominios de tiempo, frecuencia y tiempo-frecuencia. Investigaciones muestran que las características de los dominios de tiempo y tiempo-frecuencia proporcionan mejores resultados que solo las de frecuencia [3, 4]. Métodos como la Transformada de Fourier y la Transformada Wavelet son comúnmente utilizados para extraer estas características. [1]
+La extracción y análisis de características estadísticas es fundamental en la investigación de señales EMG y áreas relacionadas en la ingeniería biomédica. Las características de las señales EMG se categorizan en tres dominios principales: tiempo, frecuencia y tiempo-frecuencia. Investigaciones previas han demostrado que las características extraídas de los dominios de tiempo y tiempo-frecuencia tienden a proporcionar mejores resultados para el análisis de señales EMG en comparación con las características del dominio de la frecuencia. Por lo tanto, la elección adecuada de métodos para extraer información relevante de las señales EMG procesadas es esencial para mejorar la precisión en su clasificación [1].
+
+En estudios recientes, se ha utilizado la Transformada de Fourier para la extracción de características en el dominio de la frecuencia y la Transformada Wavelet para extraer información tanto en el dominio del tiempo como en el dominio de la frecuencia. Además, la extracción de características en el dominio del tiempo, como la amplitud máxima y la amplitud máxima promedio, ha demostrado ser efectiva para reconocer y clasificar la actividad muscular asociada con el movimiento de los dedos, requiriendo poco procesamiento computacional [1].
 ## Objetivos
 - Elección del mejor filtro Wavelet para EMG.
 - Segmentación de la señal.
