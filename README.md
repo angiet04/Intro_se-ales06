@@ -4,13 +4,8 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 
 ### Profesor coordinador: Umbert Lewis De La Cruz Rodriguez  
 ### Coordinador adjunto: Moises Stevend Meza Rodriguez 
-### Proyecto relacionado al ANÁLISIS DE SEÑALES DE ELECTROCARDIOGRAMA (ECG)  
-<div align="center">
-<img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/ECG.png" width="300px">
-
-Fuente: Wikimedia. Disponible en: https://commons.wikimedia.org/wiki/File:EKG_Complex_en.svg
-
-</div>
+### Proyecto relacionado al ANÁLISIS DE SEÑALES DE ELECTROMIOGRAFÍA (EMG):
+### Efecto del uso prolongado de smartphones en la actividad muscular del trapecio y los músculos extensores del cuello, utilizando sEMG.
 
 </div>
 <span style="color:blue">Tabla de Contenidos:</span>
