@@ -223,6 +223,9 @@ La técnica de segmentación aplicada, Gesture Detection Technique, permitió id
 La extracción de características incluyó parámetros como RMS, MAV, frecuencia mediana (MDF), frecuencia media (MNF), curtosis, asimetría (skewness), iEMG, longitud de la forma de onda (WL), cruces por cero (ZC), cambios en el signo de la pendiente (SSC) y potencia total. Estas características, derivadas tanto del dominio del tiempo como del tiempo-frecuencia, proporcionan una visión integral del comportamiento de las señales EMG.
 
 Las Figuras 4 y 5 muestran la detección de contracciones y el análisis detallado de las señales EMG. En la Figura 4, se presentan las señales EMG y las señales de activación, destacando las áreas de contracción muscular. La Figura 5 muestra el análisis de la señal EMG, con indicadores de máximos y mínimos, así como la zona de desviación estándar.
+
+Como se obtuvieron ambas señales (recortadas con las ventanas 1 y 2) de la misma persona, no es necesario normalizarlas para poder compararlas. A continuación, compararemos cada característica entre las dos ventanas: 
+
 ## Conclusiones
 ## Bibliografía
 
