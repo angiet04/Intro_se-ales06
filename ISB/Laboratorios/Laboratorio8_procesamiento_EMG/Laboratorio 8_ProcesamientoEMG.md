@@ -57,7 +57,7 @@ Para la segmentación se aplicó Gesture Detection Technique, donde se establece
 ## Resultados
 - Filtrado: Utilizando la wavelet sym5 se obtuvo la señal filtrada
   <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/denoising_wavelet.png" alt="Filtrado" width="400" height="200"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/denoising_wavelet.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
 Figura 1. Filtrado con Wavelet sym5.
@@ -65,14 +65,14 @@ Figura 1. Filtrado con Wavelet sym5.
 
 - Segmentación: Se definieron dos ventanas, en los lugares donde se presentaba contracción muscular
   <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/v1.png" alt="Filtrado" width="500" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/v1.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
 Figura 2. Ventana 1.
 </p>
 
   <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/v2.png" alt="Filtrado" width="500" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/v2.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
 Figura 3. Ventana 2.
@@ -82,28 +82,72 @@ Figura 3. Ventana 2.
 Características generales:
 
  <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/deteccioncontraccion.png" alt="Filtrado" width="500" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/deteccioncontraccion.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
 Figura 4. Detección de contracciones.
 </p>
 
  <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_total.png" alt="Filtrado" width="500" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_total.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
 Figura 5. Análisis.
 </p>
 
  <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/rms_total.png" alt="Filtrado" width="500" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/rms_total.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
 Figura 6. RMS.
 </p>
 
  <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/relativepower_total.png" alt="Filtrado" width="500" height="400"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/relativepower_total.png" alt="Filtrado" width="500" height="300"/>
+</p>
+<p align="center">
+Figura 7. Relative power.
+</p>
+
+Características en Ventana 1:
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_v1.png" alt="Filtrado" width="500" height="300"/>
+</p>
+<p align="center">
+Figura 7. Relative power.
+</p>
+
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/rms_v1.png" alt="Filtrado" width="500" height="300"/>
+</p>
+<p align="center">
+Figura 7. Relative power.
+  
+</p>
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/relativepower_v1.png" alt="Filtrado" width="500" height="300"/>
+</p>
+<p align="center">
+Figura 7. Relative power.
+</p>
+
+Características en Ventana 2:
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_v2.png" alt="Filtrado" width="500" height="300"/>
+</p>
+<p align="center">
+Figura 7. Relative power.
+</p>
+
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/rms_v2.png" alt="Filtrado" width="500" height="300"/>
+</p>
+<p align="center">
+Figura 7. Relative power.
+  
+</p>
+<p align="center">
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/relativepower_v2.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
 Figura 7. Relative power.
