@@ -234,6 +234,10 @@ Como se obtuvieron ambas señales (recortadas con las ventanas 1 y 2) de la mism
 | Curtosis y Asimetría                     | La curtosis y skewness son menores en la Ventana 2, lo que sugiere una distribución más cercana a una distribución normal.  |
 | iEMG, WL, ZC, SSC y Potencia Total       | Estas métricas indican una mayor actividad muscular y cambios temporales en la señal EMG en la Ventana 2 en comparación con la Ventana 1. |
 
+### Análisis de Señales
+El análisis de las señales segmentadas y descompuestas mostró que la DWT con 'sym5' permite una extracción más precisa y selectiva de los componentes deseados, eliminando eficazmente el ruido y preservando las características esenciales para el análisis de contracciones musculares (Figuras 6 y 7). La evaluación de las características estadísticas, como la amplitud, valor promedio, frecuencia y otras métricas, demostró la capacidad de la DWT para mejorar la precisión en la clasificación y análisis de las señales EMG.
+
+Las características extraídas de las ventanas 1 y 2 proporcionan información detallada sobre las contracciones musculares. La Figura 9 muestra el RMS de la ventana 1, mientras que la Figura 10 presenta el análisis de potencia relativa. Para la ventana 2, la Figura 11 ofrece un análisis detallado de la señal EMG, y la Figura 12 muestra el RMS. La Figura 13 presenta la potencia relativa, destacando las diferencias en las características de las señales entre las dos ventanas.
 ## Conclusiones
 
 
