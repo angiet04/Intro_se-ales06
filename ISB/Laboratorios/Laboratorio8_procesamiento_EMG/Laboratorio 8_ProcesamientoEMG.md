@@ -40,13 +40,21 @@ En estudios recientes, se ha utilizado la Transformada de Fourier para la extrac
 ## Métodos
 Se procesó la señal EMG registrada en laboratorios pasados, esta se encuentra [aquí](https://github.com/angiet04/Intro_se-ales06/tree/main/ISB/Laboratorios/Laboratorio8_procesamiento_EMG/data)
 
-El código en Python se encuentra en los siguientes archivos: [parte1]() [parte2]()
+El código en Python se encuentra en los siguientes archivos: 
+[parte1](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio8_procesamiento_EMG/EMG.ipynb) 
+[parte2](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio8_procesamiento_EMG/a.ipynb)
+
 
 - Filtrado:
+Se utilizó la Transformada Wavelet Discreta. La elección de la Transformada Wavelet Discreta (DWT) se debe a su ventaja sobre el filtro Butterworth, especialmente cuando no se dispone de información previa sobre las características de la frecuencia de los temblores. La DWT proporciona una extracción más precisa y selectiva de los componentes de señal deseados, convirtiéndose en una herramienta poderosa. Esta precisión y selectividad en la extracción de señales son fundamentales para una gestión fiable y eficaz, lo que hace que la DWT sea la opción preferida [3].
 
-La elección de la Transformada Wavelet Discreta (DWT) se debe a su ventaja sobre el filtro Butterworth, especialmente cuando no se dispone de información previa sobre las características de la frecuencia de los temblores. La DWT proporciona una extracción más precisa y selectiva de los componentes de señal deseados, convirtiéndose en una herramienta poderosa. Esta precisión y selectividad en la extracción de señales son fundamentales para una gestión fiable y eficaz, lo que hace que la DWT sea la opción preferida [3].
+La transformada aplicada es sym5. 
+
 - Segmentación
+Para la segmentación se aplicó Gesture Detection Technique, donde se establecen ventanas en las partes de la señal donde se produce una contracción.
+
 - Extracción de características
+
 
 ## Resultados
 
