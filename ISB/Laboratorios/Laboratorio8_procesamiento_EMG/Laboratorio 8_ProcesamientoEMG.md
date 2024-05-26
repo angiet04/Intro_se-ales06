@@ -57,7 +57,13 @@ Para la segmentación se aplicó Gesture Detection Technique, donde se establece
 
 
 ## Resultados
+- Filtrado: Utilizando la wavelet sym5 se obtuvo la señal filtrada
+  !["Filtrado"](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/denoising_wavelet.png)
 
+- Segmentación: Se definieron dos ventanas, en los lugares donde se presentaba contracción muscular
+  !["V1"](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/v1.png)
+  !["V2"](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/v2.png)
+  
 !["Análisis total"](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_total.png)
 
 ## Discusión
