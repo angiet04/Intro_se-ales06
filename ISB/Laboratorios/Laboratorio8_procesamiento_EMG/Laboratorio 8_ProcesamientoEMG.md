@@ -158,6 +158,29 @@ Figura 10. Relative power ventana 1.
 </p>
 
 ### Características en Ventana 2:
+
+| Característica                            | Valor                    |
+|-------------------------------------------|--------------------------|
+| Tiempo máximo                             | 10.845903825318777       |
+| Tiempo mínimo                             | 10.845903825318777       |
+| Tiempo promedio                           | 10.845903825318777       |
+| Desviación estándar del tiempo            | 0.0                      |
+| EMG máximo                                | 0.5181613974360016       |
+| EMG mínimo                                | -0.4382966900396984      |
+| EMG promedio                              | -0.01168000821912256     |
+| Desviación estándar del EMG               | 0.08557475881327573      |
+| RMS del EMG                               | 0.08636817665059904      |
+| MAV del EMG                               | 0.06119978696003991      |
+| Frecuencia mediana (MDF)                  | 54.58333333333333 Hz     |
+| Frecuencia media (MNF)                    | 60.831697318632344 Hz    |
+| Curtosis del EMG                          | 2.5818909331640176       |
+| Asimetría (skewness) del EMG              | 0.19757860998593374      |
+| iEMG                                      | 734.3974435204789        |
+| Longitud de la forma de onda (WL)         | 12000                    |
+| Cruces por cero (ZC)                      | 1370                     |
+| Cambios en el signo de la pendiente (SSC) | 2002                     |
+| Potencia total                            | 0.00727294758012773      |
+
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_v2.png" alt="Filtrado" width="500" height="300"/>
 </p>
