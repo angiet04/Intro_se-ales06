@@ -51,10 +51,21 @@ Se utilizó la Transformada Wavelet Discreta. La elección de la Transformada Wa
 Para la segmentación se aplicó Gesture Detection Technique, donde se establecen ventanas en las partes de la señal donde se produce una contracción, este método fue uno de los usados para la segmentación en [].
 
 - Extracción de características
-Se extrajeron distintos parámetros como:
-  - RMS, MAV, Frecuencia Mediana (MDF) y frecuencia media (MNF): fueron aplicados en [4] y [5]
-  - Kurtosis y Skewness: fueron aplicados en [6]
-  - iEMG, Longitud de la Forma de Onda (WL), Cruces por Cero (ZC), Cambios en el Signo de la Pendiente (SSC), Total power: fueron mencionados en [7]
+Se extrajeron distintos parámetros, tomamos como referencias los artículos [4],[5],[6] y [7]:
+  - En [4] y [5] se aplicó:
+      - **RMS**: Medida de la amplitud de una señal EMG que representa la energía media de la señal. Se calcula como la raíz cuadrada de la media de los cuadrados de los valores de la señal.
+      - **MAV**: Medida de la amplitud de una señal EMG que representa el promedio de los valores absolutos de la señal. Se calcula como la suma de los valores absolutos de la señal dividida por la longitud de la señal.
+      - **Frecuencia Mediana (MDF)**: Frecuencia en la cual la mitad de la potencia total de la señal está por encima de esa frecuencia y la otra mitad está por debajo. Se calcula a partir del espectro de frecuencia de la señal EMG.
+      - **Frecuencia media (MNF)**:  Media ponderada de las frecuencias presentes en una señal EMG, donde las amplitudes de las frecuencias se utilizan como pesos. Se calcula también a partir del espectro de frecuencia de la señal EMG.
+  - En [6] se aplicó:
+      - Kurtosis: Medida de la forma de la distribución de los datos, indicando la cantidad de "peso" en las colas de la distribución en comparación con la distribución normal.
+      - Skewness: Mide la falta de simetría de la distribución de los datos.
+  - Mencionados en [7]:
+      - iEMG
+      - Longitud de la Forma de Onda (WL)
+      - Cruces por Cero (ZC)
+      - Cambios en el Signo de la Pendiente (SSC)
+      - Total power: 
 
 ## Resultados
 - Filtrado: Utilizando la wavelet sym5 se obtuvo la señal filtrada
