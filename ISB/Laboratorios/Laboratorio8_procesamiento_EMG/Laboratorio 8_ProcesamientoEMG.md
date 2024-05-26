@@ -245,13 +245,13 @@ Las características extraídas de las ventanas 1 y 2 proporcionan información 
 
 ## Conclusiones
 
-- Las señales electromiográficas (EMG) son registros de la actividad eléctrica en los músculos durante la contracción y relajación. Se caracterizan por su variabilidad y frecuencias específicas. La investigación previa ha destacado la importancia de la extracción de características en los dominios del tiempo y tiempo-frecuencia para un análisis preciso de las señales EMG.
+- Las señales electromiográficas (EMG) son registros de la actividad eléctrica en los músculos durante la contracción y relajación. Se caracterizan por su variabilidad y frecuencias específicas. Para poder comparar la actividad muscular en dos momentos distintos o poder identificar ciertos patrones en las señales es necesario realizar una extracción de características.
 
 - El filtrado de señales EMG utilizando la Transformada Wavelet Discreta (DWT) con 'sym5' fue efectivo para eliminar el ruido sin perder información relevante.
   
 - La técnica de Detección de Gestos para la segmentación permitió identificar con precisión períodos de contracción muscular.
 
-- La extracción de características permitieron tener una visión más detallada de la señal y nos permite comparar lo que se obtiene en una señal con otra. Algunos de los parámetros que utilizamos fueron RMS, MAV, frecuencia mediana (MDF), frecuencia media (MNF), curtosis y asimetría.
+- La extracción de características permitió tener una visión más detallada de la señal y nos permite comparar lo que se obtiene en una señal con otra. Algunos de los parámetros que utilizamos fueron RMS, MAV, frecuencia mediana (MDF), frecuencia media (MNF), curtosis y asimetría.
 
 - Se observaron diferencias en las características entre las diferentes ventanas de segmentación, lo que indica variaciones en la actividad muscular entre dos contracciones seguidas. Siendo la segunda contracción, correspondiente a la segunda ventana, la que presentó mayor actividad muscular.
 
