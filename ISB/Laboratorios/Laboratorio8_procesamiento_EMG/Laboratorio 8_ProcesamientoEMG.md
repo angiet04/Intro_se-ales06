@@ -52,9 +52,9 @@ Para la segmentación se aplicó Gesture Detection Technique, donde se establece
 
 - Extracción de características
 Se extrajeron distintos parámetros como:
-  - RMS, MAV, Frecuencia Mediana (MDF) y frecuencia media (MNF): fueron aplicados en [] y []
-  - Kurtosis y Skewness: fueron aplicados en []
-  - iEMG, Longitud de la Forma de Onda (WL), Cruces por Cero (ZC), Cambios en el Signo de la Pendiente (SSC), Total power: fueron mencionados en []
+  - RMS, MAV, Frecuencia Mediana (MDF) y frecuencia media (MNF): fueron aplicados en [4] y [5]
+  - Kurtosis y Skewness: fueron aplicados en [6]
+  - iEMG, Longitud de la Forma de Onda (WL), Cruces por Cero (ZC), Cambios en el Signo de la Pendiente (SSC), Total power: fueron mencionados en [7]
 
 ## Resultados
 ## Resultados
@@ -160,11 +160,12 @@ Figura 13. Relative power ventana 2.
 ## Conclusiones
 ## Bibliografía
 
-[1] J. M. L. Villagómez, R. I. M. Chávez, J. M. L. Hernández and C. Rodriguez-Donate, "Hand movement classification by time domain feature extraction in EMG signals," 2023 IEEE International Autumn Meeting on Power, Electronics and Computing (ROPEC), Ixtapa, Mexico, 2023, pp. 1-6, doi: 10.1109/ROPEC58757.2023.10409406.
-
 1. “Discrete wavelet transform based processing of embroidered textile-electrode electromyography signal acquired with load and pressure effect - Bulcha Belay Etana, Ahmed Ali Dawud, Benny Malengier, Wojciech Sitek, Wendimu Fanta Gemechu, Janarthanan Krishnamoorthy, Lieva Van Langenhove, 2024”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://journals.sagepub.com/doi/10.1177/15280837241232449
 
 2. H. Jebelli y S. Lee, «Feasibility of Wearable Electromyography (EMG) to Assess Construction Workers’ Muscle Fatigue: Proceedings of the 35th CIB W78 2018 Conference: IT in Design, Construction, and Management», 2019, pp. 181-187. doi: 10.1007/978-3-030-00220-6_22. Consultado: el 18 de mayo de 2024. [En línea]. Disponible en: https://www.researchgate.net/figure/The-values-of-MAV-RMS-MEF-and-MDF-for-bicep-muscle_fig3_328141269
 3. “Extraction of tremor for control of neural prostheses: Comparison of Discrete Wavelet Transform and Butterworth filter,” IEEE Conference Publication | IEEE Xplore. https://ieeexplore-ieee-org.ezproxybib.pucp.edu.pe/document/4685591
 4.  “Discrete wavelet transform based processing of embroidered textile-electrode electromyography signal acquired with load and pressure effect - Bulcha Belay Etana, Ahmed Ali Dawud, Benny Malengier, Wojciech Sitek, Wendimu Fanta Gemechu, Janarthanan Krishnamoorthy, Lieva Van Langenhove, 2024”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://journals.sagepub.com/doi/10.1177/15280837241232449
+5.H. Jebelli y S. Lee, «Feasibility of Wearable Electromyography (EMG) to Assess Construction Workers’ Muscle Fatigue: Proceedings of the 35th CIB W78 2018 Conference: IT in Design, Construction, and Management», 2019, pp. 181-187. doi: 10.1007/978-3-030-00220-6_22. Consultado: el 18 de mayo de 2024. [En línea]. Disponible en: https://www.researchgate.net/figure/The-values-of-MAV-RMS-MEF-and-MDF-for-bicep-muscle_fig3_328141269
+6. J. M. L. Villagómez, R. I. M. Chávez, J. M. L. Hernández and C. Rodriguez-Donate, "Hand movement classification by time domain feature extraction in EMG signals," 2023 IEEE International Autumn Meeting on Power, Electronics and Computing (ROPEC), Ixtapa, Mexico, 2023, pp. 1-6, doi: 10.1109/ROPEC58757.2023.10409406.
+7. Jaramillo, Andres & Benalcázar, Marco & Mena-Maldonado, Elisa. (2020). Real-Time Hand Gesture Recognition Using Surface Electromyography and Machine Learning: A Systematic Literature Review. Sensors. 20. 2467. 10.3390/s20092467.
 
