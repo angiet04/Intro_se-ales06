@@ -242,9 +242,18 @@ Como se obtuvieron ambas señales (recortadas con las ventanas 1 y 2) de la mism
 El análisis de las señales segmentadas y descompuestas mostró que la DWT con 'sym5' permite una extracción más precisa y selectiva de los componentes deseados, eliminando eficazmente el ruido y preservando las características esenciales para el análisis de contracciones musculares (Figuras 6 y 7). La evaluación de las características estadísticas, como la amplitud, valor promedio, frecuencia y otras métricas, demostró la capacidad de la DWT para mejorar la precisión en la clasificación y análisis de las señales EMG.
 
 Las características extraídas de las ventanas 1 y 2 proporcionan información detallada sobre las contracciones musculares. La Figura 9 muestra el RMS de la ventana 1, mientras que la Figura 10 presenta el análisis de potencia relativa. Para la ventana 2, la Figura 11 ofrece un análisis detallado de la señal EMG, y la Figura 12 muestra el RMS. La Figura 13 presenta la potencia relativa, destacando las diferencias en las características de las señales entre las dos ventanas.
+
 ## Conclusiones
 
+- Las señales electromiográficas (EMG) son registros de la actividad eléctrica en los músculos durante la contracción y relajación. Se caracterizan por su variabilidad y frecuencias específicas. La investigación previa ha destacado la importancia de la extracción de características en los dominios del tiempo y tiempo-frecuencia para un análisis preciso de las señales EMG.
 
+- El filtrado de señales EMG utilizando la Transformada Wavelet Discreta (DWT) con 'sym5' fue efectivo para eliminar el ruido sin perder información relevante.
+  
+- La técnica de Detección de Gestos para la segmentación permitió identificar con precisión períodos de contracción muscular.
+
+- La extracción de características permitieron tener una visión más detallada de la señal y nos permite comparar lo que se obtiene en una señal con otra. Algunos de los parámetros que utilizamos fueron RMS, MAV, frecuencia mediana (MDF), frecuencia media (MNF), curtosis y asimetría.
+
+- Se observaron diferencias en las características entre las diferentes ventanas de segmentación, lo que indica variaciones en la actividad muscular entre dos contracciones seguidas. Siendo la segunda contracción, correspondiente a la segunda ventana, la que presentó mayor actividad muscular.
 
 ## Bibliografía
 
