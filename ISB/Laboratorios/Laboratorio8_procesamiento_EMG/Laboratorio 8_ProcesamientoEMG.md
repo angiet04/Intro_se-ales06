@@ -213,6 +213,15 @@ Figura 13. Relative power ventana 2.
 </p>
 
 ## Discusión
+Resultados del Filtrado y Segmentación:
+Los resultados obtenidos mediante la wavelet 'sym5' muestran una señal filtrada que preserva los componentes relevantes de la señal EMG original. En la Figura 1, se puede observar la señal EMG original (en azul) y la señal filtrada (en naranja), lo que demuestra la efectividad del método en la eliminación de ruido sin perder información significativa.
+
+La técnica de segmentación aplicada, Gesture Detection Technique, permitió identificar con precisión las ventanas de contracción muscular, facilitando la extracción de características específicas de las señales. Las Figuras 2 y 3 ilustran estas ventanas, mostrando claramente los períodos de contracción y relajación muscular.
+
+Extracción de Características:
+La extracción de características incluyó parámetros como RMS, MAV, frecuencia mediana (MDF), frecuencia media (MNF), curtosis, asimetría (skewness), iEMG, longitud de la forma de onda (WL), cruces por cero (ZC), cambios en el signo de la pendiente (SSC) y potencia total. Estas características, derivadas tanto del dominio del tiempo como del tiempo-frecuencia, proporcionan una visión integral del comportamiento de las señales EMG.
+
+Las Figuras 4 y 5 muestran la detección de contracciones y el análisis detallado de las señales EMG. En la Figura 4, se presentan las señales EMG y las señales de activación, destacando las áreas de contracción muscular. La Figura 5 muestra el análisis de la señal EMG, con indicadores de máximos y mínimos, así como la zona de desviación estándar.
 ## Conclusiones
 ## Bibliografía
 
