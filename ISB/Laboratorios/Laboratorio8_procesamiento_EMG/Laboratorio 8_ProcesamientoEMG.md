@@ -114,21 +114,21 @@ Características en Ventana 1:
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_v1.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 7. Relative power.
+Figura 8. Análisis ventana 1.
 </p>
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/rms_v1.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 7. Relative power.
+Figura 9. RMS ventana 1.
   
 </p>
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/relativepower_v1.png" alt="Filtrado" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/power_v1.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 7. Relative power.
+Figura 10. Relative power ventana 1.
 </p>
 
 Características en Ventana 2:
@@ -136,21 +136,21 @@ Características en Ventana 2:
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_v2.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 7. Relative power.
+Figura 11. Análisis ventana 2.
 </p>
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/rms_v2.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 7. Relative power.
+Figura 12. RMS ventana 2.
   
 </p>
 <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/relativepower_v2.png" alt="Filtrado" width="500" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/power_v2.png" alt="Filtrado" width="500" height="300"/>
 </p>
 <p align="center">
-Figura 7. Relative power.
+Figura 13. Relative power ventana 2.
 </p>
 
 ## Discusión
