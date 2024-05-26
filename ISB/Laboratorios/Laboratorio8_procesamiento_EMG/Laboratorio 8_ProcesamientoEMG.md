@@ -38,6 +38,7 @@ En estudios recientes, se ha utilizado la Transformada de Fourier para la extrac
 - Realizar el análisis de las características y compararlo con otros valores.
 - Verificar el comportamiento de la señal EMG.
 ## Métodos
+Se procesó la señal EMG registrada en laboratorios pasados, esta se encuentra ![aquí]()
 - Filtrado:
 
 La elección de la Transformada Wavelet Discreta (DWT) se debe a su ventaja sobre el filtro Butterworth, especialmente cuando no se dispone de información previa sobre las características de la frecuencia de los temblores. La DWT proporciona una extracción más precisa y selectiva de los componentes de señal deseados, convirtiéndose en una herramienta poderosa. Esta precisión y selectividad en la extracción de señales son fundamentales para una gestión fiable y eficaz, lo que hace que la DWT sea la opción preferida [3].
