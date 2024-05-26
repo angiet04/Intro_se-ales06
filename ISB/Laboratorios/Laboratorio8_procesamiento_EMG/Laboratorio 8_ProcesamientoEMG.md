@@ -23,6 +23,7 @@
 8. [Bibliografía](#bibliografia)
 
 ## Resumen
+En este laboratorio, se procesaron señales electromiográficas (EMG) con el propósito de extraer y analizar características estadísticas clave. Se seleccionaron los mejores filtros Wavelet para mejorar la calidad de las señales y se segmentaron las señales en partes relevantes. Se extrajeron parámetros estáticos y temporales, incluyendo amplitud, valor promedio (media), frecuencia y otros. Posteriormente, se compararon estas características con valores de referencia. El análisis verificó el comportamiento de las señales EMG, identificando patrones y tendencias importantes. El enfoque en la extracción de características en el dominio del tiempo demostró ser eficaz para la clasificación precisa de movimientos, proporcionando un método computacionalmente eficiente para el reconocimiento de patrones EMG.
 ## Introducción
 Las señales electromiográficas (EMG) son registros de la actividad eléctrica generada en el tejido muscular durante los procesos de contracción y relajación. Estas señales, generadas por las neuronas motoras al activar los músculos, exhiben un carácter estocástico y típicamente varían de 0 a 100 mV, con frecuencias que oscilan entre 20 y 500 Hz. Los componentes de mayor amplitud de estas señales suelen encontrarse en el rango de 50-150 Hz [1]
 
