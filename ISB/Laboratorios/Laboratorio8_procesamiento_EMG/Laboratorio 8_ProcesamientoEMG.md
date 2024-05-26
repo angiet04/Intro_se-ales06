@@ -48,10 +48,13 @@ El código en Python se encuentra en los siguientes archivos:
 - Filtrado:
 Se utilizó la Transformada Wavelet Discreta. La elección de la Transformada Wavelet Discreta (DWT) se debe a su ventaja sobre el filtro Butterworth, especialmente cuando no se dispone de información previa sobre las características de la frecuencia de los temblores. La DWT proporciona una extracción más precisa y selectiva de los componentes de señal deseados, convirtiéndose en una herramienta poderosa. Esta precisión y selectividad en la extracción de señales son fundamentales para una gestión fiable y eficaz, lo que hace que la DWT sea la opción preferida [3]. En el artículo titulado "Discrete Wavelet Transform-Based Processing of Embroidered Textile Electrode Electromyography Signal" explora el uso de la Transformada Wavelet Discreta (DWT) para el procesamiento y denoising de señales EMG obtenidas mediante electrodos textiles bordados.[4] El estudio utiliza la wavelet 'sym5' para la descomposición de la señal EMG, seleccionada por su capacidad para capturar las características de las señales EMG con una buena relación de compresión. Se emplea un nivel de descomposición de 4, ya que proporciona un equilibrio adecuado entre la resolución temporal y la frecuencia. Para la eliminación de ruido, se utiliza la técnica de thresholding suave (soft thresholding) con el método Rigrsure, que calcula los umbrales adaptativos basados en la distribución de los coeficientes wavelet en cada nivel de detalle. Los parámetros precisos utilizados en el proceso de denoising [4].
 - Segmentación
-Para la segmentación se aplicó Gesture Detection Technique, donde se establecen ventanas en las partes de la señal donde se produce una contracción.
+Para la segmentación se aplicó Gesture Detection Technique, donde se establecen ventanas en las partes de la señal donde se produce una contracción, este método fue uno de los usados para la segmentación en [].
 
 - Extracción de características
-
+Se extrajeron distintos parámetros como:
+  - RMS, MAV, Frecuencia Mediana (MDF) y frecuencia media (MNF): fueron aplicados en [] y []
+  - Kurtosis y Skewness: fueron aplicados en []
+  - iEMG, Longitud de la Forma de Onda (WL), Cruces por Cero (ZC), Cambios en el Signo de la Pendiente (SSC), Total power: fueron mencionados en []
 
 ## Resultados
 ## Resultados
