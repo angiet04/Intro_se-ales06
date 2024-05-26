@@ -45,12 +45,16 @@ El código en Python se encuentra en los siguientes archivos:
 [parte2](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio8_procesamiento_EMG/a.ipynb)
 
 
-- Filtrado:
+- **Filtrado**
+  
 Se utilizó la Transformada Wavelet Discreta. La elección de la Transformada Wavelet Discreta (DWT) se debe a su ventaja sobre el filtro Butterworth, especialmente cuando no se dispone de información previa sobre las características de la frecuencia de los temblores. La DWT proporciona una extracción más precisa y selectiva de los componentes de señal deseados, convirtiéndose en una herramienta poderosa. Esta precisión y selectividad en la extracción de señales son fundamentales para una gestión fiable y eficaz, lo que hace que la DWT sea la opción preferida [3]. En el artículo titulado "Discrete Wavelet Transform-Based Processing of Embroidered Textile Electrode Electromyography Signal" explora el uso de la Transformada Wavelet Discreta (DWT) para el procesamiento y denoising de señales EMG obtenidas mediante electrodos textiles bordados.[4] El estudio utiliza la wavelet 'sym5' para la descomposición de la señal EMG, seleccionada por su capacidad para capturar las características de las señales EMG con una buena relación de compresión. Se emplea un nivel de descomposición de 4, ya que proporciona un equilibrio adecuado entre la resolución temporal y la frecuencia. Para la eliminación de ruido, se utiliza la técnica de thresholding suave (soft thresholding) con el método Rigrsure, que calcula los umbrales adaptativos basados en la distribución de los coeficientes wavelet en cada nivel de detalle. Los parámetros precisos utilizados en el proceso de denoising [4].
-- Segmentación
+
+- **Segmentación**
+  
 Para la segmentación se aplicó Gesture Detection Technique, donde se establecen ventanas en las partes de la señal donde se produce una contracción. "La detección de gestos calcula el inicio y el final de un gesto de mano, y devuelve la EMG que corresponde únicamente a la contracción muscular. Por lo tanto, las longitudes de los segmentos son variables, ya que dependen de la duración de los gestos de mano" [7]. En [7] se realizó una revisión de los métodos de segmentación para señales EMG y este fue uno de los más utilizados, por lo que decidieron aplicarlo junto a otros dos métodos de segmentación.
 
-- Extracción de características
+- **Extracción de características**
+  
 Se extrajeron distintos parámetros, tomamos como referencias los artículos [4],[5],[6] y [7]:
   - En [4] y [5] se aplicó:
       - **RMS**: Medida de la amplitud de una señal EMG que representa la energía media de la señal. Se calcula como la raíz cuadrada de la media de los cuadrados de los valores de la señal.
@@ -58,13 +62,13 @@ Se extrajeron distintos parámetros, tomamos como referencias los artículos [4]
       - **Frecuencia Mediana (MDF)**: Frecuencia en la cual la mitad de la potencia total de la señal está por encima de esa frecuencia y la otra mitad está por debajo. Se calcula a partir del espectro de frecuencia de la señal EMG.
       - **Frecuencia media (MNF)**:  Media ponderada de las frecuencias presentes en una señal EMG, donde las amplitudes de las frecuencias se utilizan como pesos. Se calcula también a partir del espectro de frecuencia de la señal EMG.
   - En [6] se aplicó:
-      - Kurtosis: Medida de la forma de la distribución de los datos, indicando la cantidad de "peso" en las colas de la distribución en comparación con la distribución normal.
-      - Skewness: Mide la falta de simetría de la distribución de los datos.
-  - Mencionados en [7]:
-      - iEMG: integral de la señal EMG en el tiempo y se utiliza para representar la cantidad total de actividad muscular. 
-      - Longitud de la Forma de Onda (WL): cantidad total de muestras en la señal EMG. 
-      - Cruces por Cero (ZC) y Cambios en el Signo de la Pendiente (SSC): características relacionadas con la dinámica temporal de la señal.
-      - Total power: energía total contenida en la señal EMG
+      - **Kurtosis**: Medida de la forma de la distribución de los datos, indicando la cantidad de "peso" en las colas de la distribución en comparación con la distribución normal.
+      - **Skewness**: Mide la falta de simetría de la distribución de los datos.
+  - Algunos de los mencionados en [7]:
+      - **iEMG**: integral de la señal EMG en el tiempo y se utiliza para representar la cantidad total de actividad muscular. 
+      - **Longitud de la Forma de Onda (WL)**: cantidad total de muestras en la señal EMG. 
+      - **Cruces por Cero (ZC) y Cambios en el Signo de la Pendiente (SSC): características relacionadas con la dinámica temporal de la señal**.
+      - **Total power**: energía total contenida en la señal EMG
 
 ## Resultados
 - Filtrado: Utilizando la wavelet sym5 se obtuvo la señal filtrada
