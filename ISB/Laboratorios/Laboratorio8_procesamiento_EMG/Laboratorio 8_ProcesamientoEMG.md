@@ -38,7 +38,9 @@ En estudios recientes, se ha utilizado la Transformada de Fourier para la extrac
 - Realizar el análisis de las características y compararlo con otros valores.
 - Verificar el comportamiento de la señal EMG.
 ## Métodos
-- Filtrado
+- Filtrado:
+
+La elección de la Transformada Wavelet Discreta (DWT) se debe a su ventaja sobre el filtro Butterworth, especialmente cuando no se dispone de información previa sobre las características de la frecuencia de los temblores. La DWT proporciona una extracción más precisa y selectiva de los componentes de señal deseados, convirtiéndose en una herramienta poderosa. Esta precisión y selectividad en la extracción de señales son fundamentales para una gestión fiable y eficaz, lo que hace que la DWT sea la opción preferida [3].
 - Segmentación
 - Extracción de características
 ## Resultados
@@ -51,3 +53,4 @@ En estudios recientes, se ha utilizado la Transformada de Fourier para la extrac
 1. “Discrete wavelet transform based processing of embroidered textile-electrode electromyography signal acquired with load and pressure effect - Bulcha Belay Etana, Ahmed Ali Dawud, Benny Malengier, Wojciech Sitek, Wendimu Fanta Gemechu, Janarthanan Krishnamoorthy, Lieva Van Langenhove, 2024”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://journals.sagepub.com/doi/10.1177/15280837241232449
 
 2. H. Jebelli y S. Lee, «Feasibility of Wearable Electromyography (EMG) to Assess Construction Workers’ Muscle Fatigue: Proceedings of the 35th CIB W78 2018 Conference: IT in Design, Construction, and Management», 2019, pp. 181-187. doi: 10.1007/978-3-030-00220-6_22. Consultado: el 18 de mayo de 2024. [En línea]. Disponible en: https://www.researchgate.net/figure/The-values-of-MAV-RMS-MEF-and-MDF-for-bicep-muscle_fig3_328141269
+3. “Extraction of tremor for control of neural prostheses: Comparison of Discrete Wavelet Transform and Butterworth filter,” IEEE Conference Publication | IEEE Xplore. https://ieeexplore-ieee-org.ezproxybib.pucp.edu.pe/document/4685591
