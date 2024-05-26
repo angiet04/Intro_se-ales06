@@ -61,11 +61,10 @@ Se extrajeron distintos parámetros, tomamos como referencias los artículos [4]
       - Kurtosis: Medida de la forma de la distribución de los datos, indicando la cantidad de "peso" en las colas de la distribución en comparación con la distribución normal.
       - Skewness: Mide la falta de simetría de la distribución de los datos.
   - Mencionados en [7]:
-      - iEMG
-      - Longitud de la Forma de Onda (WL)
-      - Cruces por Cero (ZC)
-      - Cambios en el Signo de la Pendiente (SSC)
-      - Total power: 
+      - iEMG: integral de la señal EMG en el tiempo y se utiliza para representar la cantidad total de actividad muscular. 
+      - Longitud de la Forma de Onda (WL): cantidad total de muestras en la señal EMG. 
+      - Cruces por Cero (ZC) y Cambios en el Signo de la Pendiente (SSC): características relacionadas con la dinámica temporal de la señal.
+      - Total power: energía total contenida en la señal EMG
 
 ## Resultados
 - Filtrado: Utilizando la wavelet sym5 se obtuvo la señal filtrada
