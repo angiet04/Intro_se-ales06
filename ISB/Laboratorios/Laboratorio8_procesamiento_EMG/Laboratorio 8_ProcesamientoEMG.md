@@ -112,6 +112,29 @@ Figura 7. Relative power.
 </p>
 
 ### Características en Ventana 1:
+
+| Metric                    | Value                    |
+|---------------------------|--------------------------|
+| Maximum time              | 7.163895486935868        |
+| Minimum time              | 7.163895486935868        |
+| Average time              | 7.163895486935868        |
+| Standard Deviation time   | 0.0                      |
+| Maximum EMG               | 0.3794928824067344       |
+| Minimum EMG               | -0.39002821716421787     |
+| Average EMG               | -0.010437003976578239    |
+| Standard Deviation EMG    | 0.057175311441171814     |
+| RMS EMG                   | 0.05812011089461291      |
+| MAV EMG                   | 0.03804653354994741      |
+| Median Frequency (MDF)    | 44.75 Hz                 |
+| Mean Frequency (MNF)      | 48.826105225170984 Hz    |
+| Kurtosis EMG              | 5.83177099732856         |
+| Skewness EMG              | 0.06924344627766076      |
+| iEMG                      | 304.37226839957924       |
+| Waveform Length (WL)      | 8000                     |
+| Zero Crossings (ZC)       | 751                      |
+| Slope Sign Changes (SSC)  | 1089                     |
+| Total Power               | 0.0027896710970607926    |
+
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_v1.png" alt="Filtrado" width="500" height="300"/>
 </p>
