@@ -57,7 +57,6 @@ Se extrajeron distintos parámetros como:
   - iEMG, Longitud de la Forma de Onda (WL), Cruces por Cero (ZC), Cambios en el Signo de la Pendiente (SSC), Total power: fueron mencionados en [7]
 
 ## Resultados
-## Resultados
 - Filtrado: Utilizando la wavelet sym5 se obtuvo la señal filtrada
   <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/denoising_wavelet.png" alt="Filtrado" width="500" height="300"/>
@@ -82,7 +81,7 @@ Figura 3. Ventana 2.
 </p>
 
 - Extracción de características
-Características generales:
+### Características generales:
 
  <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/deteccioncontraccion.png" alt="Filtrado" width="500" height="300"/>
@@ -112,7 +111,7 @@ Figura 6. RMS.
 Figura 7. Relative power.
 </p>
 
-Características en Ventana 1:
+### Características en Ventana 1:
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_v1.png" alt="Filtrado" width="500" height="300"/>
 </p>
@@ -134,7 +133,7 @@ Figura 9. RMS ventana 1.
 Figura 10. Relative power ventana 1.
 </p>
 
-Características en Ventana 2:
+### Características en Ventana 2:
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_v2.png" alt="Filtrado" width="500" height="300"/>
 </p>
