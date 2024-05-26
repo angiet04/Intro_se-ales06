@@ -61,7 +61,7 @@ Se extrajeron distintos parámetros, tomamos como referencias los artículos [4]
       - **MAV**: Medida de la amplitud de una señal EMG que representa el promedio de los valores absolutos de la señal. Se calcula como la suma de los valores absolutos de la señal dividida por la longitud de la señal.
       - **Frecuencia Mediana (MDF)**: Frecuencia en la cual la mitad de la potencia total de la señal está por encima de esa frecuencia y la otra mitad está por debajo. Se calcula a partir del espectro de frecuencia de la señal EMG.
       - **Frecuencia media (MNF)**:  Media ponderada de las frecuencias presentes en una señal EMG, donde las amplitudes de las frecuencias se utilizan como pesos. Se calcula también a partir del espectro de frecuencia de la señal EMG.
-  - En [6] se aplicó:
+  - En [6] se utilizó:
       - **Kurtosis**: Medida de la forma de la distribución de los datos, indicando la cantidad de "peso" en las colas de la distribución en comparación con la distribución normal.
       - **Skewness**: Mide la falta de simetría de la distribución de los datos.
   - Algunos de los mencionados en [7]:
