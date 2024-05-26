@@ -57,7 +57,7 @@ Para la segmentación se aplicó Gesture Detection Technique, donde se establece
 ## Resultados
 - Filtrado: Utilizando la wavelet sym5 se obtuvo la señal filtrada
   <p align="center">
-    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/denoising_wavelet.png" alt="Filtrado" width="400" height="300"/>
+    <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/denoising_wavelet.png" alt="Filtrado" width="400" height="200"/>
 </p>
 <p align="center">
 Figura 1. Filtrado con Wavelet sym5.
