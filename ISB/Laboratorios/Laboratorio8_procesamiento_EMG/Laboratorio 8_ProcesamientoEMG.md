@@ -225,6 +225,14 @@ La extracción de características incluyó parámetros como RMS, MAV, frecuenci
 Las Figuras 4 y 5 muestran la detección de contracciones y el análisis detallado de las señales EMG. En la Figura 4, se presentan las señales EMG y las señales de activación, destacando las áreas de contracción muscular. La Figura 5 muestra el análisis de la señal EMG, con indicadores de máximos y mínimos, así como la zona de desviación estándar.
 
 Como se obtuvieron ambas señales (recortadas con las ventanas 1 y 2) de la misma persona, no es necesario normalizarlas para poder compararlas. A continuación, compararemos cada característica entre las dos ventanas: 
+| Característica                            | Comentario                                                           |
+|-------------------------------------------|----------------------------------------------------------------------|
+| Tiempo                                    | En ambos casos, el tiempo máximo, mínimo y promedio son idénticos, lo que sugiere una duración constante de la contracción muscular en ambas ventanas. |
+| EMG                                       | El rango de amplitud del EMG es mayor en la Ventana 2. Sin embargo, los valores mínimo y promedio son similares en ambas ventanas. |
+| RMS y MAV                                 | Ambos indicadores de actividad muscular muestran valores ligeramente más altos en la Ventana 2, lo que sugiere una mayor actividad muscular en ese momento. |
+| Frecuencias MDF y MNF                    | Ambas frecuencias aumentan en la Ventana 2 en comparación con la Ventana 1, lo que puede indicar una mayor actividad muscular. |
+| Curtosis y Asimetría                     | La curtosis y skewness son menores en la Ventana 2, lo que sugiere una distribución más cercana a una distribución normal.  |
+| iEMG, WL, ZC, SSC y Potencia Total       | Estas métricas indican una mayor actividad muscular y cambios temporales en la señal EMG en la Ventana 2 en comparación con la Ventana 1. |
 
 ## Conclusiones
 ## Bibliografía
