@@ -112,7 +112,7 @@ Figura 7. Relative power.
 </p>
 
 ### Características en Ventana 1:
-
+  <p align="center">
 | Característica                            | Valor                    |
 |-------------------------------------------|--------------------------|
 | Tiempo máximo                             | 7.163895486935868        |
@@ -134,7 +134,7 @@ Figura 7. Relative power.
 | Cruces por cero (ZC)                      | 751                      |
 | Cambios en el signo de la pendiente (SSC) | 1089                     |
 | Potencia total                            | 0.0027896710970607926    |
-
+</p>
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_v1.png" alt="Filtrado" width="500" height="300"/>
@@ -159,6 +159,7 @@ Figura 10. Relative power ventana 1.
 
 ### Características en Ventana 2:
 
+<p align="center">
 | Característica                            | Valor                    |
 |-------------------------------------------|--------------------------|
 | Tiempo máximo                             | 10.845903825318777       |
@@ -180,6 +181,7 @@ Figura 10. Relative power ventana 1.
 | Cruces por cero (ZC)                      | 1370                     |
 | Cambios en el signo de la pendiente (SSC) | 2002                     |
 | Potencia total                            | 0.00727294758012773      |
+</p>
 
 <p align="center">
     <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_v2.png" alt="Filtrado" width="500" height="300"/>
