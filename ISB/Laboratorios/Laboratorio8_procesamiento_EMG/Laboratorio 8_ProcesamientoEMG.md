@@ -11,7 +11,7 @@
 ### En este laboratorio, procesaremos las bioseñales EMG medidas en los laboratorios pasados, buscando extraer ciertas características. 
 
 </div>
-<span style="color:blue">Tabla de Contenidos:</span>
+<span style="color:blue">## Tabla de Contenidos:</span>
 
 1. [Resumen](#resumen)
 2. [Introducción](#introducción)
