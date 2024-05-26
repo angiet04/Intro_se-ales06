@@ -11,7 +11,7 @@
 ### En este laboratorio, procesaremos las bioseñales EMG medidas en los laboratorios pasados, buscando extraer ciertas características. 
 
 </div>
-<span style="color:blue">## Tabla de Contenidos:</span>
+<span style="color:blue">Tabla de Contenidos:</span>
 
 1. [Resumen](#resumen)
 2. [Introducción](#introducción)
@@ -235,6 +235,9 @@ Como se obtuvieron ambas señales (recortadas con las ventanas 1 y 2) de la mism
 | iEMG, WL, ZC, SSC y Potencia Total       | Estas métricas indican una mayor actividad muscular y cambios temporales en la señal EMG en la Ventana 2 en comparación con la Ventana 1. |
 
 ## Conclusiones
+
+
+
 ## Bibliografía
 
 1. “Discrete wavelet transform based processing of embroidered textile-electrode electromyography signal acquired with load and pressure effect - Bulcha Belay Etana, Ahmed Ali Dawud, Benny Malengier, Wojciech Sitek, Wendimu Fanta Gemechu, Janarthanan Krishnamoorthy, Lieva Van Langenhove, 2024”. Consultado: el 17 de mayo de 2024. [En línea]. Disponible en: https://journals.sagepub.com/doi/10.1177/15280837241232449
