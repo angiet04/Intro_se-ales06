@@ -58,6 +58,8 @@ Para la segmentación se aplicó Gesture Detection Technique, donde se establece
 
 ## Resultados
 
+!["Análisis total"](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio8/analisis_total.png)
+
 ## Discusión
 ## Conclusiones
 ## Bibliografía
