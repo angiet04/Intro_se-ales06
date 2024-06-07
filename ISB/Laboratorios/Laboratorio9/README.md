@@ -122,9 +122,8 @@ Mostramos gráficos que incluyen la señal de ECG filtrada, la correlación norm
 
 ## Bibliografía
 
-1. 
-
-2. 
+1. M. T. Almalchy, V. Ciobanu and N. Popescu, "Noise Removal from ECG Signal Based on Filtering Techniques," 2019 22nd International Conference on Control Systems and Computer Science (CSCS), Bucharest, Romania, 2019, pp. 176-181, doi: 10.1109/CSCS.2019.00037.
+2. Diguo Zhai, Xinqi Bao, Xi Long, Taotao Ru, Guofu Zhou. Precise detection and localization of R-peaks from ECG signals[J]. Mathematical Biosciences and Engineering, 2023, 20(11): 19191-19208. doi: 10.3934/mbe.2023848
 3. 
 4. 
 5. 
