@@ -53,7 +53,11 @@ La mejora en la precisión de la localización de picos R tiene implicaciones im
   
 
 - **Extracción de características**
-  
+La extracción de características se centra en obtener una plantilla representativa del complejo QRS, que se utiliza posteriormente en el proceso de coincidencia de plantillas. Los pasos involucrados son:
+
+Selección del segmento QRS: Se selecciona un segmento de la señal correspondiente al primer complejo QRS completo detectado.
+Creación de la plantilla QRS: Se localiza el pico R dentro de este segmento y se extrae una ventana centrada en este pico para usarla como plantilla. Esta plantilla representa el perfil típico de un pico R en la señal de ECG.
+El uso de la coincidencia de plantillas permite identificar todos los complejos QRS en la señal de ECG mediante la correlación cruzada. La normalización de la plantilla antes de la correlación asegura que la magnitud de la señal no distorsione los resultados. Los picos altos en la función de correlación indican una alta similitud con la plantilla QRS, sugiriendo la presencia de un pico R.
 
 2. Usando el método propuesto en "Precise detection and localization of R-peaks from ECG signals"
 
