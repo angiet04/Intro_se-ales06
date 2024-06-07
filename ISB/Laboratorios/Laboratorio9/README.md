@@ -8,7 +8,7 @@
 3. Nicole Doris Unsihuay Vila (nicole.unsihuay@upch.pe)
 4. Angie Milagros Diaz Torres (angie.diaz.t@upch.pe)
 
-### En este laboratorio, -------. 
+### En este laboratorio, procesaremos las bioseñales ECG medidas en los laboratorios pasados, buscando extraer ciertas características.
 
 </div>
 <span style="color:blue">Tabla de Contenidos:</span>
