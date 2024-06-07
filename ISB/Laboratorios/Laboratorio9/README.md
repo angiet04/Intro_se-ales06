@@ -43,12 +43,13 @@ La mejora en la precisión de la localización de picos R tiene implicaciones im
 Figura 1. Onda del ECG [1]
 
 ## Objetivos
-- Elección del mejor filtro para ECG.
-- Segmentación de la señal.
-- Extracción de parámetros estáticos y temporales de la señal.
-- Obtener características estadísticas de la señal: amplitud, valor promedio (media), frecuencia, entre otros.
-- Realizar el análisis de las características y compararlo con otros valores.
-- Verificar el comportamiento de la señal ECG.
+- Mejorar la calidad de las señales ECG mediante técnicas de filtrado.
+- Segmentar las señales ECG para identificar los complejos QRS.
+- Extraer características específicas de la señal ECG.
+- Detectar y localizar con precisión los picos R usando un algoritmo avanzado.
+- Analizar la variabilidad de la frecuencia cardíaca (HRV).
+- Comparar los resultados con métodos tradicionales.
+- Visualizar y validar los resultados del procesamiento de señales ECG.
 
 ## Métodos
 ![DIAGRAMA](https://github.com/angiet04/Intro_se-ales06/assets/164528885/058697d8-cece-4e53-83a4-4432bb8c6a01)
