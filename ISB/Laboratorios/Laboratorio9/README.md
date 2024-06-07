@@ -23,6 +23,8 @@
 8. [Bibliografía](#bibliografia)
 
 ## Resumen
+En el Laboratorio 9, se ha llevado a cabo el procesamiento de señales de electrocardiograma (ECG) previamente medidas en sesiones anteriores. El objetivo principal fue extraer características específicas de estas señales utilizando técnicas avanzadas de filtrado y segmentación. Mediante el uso de un filtro pasabajas de Butterworth y un método de coincidencia de plantillas, se logró mejorar la detección y localización de los picos R en las señales de ECG. Este enfoque permitió obtener una mayor precisión en el análisis de la variabilidad de la frecuencia cardíaca (HRV), fundamental para el monitoreo y diagnóstico de la salud cardiovascular. El laboratorio subraya la importancia de innovar en el procesamiento de bioseñales para mejorar la calidad del diagnóstico clínico.
+
 ## Introducción
 El electrocardiograma (ECG) es una herramienta fundamental para la evaluación de la función cardíaca, ofreciendo una representación eléctrica de la actividad del corazón. Mediante un transductor, el ECG convierte las vibraciones mecánicas del corazón en señales eléctricas que son filtradas y procesadas para su análisis. Esta transformación permite a los especialistas monitorear la salud cardíaca y detectar anomalías [1].
 
