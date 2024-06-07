@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Laboratorio 9 </h1>
+<h1>Laboratorio 9: Procesamiento de señales ECG </h1>
 </div>
 
 ## Integrantes
