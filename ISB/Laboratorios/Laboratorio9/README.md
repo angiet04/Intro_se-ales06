@@ -38,6 +38,7 @@ La mejora en la precisión de la localización de picos R tiene implicaciones im
 
 ![ECG](https://github.com/angiet04/Intro_se-ales06/assets/164528885/6868e031-3caa-4a66-bb0c-612e34bd56c5)
 Figura 1. Onda del ECG
+
 ## Objetivos
 - Elección del mejor filtro para ECG.
 - Segmentación de la señal.
@@ -48,6 +49,7 @@ Figura 1. Onda del ECG
 
 ## Métodos
 ![DIAGRAMA](https://github.com/angiet04/Intro_se-ales06/assets/164528885/058697d8-cece-4e53-83a4-4432bb8c6a01)
+
 Figura 2. 
 
 - **Filtrado**
