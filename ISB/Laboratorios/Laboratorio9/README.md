@@ -36,6 +36,8 @@ En el artículo "Precise detection and localization of R-peaks from ECG signals"
 
 La mejora en la precisión de la localización de picos R tiene implicaciones importantes para las aplicaciones clínicas del análisis de HRV, ya que permite una evaluación más precisa del balance autonómico cardíaco y de las respuestas fisiológicas a factores como la actividad física, el estrés mental y la calidad del sueño [2]. Este desarrollo subraya la importancia de continuar innovando en la detección y análisis de señales biomédicas para mejorar el diagnóstico y el tratamiento de enfermedades cardiovasculares.
 
+![ECG](https://github.com/angiet04/Intro_se-ales06/assets/164528885/6868e031-3caa-4a66-bb0c-612e34bd56c5)
+Figura 1. Onda del ECG
 ## Objetivos
 - Elección del mejor filtro para ECG.
 - Segmentación de la señal.
@@ -45,6 +47,9 @@ La mejora en la precisión de la localización de picos R tiene implicaciones im
 - Verificar el comportamiento de la señal ECG.
 
 ## Métodos
+![DIAGRAMA](https://github.com/angiet04/Intro_se-ales06/assets/164528885/058697d8-cece-4e53-83a4-4432bb8c6a01)
+Figura 2. 
+
 - **Filtrado**
 
 El preprocesamiento de la señal de ECG es crucial para asegurar una detección precisa de los picos R. Utilizamos un filtro pasabajas para suavizar la señal y eliminar las altas frecuencias que pueden representar ruido eléctrico o artefactos de movimiento. El filtro seleccionado es un filtro de Butterworth, diseñado usando la función butter de SciPy, que proporciona una respuesta de frecuencia relativamente plana en la banda de paso, preservando la forma de los picos R sin distorsiones significativas. La señal filtrada se eleva al cuadrado para amplificar las señales de mayor amplitud, destacando los complejos QRS y haciendo que los picos R sean más dominantes.
