@@ -117,9 +117,8 @@ Mostramos gráficos que incluyen la señal de ECG filtrada, la correlación norm
 ### Análisis de Señales
 
 ## Conclusiones
-
-- Las señales electromiográficas (EMG) son registros de la actividad eléctrica en los músculos durante la contracción y relajación. Se caracterizan por su variabilidad y frecuencias específicas. Para poder comparar la actividad muscular en dos momentos distintos o poder identificar ciertos patrones en las señales es necesario realizar una extracción de características.
-
+-
+-
 
 ## Bibliografía
 
