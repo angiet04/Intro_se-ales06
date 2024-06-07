@@ -31,8 +31,7 @@
 - Obtener características estadísticas de la señal: amplitud, valor promedio (media), frecuencia, entre otros.
 - Realizar el análisis de las características y compararlo con otros valores.
 - Verificar el comportamiento de la señal ECG.
-
-
+## Métodos
 - **Filtrado**
   
 
@@ -41,7 +40,7 @@
   
 
 - **Extracción de características**
-## Métodos
+  
 
 2. Usando el método propuesto en "Precise detection and localization of R-peaks from ECG signals"
 
