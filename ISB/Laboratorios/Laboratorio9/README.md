@@ -25,7 +25,12 @@
 ## Resumen
 
 ## Objetivos
-
+- Elección del mejor filtro para ECG.
+- Segmentación de la señal.
+- Extracción de parámetros estáticos y temporales de la señal.
+- Obtener características estadísticas de la señal: amplitud, valor promedio (media), frecuencia, entre otros.
+- Realizar el análisis de las características y compararlo con otros valores.
+- Verificar el comportamiento de la señal ECG.
 
 
 - **Filtrado**
