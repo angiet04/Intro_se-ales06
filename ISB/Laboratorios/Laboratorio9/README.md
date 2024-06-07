@@ -46,14 +46,18 @@ La mejora en la precisión de la localización de picos R tiene implicaciones im
 
 ## Métodos
 - **Filtrado**
+
 El preprocesamiento de la señal de ECG es crucial para asegurar una detección precisa de los picos R. Utilizamos un filtro pasabajas para suavizar la señal y eliminar las altas frecuencias que pueden representar ruido eléctrico o artefactos de movimiento. El filtro seleccionado es un filtro de Butterworth, diseñado usando la función butter de SciPy, que proporciona una respuesta de frecuencia relativamente plana en la banda de paso, preservando la forma de los picos R sin distorsiones significativas. La señal filtrada se eleva al cuadrado para amplificar las señales de mayor amplitud, destacando los complejos QRS y haciendo que los picos R sean más dominantes.
 
 
 - **Segmentación**
+
 La segmentación de la señal de ECG se realiza para identificar y aislar las regiones que contienen los complejos QRS. Este proceso incluye los siguientes pasos:
 
-- Aplicación de un umbral dinámico: Utilizamos la señal cuadrada para aplicar un umbral que distingue entre los complejos QRS y el resto de la señal. La señal resultante es binaria, donde los valores de 1 indican la presencia de un QRS y 0 su ausencia.
-- Identificación de segmentos QRS: Se detectan los inicios y finales de los complejos QRS mediante cambios en la señal de ventana, permitiendo extraer segmentos precisos de la señal de ECG.
+Aplicación de un umbral dinámico: Utilizamos la señal cuadrada para aplicar un umbral que distingue entre los complejos QRS y el resto de la señal. La señal resultante es binaria, donde los valores de 1 indican la presencia de un QRS y 0 su ausencia.
+
+Identificación de segmentos QRS: Se detectan los inicios y finales de los complejos QRS mediante cambios en la señal de ventana, permitiendo extraer segmentos precisos de la señal de ECG.
+
 
 - **Extracción de características**
 
