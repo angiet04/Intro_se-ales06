@@ -23,6 +23,18 @@
 8. [Bibliografía](#bibliografia)
 
 ## Resumen
+## Introducción
+El electrocardiograma (ECG) es una herramienta fundamental para la evaluación de la función cardíaca, ofreciendo una representación eléctrica de la actividad del corazón. Mediante un transductor, el ECG convierte las vibraciones mecánicas del corazón en señales eléctricas que son filtradas y procesadas para su análisis. Esta transformación permite a los especialistas monitorear la salud cardíaca y detectar anomalías [1].
+
+La señal de ECG es inherentemente débil y sufre interferencias debido a diversos factores ambientales, como movimientos corporales, cambios en la temperatura corporal y la interferencia de la frecuencia de línea eléctrica (50/60 Hz). Además, está sujeta a varios tipos de ruido, incluyendo el ruido electromiográfico (EMG), la interferencia de la línea de alimentación y el ruido blanco gaussiano aditivo (AWGN). Estos ruidos pueden dificultar la interpretación precisa de la señal, por lo que es crucial utilizar técnicas de filtrado digital para mejorar la calidad de la señal [1].
+
+La forma de onda del ECG se caracteriza por las ondas P, Q, R, S y T, que reflejan distintos aspectos de la actividad eléctrica del corazón. La onda P indica la despolarización auricular, el complejo QRS la despolarización ventricular, y la onda T la repolarización ventricular. Estos componentes permiten un diagnóstico detallado de diversas condiciones cardíacas [1].
+
+En el campo de la ingeniería biomédica, el análisis de la variabilidad de la frecuencia cardíaca (HRV) se ha convertido en una herramienta crucial para el monitoreo de la salud cardiovascular y la predicción de enfermedades [2]. Este análisis se basa en la precisión con la que se pueden identificar los picos R en las señales de ECG, ya que los intervalos R-R son fundamentales para calcular la HRV. Sin embargo, los métodos actuales de detección de picos R suelen centrarse más en la sensibilidad que en la precisión de la localización exacta de estos picos, lo cual puede limitar la utilidad clínica de los análisis de HRV [2].
+
+En el artículo "Precise detection and localization of R-peaks from ECG signals", los autores presentan un nuevo algoritmo de localización de picos R que mejora el método Pan-Tompkins (PT) tradicional [2]. Este nuevo enfoque no solo filtra y preprocesa la señal ECG, sino que también utiliza un método de coincidencia de plantillas para identificar la posición exacta de los picos R con una mayor precisión. El algoritmo propuesto logra una sensibilidad del 99.78% y una tasa de error de detección de datos del 0.44% en la base de datos de arritmias MIT-BIH, superando significativamente al algoritmo PT clásico [2].
+
+La mejora en la precisión de la localización de picos R tiene implicaciones importantes para las aplicaciones clínicas del análisis de HRV, ya que permite una evaluación más precisa del balance autonómico cardíaco y de las respuestas fisiológicas a factores como la actividad física, el estrés mental y la calidad del sueño [2]. Este desarrollo subraya la importancia de continuar innovando en la detección y análisis de señales biomédicas para mejorar el diagnóstico y el tratamiento de enfermedades cardiovasculares.
 
 ## Objetivos
 - Elección del mejor filtro para ECG.
@@ -31,6 +43,7 @@
 - Obtener características estadísticas de la señal: amplitud, valor promedio (media), frecuencia, entre otros.
 - Realizar el análisis de las características y compararlo con otros valores.
 - Verificar el comportamiento de la señal ECG.
+
 ## Métodos
 - **Filtrado**
   
