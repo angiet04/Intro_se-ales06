@@ -166,8 +166,9 @@ Usando el método propuesto en "Precise detection and localization of R-peaks fr
 </p>
 
 #### Resultados de la Detección de Picos R
-![Findpeaks](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Findpeaks.jpg)
 
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Findpeaks.jpg" alt="Findpeaks">
 </p>
 <p align="center">
   Figura 7. Los picos R detectados usando otro método para comparación y evaluación de precisión.
