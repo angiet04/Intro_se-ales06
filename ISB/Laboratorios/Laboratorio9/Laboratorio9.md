@@ -145,6 +145,18 @@ Figura 6. Detección de picos R.
 
 Figura 7. Los picos R detectados usando otro método para comparación y evaluación de precisión.
 
+##### A partir de los picos R detectados se pudo extraer otras características, que se resumen en la siguiente tabla:
+
+| Característica de señal ECG                      | Valor                       |
+|-------------------------------------|-----------------------------|
+| **RMS**                             | 0.1011536638937019          |
+| **Min**                             | -1.4990100631721928         |
+| **Max**                             | 2.133273947601097           |
+| **Median**                          | 1.4162015816616969e-06      |
+| **Std Dev**                         | 0.10115229496986558         |
+| **Distancia promedio entre picos R (HRV)** | 0.6142365002051776     |
+| **Pulso cardíaco (BPM)**            | 97.68224450998564           |
+
 ## Discusión
 ### Resultados del Filtrado y Segmentación
 
