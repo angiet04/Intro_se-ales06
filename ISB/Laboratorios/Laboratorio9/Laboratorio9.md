@@ -134,27 +134,43 @@ Se utilizó también la transformada Wavelet Discreta Daubechies 2 con nivel de 
 Usando el método propuesto en "Precise detection and localization of R-peaks from ECG signals"
 #### Preprocesamiento de la Señal
 ![Segmentacion](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Segmentaci%C3%B3n%20de%20la%20Se%C3%B1al.jpg)
-Figura 3. Preprocesamiento con la señal filtrada, la señal al cuadrado y la señal de ventana. 
+
+</p>
+<p align="center">
+  Figura 3. Preprocesamiento con la señal filtrada, la señal al cuadrado y la señal de ventana. 
+</p>
 
 #### Detección de Complejos QRS
 ![Coincidencia](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Coincidencia%20de%20picos.jpg)
 
-Figura 4. Señal de ECG filtrada con los complejos QRS destacados y la señal de ventana para identificación de regiones con QRS.
+</p>
+<p align="center">
+  Figura 4. Señal de ECG filtrada con los complejos QRS destacados y la señal de ventana para identificación de regiones con QRS.
+</p>
 
 #### Coincidencia de Plantillas
 ![filtrado](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Filtrado%20de%20la%20Se%C3%B1al.jpg)
 
-Figura 5. Correlación normalizada y los picos R detectados usando coincidencia de plantillas
+</p>
+<p align="center">
+  Figura 5. Correlación normalizada y los picos R detectados usando coincidencia de plantillas.
+</p>
 
 #### Evaluación de la Detección de Picos R
 ![Definitive_peaks](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Definitive_peaks.jpg)
 
-Figura 6. Detección de picos R.
+</p>
+<p align="center">
+  Figura 6. Detección de picos R.
+</p>
 
 #### Resultados de la Detección de Picos R
 ![Findpeaks](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Findpeaks.jpg)
 
-Figura 7. Los picos R detectados usando otro método para comparación y evaluación de precisión.
+</p>
+<p align="center">
+  Figura 7. Los picos R detectados usando otro método para comparación y evaluación de precisión.
+</p>
 
 ##### A partir de los picos R detectados se pudo extraer las características HRV y pulso cardíaco, y utilizando una transformada wavelet discreta db2 se obtuvieron características como RMS, valor mínimo, valor máximo, mediana y desviación estándar: 
 
@@ -168,7 +184,10 @@ Figura 7. Los picos R detectados usando otro método para comparación y evaluac
 | **Distancia promedio entre picos R (HRV)** | 0.6142365002051776     |
 | **Pulso cardíaco (BPM)**            | 97.68224450998564           |
 
-Tabla 1. Extracción de características de la señal ECG
+</p>
+<p align="center">
+  Tabla 1. Extracción de características de la señal ECG
+</p>
 
 ## Discusión
 ### Resultados del Filtrado y Segmentación
