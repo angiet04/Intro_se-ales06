@@ -55,8 +55,9 @@ La mejora en la precisión de la localización de picos R tiene implicaciones im
 - Visualizar y validar los resultados del procesamiento de señales ECG.
 
 ## Métodos
-![DIAGRAMA](https://github.com/angiet04/Intro_se-ales06/assets/164528885/058697d8-cece-4e53-83a4-4432bb8c6a01)
 
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528885/058697d8-cece-4e53-83a4-4432bb8c6a01" alt="DIAGRAMA">
 </p>
 <p align="center">
   Figura 2. Diagrama de bloques del método propuesto. [2]
