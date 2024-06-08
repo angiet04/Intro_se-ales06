@@ -40,7 +40,10 @@ La mejora en la precisión de la localización de picos R tiene implicaciones im
 
 ![ECG](https://github.com/angiet04/Intro_se-ales06/assets/164528885/6868e031-3caa-4a66-bb0c-612e34bd56c5)
 
-Figura 1. Onda del ECG [1]
+</p>
+<p align="center">
+  Figura 1. Onda del ECG [1]
+</p>
 
 ## Objetivos
 - Mejorar la calidad de las señales ECG mediante técnicas de filtrado.
@@ -54,7 +57,10 @@ Figura 1. Onda del ECG [1]
 ## Métodos
 ![DIAGRAMA](https://github.com/angiet04/Intro_se-ales06/assets/164528885/058697d8-cece-4e53-83a4-4432bb8c6a01)
 
-Figura 2. Diagrama de bloques del método propuesto. [2]
+</p>
+<p align="center">
+  Figura 2. Diagrama de bloques del método propuesto. [2]
+</p>
 
 - **Filtrado**
 
