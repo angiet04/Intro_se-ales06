@@ -168,10 +168,10 @@ Tabla 1. Extracción de características de la señal ECG
 En esta etapa, se aplica un filtro pasabajas a la señal de ECG para eliminar el ruido y los artefactos de alta frecuencia. La señal resultante se eleva al cuadrado para resaltar los complejos QRS y se aplica una señal de ventana para identificar las regiones que contienen los complejos QRS.
 Descripción de los colores:
 
--Señal filtrada (filtered ECG): Azul.
--Señal al cuadrado (S): Azul.
--Señal filtrada (L): Naranja.
--Señal de ventana (W): Azul (señal binaria).
+- Señal filtrada (filtered ECG): Azul.
+- Señal al cuadrado (S): Azul.
+- Señal filtrada (L): Naranja.
+- Señal de ventana (W): Azul (señal binaria).
 
 En la Figura 3., se observa el proceso de filtrado de la señal ECG, seguido de su elevación al cuadrado para amplificar los complejos QRS. Finalmente, se aplica la señal de ventana para segmentar la señal y aislar las regiones relevantes para la detección de los picos R.
 
