@@ -123,18 +123,27 @@ Mostramos gráficos que incluyen la señal de ECG filtrada, la correlación norm
 Usando el método propuesto en "Precise detection and localization of R-peaks from ECG signals"
 #### Preprocesamiento de la Señal
 ![Segmentacion](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Segmentaci%C3%B3n%20de%20la%20Se%C3%B1al.jpg)
+Figura 3. Preprocesamiento con la señal filtrada, la señal al cuadrado y la señal de ventana. 
 
 #### Detección de Complejos QRS
 ![Coincidencia](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Coincidencia%20de%20picos.jpg)
 
+Figura 4. Señal de ECG filtrada con los complejos QRS destacados y la señal de ventana para identificación de regiones con QRS.
+
 #### Coincidencia de Plantillas
 ![filtrado](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Filtrado%20de%20la%20Se%C3%B1al.jpg)
+
+Figura 5. Correlación normalizada y los picos R detectados usando coincidencia de plantillas
 
 #### Evaluación de la Detección de Picos R
 ![Definitive_peaks](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Definitive_peaks.jpg)
 
+Figura 6. Detección de picos R.
+
 #### Resultados de la Detección de Picos R
 ![Findpeaks](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Findpeaks.jpg)
+
+Figura 7. Los picos R detectados usando otro método para comparación y evaluación de precisión.
 
 ## Discusión
 ### Resultados del Filtrado y Segmentación
