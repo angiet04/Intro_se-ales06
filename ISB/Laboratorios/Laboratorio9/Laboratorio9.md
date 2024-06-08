@@ -165,13 +165,26 @@ Tabla 1. Extracción de características de la señal ECG
 
 ## Discusión
 ### Resultados del Filtrado y Segmentación
+En esta etapa, se aplica un filtro pasabajas a la señal de ECG para eliminar el ruido y los artefactos de alta frecuencia. La señal resultante se eleva al cuadrado para resaltar los complejos QRS y se aplica una señal de ventana para identificar las regiones que contienen los complejos QRS.
+Descripción de los colores:
 
+-Señal filtrada (filtered ECG): Azul.
+-Señal al cuadrado (S): Azul.
+-Señal filtrada (L): Naranja.
+-Señal de ventana (W): Azul (señal binaria).
+
+En la Figura 3., se observa el proceso de filtrado de la señal ECG, seguido de su elevación al cuadrado para amplificar los complejos QRS. Finalmente, se aplica la señal de ventana para segmentar la señal y aislar las regiones relevantes para la detección de los picos R.
 
 ### Extracción de Características:
-
+Para la extracción de características, se utiliza una plantilla representativa del complejo QRS. Esta plantilla se genera a partir de un segmento de la señal ECG y se utiliza para identificar los picos R mediante la correlación cruzada.
+En la Figura 4., se muestra cómo se utiliza la plantilla QRS para realizar la coincidencia de plantillas. Los picos altos en la correlación indican una alta similitud con la plantilla QRS, sugiriendo la presencia de un pico R.
 
 ### Análisis de Señales
 
+El análisis de señales incluye la evaluación de la detección de picos R y la comparación de los resultados obtenidos con otros métodos. Las visualizaciones muestran la eficacia del algoritmo propuesto en la identificación precisa de los picos R.
+En las figuras 6 y 7, se presenta la evaluación de la detección de picos R utilizando diferentes enfoques. La primera imagen muestra los picos R detectados con el método de coincidencia de plantillas, mientras que la segunda imagen muestra los resultados de la detección de picos R usando find_peaks para comparar y evaluar la precisión.
+
+El filtrado y segmentación aseguran que la señal esté libre de ruido, permitiendo una detección precisa de los complejos QRS. La coincidencia de plantillas mejora la precisión en la localización de los picos R, como se observa en las imágenes de correlación y detección. Los análisis de señales muestran que el método propuesto es eficaz en la identificación de picos R y supera otros enfoques tradicionales en términos de precisión y eficiencia. La extracción de características HRV y pulso cardíaco, junto con las métricas obtenidas mediante la transformada wavelet discreta, proporcionan información valiosa para el análisis clínico y diagnóstico.
 ## Conclusiones
 -
 -
