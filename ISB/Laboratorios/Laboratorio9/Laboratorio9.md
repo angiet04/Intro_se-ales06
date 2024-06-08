@@ -176,8 +176,6 @@ Usando el método propuesto en "Precise detection and localization of R-peaks fr
 
 ##### A partir de los picos R detectados se pudo extraer las características HRV y pulso cardíaco, y utilizando una transformada wavelet discreta db2 se obtuvieron características como RMS, valor mínimo, valor máximo, mediana y desviación estándar: 
 
-
-<p align="center">
   
 | Característica de señal ECG                      | Valor                       |
 |-------------------------------------|-----------------------------|
