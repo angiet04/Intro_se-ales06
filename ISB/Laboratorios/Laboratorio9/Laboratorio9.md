@@ -38,8 +38,8 @@ En el artículo "Precise detection and localization of R-peaks from ECG signals"
 
 La mejora en la precisión de la localización de picos R tiene implicaciones importantes para las aplicaciones clínicas del análisis de HRV, ya que permite una evaluación más precisa del balance autonómico cardíaco y de las respuestas fisiológicas a factores como la actividad física, el estrés mental y la calidad del sueño [2]. Este desarrollo subraya la importancia de continuar innovando en la detección y análisis de señales biomédicas para mejorar el diagnóstico y el tratamiento de enfermedades cardiovasculares.
 
-![ECG](https://github.com/angiet04/Intro_se-ales06/assets/164528885/6868e031-3caa-4a66-bb0c-612e34bd56c5)
-
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/assets/164528885/6868e031-3caa-4a66-bb0c-612e34bd56c5" alt="ECG">
 </p>
 <p align="center">
   Figura 1. Onda del ECG [1]
