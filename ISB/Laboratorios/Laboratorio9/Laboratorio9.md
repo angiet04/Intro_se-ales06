@@ -134,8 +134,8 @@ Se utilizó también la transformada Wavelet Discreta Daubechies 2 con nivel de 
 
 Usando el método propuesto en "Precise detection and localization of R-peaks from ECG signals"
 #### Preprocesamiento de la Señal
-![Segmentacion](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Segmentaci%C3%B3n%20de%20la%20Se%C3%B1al.jpg)
-
+<p align="center">
+  <img src="https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/Segmentaci%C3%B3n%20de%20la%20Se%C3%B1al.jpg" alt="Segmentacion">
 </p>
 <p align="center">
   Figura 3. Preprocesamiento con la señal filtrada, la señal al cuadrado y la señal de ventana. 
