@@ -124,11 +124,17 @@ F. Visualización
 Mostramos gráficos que incluyen la señal de ECG filtrada, la correlación normalizada escalada para compararla con la amplitud de la señal de ECG, y marcas en los picos R detectados. Esto no solo ayuda a validar el proceso sino que también proporciona una herramienta intuitiva para análisis médicos o técnicos adicionales.
 
 Al tener los picos R, se pudo calcular la distancia R-R o HRV. La variabilidad de la frecuencia cardíaca (HRV) es la fluctuación en los intervalos de tiempo entre latidos cardíacos adyacentes.
+
 A partir del HRV se halla la frecuencia cardíaca (en bpm): 
+
 Como el HRV nos da el intervalo entre picos R, podemos tomarlo como un parámetro para detectar el número de latidos por minuto (bpm) y por ende medir la frecuencia cardíaca: 
+
   beats = tiempo/intervalo R-R, 
+  
   entonces beats/unidad de tiempo = (tiempo/intervalo R-R)/tiempo, donde el tiempo está en segundos. 
+  
   Para pasarlo a beats/minuto, multiplicamos por 60. 
+  
   Por lo que quedaría finalmente: beats/minuto = 60/intervalo R-R
 
 Se utilizó también la transformada Wavelet Discreta Daubechies 2 con nivel de descomposición 6, como se sugiere en [3]. A partir de sus coeficientes de descomposición se calcularon características como RMS, valor mínimo, valor máximo, media y desviación estándar, que permiten caracterizar mejor a la señal ECG. 
