@@ -116,7 +116,10 @@ F. Visualización
 
 Mostramos gráficos que incluyen la señal de ECG filtrada, la correlación normalizada escalada para compararla con la amplitud de la señal de ECG, y marcas en los picos R detectados. Esto no solo ayuda a validar el proceso sino que también proporciona una herramienta intuitiva para análisis médicos o técnicos adicionales.
 
-Al tener los picos R, se pudo calcular la distancia R-R o HRV. 
+Al tener los picos R, se pudo calcular la distancia R-R o HRV. Y con ello también el pulso cardíaco.
+
+Se utilizó también la transformada Wavelet Discreta Daubechies 2 con nivel de descomposición 6, como se sugiere en [3]. A partir de sus coeficientes de descomposición se calcularon características como RMS, valor mínimo, valor máximo, media y desviación estándar, que permiten caracterizar mejor a la señal ECG. 
+
 
 ### El código utilizado se presenta [aquí](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/ECG_processing_final_final.ipynb)
 ## Resultados
@@ -176,7 +179,8 @@ Tabla 1. Extracción de características de la señal ECG
 
 1. M. T. Almalchy, V. Ciobanu and N. Popescu, "Noise Removal from ECG Signal Based on Filtering Techniques," 2019 22nd International Conference on Control Systems and Computer Science (CSCS), Bucharest, Romania, 2019, pp. 176-181, doi: 10.1109/CSCS.2019.00037.
 2. D. Zhai, X. Bao, X. Long, T. Ru, and G. Zhou, "Precise detection and localization of R-peaks from ECG signals," Mathematical Biosciences and Engineering, vol. 20, no. 11, pp. 19191–19208, 2023, doi: 10.3934/mbe.2023848.
-3. 
+3. «Feature Extraction on Multi-Channel ECG Signals using Daubechies Wavelet Algorithm | IEEE Conference Publication | IEEE Xplore». Accedido: 7 de junio de 2024. [En línea]. Disponible en: https://ieeexplore.ieee.org/document/10038238
+
 4. 
 5. 
 
