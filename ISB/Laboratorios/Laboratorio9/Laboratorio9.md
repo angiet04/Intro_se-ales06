@@ -117,7 +117,7 @@ F. Visualización
 Mostramos gráficos que incluyen la señal de ECG filtrada, la correlación normalizada escalada para compararla con la amplitud de la señal de ECG, y marcas en los picos R detectados. Esto no solo ayuda a validar el proceso sino que también proporciona una herramienta intuitiva para análisis médicos o técnicos adicionales.
 
 
-El código utilizado puede verse [aquí](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/ECG_processing_final_final.ipynb)
+### El código utilizado se presenta [aquí](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio9/ECG_processing_final_final.ipynb)
 ## Resultados
 
 Usando el método propuesto en "Precise detection and localization of R-peaks from ECG signals"
