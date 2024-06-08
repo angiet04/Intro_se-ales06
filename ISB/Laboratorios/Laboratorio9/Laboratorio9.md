@@ -124,7 +124,12 @@ F. Visualización
 Mostramos gráficos que incluyen la señal de ECG filtrada, la correlación normalizada escalada para compararla con la amplitud de la señal de ECG, y marcas en los picos R detectados. Esto no solo ayuda a validar el proceso sino que también proporciona una herramienta intuitiva para análisis médicos o técnicos adicionales.
 
 Al tener los picos R, se pudo calcular la distancia R-R o HRV. La variabilidad de la frecuencia cardíaca (HRV) es la fluctuación en los intervalos de tiempo entre latidos cardíacos adyacentes.
-A partir del HRV se halla el pulso cardíaco (en bpm). 
+A partir del HRV se halla la frecuencia cardíaca (en bpm): 
+Como el HRV nos da el intervalo entre picos R, podemos tomarlo como un parámetro para detectar el número de latidos por minuto (bpm) y por ende medir la frecuencia cardíaca: 
+  beats = tiempo/intervalo R-R, 
+  entonces beats/unidad de tiempo = (tiempo/intervalo R-R)/tiempo, donde el tiempo está en segundos. 
+  Para pasarlo a beats/minuto, multiplicamos por 60. 
+  Por lo que quedaría finalmente: beats/minuto = 60/intervalo R-R
 
 Se utilizó también la transformada Wavelet Discreta Daubechies 2 con nivel de descomposición 6, como se sugiere en [3]. A partir de sus coeficientes de descomposición se calcularon características como RMS, valor mínimo, valor máximo, media y desviación estándar, que permiten caracterizar mejor a la señal ECG. 
 
@@ -174,7 +179,7 @@ Usando el método propuesto en "Precise detection and localization of R-peaks fr
   Figura 7. Los picos R detectados usando otro método para comparación y evaluación de precisión.
 </p>
 
-##### A partir de los picos R detectados se pudo extraer las características HRV y pulso cardíaco, y utilizando una transformada wavelet discreta db2 se obtuvieron características como RMS, valor mínimo, valor máximo, mediana y desviación estándar: 
+##### A partir de los picos R detectados se pudo extraer las características HRV y frecuencia cardíaca, y utilizando una transformada wavelet discreta db2 se obtuvieron características como RMS, valor mínimo, valor máximo, mediana y desviación estándar: 
 
 | Característica                      | Valor                       |
 |-------------------------------------|-----------------------------|
@@ -184,7 +189,7 @@ Usando el método propuesto en "Precise detection and localization of R-peaks fr
 | **Median**                          | 1.4162015816616969e-06      |
 | **Std Dev**                         | 0.10115229496986558         |
 | **Distancia promedio entre picos R (HRV)** | 0.6142365002051776     |
-| **Pulso cardíaco (BPM)**            | 97.68224450998564           |
+| **Frecuencia cardíaca (BPM)**            | 97.68224450998564           |
 
 </p>
 <p align="center">
@@ -212,7 +217,8 @@ En la Figura 4., se muestra cómo se utiliza la plantilla QRS para realizar la c
 El análisis de señales incluye la evaluación de la detección de picos R y la comparación de los resultados obtenidos con otros métodos. Las visualizaciones muestran la eficacia del algoritmo propuesto en la identificación precisa de los picos R.
 En las figuras 6 y 7, se presenta la evaluación de la detección de picos R utilizando diferentes enfoques. La primera imagen muestra los picos R detectados con el método de coincidencia de plantillas, mientras que la segunda imagen muestra los resultados de la detección de picos R usando find_peaks para comparar y evaluar la precisión.
 
-El filtrado y segmentación aseguran que la señal esté libre de ruido, permitiendo una detección precisa de los complejos QRS. La coincidencia de plantillas mejora la precisión en la localización de los picos R, como se observa en las imágenes de correlación y detección. Los análisis de señales muestran que el método propuesto en [2] es eficaz en la identificación de picos R y supera otros enfoques tradicionales en términos de precisión y eficiencia. La extracción de características HRV y pulso cardíaco, junto con las métricas obtenidas mediante la transformada wavelet discreta, proporcionan información valiosa para el análisis clínico y diagnóstico.
+El filtrado y segmentación aseguran que la señal esté libre de ruido, permitiendo una detección precisa de los complejos QRS. La coincidencia de plantillas mejora la precisión en la localización de los picos R, como se observa en las imágenes de correlación y detección. Los análisis de señales muestran que el método propuesto en [2] es eficaz en la identificación de picos R y supera otros enfoques tradicionales en términos de precisión y eficiencia. La extracción de características HRV y frecuencia cardíaca, junto con las métricas obtenidas mediante la transformada wavelet discreta, proporcionan información valiosa para el análisis clínico y diagnóstico.
+
 ## Conclusiones
 - Los filtros utilizados (pasa bajas y pasa altas), permitieron eliminar eficientemente el ruido en la señal.
 
