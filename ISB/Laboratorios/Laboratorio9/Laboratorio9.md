@@ -187,8 +187,11 @@ En las figuras 6 y 7, se presenta la evaluación de la detección de picos R uti
 
 El filtrado y segmentación aseguran que la señal esté libre de ruido, permitiendo una detección precisa de los complejos QRS. La coincidencia de plantillas mejora la precisión en la localización de los picos R, como se observa en las imágenes de correlación y detección. Los análisis de señales muestran que el método propuesto es eficaz en la identificación de picos R y supera otros enfoques tradicionales en términos de precisión y eficiencia. La extracción de características HRV y pulso cardíaco, junto con las métricas obtenidas mediante la transformada wavelet discreta, proporcionan información valiosa para el análisis clínico y diagnóstico.
 ## Conclusiones
--
--
+- Los filtros utilizados (pasa bajas y pasa altas), permitieron eliminar eficientemente el ruido en la señal.
+
+- La plantilla representativa del complejo QRS y la correlación cruzada, que forman parte del método propuesto en [2] resultan en una alta precisión en la localización de picos R, superando métodos tradicionales como find_peaks.
+
+- La extracción de características HRV y pulso cardíaco, junto con métricas obtenidas mediante la transformada wavelet discreta, proporciona información crucial para el análisis y diagnóstico clínico.
 
 ## Bibliografía
 
