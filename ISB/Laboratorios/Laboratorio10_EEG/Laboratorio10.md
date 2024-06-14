@@ -23,3 +23,10 @@
 8. [Bibliografía](#bibliografia)
 
 ## Resumen
+## Métodos
+La metodología a seguir consiste en los siguientes pasos:
+1. Obtención de la señal EEG: En este caso, usaremos las señales EEG que están contenidas en el repositorio de Physionet que se encuentra en este ![enlace](https://physionet.org/content/auditory-eeg/1.0.0/)
+2. Filtrado de señal con ICA.
+3. Preprocesamiento: normalización y alineación de la señal).
+4. Extracción de características: Para ello, se utilizó la Transformada Wavelet Discreta.
+   
