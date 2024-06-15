@@ -23,6 +23,7 @@
 8. [Bibliografía](#bibliografia)
 
 ## Resumen
+En este laboratorio, trabajamos con señales EEG obtenidas de la base de datos de Physionet para mejorar su calidad y extraer características importantes. Nos enfocamos en eliminar el ruido y los artefactos que comúnmente afectan estas señales, utilizando técnicas como la Transformada Wavelet Discreta (DWT). Además, realizamos un preprocesamiento de las señales, que incluyó su normalización y alineación, y aplicamos un filtrado con ICA para mejorar aún más la calidad. Nuestro objetivo fue comparar la efectividad de diferentes filtros wavelet para determinar cuál ofrece la mejor relación señal-ruido (SNR), y así establecer directrices para un procesamiento más efectivo de las señales EEG en aplicaciones clínicas.
 
 ## Introducción
 El electroencefalograma (EEG) es una herramienta crucial en el ámbito clínico y de investigación para el registro y medición de las señales cerebrales. Desde su desarrollo en 1929 y la posterior automatización en la década de 1960, el EEG ha permitido avances significativos en el análisis automatizado de datos cerebrales mediante técnicas como la transformada rápida de Fourier para el análisis espectral de potencia. El EEG mide, amplifica y registra los campos eléctricos fluctuantes producidos por el cerebro a lo largo del tiempo, reflejando la actividad neuronal y su comunicación tanto entre diferentes áreas corticales como con el sistema nervioso periférico [1].
