@@ -33,6 +33,8 @@ Figrua 1. Test de EEG [2]
 
 Las señales de EEG se utilizan extensamente para diagnosticar diversos trastornos cerebrales, incluyendo epilepsia, enfermedad de Alzheimer y tumores cerebrales, además de evaluar patrones de sueño y comprender trastornos de aprendizaje y atención [1], [3]. Sin embargo, a pesar de su alta resolución temporal, el EEG carece de resolución espacial debido a las escalas operativas de los electrodos y las redes neuronales [1]. Además, las grabaciones de EEG a menudo están contaminadas por artefactos provenientes de diversas fuentes fisiológicas, ambientales y experimentales. Los artefactos más comunes incluyen movimientos oculares, actividad muscular y artefactos cardíacos, los cuales pueden afectar significativamente la calidad de las señales de EEG y, por ende, la precisión de los análisis clínicos y aplicaciones en interfaces cerebro-computadora (BCI) [1], [4].
 
+![image](https://github.com/angiet04/Intro_se-ales06/assets/164528885/ed3cb56f-6763-4c64-b2fe-b322ab3d3fbf)
+Figura 2. Bandas de frecuencia de EEG [5]
 
 Para abordar estos desafíos, se han desarrollado varias técnicas de eliminación de ruido, destacándose la transformada wavelet por su eficacia en el manejo de señales no estacionarias. La transformada wavelet permite transformar una señal del dominio temporal al dominio tiempo-frecuencia, lo que facilita la extracción de componentes múltiples de una señal. Este método ha demostrado ser más eficiente en la corrección de artefactos en señales de EEG, manteniendo la integridad de la señal original [1], [3]. Sin embargo, la selección de la familia de wavelet y el nivel de descomposición adecuados es crucial para el rendimiento del proceso de eliminación de ruido. La selección inadecuada puede resultar en una eliminación deficiente del ruido y la pérdida de información importante [3]. Por ello, se requiere una comparación cuantitativa del rendimiento de diferentes wavelets en términos de la relación señal-ruido (SNR) para establecer directrices estándar en el procesamiento de señales de EEG [3], [4].
 
@@ -67,4 +69,6 @@ La metodología a seguir consiste en los siguientes pasos:
 
 [4] M. M. Azmy, "Comparison of Denoising EEG Signals between Modified Non Local Means Filter and Wavelet Transform," in 2020 IEEE 5th Middle East and Africa Conference on Biomedical Engineering (MECBME), Amman, Jordan, 2020, pp. 1-4. doi: 10.1109/MECBME47393.2020.9265161.
 
-[5] N. Abo Alzahab et al., «Auditory evoked potential EEG-Biometric dataset». PhysioNet. doi: 10.13026/PS31-FC50.
+[5] M. Proença and K. Mrotzeck, "BITalino (r)evolution Home Guide," BITalino (r)evolution Lab Guide EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS, Lisboa, Portugal, HOME-GUIDE #3 ELECTROENCEPHALOGRAPHY (EEG), 15 de febrero de 2021.
+
+[6] N. Abo Alzahab et al., «Auditory evoked potential EEG-Biometric dataset». PhysioNet. doi: 10.13026/PS31-FC50.
