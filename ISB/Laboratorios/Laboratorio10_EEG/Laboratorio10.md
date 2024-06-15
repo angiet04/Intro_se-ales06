@@ -60,7 +60,11 @@ La metodología a seguir consiste en los siguientes pasos:
 
 ## Bibliografía
 [1] M. Grobbelaar, S. Phadikar, E. Ghaderpour, A. F. Struck, N. Sinha, R. Ghosh, and M. Z. I. Ahmed, "A Survey on Denoising Techniques of Electroencephalogram Signals Using Wavelet Transform," Signals, vol. 3, pp. 577-586, 2022. https://doi.org/10.3390/signals3030035
+
 [2] Guy-Evans, O. (2023, September 19). EEG Test (Electroencephalogram): Purpose, Procedure, And Risks. Simply Psychology. Retrieved from https://www.simplypsychology.org/what-is-an-eeg.html.
+
 [3] S. N. S. S. Daud, R. Sudirman, N. H. Mahmood, and C. Omar, "Denoising Semi-simulated EEG Signal Contaminated Ocular Noise using Various Wavelet Filters," in 2022 13th International Conference on Information and Communication Systems (ICICS), Irbid, Jordan, 2022, pp. 452-457. doi: 10.1109/ICICS55353.2022.9811226.
+
 [4] M. M. Azmy, "Comparison of Denoising EEG Signals between Modified Non Local Means Filter and Wavelet Transform," in 2020 IEEE 5th Middle East and Africa Conference on Biomedical Engineering (MECBME), Amman, Jordan, 2020, pp. 1-4. doi: 10.1109/MECBME47393.2020.9265161.
+
 [5] N. Abo Alzahab et al., «Auditory evoked potential EEG-Biometric dataset». PhysioNet. doi: 10.13026/PS31-FC50.
