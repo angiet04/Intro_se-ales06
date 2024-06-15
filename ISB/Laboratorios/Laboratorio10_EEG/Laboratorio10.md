@@ -27,6 +27,13 @@
 ## Introducción
 
 ## Objetivos
+- Obtener señales EEG de alta calidad
+- Elección del mejor filtro Wavelet para EEG.
+- Eliminar ruido y artefactos de las señales EEG.
+- Normalizar y alinear las señales EEG.
+- Extraer características relevantes usando Transformada Wavelet Discreta (DWT).
+- Analizar y mejorar la precisión de las señales EEG para aplicaciones clínicas.
+- Verificar el comportamiento de la señal EEG.
 
 ## Métodos
 La metodología a seguir consiste en los siguientes pasos:
