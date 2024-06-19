@@ -8,7 +8,7 @@
 3. Nicole Doris Unsihuay Vila (nicole.unsihuay@upch.pe)
 4. Angie Milagros Diaz Torres (angie.diaz.t@upch.pe)
 
-### En este laboratorio, procesaremos las bioseñales EEG obtenidas de una base de datos en Physionet, buscando extraer ciertas características.
+### En este laboratorio, procesaremos las bioseñales EEG obtenidas de la base de datos "Auditory evoked potential EEG-Biometric dataset", disponible en Physionet, buscando extraer ciertas características.
 
 </div>
 <span style="color:blue">Tabla de Contenidos:</span>
@@ -50,7 +50,7 @@ Para abordar estos desafíos, se han desarrollado varias técnicas de eliminaci�
 
 ## Métodos
 La metodología a seguir consiste en los siguientes pasos:
-1. Obtención de la señal EEG: En este caso, usaremos las señales EEG que están contenidas en el repositorio de Physionet que se encuentra en [6]. Algunos detalles importantes son: 
+1. Obtención de la señal EEG: En este caso, usaremos las señales EEG que están contenidas en "Auditory evoked potential EEG-Biometric dataset", disponible de Physionet [6]. Algunos detalles importantes son: 
    - Frecuencia de muestreo: 200Hz
    - Canales utilizados: T7, F8, Cz y P4.
      
