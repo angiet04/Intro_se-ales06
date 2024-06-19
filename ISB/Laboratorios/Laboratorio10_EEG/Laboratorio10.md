@@ -61,7 +61,9 @@ La metodología a seguir consiste en los siguientes pasos:
 **- Aplicación de ICA:** Utilizamos Análisis de Componentes Independientes (ICA) para eliminar artefactos de la señal EEG. La metodología sigue el enfoque descrito por Geng et al. (2022) en su trabajo sobre extracción de características mejorada de señales EEG basadas en la interfaz cerebro-computadora de imágenes motoras. [6].
 
 3. Preprocesamiento: normalización y alineación de la señal).
-4. Extracción de características: Para ello, se utilizó la Transformada Wavelet Discreta, usando como transformada madre a la sym6.
+4. Extracción de características: Para ello, se utilizó la Transformada Wavelet Discreta, usando como transformada madre a la sym6, de acuerdo con lo obtenido en [7], donde se concluye que esta wavelet es la más adecuada para la extracción de características de señales EEG.
+
+En todo el código para el procesamiento, desarrollado en Python, tomamos como base lo presentado en [8], se utilizó la librería de MNE.
 
 ## Resultados
 El código utilizado se presenta [aquí](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio10_EEG/EEG_processing.ipynb)
@@ -150,5 +152,9 @@ La alta curtosis observada en todos los canales y en ambos experimentos (alreded
 
 [6] N. Abo Alzahab et al., «Auditory evoked potential EEG-Biometric dataset». PhysioNet. doi: 10.13026/PS31-FC50.
 X. Geng, D. Li, H. Chen, P. Yu, H. Yan, y M. Yue, «An improved feature extraction algorithms of EEG signals based on motor imagery brain-computer interface», Alexandria Engineering Journal /Alexandria Engineering Journal, vol. 61, n.o 6, pp. 4807-4820, jun. 2022, doi: 10.1016/j.aej.2021.10.034.
+
+[7] 3. E. L. Lema-Condo, F. L. Bueno-Palomeque, S. E. Castro-Villalobos, E. F. Ordoñez-Morales and L. J. Serpa-Andrade, "Comparison of wavelet transform symlets (2-10) and daubechies (2-10) for an electroencephalographic signal analysis," 2017 IEEE XXIV International Conference on Electronics, Electrical Engineering and Computing (INTERCON), Cusco, Peru, 2017, pp. 1-4, doi: 10.1109/INTERCON.2017.8079702.
+
+[8] Dhani Dharmaprani, Hoang K. Nguyen, Trent W. Lewis, Dylan DeLosAngeles, John O. Willoughby, and Kenneth J. Pope. A comparison of independent component analysis algorithms and measures to discriminate between EEG and artifact components. In 2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 825–828. Orlando, FL, USA, 2016. IEEE. doi:10.1109/EMBC.2016.7590828.
 
 
