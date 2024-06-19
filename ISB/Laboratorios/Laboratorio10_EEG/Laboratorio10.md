@@ -60,6 +60,8 @@ La metodología a seguir consiste en los siguientes pasos:
 **- Denoising basado en Wavelet:** Para la eliminación de ruido adicional, aplicamos una transformada wavelet discreta utilizando la wavelet 'db4' y un umbral ajustado, siguiendo una metodología similar a la descrita por Tabar y Halici (2017) [7].
 
 **Proceso detallado:**  Primero, se carga las señales EEG utilizando MNE y aplicamos ICA para identificar y excluir componentes de artefactos. Luego utilizamos la función de umbral suave para reducir el ruido en la señal transformada por wavelet.  Finalmente, reconstruimos la señal utilizando la transformada inversa de wavelet.
+
+
 3. Preprocesamiento: normalización y alineación de la señal).
 4. Extracción de características: Para ello, se utilizó la Transformada Wavelet Discreta.
 
