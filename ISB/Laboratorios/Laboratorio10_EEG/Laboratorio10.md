@@ -60,10 +60,6 @@ La metodología a seguir consiste en los siguientes pasos:
    
 **- Aplicación de ICA:** Utilizamos Análisis de Componentes Independientes (ICA) para eliminar artefactos de la señal EEG. La metodología sigue el enfoque descrito por Geng et al. (2022) en su trabajo sobre extracción de características mejorada de señales EEG basadas en la interfaz cerebro-computadora de imágenes motoras. [6].
 
-**- Denoising basado en Wavelet:** Para la eliminación de ruido adicional, aplicamos una transformada wavelet discreta utilizando la wavelet 'db4' y un umbral ajustado, siguiendo una metodología similar a la descrita por Tabar y Halici (2017) [7].
-
-**Proceso detallado:**  Primero, se carga las señales EEG utilizando MNE y aplicamos ICA para identificar y excluir componentes de artefactos. Luego utilizamos la función de umbral suave para reducir el ruido en la señal transformada por wavelet.  Finalmente, reconstruimos la señal utilizando la transformada inversa de wavelet.
-
 3. Preprocesamiento: normalización y alineación de la señal).
 4. Extracción de características: Para ello, se utilizó la Transformada Wavelet Discreta, usando como transformada madre a la sym6.
 
@@ -72,7 +68,44 @@ El código utilizado se presenta [aquí](https://github.com/angiet04/Intro_se-al
 
 Se analizaron las señales correspondientes al sujeto 1 en los experimentos 1 y 2. Estos experimentos, según el Dataset, corresponden a señales tomadas en reposo, en el experimento 1 con ojos abiertos y en el 2 con ojos cerrados. 
 
-Se analizó la presencia de artefactos, para realizar un filtrado con ICA. En ninguna de las 2 señales se encontraron automáticamente artefactos.
+Se analizó la presencia de artefactos, para realizar un filtrado con ICA. 
+Para el primer experimento se obtuvo lo siguiente:
+
+![canal 0 experimento 1](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio10/canal0_exp1.png)
+
+Figura 3. Canal 0.
+
+![canal 1 experimento 1](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio10/canal1_exp1.png)
+
+Figura 4. Canal 1.
+
+![canal 2 experimento 1](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio10/canal2_exp1.png)
+
+Figura 5. Canal 2.
+
+![canal 3 experimento 1](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio10/canal3_exp1.png)
+
+Figura 6. Canal 3.
+
+Para el segundo experimento se obtuvo lo siguiente:
+
+![canal 0 experimento 2](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio10/canal0_exp2.png)
+
+Figura 7. Canal 0.
+
+![canal 1 experimento 2](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio10/canal1_exp2.png)
+
+Figura 8. Canal 1.
+
+![canal 2 experimento 2](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio10/canal2_exp2.png)
+
+Figura 9. Canal 2.
+
+![canal 3 experimento 2](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio10/canal3_exp2.png)
+
+Figura 10. Canal 3.
+
+En ninguna de las 2 señales se encontraron automáticamente artefactos.
 
 Las características obtenidas se muestran en las tablas a continuación:
 
@@ -117,7 +150,5 @@ La alta curtosis observada en todos los canales y en ambos experimentos (alreded
 
 [6] N. Abo Alzahab et al., «Auditory evoked potential EEG-Biometric dataset». PhysioNet. doi: 10.13026/PS31-FC50.
 X. Geng, D. Li, H. Chen, P. Yu, H. Yan, y M. Yue, «An improved feature extraction algorithms of EEG signals based on motor imagery brain-computer interface», Alexandria Engineering Journal /Alexandria Engineering Journal, vol. 61, n.o 6, pp. 4807-4820, jun. 2022, doi: 10.1016/j.aej.2021.10.034.
-
-[7] A. Borowicz, «Using a multichannel Wiener filter to remove eye-blink artifacts from EEG data», Biomedical Signal Processing And Control, vol. 45, pp. 246-255, ago. 2018, doi: 10.1016/j.bspc.2018.05.012.
 
 
