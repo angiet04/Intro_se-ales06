@@ -137,7 +137,8 @@ La alta curtosis observada en todos los canales y en ambos experimentos (alreded
 
 ## Conclusiones
 - Existe una mayor actividad cerebral cuando una persona está con los ojos abiertos que cuando los tiene cerrados, en condiciones de reposo.
-- Las señales EEG tienden a tener una distribución asimétrica.
+- Las señales EEG tienden a tener una distribución asimétrica, debido a la naturaleza de la señal.
+- Los hallazgos destacan la importancia de la personalización en el análisis de datos EEG, considerando las variaciones individuales y contextuales en la interpretación de los resultados.
   
 ## Bibliografía
 [1] M. Grobbelaar, S. Phadikar, E. Ghaderpour, A. F. Struck, N. Sinha, R. Ghosh, and M. Z. I. Ahmed, "A Survey on Denoising Techniques of Electroencephalogram Signals Using Wavelet Transform," Signals, vol. 3, pp. 577-586, 2022. https://doi.org/10.3390/signals3030035
