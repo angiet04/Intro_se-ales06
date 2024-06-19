@@ -69,6 +69,7 @@ La metodología a seguir consiste en los siguientes pasos:
 
 ## Resultados
 El código utilizado se presenta [aquí](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio10_EEG/EEG_processing.ipynb)
+
 Se analizaron las señales correspondientes al sujeto 1 en los experimentos 1 y 2. Estos experimentos, según el Dataset, corresponden a señales tomadas en reposo, en el experimento 1 con ojos abiertos y en el 2 con ojos cerrados. 
 
 Se analizó la presencia de artefactos, para realizar un filtrado con ICA. En ninguna de las 2 señales se encontraron automáticamente artefactos.
