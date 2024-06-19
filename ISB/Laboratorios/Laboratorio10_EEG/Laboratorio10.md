@@ -50,7 +50,10 @@ Para abordar estos desafíos, se han desarrollado varias técnicas de eliminaci�
 
 ## Métodos
 La metodología a seguir consiste en los siguientes pasos:
-1. Obtención de la señal EEG: En este caso, usaremos las señales EEG que están contenidas en el repositorio de Physionet que se encuentra en [5]
+1. Obtención de la señal EEG: En este caso, usaremos las señales EEG que están contenidas en el repositorio de Physionet que se encuentra en [6]. Algunos detalles importantes son: 
+   - Frecuencia de muestreo: 200Hz
+   - Canales utilizados: T7, F8, Cz y P4.
+     
 2. Filtrado de señal con ICA:
    
 **- Preprocesamiento de la señal:** Las señales EEG se cargan y preprocesan utilizando el paquete MNE-Python. Se aplica un filtro pasa bandas entre 1 Hz y 30 Hz para reducir el ruido de baja y alta frecuencia.
@@ -61,11 +64,32 @@ La metodología a seguir consiste en los siguientes pasos:
 
 **Proceso detallado:**  Primero, se carga las señales EEG utilizando MNE y aplicamos ICA para identificar y excluir componentes de artefactos. Luego utilizamos la función de umbral suave para reducir el ruido en la señal transformada por wavelet.  Finalmente, reconstruimos la señal utilizando la transformada inversa de wavelet.
 
-
 3. Preprocesamiento: normalización y alineación de la señal).
-4. Extracción de características: Para ello, se utilizó la Transformada Wavelet Discreta.
+4. Extracción de características: Para ello, se utilizó la Transformada Wavelet Discreta, usando como transformada madre a la sym6.
 
 ## Resultados
+El código utilizado se presenta [aquí](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio10_EEG/EEG_processing.ipynb)
+Se analizaron las señales correspondientes al sujeto 1 en los experimentos 1 y 2. Estos experimentos, según el Dataset, corresponden a señales tomadas en reposo, en el experimento 1 con ojos abiertos y en el 2 con ojos cerrados. 
+
+Se analizó la presencia de artefactos, para realizar un filtrado con ICA. En ninguna de las 2 señales se encontraron automáticamente artefactos.
+
+Las características obtenidas se muestran en las tablas a continuación:
+
+Para el experimento 1:
+| Canal | RMS         | Mínimo       | Máximo       | Mediana   | Desviación Estándar | Curtosis   | Energía        |
+|-------|-------------|--------------|--------------|-----------|---------------------|------------|----------------|
+| 0     | 514.792964  | -449.390979  | 3418.671354  | 1.525018  | 506.514676          | 26.811046  | 9.927607e+09   |
+| 1     | 1001.275145 | -6128.412693 | 872.597859   | 0.326343  | 985.525104          | 26.881307  | 3.755660e+10   |
+| 2     | 395.855804  | -430.541306  | 2723.358676  | 1.655003  | 389.458371          | 26.816960  | 5.870207e+09   |
+| 3     | 333.481774  | -403.918487  | 2334.658987  | 1.282826  | 328.089867          | 26.875982  | 4.166041e+09   |
+
+Para el experimento 2: 
+| Canal | RMS        | Mínimo      | Máximo      | Mediana   | Desviación Estándar | Curtosis  | Energía       |
+|-------|------------|-------------|-------------|-----------|---------------------|-----------|---------------|
+| 0     | 500.782513 | -107.880317 | 3079.707389 | -0.215956 | 492.842757          | 26.800438 | 9.532016e+09  |
+| 1     | 991.648465 | -5861.649223| 112.509565  | -1.246394 | 975.939625          | 26.824156 | 3.737678e+10  |
+| 2     | 365.912670 | -94.371965  | 2283.189108 | 0.089119  | 360.095058          | 26.799758 | 5.089104e+09  |
+| 3     | 380.232050 | -103.324736 | 2304.299202 | 0.117968  | 374.182096          | 26.800828 | 5.495205e+09  |
 
 ## Discusión   
 
