@@ -51,7 +51,15 @@ Para abordar estos desafíos, se han desarrollado varias técnicas de eliminaci�
 ## Métodos
 La metodología a seguir consiste en los siguientes pasos:
 1. Obtención de la señal EEG: En este caso, usaremos las señales EEG que están contenidas en el repositorio de Physionet que se encuentra en [5]
-2. Filtrado de señal con ICA.
+2. Filtrado de señal con ICA:
+   
+**- Preprocesamiento de la señal:** Las señales EEG se cargan y preprocesan utilizando el paquete MNE-Python. Se aplica un filtro pasa bandas entre 1 Hz y 30 Hz para reducir el ruido de baja y alta frecuencia.
+   
+**- Aplicación de ICA:** Utilizamos Análisis de Componentes Independientes (ICA) para eliminar artefactos de la señal EEG. La metodología sigue el enfoque descrito por Geng et al. (2022) en su trabajo sobre extracción de características mejorada de señales EEG basadas en la interfaz cerebro-computadora de imágenes motoras. [6].
+
+**- Denoising basado en Wavelet:** Para la eliminación de ruido adicional, aplicamos una transformada wavelet discreta utilizando la wavelet 'db4' y un umbral ajustado, siguiendo una metodología similar a la descrita por Tabar y Halici (2017) [7].
+
+**Proceso detallado:**  Primero, se carga las señales EEG utilizando MNE y aplicamos ICA para identificar y excluir componentes de artefactos. Luego utilizamos la función de umbral suave para reducir el ruido en la señal transformada por wavelet.  Finalmente, reconstruimos la señal utilizando la transformada inversa de wavelet.
 3. Preprocesamiento: normalización y alineación de la señal).
 4. Extracción de características: Para ello, se utilizó la Transformada Wavelet Discreta.
 
@@ -73,3 +81,8 @@ La metodología a seguir consiste en los siguientes pasos:
 [5] M. Proença and K. Mrotzeck, "BITalino (r)evolution Home Guide," BITalino (r)evolution Lab Guide EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS, Lisboa, Portugal, HOME-GUIDE #3 ELECTROENCEPHALOGRAPHY (EEG), 15 de febrero de 2021.
 
 [6] N. Abo Alzahab et al., «Auditory evoked potential EEG-Biometric dataset». PhysioNet. doi: 10.13026/PS31-FC50.
+X. Geng, D. Li, H. Chen, P. Yu, H. Yan, y M. Yue, «An improved feature extraction algorithms of EEG signals based on motor imagery brain-computer interface», Alexandria Engineering Journal /Alexandria Engineering Journal, vol. 61, n.o 6, pp. 4807-4820, jun. 2022, doi: 10.1016/j.aej.2021.10.034.
+
+[7] A. Borowicz, «Using a multichannel Wiener filter to remove eye-blink artifacts from EEG data», Biomedical Signal Processing And Control, vol. 45, pp. 246-255, ago. 2018, doi: 10.1016/j.bspc.2018.05.012.
+
+
