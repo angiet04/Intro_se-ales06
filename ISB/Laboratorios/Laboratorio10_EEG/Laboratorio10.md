@@ -92,9 +92,17 @@ Para el experimento 2:
 | 3     | 380.232050 | -103.324736 | 2304.299202 | 0.117968  | 374.182096          | 26.800828 | 5.495205e+09  |
 
 ## Discusión   
+**Comparación entre experimentos**
+En el experimento 1 (ojos abiertos), se observan valores más altos de RMS y energía en general comparado con el experimento 2 (ojos cerrados). Esto indica una mayor actividad cerebral en condiciones de ojos abiertos. 
+
+También se observa una variación en los valores mínimos y máximos, los cuales reflejan el rango de amplitudes de las señales registradas. Se observan diferencias considerables entre los canales y entre los experimentos, lo cual puede indicar variabilidad en la intensidad de la actividad cerebral registrada.
+
+Asimismo, la curtosis es alta en todos los canales en ambos experimentos (alrededor de 26.8), lo cual indica que las distribuciones de los datos son asimétricas. Esto es común en datos de EEG debido a la naturaleza de los potenciales de acción neuronal.
 
 ## Conclusiones
-
+- Existe una mayor actividad cerebral cuando una persona está con los ojos abiertos que cuando los tiene cerrados, en condiciones de reposo.
+- Las señales EEG tienden a tener una distribución asimétrica.
+  
 ## Bibliografía
 [1] M. Grobbelaar, S. Phadikar, E. Ghaderpour, A. F. Struck, N. Sinha, R. Ghosh, and M. Z. I. Ahmed, "A Survey on Denoising Techniques of Electroencephalogram Signals Using Wavelet Transform," Signals, vol. 3, pp. 577-586, 2022. https://doi.org/10.3390/signals3030035
 
