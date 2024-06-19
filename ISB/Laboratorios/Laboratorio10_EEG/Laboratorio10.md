@@ -93,12 +93,12 @@ Para el experimento 2:
 | 3     | 380.232050 | -103.324736 | 2304.299202 | 0.117968  | 374.182096          | 26.800828 | 5.495205e+09  |
 
 ## Discusión   
-**Comparación entre experimentos**
-En el experimento 1 (ojos abiertos), se observan valores más altos de RMS y energía en general comparado con el experimento 2 (ojos cerrados). Esto indica una mayor actividad cerebral en condiciones de ojos abiertos. 
 
-También se observa una variación en los valores mínimos y máximos, los cuales reflejan el rango de amplitudes de las señales registradas. Se observan diferencias considerables entre los canales y entre los experimentos, lo cual puede indicar variabilidad en la intensidad de la actividad cerebral registrada.
+Los resultados obtenidos al analizar las señales EEG del sujeto 1 en los experimentos 1 y 2 proporcionan información significativa sobre la actividad cerebral en diferentes condiciones de reposo. En el experimento 1, realizado con ojos abiertos, se observan valores más altos de RMS y energía en comparación con el experimento 2, donde los ojos estaban cerrados. Este hallazgo sugiere una mayor actividad cerebral cuando el sujeto está con los ojos abiertos.
 
-Asimismo, la curtosis es alta en todos los canales en ambos experimentos (alrededor de 26.8), lo cual indica que las distribuciones de los datos son asimétricas. Esto es común en datos de EEG debido a la naturaleza de los potenciales de acción neuronal.
+Además de la diferencia en la actividad global entre ojos abiertos y cerrados, se destaca la variabilidad en los valores mínimos y máximos de las señales registradas. Estas variaciones entre canales y entre experimentos pueden reflejar diferencias individuales en la respuesta neuronal, así como la influencia de factores externos y estados fisiológicos del sujeto en el momento de la medición.
+
+La alta curtosis observada en todos los canales y en ambos experimentos (alrededor de 26.8) indica que las distribuciones de los datos son asimétricas. Este fenómeno es característico en datos de EEG debido a la naturaleza de los potenciales de acción neuronal, que a menudo presentan picos y asimetrías debido a la actividad neuronal altamente dinámica.
 
 ## Conclusiones
 - Existe una mayor actividad cerebral cuando una persona está con los ojos abiertos que cuando los tiene cerrados, en condiciones de reposo.
