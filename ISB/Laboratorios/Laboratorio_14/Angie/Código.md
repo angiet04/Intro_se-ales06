@@ -58,14 +58,14 @@ def upload_ei(_name_label, _values, hmac_key, api_key):
     else:
         print('Failed to upload file to Edge Impulse', res.status_code, res.content)
 
-# Reemplaza estos valores con los tuyos
+
 HMAC_KEY = "80f1fc9e4ae9f0baa08a6b79ad42ce5e"
 API_KEY = "ei_3f30652431732b51bd34c9ef7fe05495b96bb31370c6bbf3"
 NAME_LABEL = "EMG_4"
 FILE_PATH = "ejemplo_emg.txt"
 
 
-# Función para verificar si una línea puede convertirse a un float
+
 def is_float(value):
     try:
         float(value)
@@ -73,15 +73,15 @@ def is_float(value):
     except ValueError:
         return False
 
-# Leer los valores del archivo TXT, ignorando líneas no numéricas
+
 with open(FILE_PATH, 'r') as file:
     values = [list(map(float, line.strip().split())) for line in file if is_float(line.strip().split()[0])]
 
-# Dividir los datos en fragmentos de 1000 muestras cada uno
+
 chunk_size = 1000
 chunks = [values[i:i + chunk_size] for i in range(0, len(values), chunk_size)]
 
-# Subir cada fragmento como un archivo separado
+
 for i, chunk in enumerate(chunks):
     if len(chunk) == chunk_size:  # Asegurarse de que solo suba fragmentos completos de 1000 muestras
         file_name = f"EMG_3{i+1}.json"
