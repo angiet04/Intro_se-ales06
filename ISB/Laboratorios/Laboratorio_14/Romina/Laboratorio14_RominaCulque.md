@@ -10,7 +10,7 @@ Proyecto ECG: https://studio.edgeimpulse.com/public/431573/live
 
 Proyecto EMG:https://studio.edgeimpulse.com/public/431581/live
 
-Proyecto EEG: 
+Proyecto EEG: https://studio.edgeimpulse.com/public/431588/live
 
 Código: [aquí](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio_14/Romina/edgeimpulse_subir_senales.ipynb)
 
