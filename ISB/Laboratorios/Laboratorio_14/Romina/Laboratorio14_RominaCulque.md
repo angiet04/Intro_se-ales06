@@ -11,3 +11,4 @@ Proyecto EEG:
 Código: [aquí](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio_14/Romina/edgeimpulse_subir_senales.ipynb)
 
 ![captura](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio_14/Romina/lab14_captura.png)
+![ecg](https://github.com/angiet04/Intro_se-ales06/assets/89653710/b58cc916-cce0-4939-a031-e9ed4a0d71a8)
