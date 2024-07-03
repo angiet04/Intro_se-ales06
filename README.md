@@ -11,11 +11,11 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 </div>
 <span style="color:blue">Tabla de Contenidos:</span>
 
-1. [Resumen](#Resumen)
+1. [Resumen](#resumen)
 2. [Motivación](#motivación)
-3. [Principales hallazgos](#Principales)
-4. [Links importantes](#Links)
-5. [Bibliografía](#Bibliografía)
+3. [Principales hallazgos](##principales_hallazgos)
+4. [Links](#links)
+5. [Bibliografía](#bibliografía)
 
 ## Resumen
 
