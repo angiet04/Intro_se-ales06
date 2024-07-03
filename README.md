@@ -17,15 +17,15 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 4. [Links importantes](#Links)
 5. [Bibliografía](#Bibliografía)
 
-Resumen
+## Resumen
 
 El uso intensivo de dispositivos móviles con pantalla táctil ha aumentado los problemas musculoesqueléticos, especialmente en el cuello y los hombros, lo que se conoce como "text-neck". Este estudio examina el efecto del uso prolongado de teléfonos inteligentes sobre la actividad de los músculos trapecio y extensor del cuello mediante electromiografía de superficie (sEMG) en estudiantes universitarios de 20 a 25 años. La atención se centra en evaluar la actividad muscular, la postura de la cabeza y el cuello y la incomodidad percibida en Posturas sentadas. Los resultados proporcionan datos cuantitativos sobre la actividad muscular en condiciones típicas de uso de teléfonos inteligentes, que pueden utilizarse para desarrollar recomendaciones específicas para reducir el riesgo de dolor y lesiones musculoesqueléticas. Este estudio subraya la necesidad de intervenciones ergonómicas y medidas preventivas para abordar el dolor de cuello asociado con el uso prolongado de teléfonos inteligentes.
 
-Motivación
+## Motivación
 
 El creciente uso de dispositivos móviles con pantallas táctiles ha llevado a un aumento significativo de problemas musculoesqueléticos, especialmente en el cuello y los hombros, conocidos como "text-neck." Este problema es particularmente relevante en la población joven, que tiende a usar estos dispositivos por períodos prolongados. La motivación de este estudio surge de la necesidad de entender cómo el uso prolongado de smartphones afecta la actividad muscular del trapecio y los músculos extensores del cuello. Al comprender mejor estas dinámicas, podemos desarrollar recomendaciones y estrategias preventivas para mitigar los riesgos asociados con el uso intensivo de estos dispositivos. La implementación de medidas ergonómicas y programas de ejercicios específicos puede mejorar la salud musculoesquelética y el bienestar general de los usuarios frecuentes de dispositivos móviles.
 
-Principales hallazgos
+## Principales hallazgos
 
 1. **Incremento en la Actividad Muscular:** Tanto el uso de celulares como de laptops mostró un incremento en la actividad muscular en los músculos esternocleidomastoideo y trapecio en comparación con el reposo. Sin embargo, estos incrementos no alcanzaron significancia estadística, lo que sugiere que aunque hay una tendencia, no es lo suficientemente fuerte como para ser concluyente con el tamaño de muestra actual.
 
@@ -36,12 +36,12 @@ Principales hallazgos
 
 5. **Recomendaciones para Estudios Futuros:** Se recomienda llevar a cabo investigaciones adicionales con tamaños de muestra más grandes y una mayor diversidad en las posturas y hábitos de uso para validar y expandir estos hallazgos. También se sugiere evaluar el impacto de diferentes configuraciones ergonómicas y programas de ejercicios específicos.
 
-Links Importantes:
+## Links Importantes:
 - Paper: https://paperswithcode.com/paper/effect-of-prolonged-smartphone-use-on
 - Sobre el equipo: https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/README.md 
 - Códigos utilizados: https://github.com/angiet04/Intro_se-ales06/tree/main/Software/Procesamiento
 
-Bibliografía:
+## Bibliografía:
 1. C. D’Anna, M. Schmid, y S. Conforto, “Linking head and neck posture with muscular activity and perceived discomfort during prolonged smartphone texting”, Int. J. Ind. Ergon., vol. 83, p. 103134, may 2021, doi: 10.1016/j.ergon.2021.103134. 
 2. W. Yoon, S. Choi, H. Han, and G. Shin, “Neck Muscular Load When Using a Smartphone While Sitting, Standing, and Walking,” Hum. Factors J. Hum. Ergon Factors. Soc., vol. 63, no. 5, pp. 868–879, Aug. 2021, doi: 10.1177/0018720820904237.
 3. A. G. M. Hernández, “Trejo Yáñez María Guadalupe and Vera Mendieta Liliana.”
