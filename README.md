@@ -5,6 +5,7 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 ### Profesor coordinador: Umbert Lewis De La Cruz Rodriguez  
 ### Coordinador adjunto: Moises Stevend Meza Rodriguez 
 ### Proyecto relacionado al ANÁLISIS DE SEÑALES DE ELECTROMIOGRAFÍA (EMG):
+### Effect of Prolonged Smartphone Use on Trapezius and Neck Extensor Muscle Activity, Using sEMG
 ### Efecto del uso prolongado de smartphones en la actividad muscular del trapecio y los músculos extensores del cuello, utilizando sEMG.
 
 </div>
