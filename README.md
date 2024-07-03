@@ -13,7 +13,7 @@ Bienvenidos al repositorio del Grupo 6 del curso "Introducción a Señales Biom�
 
 1. [Resumen](#resumen)
 2. [Motivación](#motivación)
-3. [Principales hallazgos](##principales_hallazgos)
+3. [Principales hallazgos](#principales-hallazgos)
 4. [Links](#links)
 5. [Bibliografía](#bibliografía)
 
@@ -25,7 +25,7 @@ El uso intensivo de dispositivos móviles con pantalla táctil ha aumentado los 
 
 El creciente uso de dispositivos móviles con pantallas táctiles ha llevado a un aumento significativo de problemas musculoesqueléticos, especialmente en el cuello y los hombros, conocidos como "text-neck." Este problema es particularmente relevante en la población joven, que tiende a usar estos dispositivos por períodos prolongados. La motivación de este estudio surge de la necesidad de entender cómo el uso prolongado de smartphones afecta la actividad muscular del trapecio y los músculos extensores del cuello. Al comprender mejor estas dinámicas, podemos desarrollar recomendaciones y estrategias preventivas para mitigar los riesgos asociados con el uso intensivo de estos dispositivos. La implementación de medidas ergonómicas y programas de ejercicios específicos puede mejorar la salud musculoesquelética y el bienestar general de los usuarios frecuentes de dispositivos móviles.
 
-## Principales hallazgos
+## Principales-hallazgos
 
 1. **Incremento en la Actividad Muscular:** Tanto el uso de celulares como de laptops mostró un incremento en la actividad muscular en los músculos esternocleidomastoideo y trapecio en comparación con el reposo. Sin embargo, estos incrementos no alcanzaron significancia estadística, lo que sugiere que aunque hay una tendencia, no es lo suficientemente fuerte como para ser concluyente con el tamaño de muestra actual.
 
@@ -36,7 +36,7 @@ El creciente uso de dispositivos móviles con pantallas táctiles ha llevado a u
 
 5. **Recomendaciones para Estudios Futuros:** Se recomienda llevar a cabo investigaciones adicionales con tamaños de muestra más grandes y una mayor diversidad en las posturas y hábitos de uso para validar y expandir estos hallazgos. También se sugiere evaluar el impacto de diferentes configuraciones ergonómicas y programas de ejercicios específicos.
 
-## Links Importantes:
+## Links:
 - Paper: https://paperswithcode.com/paper/effect-of-prolonged-smartphone-use-on
 - Sobre el equipo: https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/README.md 
 - Códigos utilizados: https://github.com/angiet04/Intro_se-ales06/tree/main/Software/Procesamiento
