@@ -37,7 +37,7 @@ El creciente uso de dispositivos móviles con pantallas táctiles ha llevado a u
 5. **Recomendaciones para Estudios Futuros:** Se recomienda llevar a cabo investigaciones adicionales con tamaños de muestra más grandes y una mayor diversidad en las posturas y hábitos de uso para validar y expandir estos hallazgos. También se sugiere evaluar el impacto de diferentes configuraciones ergonómicas y programas de ejercicios específicos.
 
 ## Links:
-- Paper: https://paperswithcode.com/paper/effect-of-prolonged-smartphone-use-on
+- Paper: https://paperswithcode.com/paper/effect-of-prolonged-smartphone-use-on https://github.com/angiet04/Intro_se-ales06/blob/b908ccf4f18df28c92c4de7f820a838298df306e/ISB/PAPER%20-%20ISB%20PROYECTO%20GRUPO%206.docx.pdf
 - Sobre el equipo: https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/README.md 
 - Códigos utilizados: https://github.com/angiet04/Intro_se-ales06/tree/main/Software/Procesamiento
 
