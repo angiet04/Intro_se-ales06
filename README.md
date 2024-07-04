@@ -38,7 +38,7 @@ El creciente uso de dispositivos móviles con pantallas táctiles ha llevado a u
 
 ## Links:
 - Paper: https://paperswithcode.com/paper/effect-of-prolonged-smartphone-use-on
-https://github.com/angiet04/Intro_se-ales06/blob/b908ccf4f18df28c92c4de7f820a838298df306e/ISB/PAPER%20-%20ISB%20PROYECTO%20GRUPO%206.docx.pdf
+- https://github.com/angiet04/Intro_se-ales06/blob/b908ccf4f18df28c92c4de7f820a838298df306e/ISB/PAPER%20-%20ISB%20PROYECTO%20GRUPO%206.docx.pdf
 
 - Sobre el equipo: https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/README.md 
 
